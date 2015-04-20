@@ -10,8 +10,10 @@ def evaluate(gold_file, pred_file):
     for line in open(pred_file):
         if line.strip():
             pred.append(line.split()[1].strip())
-
-
+    
+    if len(pred) != len(gold):
+        print "The gold file and the prediction file don't correspond"
+        exit(0)
     pos = set(gold + pred)
     result = {}
     for p in pos:
@@ -27,9 +29,6 @@ def evaluate(gold_file, pred_file):
             result[gold[i]][1] += 1
             result[pred[i]][2] += 1
 
-
-    print 'Overall accuracy: ', correct / len(gold)
-
     print 'POS\tPrecision\tRecall\tF-Score'
     for p in result:
         tp, fn, fp = result[p][0], result[p][1], result[p][2]
@@ -37,13 +36,24 @@ def evaluate(gold_file, pred_file):
             precision = 0
         else:
             precision = tp / (tp + fp)
+        result[p].append(precision)
         if tp + fn == 0:
             recall = 0
         else:
             recall = tp / (tp + fn)
-        fscore = 2 * tp / (2 * tp + fp + fn)        
+        result[p].append(recall)
+        fscore = 2 * tp / (2 * tp + fp + fn) 
+        result[p].append(fscore)       
 
         print '%s\t%.2f\t%.2f\t%.2f' % (p, precision, recall, fscore)
-
+        
+    print "Average Precision:", sum(result[p][3] for p in result)/len(result)
+    print "Average Recall:", sum(result[p][4] for p in result)/len(result)
+    print "Average F-Score:", sum(result[p][5] for p in result)/len(result)
+    print 'Overall accuracy: ', correct / len(gold)
 if __name__ == '__main__':
-    evaluate(sys.argv[1], sys.argv[2])
+    if len(sys.argv) != 3:
+        print "The number of name files is not correct"
+        exit(0)
+    else:
+	    evaluate(sys.argv[1], sys.argv[2])
