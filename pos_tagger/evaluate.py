@@ -7,9 +7,10 @@ def evaluate(gold_file, pred_file):
     for line in open(gold_file):
         if line.strip(): 
             gold.append(line.split()[1].strip())
-    for line in open(pred_file):
-        if line.strip():
-            pred.append(line.split()[1].strip())
+            pred.append("NN")
+    ##for line in open(pred_file):
+    ##    if line.strip():
+    ##        pred.append(line.split()[1].strip())
     
     if len(pred) != len(gold):
         print "The gold file and the prediction file don't correspond"
@@ -29,7 +30,7 @@ def evaluate(gold_file, pred_file):
             result[gold[i]][1] += 1
             result[pred[i]][2] += 1
 
-    print 'POS\tPrecision\tRecall\tF-Score'
+    print 'POS\tPrecision  Recall  F-Score'
     for p in result:
         tp, fn, fp = result[p][0], result[p][1], result[p][2]
         if tp + fp == 0:
@@ -45,7 +46,7 @@ def evaluate(gold_file, pred_file):
         fscore = 2 * tp / (2 * tp + fp + fn) 
         result[p].append(fscore)       
 
-        print '%s\t%.2f\t%.2f\t%.2f' % (p, precision, recall, fscore)
+        print '%s\t  %.2f\t    %.2f    %.2f' % (p, precision, recall, fscore)
         
     print "Average Precision:", sum(result[p][3] for p in result)/len(result)
     print "Average Recall:", sum(result[p][4] for p in result)/len(result)
