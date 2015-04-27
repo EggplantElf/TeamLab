@@ -24,9 +24,25 @@ def train(filename):
             total += 1
         print 'iteration %d done, accuracy: %.4f' % (i, correct / total)
 
+    return model
+
+
+def predict(filename, model):
+    total = 0
+    correct = 0
+    for sent in read_sentence(filename):
+        for t in sent:
+            f = t.extract_features(model.map_features)
+            p = model.predict(f)
+            g = model.register_pos(t.gold_pos)
+            if p == g:
+                correct += 1
+            total += 1
+    print 'accuracy: %.4f' % (correct / total)
 
 
 
 
 if __name__ == '__main__':
-    train(sys.argv[1])
+    model = train(sys.argv[1])
+    predict(sys.argv[2], model)

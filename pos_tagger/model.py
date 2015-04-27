@@ -8,10 +8,8 @@ class Model:
         self.pos_dict_rev = {}
 
     def map_features(self, feature):
-        if feature in self.feature_dict:
-            return self.feature_dict[feature]
-        else:
-            return -1
+        return self.feature_dict.get(feature, None)
+
 
     def register_features(self, feature):
         if feature not in self.feature_dict:

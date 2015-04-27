@@ -84,7 +84,7 @@ class Token:
         for i in range(1, 4):
             features.append(func('PREV_POS_%i:%s' % (i, self.prev_pos(i))))
 
-        return sorted(features)
+        return sorted(filter(lambda x: x != None, features))
 
 
 def read_sentence(filename, train = False):
