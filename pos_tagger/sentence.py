@@ -32,7 +32,7 @@ class Token:
             return self.sent[self.tid - offset].word
 
     def next_word(self, offset = 1):
-        if self.tid + offset >= len(sent):
+        if self.tid + offset >= len(self.sent):
             return '<EOS>'
         else:
             return self.sent[self.tid + offset].word
@@ -64,10 +64,12 @@ class Token:
 
 
     def extract_features(self, func):
-        features = []
+        # initially with x_0, indices of the features starts from 1
+        features = [0] 
+
         # word features
         features.append(func('WORD:%s' % self.word))
-        features.append(func('SHAPE:%s' % self.shape()))
+        # features.append(func('SHAPE:%s' % self.shape()))
 
         for i in range(1, 4):
             features.append(func('PREFIX_%i:%s' % (i, self.prefix(i))))
@@ -82,6 +84,7 @@ class Token:
         for i in range(1, 4):
             features.append(func('PREV_POS_%i:%s' % (i, self.prev_pos(i))))
 
+        return sorted(features)
 
 
 def read_sentence(filename, train = False):
