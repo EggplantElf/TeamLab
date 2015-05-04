@@ -17,7 +17,7 @@ class Sentence(list):
 
 
 class Token:
-    def __init__(self, sent, tid, word, gold_pos = None, pred_pos = None):
+    def __init__(self, sent, tid, word, gold_pos = None, pred_pos = '<NA>'):
         self.sent = sent
         self.tid = tid
         self.word = word
@@ -81,8 +81,10 @@ class Token:
             features.append(func('PREV_WORD_%i:%s' % (i, self.prev_word(i))))
         for i in range(1, 4):
             features.append(func('NEXT_WORD_%i:%s' % (i, self.next_word(i))))
-        for i in range(1, 4):
-            features.append(func('PREV_POS_%i:%s' % (i, self.prev_pos(i))))
+
+        # don't register here, add while training
+        # for i in range(1, 3):
+        #     features.append(func('PREV_POS_%i:%s' % (i, self.prev_pos(i))))
 
         return sorted(filter(lambda x: x != None, features))
 
