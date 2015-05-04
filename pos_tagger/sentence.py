@@ -1,3 +1,5 @@
+import re
+
 class Sentence(list):
     def __init__(self):
         pass
@@ -58,7 +60,17 @@ class Token:
 
 
     def shape(self):
-        return ''
+        shapeNC = self.word
+        paterns = [['[A-Z]', 'A'], ['[a-z]', 'a'], ['\d',"0"], ['\W',"&"]]
+
+        for i in paterns:
+            shapeNC = re.sub(i[0],i[1],shapeNC)
+        
+        symbols = ['A', 'a', '&', '0']
+        shapeC = shapeNC
+        for i in symbols:
+            shapeC = re.sub(2*i+"+",2*i,shapeC)
+        return shapeNC, shapeC
 
 
 
@@ -69,17 +81,19 @@ class Token:
 
         # word features
         features.append(func('WORD:%s' % self.word))
-        # features.append(func('SHAPE:%s' % self.shape()))
+        shapeNC, shapeC = self.shape()
+        features.append(func('SHAPENC:%s' % shapeNC))
+        features.append(func('SHAPEC:%s' % shapeC))
 
-        for i in range(1, 4):
+        for i in range(1, 3):
             features.append(func('PREFIX_%i:%s' % (i, self.prefix(i))))
             features.append(func('SUFFIX_%i:%s' % (i, self.suffix(i))))
 
 
         # context features
-        for i in range(1, 4):
+        for i in range(1, 3):
             features.append(func('PREV_WORD_%i:%s' % (i, self.prev_word(i))))
-        for i in range(1, 4):
+        for i in range(1, 3):
             features.append(func('NEXT_WORD_%i:%s' % (i, self.next_word(i))))
 
         # don't register here, add while training
