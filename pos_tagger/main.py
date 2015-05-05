@@ -34,15 +34,16 @@ def train(train_file, model_file):
         print 'iteration %d done, accuracy: %.4f' % (i, correct / total)
 
     model.average(q)
-    save(model, model_file)
+    model.save(model_file)
     print 'done training'
-    # return model
+    return model
 
 
 
 def predict(filename, model):
     total = 0
     correct = 0
+    output = open('predict.col', 'w')
     for sent in read_sentence(filename):
         for t in sent:
             f = t.extract_features(model.map_features)
@@ -50,17 +51,19 @@ def predict(filename, model):
             # dist = model.get_dist(scores)
             p = model.predict(scores)
             g = model.register_pos(t.gold_pos)
-            t.pred_pos = model.map_pos_rev(p)
+            # t.pred_pos = model.map_pos_rev(p)
+            output.write('%s\t%s\n' % (t.word, model.map_pos_rev(p)))
             if p == g:
                 correct += 1
             total += 1
     print 'accuracy: %.4f' % (correct / total)
+    output.close()
 
 
 
 
 if __name__ == '__main__':
     model_file = 'tmp.dump'
-    train(sys.argv[1], model_file)
-    model = load(model_file)
+    model = train(sys.argv[1], model_file)
+    model = Model(model_file)
     predict(sys.argv[2], model)

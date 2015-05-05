@@ -3,19 +3,38 @@ import numpy as np
 import itertools as it
 import operator as op
 import cPickle
+import gzip
 from random import random
 
 
 
 class Model:
-    def __init__(self):
-        self.feature_dict = {'#': 0}
-        self.pos_dict = {}
-        self.pos_dict_rev = {}
+    def __init__(self, modelfile = None):
+        if modelfile:
+            self.load(modelfile)
+        else:
+            self.feature_dict = {'#': 0}
+            self.pos_dict = {}
+            self.pos_dict_rev = {}
+
+    def save(self, modelfile):
+        stream = gzip.open(modelfile,'wb')
+        cPickle.dump(self.weights,stream,-1)
+        cPickle.dump(self.feature_dict, stream, -1)
+        cPickle.dump(self.pos_dict, stream, -1)
+        cPickle.dump(self.pos_dict_rev, stream, -1)
+        stream.close()
+
+    def load(self, modelfile):
+        stream = gzip.open(modelfile,'rb')
+        self.weights = cPickle.load(stream)
+        self.feature_dict = cPickle.load(stream)
+        self.pos_dict = cPickle.load(stream)
+        self.pos_dict_rev = cPickle.load(stream)
+        stream.close()
 
     def map_features(self, feature):
         return self.feature_dict.get(feature, None)
-
 
     def register_features(self, feature):
         if feature not in self.feature_dict:
@@ -73,8 +92,3 @@ class Model:
         self.weights -= self.delta / q 
 
 
-def save(model, filename):
-    cPickle.dump(model, open(filename, 'wb'))
-
-def load(filename):
-    return cPickle.load(open(filename, 'rb'))

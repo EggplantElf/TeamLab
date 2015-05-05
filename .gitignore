@@ -2,3 +2,4 @@ slides/
 data/
 *.pyc
 *.dump
+*.col
