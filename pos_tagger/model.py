@@ -33,6 +33,11 @@ class Model:
         self.pos_dict_rev = cPickle.load(stream)
         stream.close()
 
+# TODO feature weights statistics and reduce unsignificant features
+    def drop_zeros(self):
+        pass
+
+
     def map_features(self, feature):
         return self.feature_dict.get(feature, None)
 
