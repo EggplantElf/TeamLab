@@ -6,7 +6,7 @@ import sys
 import cProfile
 import itertools as it
 
-def train(train_file, model_file):
+def train(train_file, dev_file, model_file):
     model = Model()
     instances = []
     for sent in read_sentence(train_file):
@@ -16,8 +16,15 @@ def train(train_file, model_file):
     model.create_weights()
     print 'instances:', len(instances)
 
+
+    dev_instances = []
+    for sent in read_sentence(dev_file):
+        for t in sent:
+            f = t.extract_features(model.map_features)
+            dev_instances.append((f, model.register_pos(t.gold_pos)))
+
     q = 0
-    for i in range(10):
+    for i in range(20):
         total = 0
         correct = 0
         # shuffle(instances)
@@ -31,7 +38,18 @@ def train(train_file, model_file):
                 correct += 1
             total += 1
             q += 1
-        print 'iteration %d done, accuracy: %.4f' % (i, correct / total)
+        
+        model.average_for_dev(q)
+        correct_dev = 0
+        total_dev = 0
+        for (f, g) in dev_instances:
+            scores = model.get_scores_for_dev(f)
+            p = model.predict(scores)
+            if p == g:
+                correct_dev += 1                
+            total_dev += 1
+
+        print 'iteration %d done, train_accuracy: %.4f, dev_accuracy: %.4f' % (i, correct / total, correct_dev / total_dev)
 
     model.average(q)
     model.save(model_file)
@@ -64,6 +82,6 @@ def predict(filename, model):
 
 if __name__ == '__main__':
     model_file = 'tmp.dump'
-    model = train(sys.argv[1], model_file)
+    model = train(sys.argv[1], sys.argv[2], model_file)
     model = Model(model_file)
     predict(sys.argv[2], model)

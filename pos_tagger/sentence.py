@@ -85,15 +85,15 @@ class Token:
         features.append(func('SHAPENC:%s' % shapeNC))
         features.append(func('SHAPEC:%s' % shapeC))
 
-        for i in range(1, 3):
+        for i in range(1, 4):
             features.append(func('PREFIX_%i:%s' % (i, self.prefix(i))))
             features.append(func('SUFFIX_%i:%s' % (i, self.suffix(i))))
 
 
         # context features
-        for i in range(1, 3):
+        for i in range(1, 4):
             features.append(func('PREV_WORD_%i:%s' % (i, self.prev_word(i))))
-        for i in range(1, 3):
+        for i in range(1, 4):
             features.append(func('NEXT_WORD_%i:%s' % (i, self.next_word(i))))
 
         # bigram features

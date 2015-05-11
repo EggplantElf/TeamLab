@@ -68,6 +68,9 @@ class Model:
     def get_scores(self, features):
         return np.sum(self.weights[i] for i in features)
 
+    def get_scores_for_dev(self, features):
+        return np.sum(self.avg_weights[i] for i in features)
+
     def predict(self, scores):
         c, m = None, -999
         for i, p in enumerate(scores):
@@ -95,5 +98,8 @@ class Model:
 
     def average(self, q):
         self.weights -= self.delta / q 
+
+    def average_for_dev(self, q):
+        self.avg_weights = self.weights - (self.delta / q)
 
 
