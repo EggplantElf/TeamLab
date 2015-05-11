@@ -96,6 +96,10 @@ class Token:
         for i in range(1, 3):
             features.append(func('NEXT_WORD_%i:%s' % (i, self.next_word(i))))
 
+        # bigram features
+        features.append(func('PREV+THIS_WORD:%s+%s' % (self.prev_word(1), self.word)))
+        features.append(func('NEXT+THIS_WORD:%s+%s' % (self.next_word(1), self.word)))
+
         # don't register here, add while training
         # for i in range(1, 3):
         #     features.append(func('PREV_POS_%i:%s' % (i, self.prev_pos(i))))
