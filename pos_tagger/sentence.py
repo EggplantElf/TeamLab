@@ -100,6 +100,11 @@ class Token:
         features.append(func('PREV+THIS_WORD:%s+%s' % (self.prev_word(1), self.word)))
         features.append(func('NEXT+THIS_WORD:%s+%s' % (self.next_word(1), self.word)))
 
+        # trigram features
+        features.append(func('PREV+PREV+THIS_WORD:%s+%s+%s' % (self.prev_word(2), self.prev_word(1), self.word)))
+        features.append(func('NEXT+NEXT+THIS_WORD:%s+%s+%s' % (self.next_word(2), self.next_word(1), self.word)))
+        features.append(func('NEXT+NEXT+THIS_WORD:%s+%s+%s' % (self.prev_word(1), self.word, self.next_word(1)))) 
+
         # don't register here, add while training
         # for i in range(1, 3):
         #     features.append(func('PREV_POS_%i:%s' % (i, self.prev_pos(i))))
