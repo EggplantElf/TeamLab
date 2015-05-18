@@ -57,7 +57,7 @@ def train(train_file, dev_file, model_file, features_on):
             best_accuracy = correct_dev / total_dev
     model.average(q)
     print 'done training'
-    return best_accuracy
+    return best_accuracy, len(model.feature_dict)
 
 
 
@@ -87,27 +87,27 @@ if __name__ == '__main__':
     t0  = time()
     model_file = 'tmp.dump'
     history = {}
-    num_features = 20
-    mask = tuple([True] * num_features)
+    num_feature_classes = 20
+    mask = tuple([True] + [False] * (num_feature_classes-1))
     last_mask = mask
     print "Feature class pattern"
     print ''.join('1' if x else '0' for x in mask)
-    accuracy = train(sys.argv[1], sys.argv[2], model_file, mask)
-    history[mask] = accuracy
+    accuracy, num_features = train(sys.argv[1], sys.argv[2], model_file, mask)
+    history[mask] = (accuracy, num_features)
     print 'accuracy: %.4f\n' % (accuracy)
     
-    for i in range(4):
+    for i in range(200):
         success = False
         for j in range(50):
-            num = random.randrange(0,num_features)
-            mask = tuple((last_mask[x] if x != num else not last_mask[x]) for x in range(num_features))
+            num = random.randrange(0,num_feature_classes)
+            mask = tuple((last_mask[x] if x != num else not last_mask[x]) for x in range(num_feature_classes))
             if mask not in history:
                 success = True
                 break
         if not success:
             for j in range(50):
-                nums = [random.randrange(0,num_features), random.randrange(0,num_features)]
-                mask = tuple((last_mask[x] if x not in nums else not last_mask[x]) for x in range(num_features))
+                nums = [random.randrange(0,num_feature_classes), random.randrange(0,num_feature_classes)]
+                mask = tuple((last_mask[x] if x not in nums else not last_mask[x]) for x in range(num_feature_classes))
                 if mask not in history:
                     success = True
                     break
@@ -117,19 +117,18 @@ if __name__ == '__main__':
 
         print "Feature class pattern"
         print ''.join('1' if x else '0' for x in mask)
-        accuracy = train(sys.argv[1], sys.argv[2], model_file, mask)
-        history[mask] = accuracy
+        accuracy, num_features = train(sys.argv[1], sys.argv[2], model_file, mask)
+        history[mask] = (accuracy, num_features)
         print 'accuracy: %.4f\n' % (accuracy)
-        if history[last_mask] < accuracy:
+        last_accuracy, last_num_features = history[last_mask]
+        diff = accuracy - last_accuracy
+        if diff > .01 or (diff > 0 and (num_features-last_num_features)/last_num_features < 0.1):
             last_mask = mask
-        else:
-            p = random.random()
-            if p < 0.1 and history[last_mask] - accuracy < 0.0005:
-                last_mask = mask
+        
     t = time() - t0
     f = open('history.txt', 'w')
-    f.write("time used:%d seconds" % t)
-    for mask, accuracy in sorted(history.items(), key=lambda x:x[1], reverse = True):
+    f.write("time used:%d seconds\n" % t)
+    for mask, (accuracy, num_features) in sorted(history.items(), key=lambda x:x[1], reverse = True):
         s = ''.join('1' if x else '0' for x in mask)
-        f.write('%s\t%.4f\n' % (s, accuracy))
+        f.write('%s\t%.4f\t%d\n' % (s, accuracy, num_features))
     f.close()
