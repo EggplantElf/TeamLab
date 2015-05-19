@@ -1,0 +1,3618 @@
+Feature class pattern
+10000000000000000000
+features: 35934
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8546, dev_accuracy: 0.8918
+iteration 2 done, train_accuracy: 0.8974, dev_accuracy: 0.9002
+iteration 3 done, train_accuracy: 0.9046, dev_accuracy: 0.8999
+iteration 4 done, train_accuracy: 0.9081, dev_accuracy: 0.9009
+iteration 5 done, train_accuracy: 0.9104, dev_accuracy: 0.9016
+iteration 6 done, train_accuracy: 0.9112, dev_accuracy: 0.9020
+iteration 7 done, train_accuracy: 0.9122, dev_accuracy: 0.9025
+iteration 8 done, train_accuracy: 0.9130, dev_accuracy: 0.9023
+iteration 9 done, train_accuracy: 0.9133, dev_accuracy: 0.9022
+iteration 10 done, train_accuracy: 0.9137, dev_accuracy: 0.9022
+done training
+accuracy: 0.9025
+
+Feature class pattern
+10000000000000010000
+features: 324582
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8763, dev_accuracy: 0.9110
+iteration 2 done, train_accuracy: 0.9460, dev_accuracy: 0.9176
+iteration 3 done, train_accuracy: 0.9599, dev_accuracy: 0.9202
+iteration 4 done, train_accuracy: 0.9657, dev_accuracy: 0.9213
+iteration 5 done, train_accuracy: 0.9693, dev_accuracy: 0.9222
+iteration 6 done, train_accuracy: 0.9712, dev_accuracy: 0.9224
+iteration 7 done, train_accuracy: 0.9730, dev_accuracy: 0.9230
+iteration 8 done, train_accuracy: 0.9740, dev_accuracy: 0.9228
+iteration 9 done, train_accuracy: 0.9746, dev_accuracy: 0.9230
+iteration 10 done, train_accuracy: 0.9751, dev_accuracy: 0.9231
+done training
+accuracy: 0.9231
+
+Feature class pattern
+10000010000000010000
+features: 324665
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8817, dev_accuracy: 0.9255
+iteration 2 done, train_accuracy: 0.9378, dev_accuracy: 0.9326
+iteration 3 done, train_accuracy: 0.9528, dev_accuracy: 0.9357
+iteration 4 done, train_accuracy: 0.9613, dev_accuracy: 0.9366
+iteration 5 done, train_accuracy: 0.9659, dev_accuracy: 0.9366
+iteration 6 done, train_accuracy: 0.9684, dev_accuracy: 0.9368
+iteration 7 done, train_accuracy: 0.9708, dev_accuracy: 0.9369
+iteration 8 done, train_accuracy: 0.9723, dev_accuracy: 0.9371
+iteration 9 done, train_accuracy: 0.9733, dev_accuracy: 0.9385
+iteration 10 done, train_accuracy: 0.9741, dev_accuracy: 0.9389
+done training
+accuracy: 0.9389
+
+Feature class pattern
+10000110000000010000
+features: 331036
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8891, dev_accuracy: 0.9319
+iteration 2 done, train_accuracy: 0.9358, dev_accuracy: 0.9388
+iteration 3 done, train_accuracy: 0.9506, dev_accuracy: 0.9411
+iteration 4 done, train_accuracy: 0.9584, dev_accuracy: 0.9413
+iteration 5 done, train_accuracy: 0.9634, dev_accuracy: 0.9418
+iteration 6 done, train_accuracy: 0.9671, dev_accuracy: 0.9424
+iteration 7 done, train_accuracy: 0.9693, dev_accuracy: 0.9416
+iteration 8 done, train_accuracy: 0.9710, dev_accuracy: 0.9418
+iteration 9 done, train_accuracy: 0.9723, dev_accuracy: 0.9416
+iteration 10 done, train_accuracy: 0.9733, dev_accuracy: 0.9416
+done training
+accuracy: 0.9424
+
+Feature class pattern
+10000111000000010000
+features: 332112
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8922, dev_accuracy: 0.9337
+iteration 2 done, train_accuracy: 0.9337, dev_accuracy: 0.9393
+iteration 3 done, train_accuracy: 0.9476, dev_accuracy: 0.9416
+iteration 4 done, train_accuracy: 0.9552, dev_accuracy: 0.9426
+iteration 5 done, train_accuracy: 0.9609, dev_accuracy: 0.9437
+iteration 6 done, train_accuracy: 0.9643, dev_accuracy: 0.9439
+iteration 7 done, train_accuracy: 0.9671, dev_accuracy: 0.9443
+iteration 8 done, train_accuracy: 0.9689, dev_accuracy: 0.9444
+iteration 9 done, train_accuracy: 0.9706, dev_accuracy: 0.9450
+iteration 10 done, train_accuracy: 0.9717, dev_accuracy: 0.9449
+done training
+accuracy: 0.9450
+
+Feature class pattern
+10000111001000010000
+features: 366716
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8950, dev_accuracy: 0.9372
+iteration 2 done, train_accuracy: 0.9402, dev_accuracy: 0.9421
+iteration 3 done, train_accuracy: 0.9539, dev_accuracy: 0.9447
+iteration 4 done, train_accuracy: 0.9618, dev_accuracy: 0.9458
+iteration 5 done, train_accuracy: 0.9666, dev_accuracy: 0.9468
+iteration 6 done, train_accuracy: 0.9708, dev_accuracy: 0.9472
+iteration 7 done, train_accuracy: 0.9733, dev_accuracy: 0.9478
+iteration 8 done, train_accuracy: 0.9751, dev_accuracy: 0.9480
+iteration 9 done, train_accuracy: 0.9768, dev_accuracy: 0.9483
+iteration 10 done, train_accuracy: 0.9780, dev_accuracy: 0.9482
+done training
+accuracy: 0.9483
+
+Feature class pattern
+10000111000010010000
+features: 366505
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9052, dev_accuracy: 0.9443
+iteration 2 done, train_accuracy: 0.9484, dev_accuracy: 0.9499
+iteration 3 done, train_accuracy: 0.9612, dev_accuracy: 0.9519
+iteration 4 done, train_accuracy: 0.9688, dev_accuracy: 0.9531
+iteration 5 done, train_accuracy: 0.9731, dev_accuracy: 0.9539
+iteration 6 done, train_accuracy: 0.9765, dev_accuracy: 0.9540
+iteration 7 done, train_accuracy: 0.9791, dev_accuracy: 0.9545
+iteration 8 done, train_accuracy: 0.9806, dev_accuracy: 0.9543
+iteration 9 done, train_accuracy: 0.9821, dev_accuracy: 0.9545
+iteration 10 done, train_accuracy: 0.9832, dev_accuracy: 0.9546
+done training
+accuracy: 0.9546
+
+Feature class pattern
+10000111000000010100
+features: 870131
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8920, dev_accuracy: 0.9350
+iteration 2 done, train_accuracy: 0.9468, dev_accuracy: 0.9402
+iteration 3 done, train_accuracy: 0.9637, dev_accuracy: 0.9422
+iteration 4 done, train_accuracy: 0.9722, dev_accuracy: 0.9440
+iteration 5 done, train_accuracy: 0.9776, dev_accuracy: 0.9445
+iteration 6 done, train_accuracy: 0.9808, dev_accuracy: 0.9446
+iteration 7 done, train_accuracy: 0.9831, dev_accuracy: 0.9449
+iteration 8 done, train_accuracy: 0.9843, dev_accuracy: 0.9453
+iteration 9 done, train_accuracy: 0.9857, dev_accuracy: 0.9457
+iteration 10 done, train_accuracy: 0.9866, dev_accuracy: 0.9457
+done training
+accuracy: 0.9457
+
+Feature class pattern
+10000111000000110000
+features: 364826
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8888, dev_accuracy: 0.9329
+iteration 2 done, train_accuracy: 0.9358, dev_accuracy: 0.9397
+iteration 3 done, train_accuracy: 0.9505, dev_accuracy: 0.9420
+iteration 4 done, train_accuracy: 0.9592, dev_accuracy: 0.9427
+iteration 5 done, train_accuracy: 0.9649, dev_accuracy: 0.9431
+iteration 6 done, train_accuracy: 0.9690, dev_accuracy: 0.9436
+iteration 7 done, train_accuracy: 0.9720, dev_accuracy: 0.9437
+iteration 8 done, train_accuracy: 0.9742, dev_accuracy: 0.9440
+iteration 9 done, train_accuracy: 0.9758, dev_accuracy: 0.9441
+iteration 10 done, train_accuracy: 0.9772, dev_accuracy: 0.9438
+done training
+accuracy: 0.9441
+
+Feature class pattern
+00000111000000010000
+features: 296179
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8648, dev_accuracy: 0.9138
+iteration 2 done, train_accuracy: 0.9117, dev_accuracy: 0.9223
+iteration 3 done, train_accuracy: 0.9309, dev_accuracy: 0.9259
+iteration 4 done, train_accuracy: 0.9433, dev_accuracy: 0.9284
+iteration 5 done, train_accuracy: 0.9521, dev_accuracy: 0.9294
+iteration 6 done, train_accuracy: 0.9570, dev_accuracy: 0.9296
+iteration 7 done, train_accuracy: 0.9615, dev_accuracy: 0.9301
+iteration 8 done, train_accuracy: 0.9643, dev_accuracy: 0.9298
+iteration 9 done, train_accuracy: 0.9663, dev_accuracy: 0.9297
+iteration 10 done, train_accuracy: 0.9684, dev_accuracy: 0.9301
+done training
+accuracy: 0.9301
+
+Feature class pattern
+10100111000000010000
+features: 332224
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8930, dev_accuracy: 0.9357
+iteration 2 done, train_accuracy: 0.9311, dev_accuracy: 0.9405
+iteration 3 done, train_accuracy: 0.9441, dev_accuracy: 0.9426
+iteration 4 done, train_accuracy: 0.9526, dev_accuracy: 0.9439
+iteration 5 done, train_accuracy: 0.9583, dev_accuracy: 0.9446
+iteration 6 done, train_accuracy: 0.9617, dev_accuracy: 0.9448
+iteration 7 done, train_accuracy: 0.9648, dev_accuracy: 0.9451
+iteration 8 done, train_accuracy: 0.9670, dev_accuracy: 0.9455
+iteration 9 done, train_accuracy: 0.9686, dev_accuracy: 0.9455
+iteration 10 done, train_accuracy: 0.9697, dev_accuracy: 0.9453
+done training
+accuracy: 0.9455
+
+Feature class pattern
+10100111000000010010
+features: 860020
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8947, dev_accuracy: 0.9384
+iteration 2 done, train_accuracy: 0.9463, dev_accuracy: 0.9440
+iteration 3 done, train_accuracy: 0.9636, dev_accuracy: 0.9465
+iteration 4 done, train_accuracy: 0.9729, dev_accuracy: 0.9462
+iteration 5 done, train_accuracy: 0.9788, dev_accuracy: 0.9472
+iteration 6 done, train_accuracy: 0.9827, dev_accuracy: 0.9473
+iteration 7 done, train_accuracy: 0.9858, dev_accuracy: 0.9477
+iteration 8 done, train_accuracy: 0.9874, dev_accuracy: 0.9480
+iteration 9 done, train_accuracy: 0.9890, dev_accuracy: 0.9482
+iteration 10 done, train_accuracy: 0.9902, dev_accuracy: 0.9485
+done training
+accuracy: 0.9485
+
+Feature class pattern
+10100111000000000000
+features: 43576
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8795, dev_accuracy: 0.9209
+iteration 2 done, train_accuracy: 0.9005, dev_accuracy: 0.9240
+iteration 3 done, train_accuracy: 0.9058, dev_accuracy: 0.9248
+iteration 4 done, train_accuracy: 0.9084, dev_accuracy: 0.9259
+iteration 5 done, train_accuracy: 0.9103, dev_accuracy: 0.9258
+iteration 6 done, train_accuracy: 0.9112, dev_accuracy: 0.9262
+iteration 7 done, train_accuracy: 0.9124, dev_accuracy: 0.9259
+iteration 8 done, train_accuracy: 0.9128, dev_accuracy: 0.9262
+iteration 9 done, train_accuracy: 0.9133, dev_accuracy: 0.9262
+iteration 10 done, train_accuracy: 0.9139, dev_accuracy: 0.9261
+done training
+accuracy: 0.9262
+
+Feature class pattern
+10100111001000010000
+features: 366828
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8979, dev_accuracy: 0.9403
+iteration 2 done, train_accuracy: 0.9383, dev_accuracy: 0.9451
+iteration 3 done, train_accuracy: 0.9515, dev_accuracy: 0.9474
+iteration 4 done, train_accuracy: 0.9597, dev_accuracy: 0.9483
+iteration 5 done, train_accuracy: 0.9650, dev_accuracy: 0.9488
+iteration 6 done, train_accuracy: 0.9687, dev_accuracy: 0.9492
+iteration 7 done, train_accuracy: 0.9713, dev_accuracy: 0.9489
+iteration 8 done, train_accuracy: 0.9736, dev_accuracy: 0.9493
+iteration 9 done, train_accuracy: 0.9753, dev_accuracy: 0.9493
+iteration 10 done, train_accuracy: 0.9769, dev_accuracy: 0.9496
+done training
+accuracy: 0.9496
+
+Feature class pattern
+10101111000000010000
+features: 333398
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8901, dev_accuracy: 0.9356
+iteration 2 done, train_accuracy: 0.9280, dev_accuracy: 0.9398
+iteration 3 done, train_accuracy: 0.9413, dev_accuracy: 0.9424
+iteration 4 done, train_accuracy: 0.9502, dev_accuracy: 0.9437
+iteration 5 done, train_accuracy: 0.9560, dev_accuracy: 0.9445
+iteration 6 done, train_accuracy: 0.9596, dev_accuracy: 0.9447
+iteration 7 done, train_accuracy: 0.9625, dev_accuracy: 0.9446
+iteration 8 done, train_accuracy: 0.9652, dev_accuracy: 0.9451
+iteration 9 done, train_accuracy: 0.9668, dev_accuracy: 0.9453
+iteration 10 done, train_accuracy: 0.9683, dev_accuracy: 0.9453
+done training
+accuracy: 0.9453
+
+Feature class pattern
+10100011000000010000
+features: 325853
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8911, dev_accuracy: 0.9357
+iteration 2 done, train_accuracy: 0.9325, dev_accuracy: 0.9400
+iteration 3 done, train_accuracy: 0.9467, dev_accuracy: 0.9425
+iteration 4 done, train_accuracy: 0.9546, dev_accuracy: 0.9446
+iteration 5 done, train_accuracy: 0.9601, dev_accuracy: 0.9450
+iteration 6 done, train_accuracy: 0.9638, dev_accuracy: 0.9454
+iteration 7 done, train_accuracy: 0.9666, dev_accuracy: 0.9458
+iteration 8 done, train_accuracy: 0.9685, dev_accuracy: 0.9457
+iteration 9 done, train_accuracy: 0.9698, dev_accuracy: 0.9456
+iteration 10 done, train_accuracy: 0.9715, dev_accuracy: 0.9459
+done training
+accuracy: 0.9459
+
+Feature class pattern
+10100011000000000000
+features: 37205
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8748, dev_accuracy: 0.9192
+iteration 2 done, train_accuracy: 0.8998, dev_accuracy: 0.9232
+iteration 3 done, train_accuracy: 0.9048, dev_accuracy: 0.9241
+iteration 4 done, train_accuracy: 0.9076, dev_accuracy: 0.9247
+iteration 5 done, train_accuracy: 0.9100, dev_accuracy: 0.9251
+iteration 6 done, train_accuracy: 0.9112, dev_accuracy: 0.9253
+iteration 7 done, train_accuracy: 0.9123, dev_accuracy: 0.9253
+iteration 8 done, train_accuracy: 0.9129, dev_accuracy: 0.9257
+iteration 9 done, train_accuracy: 0.9135, dev_accuracy: 0.9260
+iteration 10 done, train_accuracy: 0.9139, dev_accuracy: 0.9260
+done training
+accuracy: 0.9260
+
+Feature class pattern
+10100011000000010010
+features: 853649
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8925, dev_accuracy: 0.9375
+iteration 2 done, train_accuracy: 0.9489, dev_accuracy: 0.9437
+iteration 3 done, train_accuracy: 0.9663, dev_accuracy: 0.9454
+iteration 4 done, train_accuracy: 0.9754, dev_accuracy: 0.9467
+iteration 5 done, train_accuracy: 0.9811, dev_accuracy: 0.9475
+iteration 6 done, train_accuracy: 0.9845, dev_accuracy: 0.9482
+iteration 7 done, train_accuracy: 0.9871, dev_accuracy: 0.9483
+iteration 8 done, train_accuracy: 0.9887, dev_accuracy: 0.9483
+iteration 9 done, train_accuracy: 0.9902, dev_accuracy: 0.9485
+iteration 10 done, train_accuracy: 0.9912, dev_accuracy: 0.9483
+done training
+accuracy: 0.9485
+
+Feature class pattern
+10100011000000010001
+features: 868313
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8917, dev_accuracy: 0.9374
+iteration 2 done, train_accuracy: 0.9480, dev_accuracy: 0.9430
+iteration 3 done, train_accuracy: 0.9654, dev_accuracy: 0.9442
+iteration 4 done, train_accuracy: 0.9740, dev_accuracy: 0.9456
+iteration 5 done, train_accuracy: 0.9795, dev_accuracy: 0.9468
+iteration 6 done, train_accuracy: 0.9829, dev_accuracy: 0.9477
+iteration 7 done, train_accuracy: 0.9852, dev_accuracy: 0.9481
+iteration 8 done, train_accuracy: 0.9869, dev_accuracy: 0.9481
+iteration 9 done, train_accuracy: 0.9882, dev_accuracy: 0.9481
+iteration 10 done, train_accuracy: 0.9892, dev_accuracy: 0.9480
+done training
+accuracy: 0.9481
+
+Feature class pattern
+10100011000000110000
+features: 358567
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8879, dev_accuracy: 0.9338
+iteration 2 done, train_accuracy: 0.9348, dev_accuracy: 0.9410
+iteration 3 done, train_accuracy: 0.9496, dev_accuracy: 0.9440
+iteration 4 done, train_accuracy: 0.9588, dev_accuracy: 0.9450
+iteration 5 done, train_accuracy: 0.9645, dev_accuracy: 0.9455
+iteration 6 done, train_accuracy: 0.9688, dev_accuracy: 0.9460
+iteration 7 done, train_accuracy: 0.9714, dev_accuracy: 0.9463
+iteration 8 done, train_accuracy: 0.9735, dev_accuracy: 0.9465
+iteration 9 done, train_accuracy: 0.9754, dev_accuracy: 0.9460
+iteration 10 done, train_accuracy: 0.9771, dev_accuracy: 0.9463
+done training
+accuracy: 0.9465
+
+Feature class pattern
+10100011001000010000
+features: 360457
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8952, dev_accuracy: 0.9392
+iteration 2 done, train_accuracy: 0.9394, dev_accuracy: 0.9445
+iteration 3 done, train_accuracy: 0.9533, dev_accuracy: 0.9464
+iteration 4 done, train_accuracy: 0.9611, dev_accuracy: 0.9473
+iteration 5 done, train_accuracy: 0.9661, dev_accuracy: 0.9474
+iteration 6 done, train_accuracy: 0.9702, dev_accuracy: 0.9482
+iteration 7 done, train_accuracy: 0.9727, dev_accuracy: 0.9484
+iteration 8 done, train_accuracy: 0.9748, dev_accuracy: 0.9489
+iteration 9 done, train_accuracy: 0.9765, dev_accuracy: 0.9489
+iteration 10 done, train_accuracy: 0.9776, dev_accuracy: 0.9488
+done training
+accuracy: 0.9489
+
+Feature class pattern
+10100011010000010000
+features: 361729
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9103, dev_accuracy: 0.9465
+iteration 2 done, train_accuracy: 0.9472, dev_accuracy: 0.9502
+iteration 3 done, train_accuracy: 0.9575, dev_accuracy: 0.9512
+iteration 4 done, train_accuracy: 0.9631, dev_accuracy: 0.9521
+iteration 5 done, train_accuracy: 0.9668, dev_accuracy: 0.9523
+iteration 6 done, train_accuracy: 0.9694, dev_accuracy: 0.9526
+iteration 7 done, train_accuracy: 0.9709, dev_accuracy: 0.9527
+iteration 8 done, train_accuracy: 0.9720, dev_accuracy: 0.9529
+iteration 9 done, train_accuracy: 0.9733, dev_accuracy: 0.9527
+iteration 10 done, train_accuracy: 0.9739, dev_accuracy: 0.9528
+done training
+accuracy: 0.9529
+
+Feature class pattern
+10100011000000011000
+features: 611004
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9006, dev_accuracy: 0.9445
+iteration 2 done, train_accuracy: 0.9522, dev_accuracy: 0.9494
+iteration 3 done, train_accuracy: 0.9669, dev_accuracy: 0.9519
+iteration 4 done, train_accuracy: 0.9743, dev_accuracy: 0.9533
+iteration 5 done, train_accuracy: 0.9791, dev_accuracy: 0.9541
+iteration 6 done, train_accuracy: 0.9821, dev_accuracy: 0.9543
+iteration 7 done, train_accuracy: 0.9842, dev_accuracy: 0.9540
+iteration 8 done, train_accuracy: 0.9855, dev_accuracy: 0.9539
+iteration 9 done, train_accuracy: 0.9869, dev_accuracy: 0.9541
+iteration 10 done, train_accuracy: 0.9875, dev_accuracy: 0.9542
+done training
+accuracy: 0.9543
+
+Feature class pattern
+11100011000000010000
+features: 326204
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8869, dev_accuracy: 0.9331
+iteration 2 done, train_accuracy: 0.9293, dev_accuracy: 0.9388
+iteration 3 done, train_accuracy: 0.9432, dev_accuracy: 0.9408
+iteration 4 done, train_accuracy: 0.9512, dev_accuracy: 0.9416
+iteration 5 done, train_accuracy: 0.9573, dev_accuracy: 0.9431
+iteration 6 done, train_accuracy: 0.9612, dev_accuracy: 0.9436
+iteration 7 done, train_accuracy: 0.9642, dev_accuracy: 0.9447
+iteration 8 done, train_accuracy: 0.9667, dev_accuracy: 0.9446
+iteration 9 done, train_accuracy: 0.9679, dev_accuracy: 0.9448
+iteration 10 done, train_accuracy: 0.9694, dev_accuracy: 0.9447
+done training
+accuracy: 0.9448
+
+Feature class pattern
+10100011000000010100
+features: 863872
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8913, dev_accuracy: 0.9364
+iteration 2 done, train_accuracy: 0.9465, dev_accuracy: 0.9418
+iteration 3 done, train_accuracy: 0.9631, dev_accuracy: 0.9435
+iteration 4 done, train_accuracy: 0.9721, dev_accuracy: 0.9440
+iteration 5 done, train_accuracy: 0.9771, dev_accuracy: 0.9447
+iteration 6 done, train_accuracy: 0.9806, dev_accuracy: 0.9451
+iteration 7 done, train_accuracy: 0.9826, dev_accuracy: 0.9454
+iteration 8 done, train_accuracy: 0.9844, dev_accuracy: 0.9455
+iteration 9 done, train_accuracy: 0.9855, dev_accuracy: 0.9455
+iteration 10 done, train_accuracy: 0.9863, dev_accuracy: 0.9450
+done training
+accuracy: 0.9455
+
+Feature class pattern
+10110011000000010000
+features: 325936
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8871, dev_accuracy: 0.9339
+iteration 2 done, train_accuracy: 0.9292, dev_accuracy: 0.9397
+iteration 3 done, train_accuracy: 0.9428, dev_accuracy: 0.9422
+iteration 4 done, train_accuracy: 0.9514, dev_accuracy: 0.9436
+iteration 5 done, train_accuracy: 0.9573, dev_accuracy: 0.9442
+iteration 6 done, train_accuracy: 0.9614, dev_accuracy: 0.9447
+iteration 7 done, train_accuracy: 0.9642, dev_accuracy: 0.9454
+iteration 8 done, train_accuracy: 0.9666, dev_accuracy: 0.9456
+iteration 9 done, train_accuracy: 0.9680, dev_accuracy: 0.9456
+iteration 10 done, train_accuracy: 0.9698, dev_accuracy: 0.9456
+done training
+accuracy: 0.9456
+
+Feature class pattern
+10100011100000010000
+features: 330780
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8921, dev_accuracy: 0.9347
+iteration 2 done, train_accuracy: 0.9307, dev_accuracy: 0.9406
+iteration 3 done, train_accuracy: 0.9441, dev_accuracy: 0.9429
+iteration 4 done, train_accuracy: 0.9522, dev_accuracy: 0.9438
+iteration 5 done, train_accuracy: 0.9578, dev_accuracy: 0.9448
+iteration 6 done, train_accuracy: 0.9617, dev_accuracy: 0.9453
+iteration 7 done, train_accuracy: 0.9646, dev_accuracy: 0.9457
+iteration 8 done, train_accuracy: 0.9669, dev_accuracy: 0.9455
+iteration 9 done, train_accuracy: 0.9685, dev_accuracy: 0.9457
+iteration 10 done, train_accuracy: 0.9696, dev_accuracy: 0.9455
+done training
+accuracy: 0.9457
+
+Feature class pattern
+10100001000000010000
+features: 325770
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8960, dev_accuracy: 0.9373
+iteration 2 done, train_accuracy: 0.9370, dev_accuracy: 0.9421
+iteration 3 done, train_accuracy: 0.9501, dev_accuracy: 0.9431
+iteration 4 done, train_accuracy: 0.9586, dev_accuracy: 0.9445
+iteration 5 done, train_accuracy: 0.9636, dev_accuracy: 0.9450
+iteration 6 done, train_accuracy: 0.9668, dev_accuracy: 0.9454
+iteration 7 done, train_accuracy: 0.9690, dev_accuracy: 0.9456
+iteration 8 done, train_accuracy: 0.9711, dev_accuracy: 0.9460
+iteration 9 done, train_accuracy: 0.9720, dev_accuracy: 0.9457
+iteration 10 done, train_accuracy: 0.9732, dev_accuracy: 0.9458
+done training
+accuracy: 0.9460
+
+Feature class pattern
+10100001010000010000
+features: 361646
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9144, dev_accuracy: 0.9476
+iteration 2 done, train_accuracy: 0.9500, dev_accuracy: 0.9526
+iteration 3 done, train_accuracy: 0.9598, dev_accuracy: 0.9528
+iteration 4 done, train_accuracy: 0.9656, dev_accuracy: 0.9533
+iteration 5 done, train_accuracy: 0.9690, dev_accuracy: 0.9536
+iteration 6 done, train_accuracy: 0.9709, dev_accuracy: 0.9536
+iteration 7 done, train_accuracy: 0.9726, dev_accuracy: 0.9536
+iteration 8 done, train_accuracy: 0.9734, dev_accuracy: 0.9534
+iteration 9 done, train_accuracy: 0.9744, dev_accuracy: 0.9532
+iteration 10 done, train_accuracy: 0.9750, dev_accuracy: 0.9534
+done training
+accuracy: 0.9536
+
+Feature class pattern
+10100001000000011000
+features: 610921
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9059, dev_accuracy: 0.9453
+iteration 2 done, train_accuracy: 0.9561, dev_accuracy: 0.9500
+iteration 3 done, train_accuracy: 0.9702, dev_accuracy: 0.9522
+iteration 4 done, train_accuracy: 0.9770, dev_accuracy: 0.9527
+iteration 5 done, train_accuracy: 0.9811, dev_accuracy: 0.9530
+iteration 6 done, train_accuracy: 0.9840, dev_accuracy: 0.9531
+iteration 7 done, train_accuracy: 0.9858, dev_accuracy: 0.9534
+iteration 8 done, train_accuracy: 0.9871, dev_accuracy: 0.9535
+iteration 9 done, train_accuracy: 0.9881, dev_accuracy: 0.9542
+iteration 10 done, train_accuracy: 0.9890, dev_accuracy: 0.9542
+done training
+accuracy: 0.9542
+
+Feature class pattern
+10100001000000010001
+features: 868230
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8975, dev_accuracy: 0.9384
+iteration 2 done, train_accuracy: 0.9526, dev_accuracy: 0.9447
+iteration 3 done, train_accuracy: 0.9691, dev_accuracy: 0.9460
+iteration 4 done, train_accuracy: 0.9771, dev_accuracy: 0.9465
+iteration 5 done, train_accuracy: 0.9821, dev_accuracy: 0.9464
+iteration 6 done, train_accuracy: 0.9850, dev_accuracy: 0.9473
+iteration 7 done, train_accuracy: 0.9871, dev_accuracy: 0.9478
+iteration 8 done, train_accuracy: 0.9882, dev_accuracy: 0.9482
+iteration 9 done, train_accuracy: 0.9893, dev_accuracy: 0.9481
+iteration 10 done, train_accuracy: 0.9903, dev_accuracy: 0.9486
+done training
+accuracy: 0.9486
+
+Feature class pattern
+10100001000000010010
+features: 853566
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8980, dev_accuracy: 0.9397
+iteration 2 done, train_accuracy: 0.9533, dev_accuracy: 0.9440
+iteration 3 done, train_accuracy: 0.9703, dev_accuracy: 0.9457
+iteration 4 done, train_accuracy: 0.9784, dev_accuracy: 0.9475
+iteration 5 done, train_accuracy: 0.9834, dev_accuracy: 0.9482
+iteration 6 done, train_accuracy: 0.9866, dev_accuracy: 0.9483
+iteration 7 done, train_accuracy: 0.9888, dev_accuracy: 0.9487
+iteration 8 done, train_accuracy: 0.9901, dev_accuracy: 0.9485
+iteration 9 done, train_accuracy: 0.9916, dev_accuracy: 0.9486
+iteration 10 done, train_accuracy: 0.9924, dev_accuracy: 0.9489
+done training
+accuracy: 0.9489
+
+Feature class pattern
+10100001000000110000
+features: 358484
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8927, dev_accuracy: 0.9360
+iteration 2 done, train_accuracy: 0.9388, dev_accuracy: 0.9418
+iteration 3 done, train_accuracy: 0.9534, dev_accuracy: 0.9433
+iteration 4 done, train_accuracy: 0.9620, dev_accuracy: 0.9442
+iteration 5 done, train_accuracy: 0.9670, dev_accuracy: 0.9446
+iteration 6 done, train_accuracy: 0.9712, dev_accuracy: 0.9450
+iteration 7 done, train_accuracy: 0.9737, dev_accuracy: 0.9457
+iteration 8 done, train_accuracy: 0.9757, dev_accuracy: 0.9459
+iteration 9 done, train_accuracy: 0.9775, dev_accuracy: 0.9460
+iteration 10 done, train_accuracy: 0.9785, dev_accuracy: 0.9459
+done training
+accuracy: 0.9460
+
+Feature class pattern
+11100001000000010000
+features: 326121
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8918, dev_accuracy: 0.9344
+iteration 2 done, train_accuracy: 0.9331, dev_accuracy: 0.9400
+iteration 3 done, train_accuracy: 0.9467, dev_accuracy: 0.9430
+iteration 4 done, train_accuracy: 0.9545, dev_accuracy: 0.9449
+iteration 5 done, train_accuracy: 0.9603, dev_accuracy: 0.9448
+iteration 6 done, train_accuracy: 0.9639, dev_accuracy: 0.9451
+iteration 7 done, train_accuracy: 0.9663, dev_accuracy: 0.9454
+iteration 8 done, train_accuracy: 0.9685, dev_accuracy: 0.9454
+iteration 9 done, train_accuracy: 0.9702, dev_accuracy: 0.9458
+iteration 10 done, train_accuracy: 0.9712, dev_accuracy: 0.9455
+done training
+accuracy: 0.9458
+
+Feature class pattern
+10100001000010010000
+features: 360163
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9090, dev_accuracy: 0.9478
+iteration 2 done, train_accuracy: 0.9510, dev_accuracy: 0.9523
+iteration 3 done, train_accuracy: 0.9637, dev_accuracy: 0.9545
+iteration 4 done, train_accuracy: 0.9704, dev_accuracy: 0.9553
+iteration 5 done, train_accuracy: 0.9750, dev_accuracy: 0.9557
+iteration 6 done, train_accuracy: 0.9784, dev_accuracy: 0.9564
+iteration 7 done, train_accuracy: 0.9803, dev_accuracy: 0.9565
+iteration 8 done, train_accuracy: 0.9818, dev_accuracy: 0.9562
+iteration 9 done, train_accuracy: 0.9831, dev_accuracy: 0.9562
+iteration 10 done, train_accuracy: 0.9843, dev_accuracy: 0.9565
+done training
+accuracy: 0.9565
+
+Feature class pattern
+10100000000010010000
+features: 359087
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8833, dev_accuracy: 0.9376
+iteration 2 done, train_accuracy: 0.9463, dev_accuracy: 0.9454
+iteration 3 done, train_accuracy: 0.9623, dev_accuracy: 0.9480
+iteration 4 done, train_accuracy: 0.9705, dev_accuracy: 0.9492
+iteration 5 done, train_accuracy: 0.9755, dev_accuracy: 0.9495
+iteration 6 done, train_accuracy: 0.9785, dev_accuracy: 0.9495
+iteration 7 done, train_accuracy: 0.9806, dev_accuracy: 0.9495
+iteration 8 done, train_accuracy: 0.9825, dev_accuracy: 0.9502
+iteration 9 done, train_accuracy: 0.9836, dev_accuracy: 0.9500
+iteration 10 done, train_accuracy: 0.9846, dev_accuracy: 0.9504
+done training
+accuracy: 0.9504
+
+Feature class pattern
+10100001000010000000
+features: 71515
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8987, dev_accuracy: 0.9375
+iteration 2 done, train_accuracy: 0.9291, dev_accuracy: 0.9417
+iteration 3 done, train_accuracy: 0.9375, dev_accuracy: 0.9437
+iteration 4 done, train_accuracy: 0.9428, dev_accuracy: 0.9452
+iteration 5 done, train_accuracy: 0.9456, dev_accuracy: 0.9450
+iteration 6 done, train_accuracy: 0.9481, dev_accuracy: 0.9450
+iteration 7 done, train_accuracy: 0.9493, dev_accuracy: 0.9453
+iteration 8 done, train_accuracy: 0.9510, dev_accuracy: 0.9457
+iteration 9 done, train_accuracy: 0.9521, dev_accuracy: 0.9453
+iteration 10 done, train_accuracy: 0.9531, dev_accuracy: 0.9447
+done training
+accuracy: 0.9457
+
+Feature class pattern
+10100001000110010000
+features: 393844
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9075, dev_accuracy: 0.9471
+iteration 2 done, train_accuracy: 0.9525, dev_accuracy: 0.9524
+iteration 3 done, train_accuracy: 0.9658, dev_accuracy: 0.9537
+iteration 4 done, train_accuracy: 0.9731, dev_accuracy: 0.9542
+iteration 5 done, train_accuracy: 0.9777, dev_accuracy: 0.9543
+iteration 6 done, train_accuracy: 0.9808, dev_accuracy: 0.9550
+iteration 7 done, train_accuracy: 0.9831, dev_accuracy: 0.9554
+iteration 8 done, train_accuracy: 0.9849, dev_accuracy: 0.9558
+iteration 9 done, train_accuracy: 0.9864, dev_accuracy: 0.9555
+iteration 10 done, train_accuracy: 0.9874, dev_accuracy: 0.9558
+done training
+accuracy: 0.9558
+
+Feature class pattern
+10100001010010010000
+features: 396039
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9243, dev_accuracy: 0.9564
+iteration 2 done, train_accuracy: 0.9614, dev_accuracy: 0.9596
+iteration 3 done, train_accuracy: 0.9711, dev_accuracy: 0.9613
+iteration 4 done, train_accuracy: 0.9762, dev_accuracy: 0.9619
+iteration 5 done, train_accuracy: 0.9794, dev_accuracy: 0.9619
+iteration 6 done, train_accuracy: 0.9817, dev_accuracy: 0.9620
+iteration 7 done, train_accuracy: 0.9832, dev_accuracy: 0.9622
+iteration 8 done, train_accuracy: 0.9841, dev_accuracy: 0.9622
+iteration 9 done, train_accuracy: 0.9850, dev_accuracy: 0.9620
+iteration 10 done, train_accuracy: 0.9858, dev_accuracy: 0.9619
+done training
+accuracy: 0.9622
+
+Feature class pattern
+10100101010010010000
+features: 402410
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9264, dev_accuracy: 0.9571
+iteration 2 done, train_accuracy: 0.9609, dev_accuracy: 0.9606
+iteration 3 done, train_accuracy: 0.9703, dev_accuracy: 0.9616
+iteration 4 done, train_accuracy: 0.9754, dev_accuracy: 0.9623
+iteration 5 done, train_accuracy: 0.9787, dev_accuracy: 0.9623
+iteration 6 done, train_accuracy: 0.9809, dev_accuracy: 0.9625
+iteration 7 done, train_accuracy: 0.9824, dev_accuracy: 0.9631
+iteration 8 done, train_accuracy: 0.9837, dev_accuracy: 0.9632
+iteration 9 done, train_accuracy: 0.9843, dev_accuracy: 0.9633
+iteration 10 done, train_accuracy: 0.9855, dev_accuracy: 0.9630
+done training
+accuracy: 0.9633
+
+Feature class pattern
+10100101010000010000
+features: 368017
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9156, dev_accuracy: 0.9497
+iteration 2 done, train_accuracy: 0.9492, dev_accuracy: 0.9527
+iteration 3 done, train_accuracy: 0.9590, dev_accuracy: 0.9536
+iteration 4 done, train_accuracy: 0.9643, dev_accuracy: 0.9539
+iteration 5 done, train_accuracy: 0.9677, dev_accuracy: 0.9542
+iteration 6 done, train_accuracy: 0.9699, dev_accuracy: 0.9541
+iteration 7 done, train_accuracy: 0.9715, dev_accuracy: 0.9539
+iteration 8 done, train_accuracy: 0.9727, dev_accuracy: 0.9538
+iteration 9 done, train_accuracy: 0.9738, dev_accuracy: 0.9537
+iteration 10 done, train_accuracy: 0.9744, dev_accuracy: 0.9536
+done training
+accuracy: 0.9542
+
+Feature class pattern
+10100101010010110000
+features: 435124
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9245, dev_accuracy: 0.9569
+iteration 2 done, train_accuracy: 0.9614, dev_accuracy: 0.9601
+iteration 3 done, train_accuracy: 0.9720, dev_accuracy: 0.9609
+iteration 4 done, train_accuracy: 0.9777, dev_accuracy: 0.9616
+iteration 5 done, train_accuracy: 0.9810, dev_accuracy: 0.9623
+iteration 6 done, train_accuracy: 0.9835, dev_accuracy: 0.9623
+iteration 7 done, train_accuracy: 0.9850, dev_accuracy: 0.9624
+iteration 8 done, train_accuracy: 0.9865, dev_accuracy: 0.9625
+iteration 9 done, train_accuracy: 0.9876, dev_accuracy: 0.9624
+iteration 10 done, train_accuracy: 0.9885, dev_accuracy: 0.9625
+done training
+accuracy: 0.9625
+
+Feature class pattern
+00100101010010010000
+features: 366477
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9109, dev_accuracy: 0.9452
+iteration 2 done, train_accuracy: 0.9479, dev_accuracy: 0.9497
+iteration 3 done, train_accuracy: 0.9609, dev_accuracy: 0.9510
+iteration 4 done, train_accuracy: 0.9681, dev_accuracy: 0.9520
+iteration 5 done, train_accuracy: 0.9730, dev_accuracy: 0.9522
+iteration 6 done, train_accuracy: 0.9764, dev_accuracy: 0.9523
+iteration 7 done, train_accuracy: 0.9787, dev_accuracy: 0.9527
+iteration 8 done, train_accuracy: 0.9805, dev_accuracy: 0.9529
+iteration 9 done, train_accuracy: 0.9820, dev_accuracy: 0.9530
+iteration 10 done, train_accuracy: 0.9832, dev_accuracy: 0.9527
+done training
+accuracy: 0.9530
+
+Feature class pattern
+10100101010010010010
+features: 930206
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9267, dev_accuracy: 0.9584
+iteration 2 done, train_accuracy: 0.9675, dev_accuracy: 0.9619
+iteration 3 done, train_accuracy: 0.9783, dev_accuracy: 0.9630
+iteration 4 done, train_accuracy: 0.9841, dev_accuracy: 0.9629
+iteration 5 done, train_accuracy: 0.9872, dev_accuracy: 0.9628
+iteration 6 done, train_accuracy: 0.9892, dev_accuracy: 0.9632
+iteration 7 done, train_accuracy: 0.9908, dev_accuracy: 0.9632
+iteration 8 done, train_accuracy: 0.9920, dev_accuracy: 0.9635
+iteration 9 done, train_accuracy: 0.9929, dev_accuracy: 0.9631
+iteration 10 done, train_accuracy: 0.9935, dev_accuracy: 0.9631
+done training
+accuracy: 0.9635
+
+Feature class pattern
+10100101010011010000
+features: 435846
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9258, dev_accuracy: 0.9568
+iteration 2 done, train_accuracy: 0.9623, dev_accuracy: 0.9611
+iteration 3 done, train_accuracy: 0.9728, dev_accuracy: 0.9621
+iteration 4 done, train_accuracy: 0.9780, dev_accuracy: 0.9622
+iteration 5 done, train_accuracy: 0.9815, dev_accuracy: 0.9628
+iteration 6 done, train_accuracy: 0.9840, dev_accuracy: 0.9630
+iteration 7 done, train_accuracy: 0.9857, dev_accuracy: 0.9633
+iteration 8 done, train_accuracy: 0.9871, dev_accuracy: 0.9638
+iteration 9 done, train_accuracy: 0.9880, dev_accuracy: 0.9639
+iteration 10 done, train_accuracy: 0.9886, dev_accuracy: 0.9635
+done training
+accuracy: 0.9639
+
+Feature class pattern
+11100101010011010000
+features: 436197
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9243, dev_accuracy: 0.9569
+iteration 2 done, train_accuracy: 0.9610, dev_accuracy: 0.9613
+iteration 3 done, train_accuracy: 0.9712, dev_accuracy: 0.9622
+iteration 4 done, train_accuracy: 0.9770, dev_accuracy: 0.9628
+iteration 5 done, train_accuracy: 0.9803, dev_accuracy: 0.9630
+iteration 6 done, train_accuracy: 0.9829, dev_accuracy: 0.9629
+iteration 7 done, train_accuracy: 0.9847, dev_accuracy: 0.9632
+iteration 8 done, train_accuracy: 0.9862, dev_accuracy: 0.9636
+iteration 9 done, train_accuracy: 0.9872, dev_accuracy: 0.9636
+iteration 10 done, train_accuracy: 0.9879, dev_accuracy: 0.9636
+done training
+accuracy: 0.9636
+
+Feature class pattern
+10100001010011010000
+features: 429475
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9235, dev_accuracy: 0.9560
+iteration 2 done, train_accuracy: 0.9627, dev_accuracy: 0.9594
+iteration 3 done, train_accuracy: 0.9733, dev_accuracy: 0.9613
+iteration 4 done, train_accuracy: 0.9786, dev_accuracy: 0.9612
+iteration 5 done, train_accuracy: 0.9821, dev_accuracy: 0.9621
+iteration 6 done, train_accuracy: 0.9844, dev_accuracy: 0.9626
+iteration 7 done, train_accuracy: 0.9863, dev_accuracy: 0.9629
+iteration 8 done, train_accuracy: 0.9874, dev_accuracy: 0.9626
+iteration 9 done, train_accuracy: 0.9883, dev_accuracy: 0.9625
+iteration 10 done, train_accuracy: 0.9890, dev_accuracy: 0.9625
+done training
+accuracy: 0.9629
+
+Feature class pattern
+10000101010011010000
+features: 435734
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9219, dev_accuracy: 0.9539
+iteration 2 done, train_accuracy: 0.9631, dev_accuracy: 0.9585
+iteration 3 done, train_accuracy: 0.9738, dev_accuracy: 0.9594
+iteration 4 done, train_accuracy: 0.9792, dev_accuracy: 0.9600
+iteration 5 done, train_accuracy: 0.9826, dev_accuracy: 0.9605
+iteration 6 done, train_accuracy: 0.9846, dev_accuracy: 0.9609
+iteration 7 done, train_accuracy: 0.9861, dev_accuracy: 0.9612
+iteration 8 done, train_accuracy: 0.9875, dev_accuracy: 0.9614
+iteration 9 done, train_accuracy: 0.9885, dev_accuracy: 0.9609
+iteration 10 done, train_accuracy: 0.9893, dev_accuracy: 0.9611
+done training
+accuracy: 0.9614
+
+Feature class pattern
+10100101010011011000
+features: 720997
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9280, dev_accuracy: 0.9586
+iteration 2 done, train_accuracy: 0.9674, dev_accuracy: 0.9623
+iteration 3 done, train_accuracy: 0.9779, dev_accuracy: 0.9633
+iteration 4 done, train_accuracy: 0.9831, dev_accuracy: 0.9635
+iteration 5 done, train_accuracy: 0.9860, dev_accuracy: 0.9633
+iteration 6 done, train_accuracy: 0.9881, dev_accuracy: 0.9633
+iteration 7 done, train_accuracy: 0.9895, dev_accuracy: 0.9635
+iteration 8 done, train_accuracy: 0.9906, dev_accuracy: 0.9633
+iteration 9 done, train_accuracy: 0.9916, dev_accuracy: 0.9633
+iteration 10 done, train_accuracy: 0.9922, dev_accuracy: 0.9635
+done training
+accuracy: 0.9635
+
+Feature class pattern
+10101101010011010000
+features: 437020
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9246, dev_accuracy: 0.9566
+iteration 2 done, train_accuracy: 0.9607, dev_accuracy: 0.9613
+iteration 3 done, train_accuracy: 0.9713, dev_accuracy: 0.9620
+iteration 4 done, train_accuracy: 0.9771, dev_accuracy: 0.9626
+iteration 5 done, train_accuracy: 0.9803, dev_accuracy: 0.9625
+iteration 6 done, train_accuracy: 0.9828, dev_accuracy: 0.9626
+iteration 7 done, train_accuracy: 0.9848, dev_accuracy: 0.9630
+iteration 8 done, train_accuracy: 0.9861, dev_accuracy: 0.9630
+iteration 9 done, train_accuracy: 0.9873, dev_accuracy: 0.9633
+iteration 10 done, train_accuracy: 0.9880, dev_accuracy: 0.9636
+done training
+accuracy: 0.9636
+
+Feature class pattern
+00100101010011010000
+features: 399913
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9099, dev_accuracy: 0.9474
+iteration 2 done, train_accuracy: 0.9499, dev_accuracy: 0.9507
+iteration 3 done, train_accuracy: 0.9635, dev_accuracy: 0.9512
+iteration 4 done, train_accuracy: 0.9710, dev_accuracy: 0.9514
+iteration 5 done, train_accuracy: 0.9763, dev_accuracy: 0.9516
+iteration 6 done, train_accuracy: 0.9793, dev_accuracy: 0.9519
+iteration 7 done, train_accuracy: 0.9820, dev_accuracy: 0.9520
+iteration 8 done, train_accuracy: 0.9840, dev_accuracy: 0.9518
+iteration 9 done, train_accuracy: 0.9855, dev_accuracy: 0.9521
+iteration 10 done, train_accuracy: 0.9865, dev_accuracy: 0.9522
+done training
+accuracy: 0.9522
+
+Feature class pattern
+10100101010011010010
+features: 963642
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9262, dev_accuracy: 0.9572
+iteration 2 done, train_accuracy: 0.9679, dev_accuracy: 0.9612
+iteration 3 done, train_accuracy: 0.9793, dev_accuracy: 0.9625
+iteration 4 done, train_accuracy: 0.9848, dev_accuracy: 0.9633
+iteration 5 done, train_accuracy: 0.9879, dev_accuracy: 0.9639
+iteration 6 done, train_accuracy: 0.9901, dev_accuracy: 0.9642
+iteration 7 done, train_accuracy: 0.9914, dev_accuracy: 0.9646
+iteration 8 done, train_accuracy: 0.9924, dev_accuracy: 0.9645
+iteration 9 done, train_accuracy: 0.9932, dev_accuracy: 0.9643
+iteration 10 done, train_accuracy: 0.9939, dev_accuracy: 0.9641
+done training
+accuracy: 0.9646
+
+Feature class pattern
+10100101010011010100
+features: 973865
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9262, dev_accuracy: 0.9586
+iteration 2 done, train_accuracy: 0.9676, dev_accuracy: 0.9624
+iteration 3 done, train_accuracy: 0.9790, dev_accuracy: 0.9622
+iteration 4 done, train_accuracy: 0.9843, dev_accuracy: 0.9630
+iteration 5 done, train_accuracy: 0.9875, dev_accuracy: 0.9631
+iteration 6 done, train_accuracy: 0.9899, dev_accuracy: 0.9633
+iteration 7 done, train_accuracy: 0.9913, dev_accuracy: 0.9634
+iteration 8 done, train_accuracy: 0.9922, dev_accuracy: 0.9635
+iteration 9 done, train_accuracy: 0.9931, dev_accuracy: 0.9635
+iteration 10 done, train_accuracy: 0.9937, dev_accuracy: 0.9635
+done training
+accuracy: 0.9635
+
+Feature class pattern
+10100101010001010000
+features: 401453
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9176, dev_accuracy: 0.9497
+iteration 2 done, train_accuracy: 0.9536, dev_accuracy: 0.9531
+iteration 3 done, train_accuracy: 0.9643, dev_accuracy: 0.9550
+iteration 4 done, train_accuracy: 0.9705, dev_accuracy: 0.9550
+iteration 5 done, train_accuracy: 0.9741, dev_accuracy: 0.9548
+iteration 6 done, train_accuracy: 0.9770, dev_accuracy: 0.9547
+iteration 7 done, train_accuracy: 0.9788, dev_accuracy: 0.9551
+iteration 8 done, train_accuracy: 0.9800, dev_accuracy: 0.9548
+iteration 9 done, train_accuracy: 0.9812, dev_accuracy: 0.9549
+iteration 10 done, train_accuracy: 0.9822, dev_accuracy: 0.9548
+done training
+accuracy: 0.9551
+
+Feature class pattern
+10100111010011010000
+features: 435929
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9241, dev_accuracy: 0.9571
+iteration 2 done, train_accuracy: 0.9603, dev_accuracy: 0.9610
+iteration 3 done, train_accuracy: 0.9710, dev_accuracy: 0.9623
+iteration 4 done, train_accuracy: 0.9769, dev_accuracy: 0.9631
+iteration 5 done, train_accuracy: 0.9806, dev_accuracy: 0.9636
+iteration 6 done, train_accuracy: 0.9828, dev_accuracy: 0.9635
+iteration 7 done, train_accuracy: 0.9846, dev_accuracy: 0.9636
+iteration 8 done, train_accuracy: 0.9861, dev_accuracy: 0.9633
+iteration 9 done, train_accuracy: 0.9873, dev_accuracy: 0.9634
+iteration 10 done, train_accuracy: 0.9880, dev_accuracy: 0.9632
+done training
+accuracy: 0.9636
+
+Feature class pattern
+10100101110011010000
+features: 440773
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9279, dev_accuracy: 0.9585
+iteration 2 done, train_accuracy: 0.9620, dev_accuracy: 0.9609
+iteration 3 done, train_accuracy: 0.9717, dev_accuracy: 0.9620
+iteration 4 done, train_accuracy: 0.9775, dev_accuracy: 0.9627
+iteration 5 done, train_accuracy: 0.9809, dev_accuracy: 0.9632
+iteration 6 done, train_accuracy: 0.9832, dev_accuracy: 0.9634
+iteration 7 done, train_accuracy: 0.9850, dev_accuracy: 0.9635
+iteration 8 done, train_accuracy: 0.9864, dev_accuracy: 0.9634
+iteration 9 done, train_accuracy: 0.9874, dev_accuracy: 0.9635
+iteration 10 done, train_accuracy: 0.9884, dev_accuracy: 0.9636
+done training
+accuracy: 0.9636
+
+Feature class pattern
+10100101011011010000
+features: 470450
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9270, dev_accuracy: 0.9582
+iteration 2 done, train_accuracy: 0.9645, dev_accuracy: 0.9615
+iteration 3 done, train_accuracy: 0.9754, dev_accuracy: 0.9631
+iteration 4 done, train_accuracy: 0.9808, dev_accuracy: 0.9635
+iteration 5 done, train_accuracy: 0.9843, dev_accuracy: 0.9639
+iteration 6 done, train_accuracy: 0.9866, dev_accuracy: 0.9641
+iteration 7 done, train_accuracy: 0.9884, dev_accuracy: 0.9638
+iteration 8 done, train_accuracy: 0.9895, dev_accuracy: 0.9635
+iteration 9 done, train_accuracy: 0.9905, dev_accuracy: 0.9638
+iteration 10 done, train_accuracy: 0.9913, dev_accuracy: 0.9638
+done training
+accuracy: 0.9641
+
+Feature class pattern
+10100101011001010000
+features: 436057
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9184, dev_accuracy: 0.9516
+iteration 2 done, train_accuracy: 0.9566, dev_accuracy: 0.9559
+iteration 3 done, train_accuracy: 0.9682, dev_accuracy: 0.9567
+iteration 4 done, train_accuracy: 0.9741, dev_accuracy: 0.9571
+iteration 5 done, train_accuracy: 0.9783, dev_accuracy: 0.9573
+iteration 6 done, train_accuracy: 0.9810, dev_accuracy: 0.9571
+iteration 7 done, train_accuracy: 0.9828, dev_accuracy: 0.9574
+iteration 8 done, train_accuracy: 0.9844, dev_accuracy: 0.9575
+iteration 9 done, train_accuracy: 0.9855, dev_accuracy: 0.9576
+iteration 10 done, train_accuracy: 0.9864, dev_accuracy: 0.9571
+done training
+accuracy: 0.9576
+
+Feature class pattern
+00100101011011010000
+features: 434517
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9110, dev_accuracy: 0.9468
+iteration 2 done, train_accuracy: 0.9527, dev_accuracy: 0.9520
+iteration 3 done, train_accuracy: 0.9663, dev_accuracy: 0.9524
+iteration 4 done, train_accuracy: 0.9747, dev_accuracy: 0.9527
+iteration 5 done, train_accuracy: 0.9795, dev_accuracy: 0.9527
+iteration 6 done, train_accuracy: 0.9825, dev_accuracy: 0.9535
+iteration 7 done, train_accuracy: 0.9850, dev_accuracy: 0.9536
+iteration 8 done, train_accuracy: 0.9868, dev_accuracy: 0.9538
+iteration 9 done, train_accuracy: 0.9885, dev_accuracy: 0.9538
+iteration 10 done, train_accuracy: 0.9892, dev_accuracy: 0.9540
+done training
+accuracy: 0.9540
+
+Feature class pattern
+10100101011011010100
+features: 1008469
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9273, dev_accuracy: 0.9575
+iteration 2 done, train_accuracy: 0.9688, dev_accuracy: 0.9604
+iteration 3 done, train_accuracy: 0.9801, dev_accuracy: 0.9623
+iteration 4 done, train_accuracy: 0.9854, dev_accuracy: 0.9627
+iteration 5 done, train_accuracy: 0.9885, dev_accuracy: 0.9634
+iteration 6 done, train_accuracy: 0.9904, dev_accuracy: 0.9632
+iteration 7 done, train_accuracy: 0.9916, dev_accuracy: 0.9632
+iteration 8 done, train_accuracy: 0.9926, dev_accuracy: 0.9633
+iteration 9 done, train_accuracy: 0.9933, dev_accuracy: 0.9634
+iteration 10 done, train_accuracy: 0.9940, dev_accuracy: 0.9635
+done training
+accuracy: 0.9635
+
+Feature class pattern
+10100100011011010000
+features: 469374
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8923, dev_accuracy: 0.9399
+iteration 2 done, train_accuracy: 0.9550, dev_accuracy: 0.9466
+iteration 3 done, train_accuracy: 0.9702, dev_accuracy: 0.9503
+iteration 4 done, train_accuracy: 0.9778, dev_accuracy: 0.9512
+iteration 5 done, train_accuracy: 0.9820, dev_accuracy: 0.9519
+iteration 6 done, train_accuracy: 0.9848, dev_accuracy: 0.9518
+iteration 7 done, train_accuracy: 0.9867, dev_accuracy: 0.9521
+iteration 8 done, train_accuracy: 0.9881, dev_accuracy: 0.9526
+iteration 9 done, train_accuracy: 0.9895, dev_accuracy: 0.9526
+iteration 10 done, train_accuracy: 0.9903, dev_accuracy: 0.9532
+done training
+accuracy: 0.9532
+
+Feature class pattern
+10100101011011010010
+features: 998246
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9274, dev_accuracy: 0.9592
+iteration 2 done, train_accuracy: 0.9697, dev_accuracy: 0.9623
+iteration 3 done, train_accuracy: 0.9805, dev_accuracy: 0.9629
+iteration 4 done, train_accuracy: 0.9860, dev_accuracy: 0.9636
+iteration 5 done, train_accuracy: 0.9890, dev_accuracy: 0.9636
+iteration 6 done, train_accuracy: 0.9913, dev_accuracy: 0.9638
+iteration 7 done, train_accuracy: 0.9925, dev_accuracy: 0.9639
+iteration 8 done, train_accuracy: 0.9936, dev_accuracy: 0.9643
+iteration 9 done, train_accuracy: 0.9942, dev_accuracy: 0.9645
+iteration 10 done, train_accuracy: 0.9947, dev_accuracy: 0.9648
+done training
+accuracy: 0.9648
+
+Feature class pattern
+10000101011011010000
+features: 470338
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9224, dev_accuracy: 0.9549
+iteration 2 done, train_accuracy: 0.9645, dev_accuracy: 0.9587
+iteration 3 done, train_accuracy: 0.9758, dev_accuracy: 0.9607
+iteration 4 done, train_accuracy: 0.9814, dev_accuracy: 0.9606
+iteration 5 done, train_accuracy: 0.9847, dev_accuracy: 0.9612
+iteration 6 done, train_accuracy: 0.9871, dev_accuracy: 0.9611
+iteration 7 done, train_accuracy: 0.9887, dev_accuracy: 0.9617
+iteration 8 done, train_accuracy: 0.9899, dev_accuracy: 0.9615
+iteration 9 done, train_accuracy: 0.9909, dev_accuracy: 0.9618
+iteration 10 done, train_accuracy: 0.9916, dev_accuracy: 0.9619
+done training
+accuracy: 0.9619
+
+Feature class pattern
+10110101011011010000
+features: 470533
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9255, dev_accuracy: 0.9574
+iteration 2 done, train_accuracy: 0.9631, dev_accuracy: 0.9616
+iteration 3 done, train_accuracy: 0.9738, dev_accuracy: 0.9626
+iteration 4 done, train_accuracy: 0.9794, dev_accuracy: 0.9627
+iteration 5 done, train_accuracy: 0.9833, dev_accuracy: 0.9634
+iteration 6 done, train_accuracy: 0.9858, dev_accuracy: 0.9634
+iteration 7 done, train_accuracy: 0.9873, dev_accuracy: 0.9637
+iteration 8 done, train_accuracy: 0.9889, dev_accuracy: 0.9639
+iteration 9 done, train_accuracy: 0.9898, dev_accuracy: 0.9639
+iteration 10 done, train_accuracy: 0.9906, dev_accuracy: 0.9642
+done training
+accuracy: 0.9642
+
+Feature class pattern
+00110101011011010000
+features: 434600
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9094, dev_accuracy: 0.9468
+iteration 2 done, train_accuracy: 0.9509, dev_accuracy: 0.9515
+iteration 3 done, train_accuracy: 0.9650, dev_accuracy: 0.9526
+iteration 4 done, train_accuracy: 0.9726, dev_accuracy: 0.9528
+iteration 5 done, train_accuracy: 0.9777, dev_accuracy: 0.9533
+iteration 6 done, train_accuracy: 0.9811, dev_accuracy: 0.9533
+iteration 7 done, train_accuracy: 0.9838, dev_accuracy: 0.9534
+iteration 8 done, train_accuracy: 0.9856, dev_accuracy: 0.9535
+iteration 9 done, train_accuracy: 0.9871, dev_accuracy: 0.9539
+iteration 10 done, train_accuracy: 0.9886, dev_accuracy: 0.9538
+done training
+accuracy: 0.9539
+
+Feature class pattern
+10110101011011010010
+features: 998329
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9261, dev_accuracy: 0.9586
+iteration 2 done, train_accuracy: 0.9677, dev_accuracy: 0.9621
+iteration 3 done, train_accuracy: 0.9792, dev_accuracy: 0.9629
+iteration 4 done, train_accuracy: 0.9849, dev_accuracy: 0.9633
+iteration 5 done, train_accuracy: 0.9883, dev_accuracy: 0.9641
+iteration 6 done, train_accuracy: 0.9904, dev_accuracy: 0.9643
+iteration 7 done, train_accuracy: 0.9919, dev_accuracy: 0.9641
+iteration 8 done, train_accuracy: 0.9929, dev_accuracy: 0.9643
+iteration 9 done, train_accuracy: 0.9938, dev_accuracy: 0.9642
+iteration 10 done, train_accuracy: 0.9945, dev_accuracy: 0.9645
+done training
+accuracy: 0.9645
+
+Feature class pattern
+10110101111011010000
+features: 475460
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9279, dev_accuracy: 0.9588
+iteration 2 done, train_accuracy: 0.9632, dev_accuracy: 0.9622
+iteration 3 done, train_accuracy: 0.9735, dev_accuracy: 0.9633
+iteration 4 done, train_accuracy: 0.9790, dev_accuracy: 0.9639
+iteration 5 done, train_accuracy: 0.9824, dev_accuracy: 0.9632
+iteration 6 done, train_accuracy: 0.9852, dev_accuracy: 0.9636
+iteration 7 done, train_accuracy: 0.9869, dev_accuracy: 0.9640
+iteration 8 done, train_accuracy: 0.9884, dev_accuracy: 0.9640
+iteration 9 done, train_accuracy: 0.9894, dev_accuracy: 0.9638
+iteration 10 done, train_accuracy: 0.9903, dev_accuracy: 0.9638
+done training
+accuracy: 0.9640
+
+Feature class pattern
+10110101001011010000
+features: 434657
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9109, dev_accuracy: 0.9496
+iteration 2 done, train_accuracy: 0.9544, dev_accuracy: 0.9547
+iteration 3 done, train_accuracy: 0.9674, dev_accuracy: 0.9562
+iteration 4 done, train_accuracy: 0.9744, dev_accuracy: 0.9569
+iteration 5 done, train_accuracy: 0.9789, dev_accuracy: 0.9572
+iteration 6 done, train_accuracy: 0.9826, dev_accuracy: 0.9578
+iteration 7 done, train_accuracy: 0.9847, dev_accuracy: 0.9580
+iteration 8 done, train_accuracy: 0.9861, dev_accuracy: 0.9582
+iteration 9 done, train_accuracy: 0.9878, dev_accuracy: 0.9586
+iteration 10 done, train_accuracy: 0.9890, dev_accuracy: 0.9582
+done training
+accuracy: 0.9586
+
+Feature class pattern
+10110101011011110000
+features: 503247
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9245, dev_accuracy: 0.9566
+iteration 2 done, train_accuracy: 0.9637, dev_accuracy: 0.9605
+iteration 3 done, train_accuracy: 0.9750, dev_accuracy: 0.9614
+iteration 4 done, train_accuracy: 0.9811, dev_accuracy: 0.9622
+iteration 5 done, train_accuracy: 0.9847, dev_accuracy: 0.9632
+iteration 6 done, train_accuracy: 0.9872, dev_accuracy: 0.9632
+iteration 7 done, train_accuracy: 0.9887, dev_accuracy: 0.9631
+iteration 8 done, train_accuracy: 0.9903, dev_accuracy: 0.9631
+iteration 9 done, train_accuracy: 0.9914, dev_accuracy: 0.9634
+iteration 10 done, train_accuracy: 0.9924, dev_accuracy: 0.9636
+done training
+accuracy: 0.9636
+
+Feature class pattern
+10110101011011011000
+features: 755684
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9277, dev_accuracy: 0.9582
+iteration 2 done, train_accuracy: 0.9676, dev_accuracy: 0.9621
+iteration 3 done, train_accuracy: 0.9785, dev_accuracy: 0.9633
+iteration 4 done, train_accuracy: 0.9836, dev_accuracy: 0.9639
+iteration 5 done, train_accuracy: 0.9869, dev_accuracy: 0.9642
+iteration 6 done, train_accuracy: 0.9890, dev_accuracy: 0.9648
+iteration 7 done, train_accuracy: 0.9906, dev_accuracy: 0.9646
+iteration 8 done, train_accuracy: 0.9916, dev_accuracy: 0.9645
+iteration 9 done, train_accuracy: 0.9926, dev_accuracy: 0.9640
+iteration 10 done, train_accuracy: 0.9932, dev_accuracy: 0.9639
+done training
+accuracy: 0.9648
+
+Feature class pattern
+10110111011011010000
+features: 470616
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9243, dev_accuracy: 0.9568
+iteration 2 done, train_accuracy: 0.9616, dev_accuracy: 0.9612
+iteration 3 done, train_accuracy: 0.9726, dev_accuracy: 0.9625
+iteration 4 done, train_accuracy: 0.9783, dev_accuracy: 0.9629
+iteration 5 done, train_accuracy: 0.9824, dev_accuracy: 0.9630
+iteration 6 done, train_accuracy: 0.9847, dev_accuracy: 0.9632
+iteration 7 done, train_accuracy: 0.9866, dev_accuracy: 0.9636
+iteration 8 done, train_accuracy: 0.9880, dev_accuracy: 0.9635
+iteration 9 done, train_accuracy: 0.9890, dev_accuracy: 0.9635
+iteration 10 done, train_accuracy: 0.9900, dev_accuracy: 0.9635
+done training
+accuracy: 0.9636
+
+Feature class pattern
+10110101011011010001
+features: 1012993
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9261, dev_accuracy: 0.9579
+iteration 2 done, train_accuracy: 0.9677, dev_accuracy: 0.9604
+iteration 3 done, train_accuracy: 0.9788, dev_accuracy: 0.9621
+iteration 4 done, train_accuracy: 0.9845, dev_accuracy: 0.9629
+iteration 5 done, train_accuracy: 0.9878, dev_accuracy: 0.9632
+iteration 6 done, train_accuracy: 0.9900, dev_accuracy: 0.9636
+iteration 7 done, train_accuracy: 0.9913, dev_accuracy: 0.9638
+iteration 8 done, train_accuracy: 0.9924, dev_accuracy: 0.9641
+iteration 9 done, train_accuracy: 0.9933, dev_accuracy: 0.9638
+iteration 10 done, train_accuracy: 0.9940, dev_accuracy: 0.9642
+done training
+accuracy: 0.9642
+
+Feature class pattern
+10010101011011010000
+features: 470421
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9264, dev_accuracy: 0.9573
+iteration 2 done, train_accuracy: 0.9646, dev_accuracy: 0.9618
+iteration 3 done, train_accuracy: 0.9752, dev_accuracy: 0.9623
+iteration 4 done, train_accuracy: 0.9808, dev_accuracy: 0.9626
+iteration 5 done, train_accuracy: 0.9841, dev_accuracy: 0.9633
+iteration 6 done, train_accuracy: 0.9867, dev_accuracy: 0.9632
+iteration 7 done, train_accuracy: 0.9881, dev_accuracy: 0.9632
+iteration 8 done, train_accuracy: 0.9895, dev_accuracy: 0.9636
+iteration 9 done, train_accuracy: 0.9904, dev_accuracy: 0.9638
+iteration 10 done, train_accuracy: 0.9911, dev_accuracy: 0.9638
+done training
+accuracy: 0.9638
+
+Feature class pattern
+10110101011010010000
+features: 437097
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9251, dev_accuracy: 0.9576
+iteration 2 done, train_accuracy: 0.9611, dev_accuracy: 0.9612
+iteration 3 done, train_accuracy: 0.9717, dev_accuracy: 0.9620
+iteration 4 done, train_accuracy: 0.9770, dev_accuracy: 0.9627
+iteration 5 done, train_accuracy: 0.9809, dev_accuracy: 0.9630
+iteration 6 done, train_accuracy: 0.9830, dev_accuracy: 0.9633
+iteration 7 done, train_accuracy: 0.9848, dev_accuracy: 0.9637
+iteration 8 done, train_accuracy: 0.9861, dev_accuracy: 0.9632
+iteration 9 done, train_accuracy: 0.9873, dev_accuracy: 0.9628
+iteration 10 done, train_accuracy: 0.9880, dev_accuracy: 0.9627
+done training
+accuracy: 0.9637
+
+Feature class pattern
+10110101011111010000
+features: 504214
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9245, dev_accuracy: 0.9569
+iteration 2 done, train_accuracy: 0.9641, dev_accuracy: 0.9614
+iteration 3 done, train_accuracy: 0.9750, dev_accuracy: 0.9619
+iteration 4 done, train_accuracy: 0.9812, dev_accuracy: 0.9626
+iteration 5 done, train_accuracy: 0.9848, dev_accuracy: 0.9625
+iteration 6 done, train_accuracy: 0.9872, dev_accuracy: 0.9629
+iteration 7 done, train_accuracy: 0.9890, dev_accuracy: 0.9632
+iteration 8 done, train_accuracy: 0.9905, dev_accuracy: 0.9632
+iteration 9 done, train_accuracy: 0.9915, dev_accuracy: 0.9634
+iteration 10 done, train_accuracy: 0.9924, dev_accuracy: 0.9637
+done training
+accuracy: 0.9637
+
+Feature class pattern
+10110001011011010000
+features: 464162
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9223, dev_accuracy: 0.9570
+iteration 2 done, train_accuracy: 0.9632, dev_accuracy: 0.9607
+iteration 3 done, train_accuracy: 0.9740, dev_accuracy: 0.9622
+iteration 4 done, train_accuracy: 0.9799, dev_accuracy: 0.9629
+iteration 5 done, train_accuracy: 0.9837, dev_accuracy: 0.9627
+iteration 6 done, train_accuracy: 0.9860, dev_accuracy: 0.9635
+iteration 7 done, train_accuracy: 0.9879, dev_accuracy: 0.9639
+iteration 8 done, train_accuracy: 0.9892, dev_accuracy: 0.9637
+iteration 9 done, train_accuracy: 0.9900, dev_accuracy: 0.9637
+iteration 10 done, train_accuracy: 0.9911, dev_accuracy: 0.9641
+done training
+accuracy: 0.9641
+
+Feature class pattern
+10110101011001010000
+features: 436140
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9164, dev_accuracy: 0.9509
+iteration 2 done, train_accuracy: 0.9547, dev_accuracy: 0.9546
+iteration 3 done, train_accuracy: 0.9665, dev_accuracy: 0.9559
+iteration 4 done, train_accuracy: 0.9725, dev_accuracy: 0.9562
+iteration 5 done, train_accuracy: 0.9767, dev_accuracy: 0.9563
+iteration 6 done, train_accuracy: 0.9795, dev_accuracy: 0.9569
+iteration 7 done, train_accuracy: 0.9819, dev_accuracy: 0.9570
+iteration 8 done, train_accuracy: 0.9832, dev_accuracy: 0.9567
+iteration 9 done, train_accuracy: 0.9846, dev_accuracy: 0.9568
+iteration 10 done, train_accuracy: 0.9856, dev_accuracy: 0.9567
+done training
+accuracy: 0.9570
+
+Feature class pattern
+10110101011011010100
+features: 1008552
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9258, dev_accuracy: 0.9580
+iteration 2 done, train_accuracy: 0.9676, dev_accuracy: 0.9615
+iteration 3 done, train_accuracy: 0.9787, dev_accuracy: 0.9628
+iteration 4 done, train_accuracy: 0.9842, dev_accuracy: 0.9631
+iteration 5 done, train_accuracy: 0.9873, dev_accuracy: 0.9633
+iteration 6 done, train_accuracy: 0.9897, dev_accuracy: 0.9641
+iteration 7 done, train_accuracy: 0.9912, dev_accuracy: 0.9640
+iteration 8 done, train_accuracy: 0.9922, dev_accuracy: 0.9638
+iteration 9 done, train_accuracy: 0.9930, dev_accuracy: 0.9639
+iteration 10 done, train_accuracy: 0.9935, dev_accuracy: 0.9641
+done training
+accuracy: 0.9641
+
+Feature class pattern
+10110100011011010000
+features: 469457
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.8882, dev_accuracy: 0.9368
+iteration 2 done, train_accuracy: 0.9519, dev_accuracy: 0.9456
+iteration 3 done, train_accuracy: 0.9683, dev_accuracy: 0.9490
+iteration 4 done, train_accuracy: 0.9757, dev_accuracy: 0.9500
+iteration 5 done, train_accuracy: 0.9805, dev_accuracy: 0.9507
+iteration 6 done, train_accuracy: 0.9837, dev_accuracy: 0.9518
+iteration 7 done, train_accuracy: 0.9856, dev_accuracy: 0.9530
+iteration 8 done, train_accuracy: 0.9874, dev_accuracy: 0.9533
+iteration 9 done, train_accuracy: 0.9885, dev_accuracy: 0.9535
+iteration 10 done, train_accuracy: 0.9895, dev_accuracy: 0.9533
+done training
+accuracy: 0.9535
+
+Feature class pattern
+10110101010011010000
+features: 435929
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9238, dev_accuracy: 0.9564
+iteration 2 done, train_accuracy: 0.9607, dev_accuracy: 0.9608
+iteration 3 done, train_accuracy: 0.9709, dev_accuracy: 0.9624
+iteration 4 done, train_accuracy: 0.9767, dev_accuracy: 0.9631
+iteration 5 done, train_accuracy: 0.9804, dev_accuracy: 0.9632
+iteration 6 done, train_accuracy: 0.9827, dev_accuracy: 0.9640
+iteration 7 done, train_accuracy: 0.9849, dev_accuracy: 0.9636
+iteration 8 done, train_accuracy: 0.9859, dev_accuracy: 0.9636
+iteration 9 done, train_accuracy: 0.9871, dev_accuracy: 0.9635
+iteration 10 done, train_accuracy: 0.9880, dev_accuracy: 0.9635
+done training
+accuracy: 0.9640
+
+Feature class pattern
+10111101011011010000
+features: 471707
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9241, dev_accuracy: 0.9567
+iteration 2 done, train_accuracy: 0.9618, dev_accuracy: 0.9604
+iteration 3 done, train_accuracy: 0.9725, dev_accuracy: 0.9613
+iteration 4 done, train_accuracy: 0.9784, dev_accuracy: 0.9622
+iteration 5 done, train_accuracy: 0.9822, dev_accuracy: 0.9624
+iteration 6 done, train_accuracy: 0.9847, dev_accuracy: 0.9628
+iteration 7 done, train_accuracy: 0.9865, dev_accuracy: 0.9633
+iteration 8 done, train_accuracy: 0.9880, dev_accuracy: 0.9635
+iteration 9 done, train_accuracy: 0.9891, dev_accuracy: 0.9635
+iteration 10 done, train_accuracy: 0.9902, dev_accuracy: 0.9635
+done training
+accuracy: 0.9635
+
+Feature class pattern
+11110101011011010000
+features: 470884
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9244, dev_accuracy: 0.9584
+iteration 2 done, train_accuracy: 0.9619, dev_accuracy: 0.9613
+iteration 3 done, train_accuracy: 0.9722, dev_accuracy: 0.9629
+iteration 4 done, train_accuracy: 0.9786, dev_accuracy: 0.9634
+iteration 5 done, train_accuracy: 0.9822, dev_accuracy: 0.9636
+iteration 6 done, train_accuracy: 0.9848, dev_accuracy: 0.9640
+iteration 7 done, train_accuracy: 0.9865, dev_accuracy: 0.9644
+iteration 8 done, train_accuracy: 0.9881, dev_accuracy: 0.9644
+iteration 9 done, train_accuracy: 0.9892, dev_accuracy: 0.9646
+iteration 10 done, train_accuracy: 0.9901, dev_accuracy: 0.9646
+done training
+accuracy: 0.9646
+
+Feature class pattern
+11110101010011010000
+features: 436280
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9226, dev_accuracy: 0.9575
+iteration 2 done, train_accuracy: 0.9592, dev_accuracy: 0.9607
+iteration 3 done, train_accuracy: 0.9695, dev_accuracy: 0.9622
+iteration 4 done, train_accuracy: 0.9754, dev_accuracy: 0.9628
+iteration 5 done, train_accuracy: 0.9794, dev_accuracy: 0.9628
+iteration 6 done, train_accuracy: 0.9816, dev_accuracy: 0.9633
+iteration 7 done, train_accuracy: 0.9838, dev_accuracy: 0.9634
+iteration 8 done, train_accuracy: 0.9852, dev_accuracy: 0.9634
+iteration 9 done, train_accuracy: 0.9865, dev_accuracy: 0.9637
+iteration 10 done, train_accuracy: 0.9875, dev_accuracy: 0.9636
+done training
+accuracy: 0.9637
+
+Feature class pattern
+11111101011011010000
+features: 472058
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9236, dev_accuracy: 0.9562
+iteration 2 done, train_accuracy: 0.9606, dev_accuracy: 0.9603
+iteration 3 done, train_accuracy: 0.9717, dev_accuracy: 0.9618
+iteration 4 done, train_accuracy: 0.9771, dev_accuracy: 0.9625
+iteration 5 done, train_accuracy: 0.9814, dev_accuracy: 0.9629
+iteration 6 done, train_accuracy: 0.9839, dev_accuracy: 0.9634
+iteration 7 done, train_accuracy: 0.9860, dev_accuracy: 0.9635
+iteration 8 done, train_accuracy: 0.9876, dev_accuracy: 0.9639
+iteration 9 done, train_accuracy: 0.9885, dev_accuracy: 0.9641
+iteration 10 done, train_accuracy: 0.9897, dev_accuracy: 0.9643
+done training
+accuracy: 0.9643
+
+Feature class pattern
+11110101011010010000
+features: 437448
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9239, dev_accuracy: 0.9580
+iteration 2 done, train_accuracy: 0.9596, dev_accuracy: 0.9611
+iteration 3 done, train_accuracy: 0.9700, dev_accuracy: 0.9615
+iteration 4 done, train_accuracy: 0.9762, dev_accuracy: 0.9625
+iteration 5 done, train_accuracy: 0.9796, dev_accuracy: 0.9629
+iteration 6 done, train_accuracy: 0.9820, dev_accuracy: 0.9630
+iteration 7 done, train_accuracy: 0.9839, dev_accuracy: 0.9632
+iteration 8 done, train_accuracy: 0.9856, dev_accuracy: 0.9634
+iteration 9 done, train_accuracy: 0.9865, dev_accuracy: 0.9633
+iteration 10 done, train_accuracy: 0.9875, dev_accuracy: 0.9636
+done training
+accuracy: 0.9636
+
+Feature class pattern
+11110101011011010001
+features: 1013344
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9248, dev_accuracy: 0.9577
+iteration 2 done, train_accuracy: 0.9665, dev_accuracy: 0.9618
+iteration 3 done, train_accuracy: 0.9779, dev_accuracy: 0.9630
+iteration 4 done, train_accuracy: 0.9837, dev_accuracy: 0.9637
+iteration 5 done, train_accuracy: 0.9870, dev_accuracy: 0.9641
+iteration 6 done, train_accuracy: 0.9893, dev_accuracy: 0.9638
+iteration 7 done, train_accuracy: 0.9908, dev_accuracy: 0.9642
+iteration 8 done, train_accuracy: 0.9918, dev_accuracy: 0.9647
+iteration 9 done, train_accuracy: 0.9926, dev_accuracy: 0.9646
+iteration 10 done, train_accuracy: 0.9935, dev_accuracy: 0.9646
+done training
+accuracy: 0.9647
+
+Feature class pattern
+11110101011011010010
+features: 998680
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9250, dev_accuracy: 0.9583
+iteration 2 done, train_accuracy: 0.9664, dev_accuracy: 0.9610
+iteration 3 done, train_accuracy: 0.9783, dev_accuracy: 0.9630
+iteration 4 done, train_accuracy: 0.9840, dev_accuracy: 0.9635
+iteration 5 done, train_accuracy: 0.9876, dev_accuracy: 0.9635
+iteration 6 done, train_accuracy: 0.9898, dev_accuracy: 0.9638
+iteration 7 done, train_accuracy: 0.9911, dev_accuracy: 0.9642
+iteration 8 done, train_accuracy: 0.9925, dev_accuracy: 0.9640
+iteration 9 done, train_accuracy: 0.9935, dev_accuracy: 0.9642
+iteration 10 done, train_accuracy: 0.9940, dev_accuracy: 0.9645
+done training
+accuracy: 0.9645
+
+Feature class pattern
+11110001011011010000
+features: 464513
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9209, dev_accuracy: 0.9565
+iteration 2 done, train_accuracy: 0.9615, dev_accuracy: 0.9608
+iteration 3 done, train_accuracy: 0.9727, dev_accuracy: 0.9624
+iteration 4 done, train_accuracy: 0.9787, dev_accuracy: 0.9633
+iteration 5 done, train_accuracy: 0.9826, dev_accuracy: 0.9632
+iteration 6 done, train_accuracy: 0.9852, dev_accuracy: 0.9635
+iteration 7 done, train_accuracy: 0.9869, dev_accuracy: 0.9636
+iteration 8 done, train_accuracy: 0.9883, dev_accuracy: 0.9634
+iteration 9 done, train_accuracy: 0.9895, dev_accuracy: 0.9632
+iteration 10 done, train_accuracy: 0.9905, dev_accuracy: 0.9635
+done training
+accuracy: 0.9636
+
+Feature class pattern
+11110101001011010000
+features: 435008
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9099, dev_accuracy: 0.9498
+iteration 2 done, train_accuracy: 0.9523, dev_accuracy: 0.9544
+iteration 3 done, train_accuracy: 0.9655, dev_accuracy: 0.9562
+iteration 4 done, train_accuracy: 0.9728, dev_accuracy: 0.9566
+iteration 5 done, train_accuracy: 0.9778, dev_accuracy: 0.9572
+iteration 6 done, train_accuracy: 0.9810, dev_accuracy: 0.9576
+iteration 7 done, train_accuracy: 0.9831, dev_accuracy: 0.9576
+iteration 8 done, train_accuracy: 0.9853, dev_accuracy: 0.9577
+iteration 9 done, train_accuracy: 0.9870, dev_accuracy: 0.9583
+iteration 10 done, train_accuracy: 0.9881, dev_accuracy: 0.9585
+done training
+accuracy: 0.9585
+
+Feature class pattern
+11100101011011010000
+features: 470801
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9258, dev_accuracy: 0.9575
+iteration 2 done, train_accuracy: 0.9630, dev_accuracy: 0.9620
+iteration 3 done, train_accuracy: 0.9742, dev_accuracy: 0.9635
+iteration 4 done, train_accuracy: 0.9800, dev_accuracy: 0.9636
+iteration 5 done, train_accuracy: 0.9833, dev_accuracy: 0.9640
+iteration 6 done, train_accuracy: 0.9856, dev_accuracy: 0.9641
+iteration 7 done, train_accuracy: 0.9873, dev_accuracy: 0.9647
+iteration 8 done, train_accuracy: 0.9888, dev_accuracy: 0.9644
+iteration 9 done, train_accuracy: 0.9899, dev_accuracy: 0.9639
+iteration 10 done, train_accuracy: 0.9908, dev_accuracy: 0.9642
+done training
+accuracy: 0.9647
+
+Feature class pattern
+11100101001011010000
+features: 434925
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9113, dev_accuracy: 0.9508
+iteration 2 done, train_accuracy: 0.9545, dev_accuracy: 0.9552
+iteration 3 done, train_accuracy: 0.9678, dev_accuracy: 0.9569
+iteration 4 done, train_accuracy: 0.9743, dev_accuracy: 0.9572
+iteration 5 done, train_accuracy: 0.9792, dev_accuracy: 0.9578
+iteration 6 done, train_accuracy: 0.9824, dev_accuracy: 0.9581
+iteration 7 done, train_accuracy: 0.9847, dev_accuracy: 0.9586
+iteration 8 done, train_accuracy: 0.9865, dev_accuracy: 0.9583
+iteration 9 done, train_accuracy: 0.9876, dev_accuracy: 0.9585
+iteration 10 done, train_accuracy: 0.9890, dev_accuracy: 0.9584
+done training
+accuracy: 0.9586
+
+Feature class pattern
+11100101011011000000
+features: 182153
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9237, dev_accuracy: 0.9574
+iteration 2 done, train_accuracy: 0.9578, dev_accuracy: 0.9610
+iteration 3 done, train_accuracy: 0.9676, dev_accuracy: 0.9618
+iteration 4 done, train_accuracy: 0.9733, dev_accuracy: 0.9626
+iteration 5 done, train_accuracy: 0.9770, dev_accuracy: 0.9631
+iteration 6 done, train_accuracy: 0.9799, dev_accuracy: 0.9632
+iteration 7 done, train_accuracy: 0.9817, dev_accuracy: 0.9630
+iteration 8 done, train_accuracy: 0.9834, dev_accuracy: 0.9631
+iteration 9 done, train_accuracy: 0.9843, dev_accuracy: 0.9630
+iteration 10 done, train_accuracy: 0.9854, dev_accuracy: 0.9628
+done training
+accuracy: 0.9632
+
+Feature class pattern
+11101101011011010000
+features: 471975
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9249, dev_accuracy: 0.9575
+iteration 2 done, train_accuracy: 0.9619, dev_accuracy: 0.9623
+iteration 3 done, train_accuracy: 0.9730, dev_accuracy: 0.9629
+iteration 4 done, train_accuracy: 0.9786, dev_accuracy: 0.9637
+iteration 5 done, train_accuracy: 0.9821, dev_accuracy: 0.9635
+iteration 6 done, train_accuracy: 0.9848, dev_accuracy: 0.9635
+iteration 7 done, train_accuracy: 0.9867, dev_accuracy: 0.9636
+iteration 8 done, train_accuracy: 0.9880, dev_accuracy: 0.9636
+iteration 9 done, train_accuracy: 0.9892, dev_accuracy: 0.9635
+iteration 10 done, train_accuracy: 0.9903, dev_accuracy: 0.9635
+done training
+accuracy: 0.9637
+
+Feature class pattern
+11100101011010010000
+features: 437365
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9255, dev_accuracy: 0.9580
+iteration 2 done, train_accuracy: 0.9616, dev_accuracy: 0.9616
+iteration 3 done, train_accuracy: 0.9715, dev_accuracy: 0.9629
+iteration 4 done, train_accuracy: 0.9773, dev_accuracy: 0.9629
+iteration 5 done, train_accuracy: 0.9806, dev_accuracy: 0.9633
+iteration 6 done, train_accuracy: 0.9833, dev_accuracy: 0.9636
+iteration 7 done, train_accuracy: 0.9849, dev_accuracy: 0.9636
+iteration 8 done, train_accuracy: 0.9861, dev_accuracy: 0.9636
+iteration 9 done, train_accuracy: 0.9872, dev_accuracy: 0.9636
+iteration 10 done, train_accuracy: 0.9882, dev_accuracy: 0.9639
+done training
+accuracy: 0.9639
+
+Feature class pattern
+11100101011011010001
+features: 1013261
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9263, dev_accuracy: 0.9579
+iteration 2 done, train_accuracy: 0.9678, dev_accuracy: 0.9614
+iteration 3 done, train_accuracy: 0.9791, dev_accuracy: 0.9624
+iteration 4 done, train_accuracy: 0.9846, dev_accuracy: 0.9633
+iteration 5 done, train_accuracy: 0.9877, dev_accuracy: 0.9640
+iteration 6 done, train_accuracy: 0.9899, dev_accuracy: 0.9648
+iteration 7 done, train_accuracy: 0.9913, dev_accuracy: 0.9649
+iteration 8 done, train_accuracy: 0.9925, dev_accuracy: 0.9648
+iteration 9 done, train_accuracy: 0.9933, dev_accuracy: 0.9649
+iteration 10 done, train_accuracy: 0.9939, dev_accuracy: 0.9648
+done training
+accuracy: 0.9649
+
+Feature class pattern
+11100101011111010000
+features: 504482
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9251, dev_accuracy: 0.9583
+iteration 2 done, train_accuracy: 0.9637, dev_accuracy: 0.9619
+iteration 3 done, train_accuracy: 0.9755, dev_accuracy: 0.9631
+iteration 4 done, train_accuracy: 0.9811, dev_accuracy: 0.9635
+iteration 5 done, train_accuracy: 0.9848, dev_accuracy: 0.9634
+iteration 6 done, train_accuracy: 0.9873, dev_accuracy: 0.9638
+iteration 7 done, train_accuracy: 0.9892, dev_accuracy: 0.9640
+iteration 8 done, train_accuracy: 0.9904, dev_accuracy: 0.9639
+iteration 9 done, train_accuracy: 0.9916, dev_accuracy: 0.9637
+iteration 10 done, train_accuracy: 0.9923, dev_accuracy: 0.9638
+done training
+accuracy: 0.9640
+
+Feature class pattern
+11100001011011010000
+features: 464430
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9219, dev_accuracy: 0.9568
+iteration 2 done, train_accuracy: 0.9629, dev_accuracy: 0.9601
+iteration 3 done, train_accuracy: 0.9740, dev_accuracy: 0.9618
+iteration 4 done, train_accuracy: 0.9801, dev_accuracy: 0.9628
+iteration 5 done, train_accuracy: 0.9836, dev_accuracy: 0.9629
+iteration 6 done, train_accuracy: 0.9862, dev_accuracy: 0.9632
+iteration 7 done, train_accuracy: 0.9878, dev_accuracy: 0.9638
+iteration 8 done, train_accuracy: 0.9892, dev_accuracy: 0.9638
+iteration 9 done, train_accuracy: 0.9902, dev_accuracy: 0.9638
+iteration 10 done, train_accuracy: 0.9908, dev_accuracy: 0.9634
+done training
+accuracy: 0.9638
+
+Feature class pattern
+11100101011011010010
+features: 998597
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9264, dev_accuracy: 0.9587
+iteration 2 done, train_accuracy: 0.9681, dev_accuracy: 0.9620
+iteration 3 done, train_accuracy: 0.9793, dev_accuracy: 0.9627
+iteration 4 done, train_accuracy: 0.9850, dev_accuracy: 0.9634
+iteration 5 done, train_accuracy: 0.9884, dev_accuracy: 0.9638
+iteration 6 done, train_accuracy: 0.9903, dev_accuracy: 0.9636
+iteration 7 done, train_accuracy: 0.9920, dev_accuracy: 0.9638
+iteration 8 done, train_accuracy: 0.9930, dev_accuracy: 0.9642
+iteration 9 done, train_accuracy: 0.9938, dev_accuracy: 0.9644
+iteration 10 done, train_accuracy: 0.9944, dev_accuracy: 0.9644
+done training
+accuracy: 0.9644
+
+Feature class pattern
+11000101011011010000
+features: 470689
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9274, dev_accuracy: 0.9576
+iteration 2 done, train_accuracy: 0.9646, dev_accuracy: 0.9614
+iteration 3 done, train_accuracy: 0.9754, dev_accuracy: 0.9619
+iteration 4 done, train_accuracy: 0.9810, dev_accuracy: 0.9622
+iteration 5 done, train_accuracy: 0.9843, dev_accuracy: 0.9633
+iteration 6 done, train_accuracy: 0.9866, dev_accuracy: 0.9637
+iteration 7 done, train_accuracy: 0.9882, dev_accuracy: 0.9634
+iteration 8 done, train_accuracy: 0.9895, dev_accuracy: 0.9638
+iteration 9 done, train_accuracy: 0.9902, dev_accuracy: 0.9639
+iteration 10 done, train_accuracy: 0.9910, dev_accuracy: 0.9638
+done training
+accuracy: 0.9639
+
+Feature class pattern
+11100101011011110000
+features: 503515
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9245, dev_accuracy: 0.9581
+iteration 2 done, train_accuracy: 0.9639, dev_accuracy: 0.9610
+iteration 3 done, train_accuracy: 0.9753, dev_accuracy: 0.9626
+iteration 4 done, train_accuracy: 0.9811, dev_accuracy: 0.9631
+iteration 5 done, train_accuracy: 0.9847, dev_accuracy: 0.9630
+iteration 6 done, train_accuracy: 0.9874, dev_accuracy: 0.9630
+iteration 7 done, train_accuracy: 0.9892, dev_accuracy: 0.9632
+iteration 8 done, train_accuracy: 0.9905, dev_accuracy: 0.9632
+iteration 9 done, train_accuracy: 0.9912, dev_accuracy: 0.9632
+iteration 10 done, train_accuracy: 0.9922, dev_accuracy: 0.9634
+done training
+accuracy: 0.9634
+
+Feature class pattern
+11100101111011010000
+features: 475728
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9280, dev_accuracy: 0.9585
+iteration 2 done, train_accuracy: 0.9631, dev_accuracy: 0.9618
+iteration 3 done, train_accuracy: 0.9734, dev_accuracy: 0.9636
+iteration 4 done, train_accuracy: 0.9793, dev_accuracy: 0.9644
+iteration 5 done, train_accuracy: 0.9825, dev_accuracy: 0.9648
+iteration 6 done, train_accuracy: 0.9853, dev_accuracy: 0.9650
+iteration 7 done, train_accuracy: 0.9870, dev_accuracy: 0.9650
+iteration 8 done, train_accuracy: 0.9883, dev_accuracy: 0.9648
+iteration 9 done, train_accuracy: 0.9894, dev_accuracy: 0.9650
+iteration 10 done, train_accuracy: 0.9904, dev_accuracy: 0.9653
+done training
+accuracy: 0.9653
+
+Feature class pattern
+11100101111011000000
+features: 187080
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9260, dev_accuracy: 0.9575
+iteration 2 done, train_accuracy: 0.9582, dev_accuracy: 0.9611
+iteration 3 done, train_accuracy: 0.9676, dev_accuracy: 0.9622
+iteration 4 done, train_accuracy: 0.9728, dev_accuracy: 0.9634
+iteration 5 done, train_accuracy: 0.9766, dev_accuracy: 0.9638
+iteration 6 done, train_accuracy: 0.9792, dev_accuracy: 0.9638
+iteration 7 done, train_accuracy: 0.9814, dev_accuracy: 0.9636
+iteration 8 done, train_accuracy: 0.9830, dev_accuracy: 0.9636
+iteration 9 done, train_accuracy: 0.9842, dev_accuracy: 0.9637
+iteration 10 done, train_accuracy: 0.9853, dev_accuracy: 0.9638
+done training
+accuracy: 0.9638
+
+Feature class pattern
+11100101111011010001
+features: 1018188
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9287, dev_accuracy: 0.9591
+iteration 2 done, train_accuracy: 0.9675, dev_accuracy: 0.9620
+iteration 3 done, train_accuracy: 0.9785, dev_accuracy: 0.9632
+iteration 4 done, train_accuracy: 0.9842, dev_accuracy: 0.9641
+iteration 5 done, train_accuracy: 0.9873, dev_accuracy: 0.9644
+iteration 6 done, train_accuracy: 0.9896, dev_accuracy: 0.9643
+iteration 7 done, train_accuracy: 0.9910, dev_accuracy: 0.9646
+iteration 8 done, train_accuracy: 0.9921, dev_accuracy: 0.9647
+iteration 9 done, train_accuracy: 0.9929, dev_accuracy: 0.9649
+iteration 10 done, train_accuracy: 0.9936, dev_accuracy: 0.9652
+done training
+accuracy: 0.9652
+
+Feature class pattern
+11000101111011010000
+features: 475616
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9292, dev_accuracy: 0.9581
+iteration 2 done, train_accuracy: 0.9647, dev_accuracy: 0.9610
+iteration 3 done, train_accuracy: 0.9746, dev_accuracy: 0.9621
+iteration 4 done, train_accuracy: 0.9803, dev_accuracy: 0.9630
+iteration 5 done, train_accuracy: 0.9835, dev_accuracy: 0.9633
+iteration 6 done, train_accuracy: 0.9861, dev_accuracy: 0.9630
+iteration 7 done, train_accuracy: 0.9877, dev_accuracy: 0.9637
+iteration 8 done, train_accuracy: 0.9889, dev_accuracy: 0.9638
+iteration 9 done, train_accuracy: 0.9900, dev_accuracy: 0.9640
+iteration 10 done, train_accuracy: 0.9909, dev_accuracy: 0.9642
+done training
+accuracy: 0.9642
+
+Feature class pattern
+11100100111011010000
+features: 474652
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9255, dev_accuracy: 0.9588
+iteration 2 done, train_accuracy: 0.9637, dev_accuracy: 0.9623
+iteration 3 done, train_accuracy: 0.9745, dev_accuracy: 0.9627
+iteration 4 done, train_accuracy: 0.9797, dev_accuracy: 0.9627
+iteration 5 done, train_accuracy: 0.9833, dev_accuracy: 0.9631
+iteration 6 done, train_accuracy: 0.9857, dev_accuracy: 0.9634
+iteration 7 done, train_accuracy: 0.9875, dev_accuracy: 0.9636
+iteration 8 done, train_accuracy: 0.9888, dev_accuracy: 0.9636
+iteration 9 done, train_accuracy: 0.9901, dev_accuracy: 0.9640
+iteration 10 done, train_accuracy: 0.9908, dev_accuracy: 0.9644
+done training
+accuracy: 0.9644
+
+Feature class pattern
+11100101111011010010
+features: 1003524
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9286, dev_accuracy: 0.9596
+iteration 2 done, train_accuracy: 0.9677, dev_accuracy: 0.9627
+iteration 3 done, train_accuracy: 0.9788, dev_accuracy: 0.9636
+iteration 4 done, train_accuracy: 0.9843, dev_accuracy: 0.9636
+iteration 5 done, train_accuracy: 0.9877, dev_accuracy: 0.9639
+iteration 6 done, train_accuracy: 0.9901, dev_accuracy: 0.9644
+iteration 7 done, train_accuracy: 0.9915, dev_accuracy: 0.9644
+iteration 8 done, train_accuracy: 0.9927, dev_accuracy: 0.9647
+iteration 9 done, train_accuracy: 0.9935, dev_accuracy: 0.9647
+iteration 10 done, train_accuracy: 0.9941, dev_accuracy: 0.9649
+done training
+accuracy: 0.9649
+
+Feature class pattern
+10100101111011010000
+features: 475377
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9295, dev_accuracy: 0.9589
+iteration 2 done, train_accuracy: 0.9645, dev_accuracy: 0.9629
+iteration 3 done, train_accuracy: 0.9749, dev_accuracy: 0.9639
+iteration 4 done, train_accuracy: 0.9802, dev_accuracy: 0.9646
+iteration 5 done, train_accuracy: 0.9837, dev_accuracy: 0.9648
+iteration 6 done, train_accuracy: 0.9858, dev_accuracy: 0.9646
+iteration 7 done, train_accuracy: 0.9879, dev_accuracy: 0.9649
+iteration 8 done, train_accuracy: 0.9890, dev_accuracy: 0.9650
+iteration 9 done, train_accuracy: 0.9900, dev_accuracy: 0.9649
+iteration 10 done, train_accuracy: 0.9908, dev_accuracy: 0.9650
+done training
+accuracy: 0.9650
+
+Feature class pattern
+11100111111011010000
+features: 475811
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9270, dev_accuracy: 0.9578
+iteration 2 done, train_accuracy: 0.9619, dev_accuracy: 0.9614
+iteration 3 done, train_accuracy: 0.9722, dev_accuracy: 0.9629
+iteration 4 done, train_accuracy: 0.9782, dev_accuracy: 0.9633
+iteration 5 done, train_accuracy: 0.9820, dev_accuracy: 0.9636
+iteration 6 done, train_accuracy: 0.9843, dev_accuracy: 0.9639
+iteration 7 done, train_accuracy: 0.9863, dev_accuracy: 0.9639
+iteration 8 done, train_accuracy: 0.9876, dev_accuracy: 0.9642
+iteration 9 done, train_accuracy: 0.9889, dev_accuracy: 0.9642
+iteration 10 done, train_accuracy: 0.9898, dev_accuracy: 0.9646
+done training
+accuracy: 0.9646
+
+Feature class pattern
+11100101111011010100
+features: 1013747
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9286, dev_accuracy: 0.9595
+iteration 2 done, train_accuracy: 0.9672, dev_accuracy: 0.9627
+iteration 3 done, train_accuracy: 0.9783, dev_accuracy: 0.9634
+iteration 4 done, train_accuracy: 0.9838, dev_accuracy: 0.9637
+iteration 5 done, train_accuracy: 0.9870, dev_accuracy: 0.9640
+iteration 6 done, train_accuracy: 0.9893, dev_accuracy: 0.9640
+iteration 7 done, train_accuracy: 0.9907, dev_accuracy: 0.9644
+iteration 8 done, train_accuracy: 0.9918, dev_accuracy: 0.9643
+iteration 9 done, train_accuracy: 0.9927, dev_accuracy: 0.9645
+iteration 10 done, train_accuracy: 0.9934, dev_accuracy: 0.9648
+done training
+accuracy: 0.9648
+
+Feature class pattern
+01100101111011010000
+features: 439795
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9189, dev_accuracy: 0.9535
+iteration 2 done, train_accuracy: 0.9560, dev_accuracy: 0.9564
+iteration 3 done, train_accuracy: 0.9682, dev_accuracy: 0.9579
+iteration 4 done, train_accuracy: 0.9754, dev_accuracy: 0.9588
+iteration 5 done, train_accuracy: 0.9793, dev_accuracy: 0.9590
+iteration 6 done, train_accuracy: 0.9825, dev_accuracy: 0.9591
+iteration 7 done, train_accuracy: 0.9849, dev_accuracy: 0.9592
+iteration 8 done, train_accuracy: 0.9865, dev_accuracy: 0.9592
+iteration 9 done, train_accuracy: 0.9881, dev_accuracy: 0.9594
+iteration 10 done, train_accuracy: 0.9890, dev_accuracy: 0.9592
+done training
+accuracy: 0.9594
+
+Feature class pattern
+11100001111011010000
+features: 469357
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9250, dev_accuracy: 0.9569
+iteration 2 done, train_accuracy: 0.9629, dev_accuracy: 0.9607
+iteration 3 done, train_accuracy: 0.9738, dev_accuracy: 0.9622
+iteration 4 done, train_accuracy: 0.9796, dev_accuracy: 0.9627
+iteration 5 done, train_accuracy: 0.9830, dev_accuracy: 0.9633
+iteration 6 done, train_accuracy: 0.9854, dev_accuracy: 0.9632
+iteration 7 done, train_accuracy: 0.9874, dev_accuracy: 0.9636
+iteration 8 done, train_accuracy: 0.9884, dev_accuracy: 0.9636
+iteration 9 done, train_accuracy: 0.9895, dev_accuracy: 0.9636
+iteration 10 done, train_accuracy: 0.9905, dev_accuracy: 0.9634
+done training
+accuracy: 0.9636
+
+Feature class pattern
+11100101111111010000
+features: 509409
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9275, dev_accuracy: 0.9590
+iteration 2 done, train_accuracy: 0.9645, dev_accuracy: 0.9620
+iteration 3 done, train_accuracy: 0.9752, dev_accuracy: 0.9637
+iteration 4 done, train_accuracy: 0.9808, dev_accuracy: 0.9639
+iteration 5 done, train_accuracy: 0.9841, dev_accuracy: 0.9643
+iteration 6 done, train_accuracy: 0.9870, dev_accuracy: 0.9639
+iteration 7 done, train_accuracy: 0.9887, dev_accuracy: 0.9638
+iteration 8 done, train_accuracy: 0.9901, dev_accuracy: 0.9642
+iteration 9 done, train_accuracy: 0.9911, dev_accuracy: 0.9644
+iteration 10 done, train_accuracy: 0.9920, dev_accuracy: 0.9643
+done training
+accuracy: 0.9644
+
+Feature class pattern
+11100101110011010000
+features: 441124
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9264, dev_accuracy: 0.9585
+iteration 2 done, train_accuracy: 0.9608, dev_accuracy: 0.9621
+iteration 3 done, train_accuracy: 0.9708, dev_accuracy: 0.9627
+iteration 4 done, train_accuracy: 0.9760, dev_accuracy: 0.9633
+iteration 5 done, train_accuracy: 0.9797, dev_accuracy: 0.9637
+iteration 6 done, train_accuracy: 0.9822, dev_accuracy: 0.9634
+iteration 7 done, train_accuracy: 0.9841, dev_accuracy: 0.9638
+iteration 8 done, train_accuracy: 0.9855, dev_accuracy: 0.9641
+iteration 9 done, train_accuracy: 0.9867, dev_accuracy: 0.9642
+iteration 10 done, train_accuracy: 0.9877, dev_accuracy: 0.9639
+done training
+accuracy: 0.9642
+
+Feature class pattern
+11110101111011010000
+features: 475811
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9270, dev_accuracy: 0.9591
+iteration 2 done, train_accuracy: 0.9620, dev_accuracy: 0.9622
+iteration 3 done, train_accuracy: 0.9721, dev_accuracy: 0.9633
+iteration 4 done, train_accuracy: 0.9779, dev_accuracy: 0.9633
+iteration 5 done, train_accuracy: 0.9818, dev_accuracy: 0.9644
+iteration 6 done, train_accuracy: 0.9845, dev_accuracy: 0.9645
+iteration 7 done, train_accuracy: 0.9863, dev_accuracy: 0.9642
+iteration 8 done, train_accuracy: 0.9877, dev_accuracy: 0.9642
+iteration 9 done, train_accuracy: 0.9889, dev_accuracy: 0.9643
+iteration 10 done, train_accuracy: 0.9898, dev_accuracy: 0.9644
+done training
+accuracy: 0.9645
+
+Feature class pattern
+11100101111010010000
+features: 442292
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9275, dev_accuracy: 0.9588
+iteration 2 done, train_accuracy: 0.9613, dev_accuracy: 0.9622
+iteration 3 done, train_accuracy: 0.9712, dev_accuracy: 0.9637
+iteration 4 done, train_accuracy: 0.9768, dev_accuracy: 0.9639
+iteration 5 done, train_accuracy: 0.9800, dev_accuracy: 0.9641
+iteration 6 done, train_accuracy: 0.9824, dev_accuracy: 0.9642
+iteration 7 done, train_accuracy: 0.9842, dev_accuracy: 0.9642
+iteration 8 done, train_accuracy: 0.9858, dev_accuracy: 0.9645
+iteration 9 done, train_accuracy: 0.9867, dev_accuracy: 0.9646
+iteration 10 done, train_accuracy: 0.9877, dev_accuracy: 0.9645
+done training
+accuracy: 0.9646
+
+Feature class pattern
+11100101111011011000
+features: 760879
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9304, dev_accuracy: 0.9596
+iteration 2 done, train_accuracy: 0.9675, dev_accuracy: 0.9627
+iteration 3 done, train_accuracy: 0.9780, dev_accuracy: 0.9636
+iteration 4 done, train_accuracy: 0.9833, dev_accuracy: 0.9644
+iteration 5 done, train_accuracy: 0.9865, dev_accuracy: 0.9645
+iteration 6 done, train_accuracy: 0.9888, dev_accuracy: 0.9651
+iteration 7 done, train_accuracy: 0.9904, dev_accuracy: 0.9652
+iteration 8 done, train_accuracy: 0.9912, dev_accuracy: 0.9650
+iteration 9 done, train_accuracy: 0.9923, dev_accuracy: 0.9650
+iteration 10 done, train_accuracy: 0.9928, dev_accuracy: 0.9651
+done training
+accuracy: 0.9652
+
+Feature class pattern
+11101101111011010000
+features: 476902
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9277, dev_accuracy: 0.9593
+iteration 2 done, train_accuracy: 0.9622, dev_accuracy: 0.9632
+iteration 3 done, train_accuracy: 0.9724, dev_accuracy: 0.9645
+iteration 4 done, train_accuracy: 0.9780, dev_accuracy: 0.9647
+iteration 5 done, train_accuracy: 0.9818, dev_accuracy: 0.9650
+iteration 6 done, train_accuracy: 0.9845, dev_accuracy: 0.9647
+iteration 7 done, train_accuracy: 0.9864, dev_accuracy: 0.9647
+iteration 8 done, train_accuracy: 0.9879, dev_accuracy: 0.9646
+iteration 9 done, train_accuracy: 0.9889, dev_accuracy: 0.9651
+iteration 10 done, train_accuracy: 0.9899, dev_accuracy: 0.9651
+done training
+accuracy: 0.9651
+
+Feature class pattern
+11100101111011110000
+features: 508442
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9273, dev_accuracy: 0.9586
+iteration 2 done, train_accuracy: 0.9639, dev_accuracy: 0.9625
+iteration 3 done, train_accuracy: 0.9750, dev_accuracy: 0.9646
+iteration 4 done, train_accuracy: 0.9806, dev_accuracy: 0.9645
+iteration 5 done, train_accuracy: 0.9844, dev_accuracy: 0.9648
+iteration 6 done, train_accuracy: 0.9867, dev_accuracy: 0.9648
+iteration 7 done, train_accuracy: 0.9886, dev_accuracy: 0.9650
+iteration 8 done, train_accuracy: 0.9900, dev_accuracy: 0.9648
+iteration 9 done, train_accuracy: 0.9911, dev_accuracy: 0.9647
+iteration 10 done, train_accuracy: 0.9919, dev_accuracy: 0.9646
+done training
+accuracy: 0.9650
+
+Feature class pattern
+11100101111001010000
+features: 441335
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9191, dev_accuracy: 0.9521
+iteration 2 done, train_accuracy: 0.9548, dev_accuracy: 0.9562
+iteration 3 done, train_accuracy: 0.9657, dev_accuracy: 0.9577
+iteration 4 done, train_accuracy: 0.9720, dev_accuracy: 0.9581
+iteration 5 done, train_accuracy: 0.9761, dev_accuracy: 0.9584
+iteration 6 done, train_accuracy: 0.9791, dev_accuracy: 0.9586
+iteration 7 done, train_accuracy: 0.9811, dev_accuracy: 0.9585
+iteration 8 done, train_accuracy: 0.9827, dev_accuracy: 0.9584
+iteration 9 done, train_accuracy: 0.9842, dev_accuracy: 0.9587
+iteration 10 done, train_accuracy: 0.9853, dev_accuracy: 0.9586
+done training
+accuracy: 0.9587
+
+Feature class pattern
+11100101101011010000
+features: 439852
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9138, dev_accuracy: 0.9512
+iteration 2 done, train_accuracy: 0.9540, dev_accuracy: 0.9550
+iteration 3 done, train_accuracy: 0.9662, dev_accuracy: 0.9568
+iteration 4 done, train_accuracy: 0.9736, dev_accuracy: 0.9571
+iteration 5 done, train_accuracy: 0.9782, dev_accuracy: 0.9577
+iteration 6 done, train_accuracy: 0.9816, dev_accuracy: 0.9581
+iteration 7 done, train_accuracy: 0.9842, dev_accuracy: 0.9585
+iteration 8 done, train_accuracy: 0.9859, dev_accuracy: 0.9586
+iteration 9 done, train_accuracy: 0.9872, dev_accuracy: 0.9586
+iteration 10 done, train_accuracy: 0.9883, dev_accuracy: 0.9586
+done training
+accuracy: 0.9586
+
+Feature class pattern
+11100100111011000000
+features: 186004
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9238, dev_accuracy: 0.9572
+iteration 2 done, train_accuracy: 0.9585, dev_accuracy: 0.9615
+iteration 3 done, train_accuracy: 0.9678, dev_accuracy: 0.9630
+iteration 4 done, train_accuracy: 0.9737, dev_accuracy: 0.9635
+iteration 5 done, train_accuracy: 0.9774, dev_accuracy: 0.9637
+iteration 6 done, train_accuracy: 0.9798, dev_accuracy: 0.9636
+iteration 7 done, train_accuracy: 0.9815, dev_accuracy: 0.9638
+iteration 8 done, train_accuracy: 0.9837, dev_accuracy: 0.9638
+iteration 9 done, train_accuracy: 0.9846, dev_accuracy: 0.9639
+iteration 10 done, train_accuracy: 0.9858, dev_accuracy: 0.9641
+done training
+accuracy: 0.9641
+
+Feature class pattern
+11100101111010110000
+features: 475006
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9268, dev_accuracy: 0.9589
+iteration 2 done, train_accuracy: 0.9624, dev_accuracy: 0.9617
+iteration 3 done, train_accuracy: 0.9725, dev_accuracy: 0.9635
+iteration 4 done, train_accuracy: 0.9784, dev_accuracy: 0.9637
+iteration 5 done, train_accuracy: 0.9824, dev_accuracy: 0.9642
+iteration 6 done, train_accuracy: 0.9847, dev_accuracy: 0.9645
+iteration 7 done, train_accuracy: 0.9866, dev_accuracy: 0.9648
+iteration 8 done, train_accuracy: 0.9881, dev_accuracy: 0.9647
+iteration 9 done, train_accuracy: 0.9892, dev_accuracy: 0.9647
+iteration 10 done, train_accuracy: 0.9900, dev_accuracy: 0.9648
+done training
+accuracy: 0.9648
+
+Feature class pattern
+11100101111001110000
+features: 474049
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9186, dev_accuracy: 0.9523
+iteration 2 done, train_accuracy: 0.9559, dev_accuracy: 0.9564
+iteration 3 done, train_accuracy: 0.9677, dev_accuracy: 0.9574
+iteration 4 done, train_accuracy: 0.9746, dev_accuracy: 0.9580
+iteration 5 done, train_accuracy: 0.9789, dev_accuracy: 0.9583
+iteration 6 done, train_accuracy: 0.9817, dev_accuracy: 0.9580
+iteration 7 done, train_accuracy: 0.9838, dev_accuracy: 0.9579
+iteration 8 done, train_accuracy: 0.9857, dev_accuracy: 0.9578
+iteration 9 done, train_accuracy: 0.9870, dev_accuracy: 0.9579
+iteration 10 done, train_accuracy: 0.9881, dev_accuracy: 0.9579
+done training
+accuracy: 0.9583
+
+Feature class pattern
+11000101111011110000
+features: 508330
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9280, dev_accuracy: 0.9590
+iteration 2 done, train_accuracy: 0.9653, dev_accuracy: 0.9629
+iteration 3 done, train_accuracy: 0.9761, dev_accuracy: 0.9635
+iteration 4 done, train_accuracy: 0.9816, dev_accuracy: 0.9644
+iteration 5 done, train_accuracy: 0.9851, dev_accuracy: 0.9643
+iteration 6 done, train_accuracy: 0.9874, dev_accuracy: 0.9638
+iteration 7 done, train_accuracy: 0.9894, dev_accuracy: 0.9639
+iteration 8 done, train_accuracy: 0.9904, dev_accuracy: 0.9641
+iteration 9 done, train_accuracy: 0.9916, dev_accuracy: 0.9642
+iteration 10 done, train_accuracy: 0.9924, dev_accuracy: 0.9641
+done training
+accuracy: 0.9644
+
+Feature class pattern
+01100101111011110000
+features: 472509
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9180, dev_accuracy: 0.9527
+iteration 2 done, train_accuracy: 0.9572, dev_accuracy: 0.9560
+iteration 3 done, train_accuracy: 0.9691, dev_accuracy: 0.9573
+iteration 4 done, train_accuracy: 0.9766, dev_accuracy: 0.9583
+iteration 5 done, train_accuracy: 0.9815, dev_accuracy: 0.9588
+iteration 6 done, train_accuracy: 0.9843, dev_accuracy: 0.9585
+iteration 7 done, train_accuracy: 0.9869, dev_accuracy: 0.9589
+iteration 8 done, train_accuracy: 0.9882, dev_accuracy: 0.9584
+iteration 9 done, train_accuracy: 0.9895, dev_accuracy: 0.9585
+iteration 10 done, train_accuracy: 0.9906, dev_accuracy: 0.9587
+done training
+accuracy: 0.9589
+
+Feature class pattern
+11100101111011010011
+features: 1543107
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9294, dev_accuracy: 0.9586
+iteration 2 done, train_accuracy: 0.9710, dev_accuracy: 0.9623
+iteration 3 done, train_accuracy: 0.9818, dev_accuracy: 0.9639
+iteration 4 done, train_accuracy: 0.9872, dev_accuracy: 0.9644
+iteration 5 done, train_accuracy: 0.9901, dev_accuracy: 0.9650
+iteration 6 done, train_accuracy: 0.9919, dev_accuracy: 0.9647
+iteration 7 done, train_accuracy: 0.9932, dev_accuracy: 0.9650
+iteration 8 done, train_accuracy: 0.9940, dev_accuracy: 0.9650
+iteration 9 done, train_accuracy: 0.9947, dev_accuracy: 0.9647
+iteration 10 done, train_accuracy: 0.9953, dev_accuracy: 0.9649
+done training
+accuracy: 0.9650
+
+Feature class pattern
+11110101111111010000
+features: 509492
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9267, dev_accuracy: 0.9592
+iteration 2 done, train_accuracy: 0.9628, dev_accuracy: 0.9621
+iteration 3 done, train_accuracy: 0.9739, dev_accuracy: 0.9625
+iteration 4 done, train_accuracy: 0.9794, dev_accuracy: 0.9634
+iteration 5 done, train_accuracy: 0.9835, dev_accuracy: 0.9636
+iteration 6 done, train_accuracy: 0.9861, dev_accuracy: 0.9638
+iteration 7 done, train_accuracy: 0.9881, dev_accuracy: 0.9639
+iteration 8 done, train_accuracy: 0.9895, dev_accuracy: 0.9641
+iteration 9 done, train_accuracy: 0.9906, dev_accuracy: 0.9639
+iteration 10 done, train_accuracy: 0.9914, dev_accuracy: 0.9644
+done training
+accuracy: 0.9644
+
+Feature class pattern
+11100111110011010000
+features: 441207
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9254, dev_accuracy: 0.9575
+iteration 2 done, train_accuracy: 0.9592, dev_accuracy: 0.9606
+iteration 3 done, train_accuracy: 0.9695, dev_accuracy: 0.9622
+iteration 4 done, train_accuracy: 0.9750, dev_accuracy: 0.9628
+iteration 5 done, train_accuracy: 0.9790, dev_accuracy: 0.9633
+iteration 6 done, train_accuracy: 0.9812, dev_accuracy: 0.9632
+iteration 7 done, train_accuracy: 0.9833, dev_accuracy: 0.9632
+iteration 8 done, train_accuracy: 0.9849, dev_accuracy: 0.9630
+iteration 9 done, train_accuracy: 0.9861, dev_accuracy: 0.9633
+iteration 10 done, train_accuracy: 0.9869, dev_accuracy: 0.9637
+done training
+accuracy: 0.9637
+
+Feature class pattern
+11100101111111000000
+features: 220761
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9254, dev_accuracy: 0.9594
+iteration 2 done, train_accuracy: 0.9595, dev_accuracy: 0.9628
+iteration 3 done, train_accuracy: 0.9695, dev_accuracy: 0.9632
+iteration 4 done, train_accuracy: 0.9753, dev_accuracy: 0.9631
+iteration 5 done, train_accuracy: 0.9792, dev_accuracy: 0.9632
+iteration 6 done, train_accuracy: 0.9822, dev_accuracy: 0.9635
+iteration 7 done, train_accuracy: 0.9842, dev_accuracy: 0.9637
+iteration 8 done, train_accuracy: 0.9859, dev_accuracy: 0.9633
+iteration 9 done, train_accuracy: 0.9871, dev_accuracy: 0.9633
+iteration 10 done, train_accuracy: 0.9883, dev_accuracy: 0.9636
+done training
+accuracy: 0.9637
+
+Feature class pattern
+11100111101011010000
+features: 439935
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9123, dev_accuracy: 0.9514
+iteration 2 done, train_accuracy: 0.9521, dev_accuracy: 0.9548
+iteration 3 done, train_accuracy: 0.9649, dev_accuracy: 0.9561
+iteration 4 done, train_accuracy: 0.9720, dev_accuracy: 0.9567
+iteration 5 done, train_accuracy: 0.9768, dev_accuracy: 0.9575
+iteration 6 done, train_accuracy: 0.9803, dev_accuracy: 0.9577
+iteration 7 done, train_accuracy: 0.9831, dev_accuracy: 0.9582
+iteration 8 done, train_accuracy: 0.9845, dev_accuracy: 0.9588
+iteration 9 done, train_accuracy: 0.9863, dev_accuracy: 0.9589
+iteration 10 done, train_accuracy: 0.9872, dev_accuracy: 0.9589
+done training
+accuracy: 0.9589
+
+Feature class pattern
+11100101111011110100
+features: 1046461
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9277, dev_accuracy: 0.9582
+iteration 2 done, train_accuracy: 0.9678, dev_accuracy: 0.9613
+iteration 3 done, train_accuracy: 0.9789, dev_accuracy: 0.9626
+iteration 4 done, train_accuracy: 0.9848, dev_accuracy: 0.9631
+iteration 5 done, train_accuracy: 0.9880, dev_accuracy: 0.9636
+iteration 6 done, train_accuracy: 0.9899, dev_accuracy: 0.9634
+iteration 7 done, train_accuracy: 0.9916, dev_accuracy: 0.9641
+iteration 8 done, train_accuracy: 0.9929, dev_accuracy: 0.9642
+iteration 9 done, train_accuracy: 0.9937, dev_accuracy: 0.9637
+iteration 10 done, train_accuracy: 0.9944, dev_accuracy: 0.9641
+done training
+accuracy: 0.9642
+
+Feature class pattern
+11001101111011010000
+features: 476790
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9287, dev_accuracy: 0.9586
+iteration 2 done, train_accuracy: 0.9630, dev_accuracy: 0.9622
+iteration 3 done, train_accuracy: 0.9736, dev_accuracy: 0.9637
+iteration 4 done, train_accuracy: 0.9793, dev_accuracy: 0.9638
+iteration 5 done, train_accuracy: 0.9828, dev_accuracy: 0.9642
+iteration 6 done, train_accuracy: 0.9851, dev_accuracy: 0.9644
+iteration 7 done, train_accuracy: 0.9869, dev_accuracy: 0.9646
+iteration 8 done, train_accuracy: 0.9883, dev_accuracy: 0.9644
+iteration 9 done, train_accuracy: 0.9895, dev_accuracy: 0.9644
+iteration 10 done, train_accuracy: 0.9903, dev_accuracy: 0.9647
+done training
+accuracy: 0.9647
+
+Feature class pattern
+11100110111011010000
+features: 474735
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9272, dev_accuracy: 0.9587
+iteration 2 done, train_accuracy: 0.9633, dev_accuracy: 0.9618
+iteration 3 done, train_accuracy: 0.9731, dev_accuracy: 0.9632
+iteration 4 done, train_accuracy: 0.9792, dev_accuracy: 0.9636
+iteration 5 done, train_accuracy: 0.9824, dev_accuracy: 0.9638
+iteration 6 done, train_accuracy: 0.9851, dev_accuracy: 0.9641
+iteration 7 done, train_accuracy: 0.9868, dev_accuracy: 0.9644
+iteration 8 done, train_accuracy: 0.9882, dev_accuracy: 0.9638
+iteration 9 done, train_accuracy: 0.9896, dev_accuracy: 0.9638
+iteration 10 done, train_accuracy: 0.9904, dev_accuracy: 0.9642
+done training
+accuracy: 0.9644
+
+Feature class pattern
+01100101111011010100
+features: 977814
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9194, dev_accuracy: 0.9538
+iteration 2 done, train_accuracy: 0.9618, dev_accuracy: 0.9569
+iteration 3 done, train_accuracy: 0.9745, dev_accuracy: 0.9584
+iteration 4 done, train_accuracy: 0.9815, dev_accuracy: 0.9589
+iteration 5 done, train_accuracy: 0.9851, dev_accuracy: 0.9591
+iteration 6 done, train_accuracy: 0.9879, dev_accuracy: 0.9595
+iteration 7 done, train_accuracy: 0.9896, dev_accuracy: 0.9595
+iteration 8 done, train_accuracy: 0.9911, dev_accuracy: 0.9594
+iteration 9 done, train_accuracy: 0.9922, dev_accuracy: 0.9593
+iteration 10 done, train_accuracy: 0.9928, dev_accuracy: 0.9591
+done training
+accuracy: 0.9595
+
+Feature class pattern
+11000101101011010000
+features: 439740
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9156, dev_accuracy: 0.9519
+iteration 2 done, train_accuracy: 0.9557, dev_accuracy: 0.9553
+iteration 3 done, train_accuracy: 0.9680, dev_accuracy: 0.9568
+iteration 4 done, train_accuracy: 0.9751, dev_accuracy: 0.9572
+iteration 5 done, train_accuracy: 0.9798, dev_accuracy: 0.9577
+iteration 6 done, train_accuracy: 0.9830, dev_accuracy: 0.9583
+iteration 7 done, train_accuracy: 0.9850, dev_accuracy: 0.9584
+iteration 8 done, train_accuracy: 0.9867, dev_accuracy: 0.9586
+iteration 9 done, train_accuracy: 0.9881, dev_accuracy: 0.9586
+iteration 10 done, train_accuracy: 0.9890, dev_accuracy: 0.9589
+done training
+accuracy: 0.9589
+
+Feature class pattern
+11010101111011010000
+features: 475699
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9282, dev_accuracy: 0.9579
+iteration 2 done, train_accuracy: 0.9632, dev_accuracy: 0.9615
+iteration 3 done, train_accuracy: 0.9735, dev_accuracy: 0.9628
+iteration 4 done, train_accuracy: 0.9788, dev_accuracy: 0.9633
+iteration 5 done, train_accuracy: 0.9827, dev_accuracy: 0.9638
+iteration 6 done, train_accuracy: 0.9854, dev_accuracy: 0.9641
+iteration 7 done, train_accuracy: 0.9871, dev_accuracy: 0.9643
+iteration 8 done, train_accuracy: 0.9883, dev_accuracy: 0.9645
+iteration 9 done, train_accuracy: 0.9894, dev_accuracy: 0.9648
+iteration 10 done, train_accuracy: 0.9902, dev_accuracy: 0.9647
+done training
+accuracy: 0.9648
+
+Feature class pattern
+11100100111111010000
+features: 508333
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9249, dev_accuracy: 0.9580
+iteration 2 done, train_accuracy: 0.9646, dev_accuracy: 0.9622
+iteration 3 done, train_accuracy: 0.9759, dev_accuracy: 0.9630
+iteration 4 done, train_accuracy: 0.9812, dev_accuracy: 0.9632
+iteration 5 done, train_accuracy: 0.9850, dev_accuracy: 0.9636
+iteration 6 done, train_accuracy: 0.9875, dev_accuracy: 0.9636
+iteration 7 done, train_accuracy: 0.9893, dev_accuracy: 0.9638
+iteration 8 done, train_accuracy: 0.9904, dev_accuracy: 0.9641
+iteration 9 done, train_accuracy: 0.9915, dev_accuracy: 0.9641
+iteration 10 done, train_accuracy: 0.9924, dev_accuracy: 0.9641
+done training
+accuracy: 0.9641
+
+Feature class pattern
+00100101111011010000
+features: 439444
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9196, dev_accuracy: 0.9525
+iteration 2 done, train_accuracy: 0.9572, dev_accuracy: 0.9563
+iteration 3 done, train_accuracy: 0.9694, dev_accuracy: 0.9578
+iteration 4 done, train_accuracy: 0.9764, dev_accuracy: 0.9579
+iteration 5 done, train_accuracy: 0.9806, dev_accuracy: 0.9584
+iteration 6 done, train_accuracy: 0.9835, dev_accuracy: 0.9582
+iteration 7 done, train_accuracy: 0.9859, dev_accuracy: 0.9585
+iteration 8 done, train_accuracy: 0.9875, dev_accuracy: 0.9587
+iteration 9 done, train_accuracy: 0.9886, dev_accuracy: 0.9592
+iteration 10 done, train_accuracy: 0.9897, dev_accuracy: 0.9592
+done training
+accuracy: 0.9592
+
+Feature class pattern
+10101101111011010000
+features: 476551
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9288, dev_accuracy: 0.9580
+iteration 2 done, train_accuracy: 0.9635, dev_accuracy: 0.9614
+iteration 3 done, train_accuracy: 0.9737, dev_accuracy: 0.9628
+iteration 4 done, train_accuracy: 0.9791, dev_accuracy: 0.9627
+iteration 5 done, train_accuracy: 0.9827, dev_accuracy: 0.9629
+iteration 6 done, train_accuracy: 0.9851, dev_accuracy: 0.9635
+iteration 7 done, train_accuracy: 0.9870, dev_accuracy: 0.9639
+iteration 8 done, train_accuracy: 0.9883, dev_accuracy: 0.9642
+iteration 9 done, train_accuracy: 0.9894, dev_accuracy: 0.9641
+iteration 10 done, train_accuracy: 0.9902, dev_accuracy: 0.9642
+done training
+accuracy: 0.9642
+
+Feature class pattern
+11100100111011010100
+features: 1012671
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9263, dev_accuracy: 0.9578
+iteration 2 done, train_accuracy: 0.9682, dev_accuracy: 0.9623
+iteration 3 done, train_accuracy: 0.9789, dev_accuracy: 0.9625
+iteration 4 done, train_accuracy: 0.9845, dev_accuracy: 0.9637
+iteration 5 done, train_accuracy: 0.9876, dev_accuracy: 0.9639
+iteration 6 done, train_accuracy: 0.9897, dev_accuracy: 0.9644
+iteration 7 done, train_accuracy: 0.9912, dev_accuracy: 0.9646
+iteration 8 done, train_accuracy: 0.9922, dev_accuracy: 0.9648
+iteration 9 done, train_accuracy: 0.9931, dev_accuracy: 0.9649
+iteration 10 done, train_accuracy: 0.9938, dev_accuracy: 0.9652
+done training
+accuracy: 0.9652
+
+Feature class pattern
+11110100111011010000
+features: 474735
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9241, dev_accuracy: 0.9578
+iteration 2 done, train_accuracy: 0.9625, dev_accuracy: 0.9611
+iteration 3 done, train_accuracy: 0.9729, dev_accuracy: 0.9624
+iteration 4 done, train_accuracy: 0.9789, dev_accuracy: 0.9636
+iteration 5 done, train_accuracy: 0.9821, dev_accuracy: 0.9641
+iteration 6 done, train_accuracy: 0.9847, dev_accuracy: 0.9644
+iteration 7 done, train_accuracy: 0.9868, dev_accuracy: 0.9641
+iteration 8 done, train_accuracy: 0.9880, dev_accuracy: 0.9643
+iteration 9 done, train_accuracy: 0.9891, dev_accuracy: 0.9642
+iteration 10 done, train_accuracy: 0.9900, dev_accuracy: 0.9644
+done training
+accuracy: 0.9644
+
+Feature class pattern
+10000101111011010000
+features: 475265
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9239, dev_accuracy: 0.9560
+iteration 2 done, train_accuracy: 0.9645, dev_accuracy: 0.9600
+iteration 3 done, train_accuracy: 0.9750, dev_accuracy: 0.9613
+iteration 4 done, train_accuracy: 0.9807, dev_accuracy: 0.9619
+iteration 5 done, train_accuracy: 0.9842, dev_accuracy: 0.9622
+iteration 6 done, train_accuracy: 0.9868, dev_accuracy: 0.9627
+iteration 7 done, train_accuracy: 0.9884, dev_accuracy: 0.9626
+iteration 8 done, train_accuracy: 0.9895, dev_accuracy: 0.9627
+iteration 9 done, train_accuracy: 0.9903, dev_accuracy: 0.9627
+iteration 10 done, train_accuracy: 0.9911, dev_accuracy: 0.9625
+done training
+accuracy: 0.9627
+
+Feature class pattern
+11100001111011011000
+features: 754508
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9276, dev_accuracy: 0.9586
+iteration 2 done, train_accuracy: 0.9676, dev_accuracy: 0.9615
+iteration 3 done, train_accuracy: 0.9783, dev_accuracy: 0.9633
+iteration 4 done, train_accuracy: 0.9838, dev_accuracy: 0.9635
+iteration 5 done, train_accuracy: 0.9870, dev_accuracy: 0.9639
+iteration 6 done, train_accuracy: 0.9891, dev_accuracy: 0.9642
+iteration 7 done, train_accuracy: 0.9905, dev_accuracy: 0.9644
+iteration 8 done, train_accuracy: 0.9915, dev_accuracy: 0.9645
+iteration 9 done, train_accuracy: 0.9926, dev_accuracy: 0.9646
+iteration 10 done, train_accuracy: 0.9932, dev_accuracy: 0.9642
+done training
+accuracy: 0.9646
+
+Feature class pattern
+11100100111011011000
+features: 759803
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9278, dev_accuracy: 0.9588
+iteration 2 done, train_accuracy: 0.9685, dev_accuracy: 0.9621
+iteration 3 done, train_accuracy: 0.9786, dev_accuracy: 0.9635
+iteration 4 done, train_accuracy: 0.9840, dev_accuracy: 0.9645
+iteration 5 done, train_accuracy: 0.9872, dev_accuracy: 0.9650
+iteration 6 done, train_accuracy: 0.9892, dev_accuracy: 0.9648
+iteration 7 done, train_accuracy: 0.9906, dev_accuracy: 0.9643
+iteration 8 done, train_accuracy: 0.9918, dev_accuracy: 0.9645
+iteration 9 done, train_accuracy: 0.9926, dev_accuracy: 0.9645
+iteration 10 done, train_accuracy: 0.9932, dev_accuracy: 0.9644
+done training
+accuracy: 0.9650
+
+Feature class pattern
+11100101111011111000
+features: 793593
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9295, dev_accuracy: 0.9597
+iteration 2 done, train_accuracy: 0.9683, dev_accuracy: 0.9632
+iteration 3 done, train_accuracy: 0.9788, dev_accuracy: 0.9637
+iteration 4 done, train_accuracy: 0.9843, dev_accuracy: 0.9641
+iteration 5 done, train_accuracy: 0.9875, dev_accuracy: 0.9649
+iteration 6 done, train_accuracy: 0.9897, dev_accuracy: 0.9647
+iteration 7 done, train_accuracy: 0.9913, dev_accuracy: 0.9647
+iteration 8 done, train_accuracy: 0.9924, dev_accuracy: 0.9645
+iteration 9 done, train_accuracy: 0.9935, dev_accuracy: 0.9644
+iteration 10 done, train_accuracy: 0.9939, dev_accuracy: 0.9641
+done training
+accuracy: 0.9649
+
+Feature class pattern
+11100100111011110000
+features: 507366
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9247, dev_accuracy: 0.9583
+iteration 2 done, train_accuracy: 0.9646, dev_accuracy: 0.9611
+iteration 3 done, train_accuracy: 0.9753, dev_accuracy: 0.9625
+iteration 4 done, train_accuracy: 0.9814, dev_accuracy: 0.9627
+iteration 5 done, train_accuracy: 0.9850, dev_accuracy: 0.9632
+iteration 6 done, train_accuracy: 0.9875, dev_accuracy: 0.9634
+iteration 7 done, train_accuracy: 0.9892, dev_accuracy: 0.9639
+iteration 8 done, train_accuracy: 0.9906, dev_accuracy: 0.9638
+iteration 9 done, train_accuracy: 0.9915, dev_accuracy: 0.9640
+iteration 10 done, train_accuracy: 0.9924, dev_accuracy: 0.9641
+done training
+accuracy: 0.9641
+
+Feature class pattern
+01100101101011010000
+features: 403919
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9020, dev_accuracy: 0.9447
+iteration 2 done, train_accuracy: 0.9442, dev_accuracy: 0.9484
+iteration 3 done, train_accuracy: 0.9587, dev_accuracy: 0.9492
+iteration 4 done, train_accuracy: 0.9678, dev_accuracy: 0.9500
+iteration 5 done, train_accuracy: 0.9733, dev_accuracy: 0.9507
+iteration 6 done, train_accuracy: 0.9778, dev_accuracy: 0.9510
+iteration 7 done, train_accuracy: 0.9805, dev_accuracy: 0.9515
+iteration 8 done, train_accuracy: 0.9829, dev_accuracy: 0.9513
+iteration 9 done, train_accuracy: 0.9849, dev_accuracy: 0.9516
+iteration 10 done, train_accuracy: 0.9863, dev_accuracy: 0.9519
+done training
+accuracy: 0.9519
+
+Feature class pattern
+11110101111011011000
+features: 760962
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9293, dev_accuracy: 0.9598
+iteration 2 done, train_accuracy: 0.9663, dev_accuracy: 0.9629
+iteration 3 done, train_accuracy: 0.9770, dev_accuracy: 0.9639
+iteration 4 done, train_accuracy: 0.9825, dev_accuracy: 0.9645
+iteration 5 done, train_accuracy: 0.9856, dev_accuracy: 0.9646
+iteration 6 done, train_accuracy: 0.9880, dev_accuracy: 0.9646
+iteration 7 done, train_accuracy: 0.9895, dev_accuracy: 0.9647
+iteration 8 done, train_accuracy: 0.9909, dev_accuracy: 0.9647
+iteration 9 done, train_accuracy: 0.9918, dev_accuracy: 0.9648
+iteration 10 done, train_accuracy: 0.9926, dev_accuracy: 0.9648
+done training
+accuracy: 0.9648
+
+Feature class pattern
+01100101111010010000
+features: 406359
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9183, dev_accuracy: 0.9523
+iteration 2 done, train_accuracy: 0.9537, dev_accuracy: 0.9566
+iteration 3 done, train_accuracy: 0.9654, dev_accuracy: 0.9582
+iteration 4 done, train_accuracy: 0.9723, dev_accuracy: 0.9581
+iteration 5 done, train_accuracy: 0.9768, dev_accuracy: 0.9591
+iteration 6 done, train_accuracy: 0.9798, dev_accuracy: 0.9591
+iteration 7 done, train_accuracy: 0.9823, dev_accuracy: 0.9588
+iteration 8 done, train_accuracy: 0.9838, dev_accuracy: 0.9591
+iteration 9 done, train_accuracy: 0.9853, dev_accuracy: 0.9592
+iteration 10 done, train_accuracy: 0.9864, dev_accuracy: 0.9595
+done training
+accuracy: 0.9595
+
+Feature class pattern
+11100101101011010100
+features: 977871
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9146, dev_accuracy: 0.9511
+iteration 2 done, train_accuracy: 0.9597, dev_accuracy: 0.9552
+iteration 3 done, train_accuracy: 0.9734, dev_accuracy: 0.9570
+iteration 4 done, train_accuracy: 0.9805, dev_accuracy: 0.9573
+iteration 5 done, train_accuracy: 0.9847, dev_accuracy: 0.9578
+iteration 6 done, train_accuracy: 0.9873, dev_accuracy: 0.9584
+iteration 7 done, train_accuracy: 0.9893, dev_accuracy: 0.9588
+iteration 8 done, train_accuracy: 0.9908, dev_accuracy: 0.9592
+iteration 9 done, train_accuracy: 0.9918, dev_accuracy: 0.9592
+iteration 10 done, train_accuracy: 0.9926, dev_accuracy: 0.9597
+done training
+accuracy: 0.9597
+
+Feature class pattern
+10100100111011010000
+features: 474301
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9274, dev_accuracy: 0.9588
+iteration 2 done, train_accuracy: 0.9651, dev_accuracy: 0.9625
+iteration 3 done, train_accuracy: 0.9755, dev_accuracy: 0.9633
+iteration 4 done, train_accuracy: 0.9811, dev_accuracy: 0.9636
+iteration 5 done, train_accuracy: 0.9843, dev_accuracy: 0.9642
+iteration 6 done, train_accuracy: 0.9866, dev_accuracy: 0.9642
+iteration 7 done, train_accuracy: 0.9881, dev_accuracy: 0.9641
+iteration 8 done, train_accuracy: 0.9896, dev_accuracy: 0.9642
+iteration 9 done, train_accuracy: 0.9905, dev_accuracy: 0.9639
+iteration 10 done, train_accuracy: 0.9913, dev_accuracy: 0.9641
+done training
+accuracy: 0.9642
+
+Feature class pattern
+11100101101011011000
+features: 725003
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9163, dev_accuracy: 0.9533
+iteration 2 done, train_accuracy: 0.9597, dev_accuracy: 0.9573
+iteration 3 done, train_accuracy: 0.9727, dev_accuracy: 0.9578
+iteration 4 done, train_accuracy: 0.9795, dev_accuracy: 0.9585
+iteration 5 done, train_accuracy: 0.9835, dev_accuracy: 0.9589
+iteration 6 done, train_accuracy: 0.9860, dev_accuracy: 0.9594
+iteration 7 done, train_accuracy: 0.9882, dev_accuracy: 0.9593
+iteration 8 done, train_accuracy: 0.9897, dev_accuracy: 0.9598
+iteration 9 done, train_accuracy: 0.9908, dev_accuracy: 0.9600
+iteration 10 done, train_accuracy: 0.9917, dev_accuracy: 0.9598
+done training
+accuracy: 0.9600
+
+Feature class pattern
+10100101111011000000
+features: 186729
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9273, dev_accuracy: 0.9578
+iteration 2 done, train_accuracy: 0.9596, dev_accuracy: 0.9622
+iteration 3 done, train_accuracy: 0.9687, dev_accuracy: 0.9633
+iteration 4 done, train_accuracy: 0.9739, dev_accuracy: 0.9636
+iteration 5 done, train_accuracy: 0.9777, dev_accuracy: 0.9647
+iteration 6 done, train_accuracy: 0.9802, dev_accuracy: 0.9647
+iteration 7 done, train_accuracy: 0.9821, dev_accuracy: 0.9648
+iteration 8 done, train_accuracy: 0.9838, dev_accuracy: 0.9648
+iteration 9 done, train_accuracy: 0.9850, dev_accuracy: 0.9646
+iteration 10 done, train_accuracy: 0.9859, dev_accuracy: 0.9645
+done training
+accuracy: 0.9648
+
+Feature class pattern
+11100101111010000000
+features: 153644
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9255, dev_accuracy: 0.9569
+iteration 2 done, train_accuracy: 0.9558, dev_accuracy: 0.9611
+iteration 3 done, train_accuracy: 0.9644, dev_accuracy: 0.9624
+iteration 4 done, train_accuracy: 0.9695, dev_accuracy: 0.9632
+iteration 5 done, train_accuracy: 0.9726, dev_accuracy: 0.9630
+iteration 6 done, train_accuracy: 0.9750, dev_accuracy: 0.9629
+iteration 7 done, train_accuracy: 0.9770, dev_accuracy: 0.9631
+iteration 8 done, train_accuracy: 0.9790, dev_accuracy: 0.9635
+iteration 9 done, train_accuracy: 0.9801, dev_accuracy: 0.9636
+iteration 10 done, train_accuracy: 0.9812, dev_accuracy: 0.9640
+done training
+accuracy: 0.9640
+
+Feature class pattern
+11101101111111010000
+features: 510583
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9272, dev_accuracy: 0.9595
+iteration 2 done, train_accuracy: 0.9636, dev_accuracy: 0.9629
+iteration 3 done, train_accuracy: 0.9738, dev_accuracy: 0.9639
+iteration 4 done, train_accuracy: 0.9798, dev_accuracy: 0.9642
+iteration 5 done, train_accuracy: 0.9836, dev_accuracy: 0.9642
+iteration 6 done, train_accuracy: 0.9863, dev_accuracy: 0.9647
+iteration 7 done, train_accuracy: 0.9881, dev_accuracy: 0.9645
+iteration 8 done, train_accuracy: 0.9895, dev_accuracy: 0.9644
+iteration 9 done, train_accuracy: 0.9906, dev_accuracy: 0.9647
+iteration 10 done, train_accuracy: 0.9914, dev_accuracy: 0.9644
+done training
+accuracy: 0.9647
+
+Feature class pattern
+11100111111011000000
+features: 187163
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9252, dev_accuracy: 0.9578
+iteration 2 done, train_accuracy: 0.9569, dev_accuracy: 0.9618
+iteration 3 done, train_accuracy: 0.9661, dev_accuracy: 0.9628
+iteration 4 done, train_accuracy: 0.9717, dev_accuracy: 0.9633
+iteration 5 done, train_accuracy: 0.9756, dev_accuracy: 0.9638
+iteration 6 done, train_accuracy: 0.9783, dev_accuracy: 0.9644
+iteration 7 done, train_accuracy: 0.9805, dev_accuracy: 0.9645
+iteration 8 done, train_accuracy: 0.9818, dev_accuracy: 0.9644
+iteration 9 done, train_accuracy: 0.9835, dev_accuracy: 0.9644
+iteration 10 done, train_accuracy: 0.9847, dev_accuracy: 0.9645
+done training
+accuracy: 0.9645
+
+Feature class pattern
+11100001111011010001
+features: 1011817
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9257, dev_accuracy: 0.9578
+iteration 2 done, train_accuracy: 0.9678, dev_accuracy: 0.9609
+iteration 3 done, train_accuracy: 0.9789, dev_accuracy: 0.9625
+iteration 4 done, train_accuracy: 0.9844, dev_accuracy: 0.9630
+iteration 5 done, train_accuracy: 0.9875, dev_accuracy: 0.9635
+iteration 6 done, train_accuracy: 0.9898, dev_accuracy: 0.9637
+iteration 7 done, train_accuracy: 0.9915, dev_accuracy: 0.9640
+iteration 8 done, train_accuracy: 0.9925, dev_accuracy: 0.9642
+iteration 9 done, train_accuracy: 0.9931, dev_accuracy: 0.9641
+iteration 10 done, train_accuracy: 0.9937, dev_accuracy: 0.9644
+done training
+accuracy: 0.9644
+
+Feature class pattern
+11101101111011010100
+features: 1014921
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9282, dev_accuracy: 0.9586
+iteration 2 done, train_accuracy: 0.9660, dev_accuracy: 0.9624
+iteration 3 done, train_accuracy: 0.9772, dev_accuracy: 0.9632
+iteration 4 done, train_accuracy: 0.9829, dev_accuracy: 0.9639
+iteration 5 done, train_accuracy: 0.9865, dev_accuracy: 0.9644
+iteration 6 done, train_accuracy: 0.9886, dev_accuracy: 0.9646
+iteration 7 done, train_accuracy: 0.9901, dev_accuracy: 0.9646
+iteration 8 done, train_accuracy: 0.9915, dev_accuracy: 0.9644
+iteration 9 done, train_accuracy: 0.9921, dev_accuracy: 0.9647
+iteration 10 done, train_accuracy: 0.9928, dev_accuracy: 0.9649
+done training
+accuracy: 0.9649
+
+Feature class pattern
+10100101111011011000
+features: 760528
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9316, dev_accuracy: 0.9596
+iteration 2 done, train_accuracy: 0.9689, dev_accuracy: 0.9637
+iteration 3 done, train_accuracy: 0.9790, dev_accuracy: 0.9646
+iteration 4 done, train_accuracy: 0.9841, dev_accuracy: 0.9644
+iteration 5 done, train_accuracy: 0.9874, dev_accuracy: 0.9644
+iteration 6 done, train_accuracy: 0.9894, dev_accuracy: 0.9645
+iteration 7 done, train_accuracy: 0.9909, dev_accuracy: 0.9647
+iteration 8 done, train_accuracy: 0.9918, dev_accuracy: 0.9647
+iteration 9 done, train_accuracy: 0.9928, dev_accuracy: 0.9646
+iteration 10 done, train_accuracy: 0.9935, dev_accuracy: 0.9651
+done training
+accuracy: 0.9651
+
+Feature class pattern
+11100101101011110000
+features: 472566
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9127, dev_accuracy: 0.9511
+iteration 2 done, train_accuracy: 0.9547, dev_accuracy: 0.9550
+iteration 3 done, train_accuracy: 0.9679, dev_accuracy: 0.9567
+iteration 4 done, train_accuracy: 0.9758, dev_accuracy: 0.9566
+iteration 5 done, train_accuracy: 0.9800, dev_accuracy: 0.9565
+iteration 6 done, train_accuracy: 0.9837, dev_accuracy: 0.9568
+iteration 7 done, train_accuracy: 0.9858, dev_accuracy: 0.9577
+iteration 8 done, train_accuracy: 0.9874, dev_accuracy: 0.9575
+iteration 9 done, train_accuracy: 0.9891, dev_accuracy: 0.9577
+iteration 10 done, train_accuracy: 0.9901, dev_accuracy: 0.9575
+done training
+accuracy: 0.9577
+
+Feature class pattern
+11000001111011010000
+features: 469245
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9267, dev_accuracy: 0.9583
+iteration 2 done, train_accuracy: 0.9646, dev_accuracy: 0.9613
+iteration 3 done, train_accuracy: 0.9749, dev_accuracy: 0.9629
+iteration 4 done, train_accuracy: 0.9804, dev_accuracy: 0.9632
+iteration 5 done, train_accuracy: 0.9841, dev_accuracy: 0.9629
+iteration 6 done, train_accuracy: 0.9865, dev_accuracy: 0.9630
+iteration 7 done, train_accuracy: 0.9881, dev_accuracy: 0.9635
+iteration 8 done, train_accuracy: 0.9892, dev_accuracy: 0.9638
+iteration 9 done, train_accuracy: 0.9906, dev_accuracy: 0.9636
+iteration 10 done, train_accuracy: 0.9911, dev_accuracy: 0.9639
+done training
+accuracy: 0.9639
+
+Feature class pattern
+11100111111111010000
+features: 509492
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9268, dev_accuracy: 0.9580
+iteration 2 done, train_accuracy: 0.9630, dev_accuracy: 0.9624
+iteration 3 done, train_accuracy: 0.9739, dev_accuracy: 0.9637
+iteration 4 done, train_accuracy: 0.9798, dev_accuracy: 0.9635
+iteration 5 done, train_accuracy: 0.9836, dev_accuracy: 0.9637
+iteration 6 done, train_accuracy: 0.9860, dev_accuracy: 0.9642
+iteration 7 done, train_accuracy: 0.9879, dev_accuracy: 0.9641
+iteration 8 done, train_accuracy: 0.9894, dev_accuracy: 0.9640
+iteration 9 done, train_accuracy: 0.9906, dev_accuracy: 0.9641
+iteration 10 done, train_accuracy: 0.9915, dev_accuracy: 0.9641
+done training
+accuracy: 0.9642
+
+Feature class pattern
+11100101111011010101
+features: 1556207
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9291, dev_accuracy: 0.9587
+iteration 2 done, train_accuracy: 0.9706, dev_accuracy: 0.9627
+iteration 3 done, train_accuracy: 0.9817, dev_accuracy: 0.9638
+iteration 4 done, train_accuracy: 0.9868, dev_accuracy: 0.9638
+iteration 5 done, train_accuracy: 0.9900, dev_accuracy: 0.9638
+iteration 6 done, train_accuracy: 0.9917, dev_accuracy: 0.9645
+iteration 7 done, train_accuracy: 0.9929, dev_accuracy: 0.9650
+iteration 8 done, train_accuracy: 0.9940, dev_accuracy: 0.9652
+iteration 9 done, train_accuracy: 0.9946, dev_accuracy: 0.9655
+iteration 10 done, train_accuracy: 0.9950, dev_accuracy: 0.9654
+done training
+accuracy: 0.9655
+
+Feature class pattern
+01101101111011010000
+features: 440969
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9194, dev_accuracy: 0.9531
+iteration 2 done, train_accuracy: 0.9551, dev_accuracy: 0.9571
+iteration 3 done, train_accuracy: 0.9667, dev_accuracy: 0.9588
+iteration 4 done, train_accuracy: 0.9738, dev_accuracy: 0.9586
+iteration 5 done, train_accuracy: 0.9786, dev_accuracy: 0.9589
+iteration 6 done, train_accuracy: 0.9817, dev_accuracy: 0.9592
+iteration 7 done, train_accuracy: 0.9840, dev_accuracy: 0.9597
+iteration 8 done, train_accuracy: 0.9857, dev_accuracy: 0.9601
+iteration 9 done, train_accuracy: 0.9872, dev_accuracy: 0.9602
+iteration 10 done, train_accuracy: 0.9882, dev_accuracy: 0.9601
+done training
+accuracy: 0.9602
+
+Feature class pattern
+11100101110111010000
+features: 474805
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9262, dev_accuracy: 0.9583
+iteration 2 done, train_accuracy: 0.9619, dev_accuracy: 0.9618
+iteration 3 done, train_accuracy: 0.9725, dev_accuracy: 0.9626
+iteration 4 done, train_accuracy: 0.9783, dev_accuracy: 0.9630
+iteration 5 done, train_accuracy: 0.9819, dev_accuracy: 0.9637
+iteration 6 done, train_accuracy: 0.9849, dev_accuracy: 0.9638
+iteration 7 done, train_accuracy: 0.9865, dev_accuracy: 0.9637
+iteration 8 done, train_accuracy: 0.9881, dev_accuracy: 0.9639
+iteration 9 done, train_accuracy: 0.9892, dev_accuracy: 0.9639
+iteration 10 done, train_accuracy: 0.9900, dev_accuracy: 0.9638
+done training
+accuracy: 0.9639
+
+Feature class pattern
+11100100101011010000
+features: 438776
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9120, dev_accuracy: 0.9517
+iteration 2 done, train_accuracy: 0.9551, dev_accuracy: 0.9559
+iteration 3 done, train_accuracy: 0.9679, dev_accuracy: 0.9574
+iteration 4 done, train_accuracy: 0.9748, dev_accuracy: 0.9582
+iteration 5 done, train_accuracy: 0.9795, dev_accuracy: 0.9579
+iteration 6 done, train_accuracy: 0.9828, dev_accuracy: 0.9578
+iteration 7 done, train_accuracy: 0.9845, dev_accuracy: 0.9582
+iteration 8 done, train_accuracy: 0.9865, dev_accuracy: 0.9580
+iteration 9 done, train_accuracy: 0.9878, dev_accuracy: 0.9584
+iteration 10 done, train_accuracy: 0.9890, dev_accuracy: 0.9585
+done training
+accuracy: 0.9585
+
+Feature class pattern
+11101101111011010010
+features: 1004698
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9281, dev_accuracy: 0.9583
+iteration 2 done, train_accuracy: 0.9667, dev_accuracy: 0.9626
+iteration 3 done, train_accuracy: 0.9778, dev_accuracy: 0.9636
+iteration 4 done, train_accuracy: 0.9836, dev_accuracy: 0.9641
+iteration 5 done, train_accuracy: 0.9870, dev_accuracy: 0.9644
+iteration 6 done, train_accuracy: 0.9892, dev_accuracy: 0.9644
+iteration 7 done, train_accuracy: 0.9909, dev_accuracy: 0.9645
+iteration 8 done, train_accuracy: 0.9921, dev_accuracy: 0.9645
+iteration 9 done, train_accuracy: 0.9931, dev_accuracy: 0.9644
+iteration 10 done, train_accuracy: 0.9939, dev_accuracy: 0.9641
+done training
+accuracy: 0.9645
+
+Feature class pattern
+11100101111101010000
+features: 475016
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9188, dev_accuracy: 0.9524
+iteration 2 done, train_accuracy: 0.9559, dev_accuracy: 0.9566
+iteration 3 done, train_accuracy: 0.9679, dev_accuracy: 0.9579
+iteration 4 done, train_accuracy: 0.9744, dev_accuracy: 0.9577
+iteration 5 done, train_accuracy: 0.9788, dev_accuracy: 0.9575
+iteration 6 done, train_accuracy: 0.9817, dev_accuracy: 0.9578
+iteration 7 done, train_accuracy: 0.9840, dev_accuracy: 0.9582
+iteration 8 done, train_accuracy: 0.9855, dev_accuracy: 0.9582
+iteration 9 done, train_accuracy: 0.9870, dev_accuracy: 0.9583
+iteration 10 done, train_accuracy: 0.9880, dev_accuracy: 0.9586
+done training
+accuracy: 0.9586
+
+Feature class pattern
+11100101101111010000
+features: 473533
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9134, dev_accuracy: 0.9518
+iteration 2 done, train_accuracy: 0.9550, dev_accuracy: 0.9552
+iteration 3 done, train_accuracy: 0.9684, dev_accuracy: 0.9565
+iteration 4 done, train_accuracy: 0.9752, dev_accuracy: 0.9572
+iteration 5 done, train_accuracy: 0.9805, dev_accuracy: 0.9577
+iteration 6 done, train_accuracy: 0.9838, dev_accuracy: 0.9575
+iteration 7 done, train_accuracy: 0.9857, dev_accuracy: 0.9571
+iteration 8 done, train_accuracy: 0.9875, dev_accuracy: 0.9572
+iteration 9 done, train_accuracy: 0.9890, dev_accuracy: 0.9571
+iteration 10 done, train_accuracy: 0.9902, dev_accuracy: 0.9573
+done training
+accuracy: 0.9577
+
+Feature class pattern
+11100101111001010001
+features: 983795
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9201, dev_accuracy: 0.9525
+iteration 2 done, train_accuracy: 0.9615, dev_accuracy: 0.9565
+iteration 3 done, train_accuracy: 0.9737, dev_accuracy: 0.9581
+iteration 4 done, train_accuracy: 0.9808, dev_accuracy: 0.9587
+iteration 5 done, train_accuracy: 0.9848, dev_accuracy: 0.9592
+iteration 6 done, train_accuracy: 0.9876, dev_accuracy: 0.9592
+iteration 7 done, train_accuracy: 0.9892, dev_accuracy: 0.9597
+iteration 8 done, train_accuracy: 0.9906, dev_accuracy: 0.9600
+iteration 9 done, train_accuracy: 0.9915, dev_accuracy: 0.9599
+iteration 10 done, train_accuracy: 0.9924, dev_accuracy: 0.9601
+done training
+accuracy: 0.9601
+
+Feature class pattern
+11110101111010010000
+features: 442375
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9263, dev_accuracy: 0.9586
+iteration 2 done, train_accuracy: 0.9598, dev_accuracy: 0.9618
+iteration 3 done, train_accuracy: 0.9698, dev_accuracy: 0.9624
+iteration 4 done, train_accuracy: 0.9754, dev_accuracy: 0.9635
+iteration 5 done, train_accuracy: 0.9790, dev_accuracy: 0.9639
+iteration 6 done, train_accuracy: 0.9817, dev_accuracy: 0.9642
+iteration 7 done, train_accuracy: 0.9835, dev_accuracy: 0.9645
+iteration 8 done, train_accuracy: 0.9851, dev_accuracy: 0.9644
+iteration 9 done, train_accuracy: 0.9860, dev_accuracy: 0.9647
+iteration 10 done, train_accuracy: 0.9870, dev_accuracy: 0.9647
+done training
+accuracy: 0.9647
+
+Feature class pattern
+11100100111010010000
+features: 441216
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9255, dev_accuracy: 0.9588
+iteration 2 done, train_accuracy: 0.9621, dev_accuracy: 0.9619
+iteration 3 done, train_accuracy: 0.9721, dev_accuracy: 0.9627
+iteration 4 done, train_accuracy: 0.9773, dev_accuracy: 0.9635
+iteration 5 done, train_accuracy: 0.9807, dev_accuracy: 0.9636
+iteration 6 done, train_accuracy: 0.9832, dev_accuracy: 0.9637
+iteration 7 done, train_accuracy: 0.9850, dev_accuracy: 0.9639
+iteration 8 done, train_accuracy: 0.9864, dev_accuracy: 0.9641
+iteration 9 done, train_accuracy: 0.9870, dev_accuracy: 0.9641
+iteration 10 done, train_accuracy: 0.9881, dev_accuracy: 0.9642
+done training
+accuracy: 0.9642
+
+Feature class pattern
+11100101011001010000
+features: 436408
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9170, dev_accuracy: 0.9512
+iteration 2 done, train_accuracy: 0.9546, dev_accuracy: 0.9555
+iteration 3 done, train_accuracy: 0.9665, dev_accuracy: 0.9569
+iteration 4 done, train_accuracy: 0.9730, dev_accuracy: 0.9572
+iteration 5 done, train_accuracy: 0.9766, dev_accuracy: 0.9584
+iteration 6 done, train_accuracy: 0.9798, dev_accuracy: 0.9580
+iteration 7 done, train_accuracy: 0.9817, dev_accuracy: 0.9579
+iteration 8 done, train_accuracy: 0.9835, dev_accuracy: 0.9578
+iteration 9 done, train_accuracy: 0.9845, dev_accuracy: 0.9578
+iteration 10 done, train_accuracy: 0.9858, dev_accuracy: 0.9576
+done training
+accuracy: 0.9584
+
+Feature class pattern
+11100100111011010010
+features: 1002448
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9265, dev_accuracy: 0.9584
+iteration 2 done, train_accuracy: 0.9685, dev_accuracy: 0.9626
+iteration 3 done, train_accuracy: 0.9796, dev_accuracy: 0.9631
+iteration 4 done, train_accuracy: 0.9851, dev_accuracy: 0.9633
+iteration 5 done, train_accuracy: 0.9885, dev_accuracy: 0.9638
+iteration 6 done, train_accuracy: 0.9904, dev_accuracy: 0.9639
+iteration 7 done, train_accuracy: 0.9919, dev_accuracy: 0.9637
+iteration 8 done, train_accuracy: 0.9930, dev_accuracy: 0.9642
+iteration 9 done, train_accuracy: 0.9938, dev_accuracy: 0.9643
+iteration 10 done, train_accuracy: 0.9944, dev_accuracy: 0.9644
+done training
+accuracy: 0.9644
+
+Feature class pattern
+11100101110011110000
+features: 473838
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9253, dev_accuracy: 0.9583
+iteration 2 done, train_accuracy: 0.9617, dev_accuracy: 0.9613
+iteration 3 done, train_accuracy: 0.9722, dev_accuracy: 0.9621
+iteration 4 done, train_accuracy: 0.9779, dev_accuracy: 0.9632
+iteration 5 done, train_accuracy: 0.9820, dev_accuracy: 0.9629
+iteration 6 done, train_accuracy: 0.9846, dev_accuracy: 0.9632
+iteration 7 done, train_accuracy: 0.9864, dev_accuracy: 0.9634
+iteration 8 done, train_accuracy: 0.9878, dev_accuracy: 0.9633
+iteration 9 done, train_accuracy: 0.9891, dev_accuracy: 0.9632
+iteration 10 done, train_accuracy: 0.9899, dev_accuracy: 0.9630
+done training
+accuracy: 0.9634
+
+Feature class pattern
+11100101111011011100
+features: 1298898
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9306, dev_accuracy: 0.9593
+iteration 2 done, train_accuracy: 0.9709, dev_accuracy: 0.9621
+iteration 3 done, train_accuracy: 0.9815, dev_accuracy: 0.9632
+iteration 4 done, train_accuracy: 0.9864, dev_accuracy: 0.9638
+iteration 5 done, train_accuracy: 0.9893, dev_accuracy: 0.9644
+iteration 6 done, train_accuracy: 0.9913, dev_accuracy: 0.9651
+iteration 7 done, train_accuracy: 0.9925, dev_accuracy: 0.9652
+iteration 8 done, train_accuracy: 0.9937, dev_accuracy: 0.9654
+iteration 9 done, train_accuracy: 0.9943, dev_accuracy: 0.9650
+iteration 10 done, train_accuracy: 0.9948, dev_accuracy: 0.9653
+done training
+accuracy: 0.9654
+
+Feature class pattern
+11100101110011010010
+features: 968920
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9271, dev_accuracy: 0.9584
+iteration 2 done, train_accuracy: 0.9662, dev_accuracy: 0.9620
+iteration 3 done, train_accuracy: 0.9772, dev_accuracy: 0.9625
+iteration 4 done, train_accuracy: 0.9826, dev_accuracy: 0.9633
+iteration 5 done, train_accuracy: 0.9861, dev_accuracy: 0.9642
+iteration 6 done, train_accuracy: 0.9887, dev_accuracy: 0.9644
+iteration 7 done, train_accuracy: 0.9901, dev_accuracy: 0.9642
+iteration 8 done, train_accuracy: 0.9914, dev_accuracy: 0.9641
+iteration 9 done, train_accuracy: 0.9923, dev_accuracy: 0.9642
+iteration 10 done, train_accuracy: 0.9928, dev_accuracy: 0.9644
+done training
+accuracy: 0.9644
+
+Feature class pattern
+11100101111011100000
+features: 219794
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9253, dev_accuracy: 0.9571
+iteration 2 done, train_accuracy: 0.9592, dev_accuracy: 0.9613
+iteration 3 done, train_accuracy: 0.9693, dev_accuracy: 0.9624
+iteration 4 done, train_accuracy: 0.9750, dev_accuracy: 0.9631
+iteration 5 done, train_accuracy: 0.9789, dev_accuracy: 0.9631
+iteration 6 done, train_accuracy: 0.9817, dev_accuracy: 0.9634
+iteration 7 done, train_accuracy: 0.9838, dev_accuracy: 0.9637
+iteration 8 done, train_accuracy: 0.9857, dev_accuracy: 0.9635
+iteration 9 done, train_accuracy: 0.9870, dev_accuracy: 0.9633
+iteration 10 done, train_accuracy: 0.9880, dev_accuracy: 0.9635
+done training
+accuracy: 0.9637
+
+Feature class pattern
+11100001111011010010
+features: 997153
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9258, dev_accuracy: 0.9577
+iteration 2 done, train_accuracy: 0.9679, dev_accuracy: 0.9613
+iteration 3 done, train_accuracy: 0.9792, dev_accuracy: 0.9623
+iteration 4 done, train_accuracy: 0.9851, dev_accuracy: 0.9631
+iteration 5 done, train_accuracy: 0.9879, dev_accuracy: 0.9632
+iteration 6 done, train_accuracy: 0.9903, dev_accuracy: 0.9635
+iteration 7 done, train_accuracy: 0.9919, dev_accuracy: 0.9638
+iteration 8 done, train_accuracy: 0.9930, dev_accuracy: 0.9639
+iteration 9 done, train_accuracy: 0.9937, dev_accuracy: 0.9642
+iteration 10 done, train_accuracy: 0.9944, dev_accuracy: 0.9644
+done training
+accuracy: 0.9644
+
+Feature class pattern
+11101101110011010000
+features: 442298
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9260, dev_accuracy: 0.9577
+iteration 2 done, train_accuracy: 0.9594, dev_accuracy: 0.9616
+iteration 3 done, train_accuracy: 0.9693, dev_accuracy: 0.9629
+iteration 4 done, train_accuracy: 0.9750, dev_accuracy: 0.9633
+iteration 5 done, train_accuracy: 0.9788, dev_accuracy: 0.9632
+iteration 6 done, train_accuracy: 0.9817, dev_accuracy: 0.9632
+iteration 7 done, train_accuracy: 0.9833, dev_accuracy: 0.9631
+iteration 8 done, train_accuracy: 0.9850, dev_accuracy: 0.9632
+iteration 9 done, train_accuracy: 0.9861, dev_accuracy: 0.9633
+iteration 10 done, train_accuracy: 0.9870, dev_accuracy: 0.9630
+done training
+accuracy: 0.9633
+
+Feature class pattern
+11100101111000010000
+features: 407899
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9159, dev_accuracy: 0.9491
+iteration 2 done, train_accuracy: 0.9500, dev_accuracy: 0.9536
+iteration 3 done, train_accuracy: 0.9600, dev_accuracy: 0.9547
+iteration 4 done, train_accuracy: 0.9662, dev_accuracy: 0.9552
+iteration 5 done, train_accuracy: 0.9699, dev_accuracy: 0.9550
+iteration 6 done, train_accuracy: 0.9731, dev_accuracy: 0.9552
+iteration 7 done, train_accuracy: 0.9748, dev_accuracy: 0.9555
+iteration 8 done, train_accuracy: 0.9763, dev_accuracy: 0.9553
+iteration 9 done, train_accuracy: 0.9775, dev_accuracy: 0.9550
+iteration 10 done, train_accuracy: 0.9788, dev_accuracy: 0.9548
+done training
+accuracy: 0.9555
+
+Feature class pattern
+11100011111011010000
+features: 469440
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9237, dev_accuracy: 0.9572
+iteration 2 done, train_accuracy: 0.9617, dev_accuracy: 0.9608
+iteration 3 done, train_accuracy: 0.9725, dev_accuracy: 0.9624
+iteration 4 done, train_accuracy: 0.9782, dev_accuracy: 0.9631
+iteration 5 done, train_accuracy: 0.9822, dev_accuracy: 0.9635
+iteration 6 done, train_accuracy: 0.9845, dev_accuracy: 0.9638
+iteration 7 done, train_accuracy: 0.9865, dev_accuracy: 0.9636
+iteration 8 done, train_accuracy: 0.9881, dev_accuracy: 0.9635
+iteration 9 done, train_accuracy: 0.9891, dev_accuracy: 0.9636
+iteration 10 done, train_accuracy: 0.9901, dev_accuracy: 0.9635
+done training
+accuracy: 0.9638
+
+Feature class pattern
+11000101111010010000
+features: 442180
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9288, dev_accuracy: 0.9584
+iteration 2 done, train_accuracy: 0.9629, dev_accuracy: 0.9612
+iteration 3 done, train_accuracy: 0.9727, dev_accuracy: 0.9626
+iteration 4 done, train_accuracy: 0.9775, dev_accuracy: 0.9629
+iteration 5 done, train_accuracy: 0.9811, dev_accuracy: 0.9632
+iteration 6 done, train_accuracy: 0.9835, dev_accuracy: 0.9638
+iteration 7 done, train_accuracy: 0.9851, dev_accuracy: 0.9637
+iteration 8 done, train_accuracy: 0.9863, dev_accuracy: 0.9638
+iteration 9 done, train_accuracy: 0.9876, dev_accuracy: 0.9639
+iteration 10 done, train_accuracy: 0.9885, dev_accuracy: 0.9637
+done training
+accuracy: 0.9639
+
+Feature class pattern
+11100001110011010000
+features: 434753
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9238, dev_accuracy: 0.9575
+iteration 2 done, train_accuracy: 0.9603, dev_accuracy: 0.9609
+iteration 3 done, train_accuracy: 0.9710, dev_accuracy: 0.9621
+iteration 4 done, train_accuracy: 0.9766, dev_accuracy: 0.9625
+iteration 5 done, train_accuracy: 0.9802, dev_accuracy: 0.9622
+iteration 6 done, train_accuracy: 0.9826, dev_accuracy: 0.9623
+iteration 7 done, train_accuracy: 0.9846, dev_accuracy: 0.9626
+iteration 8 done, train_accuracy: 0.9859, dev_accuracy: 0.9627
+iteration 9 done, train_accuracy: 0.9868, dev_accuracy: 0.9622
+iteration 10 done, train_accuracy: 0.9880, dev_accuracy: 0.9625
+done training
+accuracy: 0.9627
+
+Feature class pattern
+11101101111011000000
+features: 188254
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9257, dev_accuracy: 0.9576
+iteration 2 done, train_accuracy: 0.9571, dev_accuracy: 0.9615
+iteration 3 done, train_accuracy: 0.9664, dev_accuracy: 0.9628
+iteration 4 done, train_accuracy: 0.9717, dev_accuracy: 0.9632
+iteration 5 done, train_accuracy: 0.9758, dev_accuracy: 0.9636
+iteration 6 done, train_accuracy: 0.9782, dev_accuracy: 0.9641
+iteration 7 done, train_accuracy: 0.9805, dev_accuracy: 0.9641
+iteration 8 done, train_accuracy: 0.9820, dev_accuracy: 0.9646
+iteration 9 done, train_accuracy: 0.9837, dev_accuracy: 0.9649
+iteration 10 done, train_accuracy: 0.9845, dev_accuracy: 0.9650
+done training
+accuracy: 0.9650
+
+Feature class pattern
+11100101111011110001
+features: 1050902
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9276, dev_accuracy: 0.9589
+iteration 2 done, train_accuracy: 0.9682, dev_accuracy: 0.9608
+iteration 3 done, train_accuracy: 0.9793, dev_accuracy: 0.9637
+iteration 4 done, train_accuracy: 0.9849, dev_accuracy: 0.9645
+iteration 5 done, train_accuracy: 0.9881, dev_accuracy: 0.9652
+iteration 6 done, train_accuracy: 0.9904, dev_accuracy: 0.9652
+iteration 7 done, train_accuracy: 0.9921, dev_accuracy: 0.9653
+iteration 8 done, train_accuracy: 0.9929, dev_accuracy: 0.9650
+iteration 9 done, train_accuracy: 0.9938, dev_accuracy: 0.9648
+iteration 10 done, train_accuracy: 0.9944, dev_accuracy: 0.9647
+done training
+accuracy: 0.9653
+
+Feature class pattern
+11100101111001011000
+features: 726486
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9255, dev_accuracy: 0.9562
+iteration 2 done, train_accuracy: 0.9642, dev_accuracy: 0.9606
+iteration 3 done, train_accuracy: 0.9757, dev_accuracy: 0.9618
+iteration 4 done, train_accuracy: 0.9817, dev_accuracy: 0.9621
+iteration 5 done, train_accuracy: 0.9851, dev_accuracy: 0.9627
+iteration 6 done, train_accuracy: 0.9876, dev_accuracy: 0.9628
+iteration 7 done, train_accuracy: 0.9891, dev_accuracy: 0.9632
+iteration 8 done, train_accuracy: 0.9906, dev_accuracy: 0.9632
+iteration 9 done, train_accuracy: 0.9913, dev_accuracy: 0.9632
+iteration 10 done, train_accuracy: 0.9923, dev_accuracy: 0.9633
+done training
+accuracy: 0.9633
+
+Feature class pattern
+11000101111001010000
+features: 441223
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9205, dev_accuracy: 0.9525
+iteration 2 done, train_accuracy: 0.9565, dev_accuracy: 0.9560
+iteration 3 done, train_accuracy: 0.9671, dev_accuracy: 0.9570
+iteration 4 done, train_accuracy: 0.9733, dev_accuracy: 0.9571
+iteration 5 done, train_accuracy: 0.9776, dev_accuracy: 0.9578
+iteration 6 done, train_accuracy: 0.9801, dev_accuracy: 0.9580
+iteration 7 done, train_accuracy: 0.9820, dev_accuracy: 0.9579
+iteration 8 done, train_accuracy: 0.9837, dev_accuracy: 0.9577
+iteration 9 done, train_accuracy: 0.9848, dev_accuracy: 0.9577
+iteration 10 done, train_accuracy: 0.9858, dev_accuracy: 0.9575
+done training
+accuracy: 0.9580
+
+Feature class pattern
+11100101111111010010
+features: 1037205
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9284, dev_accuracy: 0.9590
+iteration 2 done, train_accuracy: 0.9682, dev_accuracy: 0.9622
+iteration 3 done, train_accuracy: 0.9798, dev_accuracy: 0.9632
+iteration 4 done, train_accuracy: 0.9852, dev_accuracy: 0.9636
+iteration 5 done, train_accuracy: 0.9885, dev_accuracy: 0.9642
+iteration 6 done, train_accuracy: 0.9908, dev_accuracy: 0.9642
+iteration 7 done, train_accuracy: 0.9923, dev_accuracy: 0.9641
+iteration 8 done, train_accuracy: 0.9934, dev_accuracy: 0.9641
+iteration 9 done, train_accuracy: 0.9943, dev_accuracy: 0.9643
+iteration 10 done, train_accuracy: 0.9949, dev_accuracy: 0.9645
+done training
+accuracy: 0.9645
+
+Feature class pattern
+11100101111011011010
+features: 1288675
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9307, dev_accuracy: 0.9591
+iteration 2 done, train_accuracy: 0.9709, dev_accuracy: 0.9636
+iteration 3 done, train_accuracy: 0.9813, dev_accuracy: 0.9637
+iteration 4 done, train_accuracy: 0.9863, dev_accuracy: 0.9649
+iteration 5 done, train_accuracy: 0.9895, dev_accuracy: 0.9650
+iteration 6 done, train_accuracy: 0.9915, dev_accuracy: 0.9651
+iteration 7 done, train_accuracy: 0.9926, dev_accuracy: 0.9651
+iteration 8 done, train_accuracy: 0.9936, dev_accuracy: 0.9653
+iteration 9 done, train_accuracy: 0.9943, dev_accuracy: 0.9653
+iteration 10 done, train_accuracy: 0.9948, dev_accuracy: 0.9651
+done training
+accuracy: 0.9653
+
+Feature class pattern
+11100111111001010000
+features: 441418
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9181, dev_accuracy: 0.9523
+iteration 2 done, train_accuracy: 0.9533, dev_accuracy: 0.9564
+iteration 3 done, train_accuracy: 0.9646, dev_accuracy: 0.9577
+iteration 4 done, train_accuracy: 0.9706, dev_accuracy: 0.9573
+iteration 5 done, train_accuracy: 0.9749, dev_accuracy: 0.9577
+iteration 6 done, train_accuracy: 0.9776, dev_accuracy: 0.9575
+iteration 7 done, train_accuracy: 0.9804, dev_accuracy: 0.9578
+iteration 8 done, train_accuracy: 0.9817, dev_accuracy: 0.9582
+iteration 9 done, train_accuracy: 0.9833, dev_accuracy: 0.9580
+iteration 10 done, train_accuracy: 0.9845, dev_accuracy: 0.9582
+done training
+accuracy: 0.9582
+
+Feature class pattern
+11100101110010010000
+features: 407688
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9261, dev_accuracy: 0.9582
+iteration 2 done, train_accuracy: 0.9584, dev_accuracy: 0.9610
+iteration 3 done, train_accuracy: 0.9678, dev_accuracy: 0.9629
+iteration 4 done, train_accuracy: 0.9730, dev_accuracy: 0.9629
+iteration 5 done, train_accuracy: 0.9765, dev_accuracy: 0.9630
+iteration 6 done, train_accuracy: 0.9790, dev_accuracy: 0.9628
+iteration 7 done, train_accuracy: 0.9806, dev_accuracy: 0.9631
+iteration 8 done, train_accuracy: 0.9820, dev_accuracy: 0.9633
+iteration 9 done, train_accuracy: 0.9832, dev_accuracy: 0.9632
+iteration 10 done, train_accuracy: 0.9842, dev_accuracy: 0.9631
+done training
+accuracy: 0.9633
+
+Feature class pattern
+11110101111011010001
+features: 1018271
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9276, dev_accuracy: 0.9592
+iteration 2 done, train_accuracy: 0.9663, dev_accuracy: 0.9621
+iteration 3 done, train_accuracy: 0.9771, dev_accuracy: 0.9633
+iteration 4 done, train_accuracy: 0.9832, dev_accuracy: 0.9641
+iteration 5 done, train_accuracy: 0.9866, dev_accuracy: 0.9645
+iteration 6 done, train_accuracy: 0.9892, dev_accuracy: 0.9647
+iteration 7 done, train_accuracy: 0.9906, dev_accuracy: 0.9648
+iteration 8 done, train_accuracy: 0.9916, dev_accuracy: 0.9653
+iteration 9 done, train_accuracy: 0.9924, dev_accuracy: 0.9652
+iteration 10 done, train_accuracy: 0.9932, dev_accuracy: 0.9650
+done training
+accuracy: 0.9653
+
+Feature class pattern
+11100101111010011000
+features: 727443
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9298, dev_accuracy: 0.9600
+iteration 2 done, train_accuracy: 0.9664, dev_accuracy: 0.9631
+iteration 3 done, train_accuracy: 0.9761, dev_accuracy: 0.9636
+iteration 4 done, train_accuracy: 0.9816, dev_accuracy: 0.9648
+iteration 5 done, train_accuracy: 0.9848, dev_accuracy: 0.9649
+iteration 6 done, train_accuracy: 0.9870, dev_accuracy: 0.9650
+iteration 7 done, train_accuracy: 0.9886, dev_accuracy: 0.9648
+iteration 8 done, train_accuracy: 0.9897, dev_accuracy: 0.9646
+iteration 9 done, train_accuracy: 0.9905, dev_accuracy: 0.9645
+iteration 10 done, train_accuracy: 0.9911, dev_accuracy: 0.9643
+done training
+accuracy: 0.9650
+
+Feature class pattern
+01100101111011000000
+features: 151147
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9159, dev_accuracy: 0.9508
+iteration 2 done, train_accuracy: 0.9477, dev_accuracy: 0.9550
+iteration 3 done, train_accuracy: 0.9580, dev_accuracy: 0.9556
+iteration 4 done, train_accuracy: 0.9641, dev_accuracy: 0.9564
+iteration 5 done, train_accuracy: 0.9680, dev_accuracy: 0.9569
+iteration 6 done, train_accuracy: 0.9711, dev_accuracy: 0.9572
+iteration 7 done, train_accuracy: 0.9738, dev_accuracy: 0.9571
+iteration 8 done, train_accuracy: 0.9757, dev_accuracy: 0.9568
+iteration 9 done, train_accuracy: 0.9774, dev_accuracy: 0.9568
+iteration 10 done, train_accuracy: 0.9787, dev_accuracy: 0.9572
+done training
+accuracy: 0.9572
+
+Feature class pattern
+11101111111011010000
+features: 476985
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9272, dev_accuracy: 0.9586
+iteration 2 done, train_accuracy: 0.9609, dev_accuracy: 0.9619
+iteration 3 done, train_accuracy: 0.9713, dev_accuracy: 0.9632
+iteration 4 done, train_accuracy: 0.9773, dev_accuracy: 0.9639
+iteration 5 done, train_accuracy: 0.9811, dev_accuracy: 0.9641
+iteration 6 done, train_accuracy: 0.9837, dev_accuracy: 0.9646
+iteration 7 done, train_accuracy: 0.9856, dev_accuracy: 0.9645
+iteration 8 done, train_accuracy: 0.9870, dev_accuracy: 0.9648
+iteration 9 done, train_accuracy: 0.9882, dev_accuracy: 0.9649
+iteration 10 done, train_accuracy: 0.9895, dev_accuracy: 0.9649
+done training
+accuracy: 0.9649
+
+Feature class pattern
+01000101111011010000
+features: 439683
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9201, dev_accuracy: 0.9528
+iteration 2 done, train_accuracy: 0.9578, dev_accuracy: 0.9568
+iteration 3 done, train_accuracy: 0.9694, dev_accuracy: 0.9577
+iteration 4 done, train_accuracy: 0.9766, dev_accuracy: 0.9585
+iteration 5 done, train_accuracy: 0.9807, dev_accuracy: 0.9585
+iteration 6 done, train_accuracy: 0.9840, dev_accuracy: 0.9587
+iteration 7 done, train_accuracy: 0.9859, dev_accuracy: 0.9588
+iteration 8 done, train_accuracy: 0.9875, dev_accuracy: 0.9587
+iteration 9 done, train_accuracy: 0.9889, dev_accuracy: 0.9590
+iteration 10 done, train_accuracy: 0.9898, dev_accuracy: 0.9591
+done training
+accuracy: 0.9591
+
+Feature class pattern
+11101001111011010000
+features: 470531
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9261, dev_accuracy: 0.9571
+iteration 2 done, train_accuracy: 0.9622, dev_accuracy: 0.9610
+iteration 3 done, train_accuracy: 0.9729, dev_accuracy: 0.9623
+iteration 4 done, train_accuracy: 0.9786, dev_accuracy: 0.9633
+iteration 5 done, train_accuracy: 0.9821, dev_accuracy: 0.9632
+iteration 6 done, train_accuracy: 0.9848, dev_accuracy: 0.9638
+iteration 7 done, train_accuracy: 0.9866, dev_accuracy: 0.9643
+iteration 8 done, train_accuracy: 0.9882, dev_accuracy: 0.9640
+iteration 9 done, train_accuracy: 0.9891, dev_accuracy: 0.9641
+iteration 10 done, train_accuracy: 0.9901, dev_accuracy: 0.9640
+done training
+accuracy: 0.9643
+
+Feature class pattern
+11000101111111010000
+features: 509297
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9286, dev_accuracy: 0.9587
+iteration 2 done, train_accuracy: 0.9656, dev_accuracy: 0.9622
+iteration 3 done, train_accuracy: 0.9761, dev_accuracy: 0.9634
+iteration 4 done, train_accuracy: 0.9817, dev_accuracy: 0.9633
+iteration 5 done, train_accuracy: 0.9850, dev_accuracy: 0.9629
+iteration 6 done, train_accuracy: 0.9877, dev_accuracy: 0.9634
+iteration 7 done, train_accuracy: 0.9895, dev_accuracy: 0.9633
+iteration 8 done, train_accuracy: 0.9906, dev_accuracy: 0.9636
+iteration 9 done, train_accuracy: 0.9916, dev_accuracy: 0.9635
+iteration 10 done, train_accuracy: 0.9922, dev_accuracy: 0.9634
+done training
+accuracy: 0.9636
+
+Feature class pattern
+11100101011011010100
+features: 1008820
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9263, dev_accuracy: 0.9589
+iteration 2 done, train_accuracy: 0.9676, dev_accuracy: 0.9619
+iteration 3 done, train_accuracy: 0.9786, dev_accuracy: 0.9631
+iteration 4 done, train_accuracy: 0.9842, dev_accuracy: 0.9635
+iteration 5 done, train_accuracy: 0.9875, dev_accuracy: 0.9637
+iteration 6 done, train_accuracy: 0.9897, dev_accuracy: 0.9640
+iteration 7 done, train_accuracy: 0.9911, dev_accuracy: 0.9637
+iteration 8 done, train_accuracy: 0.9922, dev_accuracy: 0.9639
+iteration 9 done, train_accuracy: 0.9930, dev_accuracy: 0.9639
+iteration 10 done, train_accuracy: 0.9937, dev_accuracy: 0.9638
+done training
+accuracy: 0.9640
+
+Feature class pattern
+11100111111010010000
+features: 442375
+pos tags: 48
+instances: 731677
+iteration 1 done, train_accuracy: 0.9264, dev_accuracy: 0.9591
+iteration 2 done, train_accuracy: 0.9599, dev_accuracy: 0.9621
+iteration 3 done, train_accuracy: 0.9699, dev_accuracy: 0.9638
+iteration 4 done, train_accuracy: 0.9754, dev_accuracy: 0.9639
+iteration 5 done, train_accuracy: 0.9791, dev_accuracy: 0.9641
+iteration 6 done, train_accuracy: 0.9815, dev_accuracy: 0.9644
+iteration 7 done, train_accuracy: 0.9836, dev_accuracy: 0.9644
+iteration 8 done, train_accuracy: 0.9851, dev_accuracy: 0.9645
+iteration 9 done, train_accuracy: 0.9862, dev_accuracy: 0.9641
+iteration 10 done, train_accuracy: 0.9870, dev_accuracy: 0.9641
+done training
+accuracy: 0.9645
+
