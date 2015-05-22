@@ -72,51 +72,61 @@ class Token:
             shapeC = re.sub(2*i+"+",2*i,shapeC)
         return shapeNC, shapeC
 
+    def maxent_features(self, func):
+        features = []
+        features.append(func('WORD:%s' % self.word))
+        shapeNC, shapeC = self.shape()
+        features.append(func('SHAPENC:%s' % shapeNC))
+        features.append(func('SHAPEC:%s' % shapeC))
+        for i in range(1, 4):
+            features.append(func('PREFIX_%i:%s' % (i, self.prefix(i))))
+            features.append(func('SUFFIX_%i:%s' % (i, self.suffix(i))))
+
+        return sorted(filter(lambda x: x != None, features))
 
 
-
-    def extract_features(self, func, features_on):
+    def extract_features(self, func, mask):
         # initially with x_0, indices of the features starts from 1
         features = [0] 
 
         # word features
-        if features_on[0]:
+        if mask[0]:
             features.append(func('WORD:%s' % self.word))
         shapeNC, shapeC = self.shape()
 
-        if features_on[1]:
+        if mask[1]:
             features.append(func('SHAPENC:%s' % shapeNC))
 
-        if features_on[2]:
+        if mask[2]:
             features.append(func('SHAPEC:%s' % shapeC))
 
         for i in range(1, 4):
-            if features_on[2+i]:
+            if mask[2+i]:
                 features.append(func('PREFIX_%i:%s' % (i, self.prefix(i))))
-            if features_on[5+i]:
+            if mask[5+i]:
                 features.append(func('SUFFIX_%i:%s' % (i, self.suffix(i))))
 
 
         # context features
         for i in range(1, 4):
-            if features_on[8+i]:
+            if mask[8+i]:
                 features.append(func('PREV_WORD_%i:%s' % (i, self.prev_word(i))))
         for i in range(1, 4):
-            if features_on[11+i]:
+            if mask[11+i]:
                 features.append(func('NEXT_WORD_%i:%s' % (i, self.next_word(i))))
 
         # bigram features
-        if features_on[15]:
+        if mask[15]:
             features.append(func('PREV+THIS_WORD:%s+%s' % (self.prev_word(1), self.word)))
-        if features_on[16]:
+        if mask[16]:
             features.append(func('NEXT+THIS_WORD:%s+%s' % (self.next_word(1), self.word)))
         
         # trigram features
-        if features_on[17]:
+        if mask[17]:
             features.append(func('PREV+PREV+THIS_WORD:%s+%s+%s' % (self.prev_word(2), self.prev_word(1), self.word)))
-        if features_on[18]:
+        if mask[18]:
 	    features.append(func('NEXT+NEXT+THIS_WORD:%s+%s+%s' % (self.next_word(2), self.next_word(1), self.word)))
-        if features_on[19]:
+        if mask[19]:
             features.append(func('NEXT+NEXT+THIS_WORD:%s+%s+%s' % (self.prev_word(1), self.word, self.next_word(1))))
 
         # don't register here, add while training

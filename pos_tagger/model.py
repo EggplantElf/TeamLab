@@ -5,7 +5,7 @@ import operator as op
 import cPickle
 import gzip
 from random import random
-
+from math import sqrt
 
 
 class Model:
@@ -102,4 +102,18 @@ class Model:
     def average_for_dev(self, q):
         self.avg_weights = self.weights - (self.delta / q)
 
+    def standard_deviation(self):
+        avg = np.sum(self.weights ** 2) / len(self.feature_dict) ** 2
+        sd = sqrt(np.sum((self.weights - avg) ** 2) / len(self.feature_dict) ** 2)
+        return avg, sd
+
+    def walk(self, d):
+        diff = np.random.normal(0, d, self.weights.shape)
+        self.new_weights = self.weights + diff
+
+    def get_scores_from_new_weights(self, features):
+        return np.sum(self.new_weights[i] for i in features)
+
+    def accept_new_weights(self):
+        self.weights = self.new_weights
 
