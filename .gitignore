@@ -1,5 +1,10 @@
 slides/
 data/
+liblinear/
 *.pyc
 *.dump
 *.col
+*.model
+*.inst
+*.dict
+output
