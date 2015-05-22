@@ -140,7 +140,10 @@ def inference(model, pos2feat, y_, x_):
     return y_
 
 if __name__ == '__main__':
-    # write_instances('../data/pos/train.col', 'train.nopos.inst', 'train.pos.inst', 'maxent.dict', True)
+    if '-i' in sys.argv: 
+        write_instances('../data/pos/train.col', 'train.nopos.inst', 'train.pos.inst', 'maxent.dict', True)
+    if '-p' in sys.argv:
+        predict('../data/pos/dev.col', 'm0.model', 'm1.model', 'maxent.dict', 'dev.predict.col')
+
     # write_instances('../data/pos/dev.col', 'dev.nopos.inst', 'dev.pos.inst', 'maxent.dict', False)
-    predict('../data/pos/dev.col', 'm0.model', 'm1.model', 'maxent.dict', 'dev.predict.col')
 
