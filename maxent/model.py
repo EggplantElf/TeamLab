@@ -9,6 +9,7 @@ class Model:
             self.feature_dict = {'#': 0}
             self.pos_dict = {'#': 0}
             self.pos_dict_rev = {0: '#'}
+            self.stats = {'#': 0}
 
     def save(self, modelfile):
         stream = gzip.open(modelfile,'wb')
@@ -24,10 +25,19 @@ class Model:
         self.pos_dict_rev = cPickle.load(stream)
         stream.close()
 
+    def write_stats(self, feat_file):
+        o = open(feat_file, 'w')
+        for k in sorted(self.stats):
+            l = len(k)
+            o.write('%s%s%d  \n' % (k, ' '* (30 -l), self.stats[k]))
+        o.close()
+
 
     def register_features(self, feature):
         if feature not in self.feature_dict:
             self.feature_dict[feature] = len(self.feature_dict)
+            self.stats[feature] = 0
+        self.stats[feature] += 1
         return self.feature_dict[feature]
 
     def register_pos(self, pos):

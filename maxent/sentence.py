@@ -90,34 +90,43 @@ class Token:
             self.atom_feats.append('PREFIX_%i:%s' % (i, self.prefix(i)))
             self.atom_feats.append('SUFFIX_%i:%s' % (i, self.suffix(i)))
 
+
+
+# add bigram features!
     def maxent_features(self, func):
         features = []
-        prev_ = self.prev_token()
-        next_ = self.next_token()
+        prev_1 = self.prev_token(1)
+        next_1 = self.next_token(1)
+        # prev_2 = self.prev_token(2)
+        # next_2 = self.next_token(2)
+
 
         for f in self.atom_feats:
             features.append(func('0~'+f))
 
-        if prev_:
-            for f in prev_.atom_feats:
+        if prev_1:
+        #     for f in prev_2.atom_feats:
+        #         features.append(func('-2~'+f))
+        # elif prev_1:
+        #     features.append(func('BOS2'))
+            for f in prev_1.atom_feats:
                 features.append(func('-1~'+f))
         else:
-            features.append(func('BOS'))
+            features.append(func('BOS1'))
 
-        if next_:
-            for f in next_.atom_feats:
+        if next_1:
+        #     for f in next_2.atom_feats:
+        #         features.append(func('+2~'+f))
+        # elif next_1:
+        #     features.append(func('EOS2'))
+            for f in next_1.atom_feats:
                 features.append(func('+1~'+f))
         else:
-            features.append(func('EOS'))
+            features.append(func('EOS1'))
+
+
 
         return sorted(filter(lambda x: x != None, features))
-
-
-    # def neighbour_pos_features(self, func, prev_pos, next_pos):
-    #     features = []
-    #     features.append(func('PREV_POS:%s', prev_pos))
-    #     features.append(func('NEXT_POS:%s', next_pos))
-    #     return sorted(filter(lambda x: x != None, features))
 
 
 

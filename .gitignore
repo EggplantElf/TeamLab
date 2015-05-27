@@ -6,4 +6,5 @@ data/
 *.model
 *.inst
 *.dict
+*.txt
 output
