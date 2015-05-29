@@ -81,14 +81,14 @@ class Token:
 
 
     def get_atom_feats(self):
-        self.atom_feats = []
+        self.atom_feats = {}
         shapeNC, shapeC = self.shape()
-        self.atom_feats.append('WORD:%s' % self.word)
-        self.atom_feats.append('SHAPENC:%s' % shapeNC)
-        self.atom_feats.append('SHAPEC:%s' % shapeC)
+        self.atom_feats['word']= 'WORD:%s' % self.word
+        self.atom_feats['shapenc'] = 'SHAPENC:%s' % shapeNC
+        self.atom_feats['shapec'] = 'SHAPEC:%s' % shapeC
         for i in range(1, 4):
-            self.atom_feats.append('PREFIX_%i:%s' % (i, self.prefix(i)))
-            self.atom_feats.append('SUFFIX_%i:%s' % (i, self.suffix(i)))
+            self.atom_feats['prefix_%d' % i] = 'PREFIX_%d:%s' % (i, self.prefix(i))
+            self.atom_feats['suffix_%d' % i] = 'SUFFIX_%d:%s' % (i, self.suffix(i))
 
 
 
@@ -101,28 +101,34 @@ class Token:
         # next_2 = self.next_token(2)
 
 
-        for f in self.atom_feats:
+        for f in self.atom_feats.values():
             features.append(func('0~'+f))
 
         if prev_1:
-        #     for f in prev_2.atom_feats:
-        #         features.append(func('-2~'+f))
-        # elif prev_1:
-        #     features.append(func('BOS2'))
-            for f in prev_1.atom_feats:
+            # features.append(func('-1_0~%s_%s' % (prev_1.atom_feats['shapec'], self.atom_feats['shapec'])))
+            # features.append(func('-1_0~%s_%s' % (prev_1.atom_feats['shapenc'], self.atom_feats['shapenc'])))
+            # features.append(func('-1_0~%s_%s' % (prev_1.atom_feats['suffix_1'], self.atom_feats['suffix_1'])))
+            # features.append(func('-1_0~%s_%s' % (prev_1.atom_feats['suffix_2'], self.atom_feats['suffix_2'])))
+            for f in prev_1.atom_feats.values():
                 features.append(func('-1~'+f))
         else:
             features.append(func('BOS1'))
 
+
         if next_1:
-        #     for f in next_2.atom_feats:
-        #         features.append(func('+2~'+f))
-        # elif next_1:
-        #     features.append(func('EOS2'))
-            for f in next_1.atom_feats:
+            # features.append(func('+1_0~%s_%s' % (next_1.atom_feats['shapec'], self.atom_feats['shapec'])))
+            # features.append(func('+1_0~%s_%s' % (next_1.atom_feats['shapenc'], self.atom_feats['shapenc'])))
+            # features.append(func('+1_0~%s_%s' % (next_1.atom_feats['suffix_1'], self.atom_feats['suffix_1'])))
+            # features.append(func('+1_0~%s_%s' % (next_1.atom_feats['suffix_2'], self.atom_feats['suffix_2'])))
+
+            for f in next_1.atom_feats.values():
                 features.append(func('+1~'+f))
         else:
             features.append(func('EOS1'))
+
+
+
+
 
 
 

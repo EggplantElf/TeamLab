@@ -25,41 +25,31 @@ def write_instances(input_file, output_file, extra_output_file, model_file, trai
         for t in sent:
             pos = pos_func(t.gold_pos) # 5
             feat = t.maxent_features(feat_func) # [10, 25, 38, 1067]
-            prev_pos1 = t.prev_pos(1)
-            prev_pos2 = t.prev_pos(2)
-            next_pos1 = t.next_pos(1)
-            next_pos2 = t.next_pos(2)
+            p1 = t.prev_pos(1)
+            p2 = t.prev_pos(2)
+            n1 = t.next_pos(1)
+            n2 = t.next_pos(2)
+            instances.append((pos, feat, p1, p2, n1, n2))
 
-            instances.append((pos, feat, prev_pos1, prev_pos2, next_pos1, next_pos2))
+    pos_func('BOS')
+    pos_func('EOS')
 
-    # register all possible prev_pos and next_pos, 
-    # and make sure that the indices are larger than other features
-    # to facilitate adding them as extra features
-    # if train:
-    #     for pos in model.pos_dict:
-    #         feat_func('PREV_POS1:%s' % pos)
-    #         feat_func('PREV_POS2:%s' % pos)
-    #         for pos2 in model.pos_dict:
-    #             feat_func('PREV_POS1:%s' % (pos, pos2))
-
-
-
-    #     feat_func('PREV_POS1:BOS')
-    #     feat_func('PREV_POS2:BOS')
-    #     for pos in model.pos_dict:
-    #         feat_func('NEXT_POS1:%s' % pos)
-    #         feat_func('NEXT_POS2:%s' % pos)
-    #     feat_func('NEXT_POS1:EOS')
-    #     feat_func('NEXT_POS2:EOS')
-
-
-    for (pos, feat, prev_pos1, prev_pos2, next_pos1, next_pos2) in instances:
-        pos_feat = sorted([feat_func('PREV_POS1:%s' % prev_pos1),\
-                           feat_func('PREV_POS2:%s' % prev_pos2),\
-                           feat_func('NEXT_POS1:%s' % next_pos1),\
-                           feat_func('NEXT_POS2:%s' % next_pos2)])
+    for (pos, feat, p1, p2, n1, n2) in instances:
+        pos_feat =[feat_func('POS_P1:%s' % p1),\
+                    feat_func('POS_P2:%s' % p2),\
+                    feat_func('POS_N1:%s' % n1),\
+                    feat_func('POS_N2:%s' % n2),\
+                    feat_func('POS_P1_P2:%s_%s' % (p1, p2)),\
+                    feat_func('POS_N1_N2:%s_%s' % (n1, n2)),\
+                    feat_func('POS_P1_N1:%s_%s' % (p1, n1)),\
+                    ]
+        pos_feat = sorted(feat + filter(lambda x: x != None, pos_feat))
+        l1 = len(feat)
+        l2 = len(pos_feat)
         f.write('%d %s\n' % (pos, ' '.join('%d:1' % i for i in feat)))
-        g.write('%d %s\n' % (pos, ' '.join('%d:1' % i for i in feat + pos_feat)))
+        g.write('%d %s\n' % (pos, ' '.join('%d:1' % i for i in pos_feat)))
+        # f.write('%d %s\n' % (pos, ' '.join('%d:%.3f' % (i, 1 / len(feat)) for i in feat)))
+        # g.write('%d %s\n' % (pos, ' '.join('%d:%.3f' % (i, 1 / len(pos_feat)) for i in pos_feat)))
 
     f.close()
     g.close()
@@ -67,26 +57,40 @@ def write_instances(input_file, output_file, extra_output_file, model_file, trai
         model.write_stats('feat.txt')
     model.save(model_file)
 
+def train(instance_file, model_file, param):
+    y, x = ll.svm_read_problem(instance_file)
+    prob = ll.problem(y, x)
+    m = ll.train(prob, param)
+    ll.save_model(model_file)
+    print 'done training'
+
 
 def predict(input_file, model0_file, model1_file, dict_file, output_file):
-    # out = open(output_file, 'w')
+    global bos, eos
+    out = open(output_file, 'w')
     m0 = ll.load_model(model0_file)
     m1 = ll.load_model(model1_file)
     dicts = Model(dict_file)
+    bos = dicts.map_pos('BOS')
+    eos = dicts.map_pos('EOS')
+
     print '# of features:', len(dicts.feature_dict)
 
     # for easier mapping from neighbouring pos tags to features
-    pos2feat = {}
-    for pos in dicts.pos_dict_rev: #[0, 1, 2, 3, ...]
-        pos2feat[(-1, pos)] = dicts.map_features('PREV_POS1:%s' % dicts.map_pos_rev(pos))
-        pos2feat[(-2, pos)] = dicts.map_features('PREV_POS2:%s' % dicts.map_pos_rev(pos))
-        pos2feat[(1, pos)] = dicts.map_features('NEXT_POS1:%s' % dicts.map_pos_rev(pos))
-        pos2feat[(2, pos)] = dicts.map_features('NEXT_POS2:%s' % dicts.map_pos_rev(pos))
+    p_f = {}
+    for i in dicts.pos_dict_rev: #[0, 1, 2, 3, ...] bos and eos are also included
+        pi = dicts.map_pos_rev(i)
+        p_f[(-1, i)] = dicts.map_features('POS_P1:%s' % pi)
+        p_f[(-2, i)] = dicts.map_features('POS_P2:%s' % pi)
+        p_f[(+1, i)] = dicts.map_features('POS_N1:%s' % pi)
+        p_f[(+2, i)] = dicts.map_features('POS_N2:%s' % pi)
 
-    pos2feat[(-1, 'BOS')] = dicts.map_features('PREV_POS1:BOS')
-    pos2feat[(-2, 'BOS')] = dicts.map_features('PREV_POS2:BOS')
-    pos2feat[(1, 'EOS')] = dicts.map_features('NEXT_POS1:EOS')
-    pos2feat[(2, 'EOS')] = dicts.map_features('NEXT_POS2:EOS')
+
+        for j in dicts.pos_dict_rev:
+            pj = dicts.map_pos_rev(j)
+            p_f[(-1, -2, i, j)] = dicts.map_features('POS_P1_P2:%s_%s' % (pi, pj))
+            p_f[(+1, +2, i, j)] = dicts.map_features('POS_N1_N2:%s_%s' % (pi, pj))
+            p_f[(-1, +1, i, j)] = dicts.map_features('POS_P1_N1:%s_%s' % (pi, pj))
 
     s1, s2 = 0, 0
     total = 0
@@ -98,11 +102,11 @@ def predict(input_file, model0_file, model1_file, dict_file, output_file):
             feat = t.maxent_features(dicts.map_features)
             x_.append(feat)
             g_.append(dicts.map_pos(t.gold_pos))
-        y_1 = map(int, ll.predict([], [{k:1 for k in f} for f in x_], m0, '-q')[0])
+        y_1 = map(int, ll.predict([], [{k : 1 for k in f} for f in x_], m0, '-q')[0])
 
-        y_2 = [choice(xrange(1, len(dicts.pos_dict))) for i in y_1]
+        # y_2 = [choice(xrange(1, len(dicts.pos_dict))) for i in y_1]
 
-        y_2 = inference(m1, pos2feat, y_1[:], x_)
+        y_2 = inference(m1, p_f, y_1[:], x_)
 
         # print dicts.pos_dict
         for y, y1, y2 in zip(g_, y_1, y_2):
@@ -112,12 +116,20 @@ def predict(input_file, model0_file, model1_file, dict_file, output_file):
                 s2 += 1
             total += 1
 
+        for (t, y) in zip(sent, y_2):
+            out.write('%s\t%s\n' % (t.word, dicts.map_pos_rev(y)))
+        out.write('\n')
+
+    out.close()
     print 'acc 1: %d / %d = %.4f' % (s1, total, s1 / total)
     print 'acc 2: %d / %d = %.4f' % (s2, total, s2 / total)
 
 
 
-def inference(model, pos2feat, y_, x_):
+
+# try use logistic regression to sample instead of deterministic way
+# instance-wise normalization 
+def inference(model, p_f, y_, x_):
     cache = []
     for i in xrange(len(y_)):
         cache.append((x_[i], {}))
@@ -130,19 +142,16 @@ def inference(model, pos2feat, y_, x_):
     for i in xrange(200):
         shuffle(order)
         for j in order:
-            p1 = pos2feat[(-1, y_[j - 1])] if j > 0 else pos2feat[(-1, 'BOS')]
-            p2 = pos2feat[(-2, y_[j - 2])] if j > 1 else pos2feat[(-2, 'BOS')]
-            n1 = pos2feat[(1, y_[j + 1])] if j < len(y_) - 1 else pos2feat[(1, 'EOS')]
-            n2 = pos2feat[(2, y_[j + 2])] if j < len(y_) - 2 else pos2feat[(2, 'EOS')]
-
-
-            # cache the prediction of given prev and next pos
-            if (p2, p1, n1, n2) in cache[j][1]:
-                ny = cache[j][1][(p2, p1, n1, n2)]
+            feats = pos_feat(p_f, y_, j)
+            # print feats
+            # cache the prediction of given prev and next tags 
+            if feats in cache[j][1]:
+                ny = cache[j][1][feats]
             else:
-                x = [{k:1 for k in x_[j] + list((p2, p1, n1, n2))}]
+                # l = len(x_[j] + list(feats))
+                x = [{k:1 for k in x_[j] + list(feats)}]
                 ny = int(ll.predict([], x, model, '-q')[0][0])
-                cache[j][1][(p2, p1, n1, n2)] = ny
+                cache[j][1][feats] = ny
 
             if y_[j] == ny:
                 same += 1
@@ -163,11 +172,30 @@ def inference(model, pos2feat, y_, x_):
     # return [max(votes[k], key = lambda x: votes[k][x]) for k in xrange(len(y_))]
     return y_
 
+
+
+def pos_feat(p_f, y_, j):
+    p1 = y_[j - 1] if j > 0 else bos
+    p2 = y_[j - 2] if j > 1 else bos
+    n1 = y_[j + 1] if j < len(y_) - 1 else eos
+    n2 = y_[j + 2] if j < len(y_) - 2 else eos
+    feats = map(p_f.__getitem__, [(-1, p1), (-2, p2), (1, n1), (2, n2), \
+                                  (-1, -2, p1, p2), (1, 2, n1, n2), (-1, 1, p1, n1)])
+    # feats = map(p_f.__getitem__, [(-1, p1), (1, n1), (-1, -2, p1, p2), (1, 2, n1, n2), (-1, 1, p1, n1)])
+    return tuple(filter(lambda x: x != None, feats))
+
+
 if __name__ == '__main__':
-    if '-i' in sys.argv: 
+    if '-a' in sys.argv or '-i' in sys.argv: 
+        print 'writing instances...'
         write_instances('../data/pos/train.col', 'train.nopos.inst', 'train.pos.inst', 'maxent.dict', True)
         write_instances('../data/pos/dev.col', 'dev.nopos.inst', 'dev.pos.inst', 'maxent.dict', False)
-    if '-p' in sys.argv:
+    if '-a' in sys.argv or '-t' in sys.argv:
+        print 'training models...'
+        train('train.nopos.inst', 'models/m0.model', '-q -s 5')
+        train('train.pos.inst', 'models/m1.model', '-q -s 5')
+    if '-a' in sys.argv or '-p' in sys.argv:
+        print 'predicting...'
         predict('../data/pos/dev.col', 'models/m0.model', 'models/m1.model', 'maxent.dict', 'dev.predict.col')
 
 
