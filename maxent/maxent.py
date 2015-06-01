@@ -1,21 +1,21 @@
 from __future__ import division
 from sentence import *
-from model import *
+from mapping import *
 from random import shuffle,choice
 import sys
 sys.path.append('liblinear/python/')
 import liblinearutil as ll
 
 
-def write_instances(input_file, output_file, extra_output_file, model_file, train = True):
+def write_instances(input_file, output_file, extra_output_file, mapping_file, train = True):
     if train:
-        model = Model()
-        feat_func = model.register_features
-        pos_func = model.register_pos
+        mapping = Mapping()
+        feat_func = mapping.register_features
+        pos_func = mapping.register_pos
     else:
-        model = Model(model_file)
-        feat_func = model.map_features
-        pos_func = model.map_pos
+        mapping = Mapping(mapping_file)
+        feat_func = mapping.map_features
+        pos_func = mapping.map_pos
 
     f = open(output_file, 'w')
     g = open(extra_output_file, 'w')
@@ -54,43 +54,43 @@ def write_instances(input_file, output_file, extra_output_file, model_file, trai
     f.close()
     g.close()
     if train:
-        model.write_stats('feat.txt')
-    model.save(model_file)
+        mapping.write_stats('feat.txt')
+        mapping.save(mapping_file)
 
 def train(instance_file, model_file, param):
     y, x = ll.svm_read_problem(instance_file)
     prob = ll.problem(y, x)
     m = ll.train(prob, param)
-    ll.save_model(model_file)
-    print 'done training'
+    ll.save_model(model_file, m)
+    print 'done training', model_file
 
 
-def predict(input_file, model0_file, model1_file, dict_file, output_file):
+def predict(input_file, model0_file, model1_file, mapping_file, output_file):
     global bos, eos
     out = open(output_file, 'w')
     m0 = ll.load_model(model0_file)
     m1 = ll.load_model(model1_file)
-    dicts = Model(dict_file)
-    bos = dicts.map_pos('BOS')
-    eos = dicts.map_pos('EOS')
+    mapping = Mapping(mapping_file)
+    bos = mapping.map_pos('BOS')
+    eos = mapping.map_pos('EOS')
 
-    print '# of features:', len(dicts.feature_dict)
+    print '# of features:', len(mapping.feature_dict)
 
     # for easier mapping from neighbouring pos tags to features
     p_f = {}
-    for i in dicts.pos_dict_rev: #[0, 1, 2, 3, ...] bos and eos are also included
-        pi = dicts.map_pos_rev(i)
-        p_f[(-1, i)] = dicts.map_features('POS_P1:%s' % pi)
-        p_f[(-2, i)] = dicts.map_features('POS_P2:%s' % pi)
-        p_f[(+1, i)] = dicts.map_features('POS_N1:%s' % pi)
-        p_f[(+2, i)] = dicts.map_features('POS_N2:%s' % pi)
+    for i in mapping.pos_dict_rev: #[0, 1, 2, 3, ...] bos and eos are also included
+        pi = mapping.map_pos_rev(i)
+        p_f[(-1, i)] = mapping.map_features('POS_P1:%s' % pi)
+        p_f[(-2, i)] = mapping.map_features('POS_P2:%s' % pi)
+        p_f[(+1, i)] = mapping.map_features('POS_N1:%s' % pi)
+        p_f[(+2, i)] = mapping.map_features('POS_N2:%s' % pi)
 
 
-        for j in dicts.pos_dict_rev:
-            pj = dicts.map_pos_rev(j)
-            p_f[(-1, -2, i, j)] = dicts.map_features('POS_P1_P2:%s_%s' % (pi, pj))
-            p_f[(+1, +2, i, j)] = dicts.map_features('POS_N1_N2:%s_%s' % (pi, pj))
-            p_f[(-1, +1, i, j)] = dicts.map_features('POS_P1_N1:%s_%s' % (pi, pj))
+        for j in mapping.pos_dict_rev:
+            pj = mapping.map_pos_rev(j)
+            p_f[(-1, -2, i, j)] = mapping.map_features('POS_P1_P2:%s_%s' % (pi, pj))
+            p_f[(+1, +2, i, j)] = mapping.map_features('POS_N1_N2:%s_%s' % (pi, pj))
+            p_f[(-1, +1, i, j)] = mapping.map_features('POS_P1_N1:%s_%s' % (pi, pj))
 
     s1, s2 = 0, 0
     total = 0
@@ -99,16 +99,15 @@ def predict(input_file, model0_file, model1_file, dict_file, output_file):
         x_ = []
         g_ = []
         for t in sent:
-            feat = t.maxent_features(dicts.map_features)
+            feat = t.maxent_features(mapping.map_features)
             x_.append(feat)
-            g_.append(dicts.map_pos(t.gold_pos))
+            g_.append(mapping.map_pos(t.gold_pos))
         y_1 = map(int, ll.predict([], [{k : 1 for k in f} for f in x_], m0, '-q')[0])
 
-        # y_2 = [choice(xrange(1, len(dicts.pos_dict))) for i in y_1]
+        # y_2 = [choice(xrange(1, len(mapping.pos_dict))) for i in y_1]
 
         y_2 = inference(m1, p_f, y_1[:], x_)
 
-        # print dicts.pos_dict
         for y, y1, y2 in zip(g_, y_1, y_2):
             if y == y1:
                 s1 += 1
@@ -117,14 +116,12 @@ def predict(input_file, model0_file, model1_file, dict_file, output_file):
             total += 1
 
         for (t, y) in zip(sent, y_2):
-            out.write('%s\t%s\n' % (t.word, dicts.map_pos_rev(y)))
+            out.write('%s\t%s\n' % (t.word, mapping.map_pos_rev(y)))
         out.write('\n')
 
     out.close()
     print 'acc 1: %d / %d = %.4f' % (s1, total, s1 / total)
     print 'acc 2: %d / %d = %.4f' % (s2, total, s2 / total)
-
-
 
 
 # try use logistic regression to sample instead of deterministic way
@@ -143,12 +140,10 @@ def inference(model, p_f, y_, x_):
         shuffle(order)
         for j in order:
             feats = pos_feat(p_f, y_, j)
-            # print feats
             # cache the prediction of given prev and next tags 
             if feats in cache[j][1]:
                 ny = cache[j][1][feats]
             else:
-                # l = len(x_[j] + list(feats))
                 x = [{k:1 for k in x_[j] + list(feats)}]
                 ny = int(ll.predict([], x, model, '-q')[0][0])
                 cache[j][1][feats] = ny
@@ -181,7 +176,6 @@ def pos_feat(p_f, y_, j):
     n2 = y_[j + 2] if j < len(y_) - 2 else eos
     feats = map(p_f.__getitem__, [(-1, p1), (-2, p2), (1, n1), (2, n2), \
                                   (-1, -2, p1, p2), (1, 2, n1, n2), (-1, 1, p1, n1)])
-    # feats = map(p_f.__getitem__, [(-1, p1), (1, n1), (-1, -2, p1, p2), (1, 2, n1, n2), (-1, 1, p1, n1)])
     return tuple(filter(lambda x: x != None, feats))
 
 

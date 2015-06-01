@@ -1,25 +1,25 @@
 import cPickle
 import gzip
 
-class Model:
-    def __init__(self, modelfile = None):
-        if modelfile:
-            self.load(modelfile)
+class Mapping:
+    def __init__(self, mapping_file = None):
+        if mapping_file:
+            self.load(mapping_file)
         else:
             self.feature_dict = {'#': 0}
             self.pos_dict = {'#': 0}
             self.pos_dict_rev = {0: '#'}
             self.stats = {'#': 0}
 
-    def save(self, modelfile):
-        stream = gzip.open(modelfile,'wb')
+    def save(self, mapping_file):
+        stream = gzip.open(mapping_file,'wb')
         cPickle.dump(self.feature_dict, stream, -1)
         cPickle.dump(self.pos_dict, stream, -1)
         cPickle.dump(self.pos_dict_rev, stream, -1)
         stream.close()
 
-    def load(self, modelfile):
-        stream = gzip.open(modelfile,'rb')
+    def load(self, mapping_file):
+        stream = gzip.open(mapping_file,'rb')
         self.feature_dict = cPickle.load(stream)
         self.pos_dict = cPickle.load(stream)
         self.pos_dict_rev = cPickle.load(stream)
