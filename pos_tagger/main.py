@@ -27,7 +27,7 @@ def train(train_file, dev_file, model_file, features_on):
 
     q = 0
     best_accuracy = 0
-    for i in range(10):
+    for i in range(15):
         total = 0
         correct = 0
         # shuffle(instances)
@@ -96,7 +96,7 @@ if __name__ == '__main__':
     history[mask] = (accuracy, num_features)
     print 'accuracy: %.4f\n' % (accuracy)
     
-    for i in range(200):
+    for i in range(1500):
         success = False
         for j in range(50):
             num = random.randrange(0,num_feature_classes)
