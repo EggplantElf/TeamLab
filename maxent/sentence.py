@@ -109,6 +109,7 @@ class Token:
             # features.append(func('-1_0~%s_%s' % (prev_1.atom_feats['shapenc'], self.atom_feats['shapenc'])))
             # features.append(func('-1_0~%s_%s' % (prev_1.atom_feats['suffix_1'], self.atom_feats['suffix_1'])))
             # features.append(func('-1_0~%s_%s' % (prev_1.atom_feats['suffix_2'], self.atom_feats['suffix_2'])))
+            # features.append(func('-1_0~%s_%s' % (prev_1.atom_feats['word'], self.atom_feats['word'])))
             for f in prev_1.atom_feats.values():
                 features.append(func('-1~'+f))
         else:
@@ -120,7 +121,7 @@ class Token:
             # features.append(func('+1_0~%s_%s' % (next_1.atom_feats['shapenc'], self.atom_feats['shapenc'])))
             # features.append(func('+1_0~%s_%s' % (next_1.atom_feats['suffix_1'], self.atom_feats['suffix_1'])))
             # features.append(func('+1_0~%s_%s' % (next_1.atom_feats['suffix_2'], self.atom_feats['suffix_2'])))
-
+            # features.append(func('+1_0~%s_%s' % (next_1.atom_feats['word'], self.atom_feats['word'])))
             for f in next_1.atom_feats.values():
                 features.append(func('+1~'+f))
         else:

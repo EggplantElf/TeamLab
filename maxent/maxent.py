@@ -1,7 +1,7 @@
 from __future__ import division
 from sentence import *
 from mapping import *
-from random import shuffle,choice
+from random import shuffle,choice, random
 import sys
 sys.path.append('liblinear/python/')
 import liblinearutil as ll
@@ -35,7 +35,7 @@ def write_instances(input_file, output_file, extra_output_file, mapping_file, tr
     pos_func('EOS')
 
     for (pos, feat, p1, p2, n1, n2) in instances:
-        pos_feat =[feat_func('POS_P1:%s' % p1),\
+        pos_feat = [feat_func('POS_P1:%s' % p1),\
                     feat_func('POS_P2:%s' % p2),\
                     feat_func('POS_N1:%s' % n1),\
                     feat_func('POS_N2:%s' % n2),\
@@ -92,10 +92,14 @@ def predict(input_file, model0_file, model1_file, mapping_file, output_file):
             p_f[(+1, +2, i, j)] = mapping.map_features('POS_N1_N2:%s_%s' % (pi, pj))
             p_f[(-1, +1, i, j)] = mapping.map_features('POS_P1_N1:%s_%s' % (pi, pj))
 
-    s1, s2 = 0, 0
+    s1, s2, s3 = 0, 0, 0
     total = 0
 
+    c = 0
     for sent in read_sentence(input_file):
+        c+=1
+        if c %100 == 0:
+            print c
         x_ = []
         g_ = []
         for t in sent:
@@ -106,14 +110,24 @@ def predict(input_file, model0_file, model1_file, mapping_file, output_file):
 
         # y_2 = [choice(xrange(1, len(mapping.pos_dict))) for i in y_1]
 
-        y_2 = inference(m1, p_f, y_1[:], x_)
+        y_2 = inference(m1, p_f, y_1[:], x_, propose_deterministic)
 
-        for y, y1, y2 in zip(g_, y_1, y_2):
+        # y_2 = inference(m1, p_f, y_1[:], x_, propose_probabilistic)
+        y_3 = y_2
+
+        for y, y1, y2, y3 in zip(g_, y_1, y_2, y_3):
             if y == y1:
                 s1 += 1
             if y == y2:
                 s2 += 1
+            if y == y3:
+                s3 += 1
             total += 1
+
+        # print 'correct 1: %d' % s1
+        # print 'correct 2: %d' % s2
+        # print 'correct 3: %d' % s3
+
 
         for (t, y) in zip(sent, y_2):
             out.write('%s\t%s\n' % (t.word, mapping.map_pos_rev(y)))
@@ -126,7 +140,7 @@ def predict(input_file, model0_file, model1_file, mapping_file, output_file):
 
 # try use logistic regression to sample instead of deterministic way
 # instance-wise normalization 
-def inference(model, p_f, y_, x_):
+def inference(model, p_f, y_, x_, propose_func):
     cache = []
     for i in xrange(len(y_)):
         cache.append((x_[i], {}))
@@ -140,13 +154,8 @@ def inference(model, p_f, y_, x_):
         shuffle(order)
         for j in order:
             feats = pos_feat(p_f, y_, j)
-            # cache the prediction of given prev and next tags 
-            if feats in cache[j][1]:
-                ny = cache[j][1][feats]
-            else:
-                x = [{k:1 for k in x_[j] + list(feats)}]
-                ny = int(ll.predict([], x, model, '-q')[0][0])
-                cache[j][1][feats] = ny
+            ny = propose_func(model, cache, feats, x_, j)
+            # ny = propose_probabilistic(model, cache, feats, x_, j)
 
             if y_[j] == ny:
                 same += 1
@@ -162,10 +171,36 @@ def inference(model, p_f, y_, x_):
                         votes[k][y] = 1
                     else:
                         votes[k][y] += 1
-        if same > len(y_):
+        if count > 500 and same > 2 * len(y_):
             break
-    # return [max(votes[k], key = lambda x: votes[k][x]) for k in xrange(len(y_))]
-    return y_
+    return [max(votes[k], key = lambda x: votes[k][x]) for k in xrange(len(y_))]
+    # return y_
+
+def propose_deterministic(model, cache, feats, x_, j):
+    if feats in cache[j][1]:
+        ny = cache[j][1][feats]
+    else:
+        x = [{k:1 for k in x_[j] + list(feats)}]
+        ny = int(ll.predict([], x, model, '-q')[0][0])
+        cache[j][1][feats] = ny
+    return ny
+
+def propose_probabilistic(model, cache, feats, x_, j):
+    if feats in cache[j][1]:
+        dist = cache[j][1][feats]
+    else:
+        x = [{k:1 for k in x_[j] + list(feats)}]
+        # print ll.predict([], x, model, '-q -b 1')
+        # exit(0)
+        dist = ll.predict([], x, model, '-q -b 1')[2][0]
+        cache[j][1][feats] = dist
+    r = random()
+    for (y, p) in enumerate(dist):
+        r -= p
+        if r < 0:
+            return y + 1
+    return y + 1
+
 
 
 
@@ -183,11 +218,11 @@ if __name__ == '__main__':
     if '-a' in sys.argv or '-i' in sys.argv: 
         print 'writing instances...'
         write_instances('../data/pos/train.col', 'train.nopos.inst', 'train.pos.inst', 'maxent.dict', True)
-        write_instances('../data/pos/dev.col', 'dev.nopos.inst', 'dev.pos.inst', 'maxent.dict', False)
+        # write_instances('../data/pos/dev.col', 'dev.nopos.inst', 'dev.pos.inst', 'maxent.dict', False)
     if '-a' in sys.argv or '-t' in sys.argv:
         print 'training models...'
-        train('train.nopos.inst', 'models/m0.model', '-q -s 5')
-        train('train.pos.inst', 'models/m1.model', '-q -s 5')
+        train('train.nopos.inst', 'models/n0.model', '-q -s 0')
+        train('train.pos.inst', 'models/n1.model', '-q -s 0')
     if '-a' in sys.argv or '-p' in sys.argv:
         print 'predicting...'
         predict('../data/pos/dev.col', 'models/m0.model', 'models/m1.model', 'maxent.dict', 'dev.predict.col')
