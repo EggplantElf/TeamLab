@@ -7,6 +7,7 @@ import cProfile
 import itertools as it
 import random
 from time import time
+import numpy as np
 
 def train(train_file, mask):
     model = Model()
@@ -80,14 +81,27 @@ def optimize(model, dev_file, mask, num = 1):
 
 
 
+def normalzie(model, dev_file, mask, sigma = 0):
+    instances = read_dev_instances(dev_file)
+    w = model.weights
+    new_model = Model()
+    new_model.feature_dict = model.feature_dict
+    new_model.pos_dict = model.pos_dict
+    new_model.pos_dict_rev = model.pos_dict_rev
 
-
+    new_model.weights = 1 / np.sqrt(1 / (w + 0.0001) ** 2 + sigma) * np.sign(w)
+    acc = evaluate(instances, new_model, mask)
+    return acc
+    
 
 
 if __name__ == '__main__':
-    mask = [True] * 9 + [False] * 11
-    model = train('../data/pos/train.col', mask)
-    # model = Model('test.model')
-    optimize(model, '../data/pos/train.col', mask, 30)
+    mask = [True] * 7 + [False] * 13
+    # model = train('../data/pos/train.col', mask)
+    model = Model('test.model')
+    # optimize(model, '../data/pos/train.col', mask, 30)
+    for i in [0, 1, 0.1, 0.01, 0.001, 0.0001]:
+        print 'sigma =', i
+        print normalzie(model, '../data/pos/dev.col', mask, i)
 
 

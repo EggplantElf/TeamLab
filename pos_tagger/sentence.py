@@ -127,7 +127,7 @@ class Token:
         if mask[18]:
 	    features.append(func('NEXT+NEXT+THIS_WORD:%s+%s+%s' % (self.next_word(2), self.next_word(1), self.word)))
         if mask[19]:
-            features.append(func('NEXT+NEXT+THIS_WORD:%s+%s+%s' % (self.prev_word(1), self.word, self.next_word(1))))
+            features.append(func('PREV+NEXT+THIS_WORD:%s+%s+%s' % (self.prev_word(1), self.next_word(1), self.word)))
 
         # don't register here, add while training
         # for i in range(1, 3):

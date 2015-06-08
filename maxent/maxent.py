@@ -92,48 +92,42 @@ def predict(input_file, model0_file, model1_file, mapping_file, output_file):
             p_f[(+1, +2, i, j)] = mapping.map_features('POS_N1_N2:%s_%s' % (pi, pj))
             p_f[(-1, +1, i, j)] = mapping.map_features('POS_P1_N1:%s_%s' % (pi, pj))
 
-    s1, s2, s3 = 0, 0, 0
+    s0, s1, s2 = 0, 0, 0
     total = 0
 
-    c = 0
     for sent in read_sentence(input_file):
-        c+=1
-        if c %100 == 0:
-            print c
         x_ = []
         g_ = []
         for t in sent:
             feat = t.maxent_features(mapping.map_features)
             x_.append(feat)
             g_.append(mapping.map_pos(t.gold_pos))
-        y_1 = map(int, ll.predict([], [{k : 1 for k in f} for f in x_], m0, '-q')[0])
+        y_0 = map(int, ll.predict([], [{k : 1 for k in f} for f in x_], m0, '-q')[0])
 
         # y_2 = [choice(xrange(1, len(mapping.pos_dict))) for i in y_1]
 
-        y_2 = inference(m1, p_f, y_1[:], x_, propose_deterministic)
+        y_1, y_2 = inference(m1, p_f, y_0[:], x_, propose_deterministic)
 
         # y_2 = inference(m1, p_f, y_1[:], x_, propose_probabilistic)
-        y_3 = y_2
 
-        for y, y1, y2, y3 in zip(g_, y_1, y_2, y_3):
+        for y, y0, y1, y2 in zip(g_, y_0, y_1, y_2, sent):
+            if y == y0:
+                s0 += 1
             if y == y1:
                 s1 += 1
             if y == y2:
                 s2 += 1
-            if y == y3:
-                s3 += 1
             total += 1
 
-        # print 'correct 1: %d' % s1
-        # print 'correct 2: %d' % s2
-        # print 'correct 3: %d' % s3
+            p0 = mapping.map_pos_rev(y0)
+            p1 = mapping.map_pos_rev(y1)
+            p2 = mapping.map_pos_rev(y2)
 
-
-        for (t, y) in zip(sent, y_2):
-            out.write('%s\t%s\n' % (t.word, mapping.map_pos_rev(y)))
+            out.write('%s\t%s\t%s\t%s\n' % (t.word, p0, p1, p2))
         out.write('\n')
 
     out.close()
+    print 'acc 0: %d / %d = %.4f' % (s0, total, s0 / total)
     print 'acc 1: %d / %d = %.4f' % (s1, total, s1 / total)
     print 'acc 2: %d / %d = %.4f' % (s2, total, s2 / total)
 
@@ -155,7 +149,6 @@ def inference(model, p_f, y_, x_, propose_func):
         for j in order:
             feats = pos_feat(p_f, y_, j)
             ny = propose_func(model, cache, feats, x_, j)
-            # ny = propose_probabilistic(model, cache, feats, x_, j)
 
             if y_[j] == ny:
                 same += 1
@@ -171,10 +164,10 @@ def inference(model, p_f, y_, x_, propose_func):
                         votes[k][y] = 1
                     else:
                         votes[k][y] += 1
-        if count > 500 and same > 2 * len(y_):
+        if count > 200 and same > 2 * len(y_):
             break
-    return [max(votes[k], key = lambda x: votes[k][x]) for k in xrange(len(y_))]
-    # return y_
+    y_2 = [max(votes[k], key = lambda x: votes[k][x]) for k in xrange(len(y_))]
+    return y_, y_2
 
 def propose_deterministic(model, cache, feats, x_, j):
     if feats in cache[j][1]:
@@ -214,6 +207,21 @@ def pos_feat(p_f, y_, j):
     return tuple(filter(lambda x: x != None, feats))
 
 
+def vote(input_file, output_file):
+    o = open(output_file, 'w')
+    for line in open(input_file):
+        if line.strip():
+            x, y0, y1, y2 = line.split()
+            # take the majority or trust y2
+            if y0 == y1:
+                y = y0
+            else:
+                y = y2
+            o.write('%s\t%s\n' % (w, y))
+        else:
+            o.write('\n')
+    o.close()
+
 if __name__ == '__main__':
     if '-a' in sys.argv or '-i' in sys.argv: 
         print 'writing instances...'
@@ -221,10 +229,11 @@ if __name__ == '__main__':
         # write_instances('../data/pos/dev.col', 'dev.nopos.inst', 'dev.pos.inst', 'maxent.dict', False)
     if '-a' in sys.argv or '-t' in sys.argv:
         print 'training models...'
-        train('train.nopos.inst', 'models/n0.model', '-q -s 0')
-        train('train.pos.inst', 'models/n1.model', '-q -s 0')
+        train('train.nopos.inst', 'models/x0.model', '-q -s 5')
+        train('train.pos.inst', 'models/x1.model', '-q -s 5')
     if '-a' in sys.argv or '-p' in sys.argv:
         print 'predicting...'
-        predict('../data/pos/dev.col', 'models/m0.model', 'models/m1.model', 'maxent.dict', 'dev.predict.col')
-
+        predict('../data/pos/dev.col', 'models/x0.model', 'models/x1.model', 'maxent.dict', 'dev.candis.col')
+    if '-a' in sys.argv or '-v' in sys.argv:
+        vote('dev.candis.col', 'dev.predict.col')
 

@@ -68,12 +68,12 @@ class Token:
 
     def shape(self):
         shapeNC = self.word
-        paterns = [['[A-Z]', 'A'], ['[a-z]', 'a'], ['\d',"0"], ['\W',"&"]]
+        paterns = [['[A-Z]', 'A'], ['[a-z]', 'a'], ['\d',"0"]]
 
         for i in paterns:
             shapeNC = re.sub(i[0],i[1],shapeNC)
         
-        symbols = ['A', 'a', '&', '0']
+        symbols = ['A', 'a', '0']
         shapeC = shapeNC
         for i in symbols:
             shapeC = re.sub(2*i+"+",2*i,shapeC)
@@ -97,45 +97,45 @@ class Token:
         features = []
         prev_1 = self.prev_token(1)
         next_1 = self.next_token(1)
-        # prev_2 = self.prev_token(2)
-        # next_2 = self.next_token(2)
+        prev_2 = self.prev_token(2)
+        next_2 = self.next_token(2)
 
 
         for f in self.atom_feats.values():
             features.append(func('0~'+f))
 
+        if prev_2:
+            for f in prev_2.atom_feats.values():
+                features.append(func('-2~'+f))
+        else:
+            features.append(func('BOS2'))
+
         if prev_1:
-            # features.append(func('-1_0~%s_%s' % (prev_1.atom_feats['shapec'], self.atom_feats['shapec'])))
-            # features.append(func('-1_0~%s_%s' % (prev_1.atom_feats['shapenc'], self.atom_feats['shapenc'])))
-            # features.append(func('-1_0~%s_%s' % (prev_1.atom_feats['suffix_1'], self.atom_feats['suffix_1'])))
-            # features.append(func('-1_0~%s_%s' % (prev_1.atom_feats['suffix_2'], self.atom_feats['suffix_2'])))
-            # features.append(func('-1_0~%s_%s' % (prev_1.atom_feats['word'], self.atom_feats['word'])))
             for f in prev_1.atom_feats.values():
                 features.append(func('-1~'+f))
+            # features.append(func('-1_0~%s_%s' % (prev_1.atom_feats['word'], self.atom_feats['word'])))
+            # features.append(func('-1_0~%s_%s' % (prev_1.atom_feats['shapenc'], self.atom_feats['word'])))
+            # features.append(func('-1_0~%s_%s' % (prev_1.atom_feats['shapec'], self.atom_feats['word'])))
         else:
             features.append(func('BOS1'))
 
 
+        if next_2:
+            for f in next_2.atom_feats.values():
+                features.append(func('+2~'+f))
+        else:
+            features.append(func('EOS2'))
+
         if next_1:
-            # features.append(func('+1_0~%s_%s' % (next_1.atom_feats['shapec'], self.atom_feats['shapec'])))
-            # features.append(func('+1_0~%s_%s' % (next_1.atom_feats['shapenc'], self.atom_feats['shapenc'])))
-            # features.append(func('+1_0~%s_%s' % (next_1.atom_feats['suffix_1'], self.atom_feats['suffix_1'])))
-            # features.append(func('+1_0~%s_%s' % (next_1.atom_feats['suffix_2'], self.atom_feats['suffix_2'])))
-            # features.append(func('+1_0~%s_%s' % (next_1.atom_feats['word'], self.atom_feats['word'])))
             for f in next_1.atom_feats.values():
                 features.append(func('+1~'+f))
+            # features.append(func('+1_0~%s_%s' % (next_1.atom_feats['word'], self.atom_feats['word'])))
+            # features.append(func('+1_0~%s_%s' % (next_1.atom_feats['shapenc'], self.atom_feats['word'])))
+            # features.append(func('+1_0~%s_%s' % (next_1.atom_feats['shapec'], self.atom_feats['word'])))
         else:
             features.append(func('EOS1'))
 
-
-
-
-
-
-
         return sorted(filter(lambda x: x != None, features))
-
-
 
 
 
