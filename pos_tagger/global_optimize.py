@@ -96,12 +96,17 @@ def normalzie(model, dev_file, mask, sigma = 0):
 
 
 if __name__ == '__main__':
-    mask = [True] * 7 + [False] * 13
-    # model = train('../data/pos/train.col', mask)
+    # mask = [True] * 7 + [False] * 13
+    mask = '11010110111010010010'
+    model = train('../data/pos/train.col', mask)
     model = Model('test.model')
+    instances = read_dev_instances('../data/pos/dev.col')
+
+    evaluate(instances, model, mask)
+
     # optimize(model, '../data/pos/train.col', mask, 30)
-    for i in [0, 1, 0.1, 0.01, 0.001, 0.0001]:
-        print 'sigma =', i
-        print normalzie(model, '../data/pos/dev.col', mask, i)
+    # for i in [0, 1, 0.1, 0.01, 0.001, 0.0001]:
+    #     print 'sigma =', i
+    #     print normalzie(model, '../data/pos/dev.col', mask, i)
 
 
