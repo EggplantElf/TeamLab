@@ -195,6 +195,6 @@ def stats(model_file):
 
 
 if __name__ == '__main__':
-    train('../data/pos/train.col', 'new.model')
-    predict('../data/pos/dev.col', 'new.model', 'predict.col')
+    train('../data/ner/train.iob', 'ner.model')
+    predict('../data/ner/dev.iob', 'ner.model', 'predict.iob')
     stats('new.model')

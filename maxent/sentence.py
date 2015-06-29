@@ -99,10 +99,19 @@ class Token:
         next_1 = self.next_token(1)
         prev_2 = self.prev_token(2)
         next_2 = self.next_token(2)
+        prev_3 = self.prev_token(3)
+        next_3 = self.next_token(3)
 
 
         for f in self.atom_feats.values():
             features.append(func('0~'+f))
+
+        if prev_3:
+            for f in prev_3.atom_feats.values():
+                features.append(func('-3~'+f))
+        else:
+            features.append(func('BOS3'))
+
 
         if prev_2:
             for f in prev_2.atom_feats.values():
@@ -113,11 +122,14 @@ class Token:
         if prev_1:
             for f in prev_1.atom_feats.values():
                 features.append(func('-1~'+f))
-            # features.append(func('-1_0~%s_%s' % (prev_1.atom_feats['word'], self.atom_feats['word'])))
-            # features.append(func('-1_0~%s_%s' % (prev_1.atom_feats['shapenc'], self.atom_feats['word'])))
-            # features.append(func('-1_0~%s_%s' % (prev_1.atom_feats['shapec'], self.atom_feats['word'])))
         else:
             features.append(func('BOS1'))
+
+        if next_3:
+            for f in next_3.atom_feats.values():
+                features.append(func('+3~'+f))
+        else:
+            features.append(func('EOS3'))
 
 
         if next_2:
@@ -129,9 +141,6 @@ class Token:
         if next_1:
             for f in next_1.atom_feats.values():
                 features.append(func('+1~'+f))
-            # features.append(func('+1_0~%s_%s' % (next_1.atom_feats['word'], self.atom_feats['word'])))
-            # features.append(func('+1_0~%s_%s' % (next_1.atom_feats['shapenc'], self.atom_feats['word'])))
-            # features.append(func('+1_0~%s_%s' % (next_1.atom_feats['shapec'], self.atom_feats['word'])))
         else:
             features.append(func('EOS1'))
 
@@ -146,7 +155,7 @@ def read_sentence(filename, train = False):
         line = line.strip()
         if line:
             sentence.add_token(line)
-        elif len(sentence) != 1:
+        elif len(sentence) != 0:
             yield sentence
             sentence = Sentence()
 

@@ -94,7 +94,6 @@ def predict(input_file, model0_file, model1_file, mapping_file, output_file):
 
     s0, s1, s2 = 0, 0, 0
     total = 0
-
     for sent in read_sentence(input_file):
         x_ = []
         g_ = []
@@ -110,7 +109,7 @@ def predict(input_file, model0_file, model1_file, mapping_file, output_file):
 
         # y_2 = inference(m1, p_f, y_1[:], x_, propose_probabilistic)
 
-        for y, y0, y1, y2 in zip(g_, y_0, y_1, y_2, sent):
+        for y, y0, y1, y2, t in zip(g_, y_0, y_1, y_2, sent):
             if y == y0:
                 s0 += 1
             if y == y1:
@@ -123,7 +122,7 @@ def predict(input_file, model0_file, model1_file, mapping_file, output_file):
             p1 = mapping.map_pos_rev(y1)
             p2 = mapping.map_pos_rev(y2)
 
-            out.write('%s\t%s\t%s\t%s\n' % (t.word, p0, p1, p2))
+            out.write('%s\t%s\n' % (t.word, p1))
         out.write('\n')
 
     out.close()
@@ -207,33 +206,18 @@ def pos_feat(p_f, y_, j):
     return tuple(filter(lambda x: x != None, feats))
 
 
-def vote(input_file, output_file):
-    o = open(output_file, 'w')
-    for line in open(input_file):
-        if line.strip():
-            x, y0, y1, y2 = line.split()
-            # take the majority or trust y2
-            if y0 == y1:
-                y = y0
-            else:
-                y = y2
-            o.write('%s\t%s\n' % (w, y))
-        else:
-            o.write('\n')
-    o.close()
 
 if __name__ == '__main__':
     if '-a' in sys.argv or '-i' in sys.argv: 
         print 'writing instances...'
-        write_instances('../data/pos/train.col', 'train.nopos.inst', 'train.pos.inst', 'maxent.dict', True)
+        write_instances('../data/ner/train.iob', 'train.nopos.inst', 'train.pos.inst', 'models/ner.dict', True)
         # write_instances('../data/pos/dev.col', 'dev.nopos.inst', 'dev.pos.inst', 'maxent.dict', False)
     if '-a' in sys.argv or '-t' in sys.argv:
         print 'training models...'
-        train('train.nopos.inst', 'models/x0.model', '-q -s 5')
-        train('train.pos.inst', 'models/x1.model', '-q -s 5')
+        train('train.nopos.inst', 'models/ner0.model', '-q -s 5')
+        train('train.pos.inst', 'models/ner1.model', '-q -s 5')
     if '-a' in sys.argv or '-p' in sys.argv:
         print 'predicting...'
-        predict('../data/pos/dev.col', 'models/x0.model', 'models/x1.model', 'maxent.dict', 'dev.candis.col')
-    if '-a' in sys.argv or '-v' in sys.argv:
-        vote('dev.candis.col', 'dev.predict.col')
+        predict('../data/ner/dev.iob', 'models/ner0.model', 'models/ner1.model', 'models/ner.dict', 'dev.perd.iob')
+        # predict('../data/pos/test-nolabels.col', 'models/k0.model', 'models/k1.model', 'models/k.dict', 'test.candis.col')
 
