@@ -14,7 +14,7 @@ def train(train_file, dev_file, model_file, features_on):
     for sent in read_sentence(train_file):
         for t in sent:
             f = t.extract_features(model.register_features, features_on)
-        print f
+            #print f
             instances.append((f, model.register_pos(t.gold_pos)))
     model.create_weights()
     print 'instances:', len(instances)
@@ -28,7 +28,7 @@ def train(train_file, dev_file, model_file, features_on):
 
     q = 0
     best_accuracy = 0
-    for i in range(15):
+    for i in range(10):
         total = 0
         correct = 0
         # shuffle(instances)
@@ -57,25 +57,27 @@ def train(train_file, dev_file, model_file, features_on):
         if correct_dev / total_dev > best_accuracy:
             best_accuracy = correct_dev / total_dev
     model.average(q)
-    #model.save(model_file)
+    model.save(model_file)
     print 'done training'
-    return best_accuracy, len(model.feature_dict)
-    #return model
+    #return best_accuracy, len(model.feature_dict)
+    return model
 
 
 
 def predict(filename, model, features_on):
     total = 0
     correct = 0
-    output = open('predict_dev.col', 'w')
+    output = open("test_pred.iob", 'w')
     for sent in read_sentence(filename):
         for t in sent:
             f = t.extract_features(model.map_features, features_on)
             scores = model.get_scores(f)
             # dist = model.get_dist(scores)
             p = model.predict(scores)
+            t.pred_pos = model.map_pos_rev(p)
             g = model.register_pos(t.gold_pos)
             # t.pred_pos = model.map_pos_rev(p)
+            #output.write('%s\t%s\t%s\n' % (t.word, model.map_pos_rev(g),model.map_pos_rev(p)))
             output.write('%s\t%s\n' % (t.word, model.map_pos_rev(p)))
             if p == g:
                 correct += 1
@@ -84,6 +86,13 @@ def predict(filename, model, features_on):
     print 'accuracy: %.4f' % (correct / total)
     output.close()
     return correct / total
+
+
+
+
+
+
+    
 
 def feature_selection():
     t0  = time()
@@ -140,7 +149,7 @@ def feature_selection():
 
 if __name__ == '__main__':
     #feature_selection()
-    mask = tuple([True] * 20)
-    ##model = train("../data/pos/train.col", "../data/pos/dev.col", 'tmp.dump', mask)
-    predict("../data/pos/train.col", Model("tmp.dump"), mask)
+    mask = tuple([True] * 30)
+    model = train("../data/train.iob", "../data/dev.iob", 'tmp.dump', mask)
+    predict("../data/test.iob", model, mask)
     
