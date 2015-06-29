@@ -1,6 +1,7 @@
 slides/
 data/
 liblinear/
+tmp/
 *.pyc
 *.dump
 *.col

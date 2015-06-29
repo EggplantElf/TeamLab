@@ -1,0 +1,20 @@
+disable_existing_loggers: false
+formatters:
+  default:
+    format: '%(asctime)s %(levelname)-8s %(name)-15s %(message)s'
+    #datefmt: '%Y-%m-%d %H:%M:%S'
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: default
+loggers:
+  google_news_crawler.gnc:
+    level: DEBUG
+  elasticsearch:
+    level: ERROR
+  elasticsearch.trace:
+    handlers: null
+root:
+  handlers: [console]
+  level: WARNING
+version: 1

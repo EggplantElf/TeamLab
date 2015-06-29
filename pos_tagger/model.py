@@ -88,6 +88,7 @@ class Model:
 
     # passive-aggresive update with average
     def update_pa(self, f, g, p, scores, q = 1, C = 0.1):
+        # t = 1
         t = min((scores[p] - scores[g] + 1) / (2 * len(f)), C)
         # t = (scores[p] - scores[g] + 1) / (2 * len(f) + 1 / (2 * C))
         for i in f:
