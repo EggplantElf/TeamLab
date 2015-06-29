@@ -80,7 +80,7 @@ def train(train_file, model_file):
 
 
 
-    model.write_stats('feat.txt')
+    model.write_stats('feat_ner.txt')
     model.save(model_file)
     print 'done training'
     return model
@@ -194,13 +194,8 @@ def stats(model_file):
     model.zeros()
 
 
+
 if __name__ == '__main__':
-<<<<<<< HEAD
-    train('../data/ner/train.iob', 'ner.model')
-    predict('../data/ner/dev.iob', 'ner.model', 'predict.iob')
-    stats('new.model')
-=======
-    train('../data/pos/train.col', 'new.model')
-    predict('../data/pos/dev.col', 'new.model', 'predict.col')
-    stats('new.model')
->>>>>>> feature_selection
+    train('../data/ner/train.iob', 'new_ner.model')
+    predict('../data/ner/dev.iob', 'new_ner.model', 'predict.iob')
+    stats('new_ner.model')
