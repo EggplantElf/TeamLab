@@ -9,4 +9,5 @@ tmp/
 *.inst
 *.dict
 *.txt
+*.html
 output
