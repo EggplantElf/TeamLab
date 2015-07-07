@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 CRICKET	|O
 -	|O
 LEICESTERSHIRE	|B-PER
@@ -18,13 +15,8 @@ VICTORY	|O
 LONDON	|B-LOC
 1996-08-30	|O
 
-<<<<<<< HEAD
 West	|B-MISC
 Indian	|I-MISC
-=======
-West	|B-LOC
-Indian	|I-LOC
->>>>>>> feature_selection
 all-rounder	|O
 Phil	|B-PER
 Simmons	|I-PER
@@ -83,11 +75,7 @@ in	|O
 on	|O
 victory	|O
 while	|O
-<<<<<<< HEAD
 Kent	|B-PER
-=======
-Kent	|B-ORG
->>>>>>> feature_selection
 made	|O
 up	|O
 for	|O
@@ -326,11 +314,7 @@ who	|O
 made	|O
 70	|O
 as	|O
-<<<<<<< HEAD
 Surrey	|B-PER
-=======
-Surrey	|B-ORG
->>>>>>> feature_selection
 closed	|O
 on	|O
 429	|O
@@ -343,11 +327,7 @@ of	|O
 234	|O
 .	|O
 
-<<<<<<< HEAD
 Derbyshire	|O
-=======
-Derbyshire	|B-LOC
->>>>>>> feature_selection
 kept	|O
 up	|O
 the	|O
@@ -468,11 +448,7 @@ for	|O
 
 By	|O
 stumps	|O
-<<<<<<< HEAD
 Kent	|B-PER
-=======
-Kent	|B-ORG
->>>>>>> feature_selection
 had	|O
 reached	|O
 108	|O
@@ -480,11 +456,8 @@ for	|O
 three	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 CRICKET	|O
 -	|O
 ENGLISH	|B-MISC
@@ -653,13 +626,8 @@ Austin	|I-PER
 Lancashire	|B-ORG
 197-8	|O
 (	|O
-<<<<<<< HEAD
 W.	|B-PER
 Hegg	|I-PER
-=======
-W.	|B-ORG
-Hegg	|I-ORG
->>>>>>> feature_selection
 54	|O
 )	|O
 
@@ -703,11 +671,7 @@ J.	|B-PER
 Adams	|I-PER
 123	|O
 ,	|O
-<<<<<<< HEAD
 T.O'Gorman	|B-MISC
-=======
-T.O'Gorman	|O
->>>>>>> feature_selection
 109	|O
 not	|O
 out	|O
@@ -748,7 +712,6 @@ Smith	|I-PER
 )	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 CRICKET	|O
@@ -756,13 +719,6 @@ CRICKET	|O
 1997	|O
 ASHES	|O
 INTINERARY	|O
-=======
-CRICKET	|O
--	|O
-1997	|O
-ASHES	|B-LOC
-INTINERARY	|I-LOC
->>>>>>> feature_selection
 .	|O
 
 LONDON	|B-LOC
@@ -793,11 +749,7 @@ next	|O
 year	|O
 ,	|O
 the	|O
-<<<<<<< HEAD
 Test	|O
-=======
-Test	|B-LOC
->>>>>>> feature_selection
 and	|O
 County	|B-ORG
 Cricket	|I-ORG
@@ -844,13 +796,8 @@ sides	|O
 and	|O
 another	|O
 against	|O
-<<<<<<< HEAD
 British	|B-ORG
 Universities	|I-ORG
-=======
-British	|B-MISC
-Universities	|I-MISC
->>>>>>> feature_selection
 ,	|O
 
 as	|O
@@ -872,16 +819,10 @@ itinerary	|O
 :	|O
 
 May	|O
-<<<<<<< HEAD
 
 May	|O
 13	|O
 Arrive	|B-ORG
-=======
-May	|O
-13	|O
-Arrive	|O
->>>>>>> feature_selection
 in	|O
 London	|B-LOC
 
@@ -890,23 +831,14 @@ May	|O
 Practice	|O
 at	|O
 Lord	|B-LOC
-<<<<<<< HEAD
 's	|O
-=======
-'s	|I-LOC
->>>>>>> feature_selection
 
 May	|O
 15	|O
 v	|O
 Duke	|B-ORG
-<<<<<<< HEAD
 of	|O
 Norfolk	|B-ORG
-=======
-of	|I-ORG
-Norfolk	|I-ORG
->>>>>>> feature_selection
 's	|O
 XI	|O
 (	|O
@@ -996,10 +928,7 @@ days	|O
 )	|O
 
 June	|O
-<<<<<<< HEAD
 
-=======
->>>>>>> feature_selection
 June	|O
 5-9	|O
 First	|O
@@ -1041,11 +970,7 @@ test	|O
 (	|O
 at	|O
 Lord	|B-LOC
-<<<<<<< HEAD
 's	|O
-=======
-'s	|I-LOC
->>>>>>> feature_selection
 )	|O
 
 June	|O
@@ -1071,10 +996,7 @@ days	|O
 )	|O
 
 July	|O
-<<<<<<< HEAD
 
-=======
->>>>>>> feature_selection
 July	|O
 3-7	|O
 Third	|O
@@ -1127,10 +1049,7 @@ Headingley	|B-LOC
 )	|O
 
 August	|O
-<<<<<<< HEAD
 
-=======
->>>>>>> feature_selection
 August	|O
 1-4	|O
 v	|O
@@ -1163,11 +1082,7 @@ days	|O
 
 August	|O
 21-25	|O
-<<<<<<< HEAD
 Sixth	|B-ORG
-=======
-Sixth	|O
->>>>>>> feature_selection
 test	|O
 (	|O
 at	|O
@@ -1178,11 +1093,8 @@ London	|B-LOC
 )	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 SHEARER	|B-PER
@@ -1218,11 +1130,7 @@ The	|O
 ,	|O
 who	|O
 joined	|O
-<<<<<<< HEAD
 Newcastle	|B-ORG
-=======
-Newcastle	|B-PER
->>>>>>> feature_selection
 for	|O
 15	|O
 million	|O
@@ -1447,28 +1355,18 @@ replaced	|O
 by	|O
 Shearer	|B-PER
 's	|O
-<<<<<<< HEAD
 Newcastle	|O
-=======
-Newcastle	|B-ORG
->>>>>>> feature_selection
 team	|O
 mate	|O
 Les	|B-PER
 Ferdinand	|I-PER
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 BASKETBALL	|O
 -	|O
 INTERNATIONAL	|B-MISC
-=======
-BASKETBALL	|O
--	|O
-INTERNATIONAL	|O
->>>>>>> feature_selection
 TOURNAMENT	|O
 RESULT	|O
 .	|O
@@ -1504,11 +1402,8 @@ halftime	|O
 47-47	|O
 )	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 ROMANIA	|B-LOC
@@ -1569,11 +1464,8 @@ Attendance	|O
 :	|O
 200	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 ROTOR	|B-PER
@@ -1581,11 +1473,7 @@ FANS	|O
 LOCKED	|O
 OUT	|O
 AFTER	|O
-<<<<<<< HEAD
 VOLGOGRAD	|O
-=======
-VOLGOGRAD	|B-LOC
->>>>>>> feature_selection
 VIOLENCE	|O
 .	|O
 
@@ -1622,11 +1510,7 @@ on	|O
 Saturday	|O
 that	|O
 ended	|O
-<<<<<<< HEAD
 Rotor	|B-LOC
-=======
-Rotor	|B-PER
->>>>>>> feature_selection
 's	|O
 brief	|O
 spell	|O
@@ -1670,13 +1554,8 @@ club	|O
 ,	|O
 who	|O
 put	|O
-<<<<<<< HEAD
-Manchester	|B-PER
-United	|I-PER
-=======
 Manchester	|B-ORG
 United	|I-ORG
->>>>>>> feature_selection
 out	|O
 of	|O
 last	|O
@@ -1739,11 +1618,8 @@ Moscow	|B-LOC
 club	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 BOXING	|O
 -	|O
 PANAMA	|B-PER
@@ -1767,17 +1643,10 @@ legend	|O
 Roberto	|B-ORG
 "	|O
 Hands	|O
-<<<<<<< HEAD
-of	|O
-Stone	|B-MISC
-"	|O
-Duran	|B-MISC
-=======
 of	|B-ORG
 Stone	|I-ORG
 "	|O
-Duran	|B-LOC
->>>>>>> feature_selection
+Duran	|B-MISC
 climbs	|O
 into	|O
 the	|O
@@ -1795,24 +1664,15 @@ long	|O
 career	|O
 .	|O
 
-<<<<<<< HEAD
 Duran	|B-PER
-=======
-Duran	|B-LOC
->>>>>>> feature_selection
 ,	|O
 45	|O
 ,	|O
 takes	|O
 on	|O
 little-known	|O
-<<<<<<< HEAD
 Mexican	|B-PER
 Ariel	|I-PER
-=======
-Mexican	|B-MISC
-Ariel	|B-PER
->>>>>>> feature_selection
 Cruz	|I-PER
 ,	|O
 30	|O
@@ -1831,11 +1691,7 @@ City	|I-LOC
 The	|O
 fight	|O
 ,	|O
-<<<<<<< HEAD
 Duran	|B-PER
-=======
-Duran	|B-LOC
->>>>>>> feature_selection
 's	|O
 first	|O
 on	|O
@@ -1979,8 +1835,8 @@ great	|O
 boxers	|O
 ,	|O
 "	|O
-Panamanian	|B-ORG
-Boxing	|I-ORG
+Panamanian	|B-MISC
+Boxing	|B-ORG
 Association	|I-ORG
 President	|O
 Ramon	|B-PER
@@ -2013,19 +1869,11 @@ against	|O
 Puerto	|B-ORG
 Rico	|I-ORG
 's	|O
-<<<<<<< HEAD
 Hector	|B-PER
 "	|O
 Macho	|O
 "	|O
 Camacho	|B-PER
-=======
-Hector	|B-LOC
-"	|O
-Macho	|B-LOC
-"	|O
-Camacho	|B-LOC
->>>>>>> feature_selection
 .	|O
 
 Camacho	|B-PER
@@ -2048,11 +1896,8 @@ title	|O
 fight	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SQUASH	|O
 -	|O
 HONG	|B-MISC
@@ -2154,11 +1999,8 @@ Ireland	|B-LOC
 15-10	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 RESULTS	|O
@@ -2312,11 +2154,8 @@ Chonbuk	|B-ORG
 7	|O
 0	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 BASEBALL	|O
 -	|O
 RESULTS	|O
@@ -2377,15 +2216,9 @@ Note	|O
 -	|O
 Lotte	|B-PER
 and	|O
-<<<<<<< HEAD
 Hyundai	|B-PER
 ,	|O
 Haitai	|B-PER
-=======
-Hyundai	|B-LOC
-,	|O
-Haitai	|B-LOC
->>>>>>> feature_selection
 and	|O
 Samsung	|B-PER
 played	|O
@@ -2461,11 +2294,7 @@ Samsung	|B-ORG
 .468	|O
 14	|O
 
-<<<<<<< HEAD
 Lotte	|B-ORG
-=======
-Lotte	|B-PER
->>>>>>> feature_selection
 46	|O
 6	|O
 54	|O
@@ -2488,11 +2317,8 @@ OB	|B-ORG
 20	|O
 1/2	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 TENNIS	|O
 -	|O
 FRIDAY	|O
@@ -2899,10 +2725,7 @@ U.S.	|B-LOC
 6-2	|O
 
 :	|O
-<<<<<<< HEAD
 
-=======
->>>>>>> feature_selection
 Add	|O
 men	|O
 's	|O
@@ -2946,10 +2769,7 @@ Slovakia	|B-LOC
 6-3	|O
 
 6-2	|O
-<<<<<<< HEAD
 
-=======
->>>>>>> feature_selection
 Petr	|B-PER
 Korda	|I-PER
 (	|O
@@ -2997,10 +2817,7 @@ Madagascar	|B-LOC
 6-2	|O
 
 :	|O
-<<<<<<< HEAD
 
-=======
->>>>>>> feature_selection
 Add	|O
 men	|O
 's	|O
@@ -3045,11 +2862,8 @@ leg	|O
 injury	|O
 )	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 BASEBALL	|O
 -	|O
 MAJOR	|B-MISC
@@ -3382,11 +3196,8 @@ AT	|O
 ST	|B-LOC
 LOUIS	|I-LOC
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 BASEBALL	|O
 -	|O
 MAJOR	|B-MISC
@@ -3479,7 +3290,6 @@ ST	|B-ORG
 LOUIS	|I-ORG
 9	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 TENNIS	|O
@@ -3487,13 +3297,6 @@ TENNIS	|O
 TARANGO	|B-PER
 ,	|O
 O'BRIEN	|B-PER
-=======
-TENNIS	|O
--	|O
-TARANGO	|B-LOC
-,	|O
-O'BRIEN	|B-MISC
->>>>>>> feature_selection
 SPRING	|O
 TWIN	|O
 UPSETS	|O
@@ -3509,8 +3312,8 @@ NEW	|B-LOC
 YORK	|I-LOC
 1996-08-30	|O
 
-Andre	|B-PER
-Agassi	|I-PER
+Andre	|O
+Agassi	|B-PER
 escaped	|O
 disaster	|O
 on	|O
@@ -3518,8 +3321,8 @@ Thursday	|O
 but	|O
 Wimbledon	|B-MISC
 finalist	|O
-MaliVai	|B-MISC
-Washington	|B-LOC
+MaliVai	|B-PER
+Washington	|I-PER
 and	|O
 Marcelo	|B-PER
 Rios	|I-PER
@@ -3604,11 +3407,7 @@ temperamental	|O
 left-hander	|O
 defeated	|O
 the	|O
-<<<<<<< HEAD
 Chilean	|B-LOC
-=======
-Chilean	|B-MISC
->>>>>>> feature_selection
 6-4	|O
 4-6	|O
 7-6	|O
@@ -3719,11 +3518,7 @@ the	|O
 third	|O
 set	|O
 before	|O
-<<<<<<< HEAD
 Washington	|B-PER
-=======
-Washington	|B-LOC
->>>>>>> feature_selection
 came	|O
 charging	|O
 back	|O
@@ -3849,11 +3644,7 @@ a	|O
 backhand	|O
 to	|O
 give	|O
-<<<<<<< HEAD
 O'Brien	|O
-=======
-O'Brien	|B-PER
->>>>>>> feature_selection
 a	|O
 4-2	|O
 lead	|O
@@ -3967,13 +3758,8 @@ year	|O
 tournament	|O
 at	|O
 the	|O
-<<<<<<< HEAD
-All-England	|B-MISC
-Club	|I-MISC
-=======
 All-England	|B-LOC
 Club	|I-LOC
->>>>>>> feature_selection
 ,	|O
 argued	|O
 calls	|O
@@ -4327,19 +4113,12 @@ razzle-dazzle	|O
 .	|O
 "	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-NFL	|B-MISC
-AMERICAN	|I-MISC
-FOOTBALL-RANDALL	|I-MISC
-CUNNINGHAM	|I-MISC
-=======
 NFL	|B-ORG
 AMERICAN	|I-ORG
 FOOTBALL-RANDALL	|O
 CUNNINGHAM	|O
->>>>>>> feature_selection
 RETIRES	|O
 .	|O
 
@@ -4350,15 +4129,9 @@ Randall	|B-PER
 Cunningham	|I-PER
 ,	|O
 the	|O
-<<<<<<< HEAD
 National	|B-ORG
 Football	|I-ORG
 League	|I-ORG
-=======
-National	|B-MISC
-Football	|I-MISC
-League	|I-MISC
->>>>>>> feature_selection
 's	|O
 all-time	|O
 leading	|O
@@ -4398,13 +4171,8 @@ Eagles	|I-ORG
 
 A	|O
 three-time	|O
-<<<<<<< HEAD
 Pro	|O
 Bowl	|B-PER
-=======
-Pro	|B-ORG
-Bowl	|I-ORG
->>>>>>> feature_selection
 selection	|O
 ,	|O
 Cunningham	|B-PER
@@ -4489,20 +4257,12 @@ most	|O
 exciting	|O
 quarterbacks	|O
 in	|O
-<<<<<<< HEAD
 NFL	|B-LOC
-=======
-NFL	|O
->>>>>>> feature_selection
 history	|O
 ,	|O
 "	|O
 said	|O
-<<<<<<< HEAD
 Eagles	|B-ORG
-=======
-Eagles	|O
->>>>>>> feature_selection
 owner	|O
 Jeffrey	|B-PER
 Lurie	|I-PER
@@ -4565,11 +4325,7 @@ and	|O
 touchdowns	|O
 .	|O
 
-<<<<<<< HEAD
 Cunningham	|B-ORG
-=======
-Cunningham	|B-PER
->>>>>>> feature_selection
 has	|O
 already	|O
 been	|O
@@ -4579,23 +4335,15 @@ a	|O
 broadcaster	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 GOLF	|O
 -	|O
 LEADING	|O
 SCORES	|O
 AT	|O
-<<<<<<< HEAD
 GREATER	|B-LOC
 MILWAUKEE	|B-MISC
-=======
-GREATER	|B-MISC
-MILWAUKEE	|I-MISC
->>>>>>> feature_selection
 OPEN	|I-MISC
 .	|O
 
@@ -4612,13 +4360,8 @@ the	|O
 $	|O
 1.2	|O
 million	|O
-<<<<<<< HEAD
 Greater	|O
 Milwaukee	|B-MISC
-=======
-Greater	|B-MISC
-Milwaukee	|I-MISC
->>>>>>> feature_selection
 Open	|I-MISC
 at	|O
 the	|O
@@ -4629,13 +4372,8 @@ par-71	|O
 Brown	|B-PER
 Deer	|I-PER
 Park	|I-PER
-<<<<<<< HEAD
 Golf	|I-PER
 Course	|I-PER
-=======
-Golf	|I-LOC
-Course	|I-LOC
->>>>>>> feature_selection
 after	|O
 the	|O
 first	|O
@@ -4687,11 +4425,7 @@ Sullivan	|I-PER
 ,	|O
 Willie	|B-PER
 
-<<<<<<< HEAD
 Wood	|O
-=======
-Wood	|B-PER
->>>>>>> feature_selection
 ,	|O
 Loren	|B-PER
 Roberts	|I-PER
@@ -4748,11 +4482,8 @@ Jurgenson	|I-PER
 Bryan	|B-PER
 Gorman	|I-PER
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 GOLF	|O
 -	|O
 HENKE	|O
@@ -4761,11 +4492,7 @@ LEAD	|O
 IN	|O
 MILWAUKEE	|B-LOC
 ,	|O
-<<<<<<< HEAD
 WOODS	|O
-=======
-WOODS	|B-LOC
->>>>>>> feature_selection
 MAKES	|O
 PRO	|O
 DEBUT	|O
@@ -4812,18 +4539,14 @@ professional	|O
 debut	|O
 .	|O
 
-<<<<<<< HEAD
 Henke	|O
-=======
-Henke	|B-PER
->>>>>>> feature_selection
 stood	|O
 two	|O
 strokes	|O
 ahead	|O
 of	|O
-Bob	|B-PER
-Estes	|I-PER
+Bob	|B-LOC
+Estes	|I-LOC
 and	|O
 three	|O
 up	|O
@@ -5069,15 +4792,11 @@ none	|O
 since	|O
 the	|O
 1993	|O
-BellSouth	|B-MISC
-Classic	|I-MISC
+BellSouth	|O
+Classic	|B-PER
 .	|O
 
-<<<<<<< HEAD
 Estes	|B-PER
-=======
-Estes	|O
->>>>>>> feature_selection
 ,	|O
 whose	|O
 only	|O
@@ -5257,11 +4976,8 @@ week	|O
 off	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 SILVA	|B-PER
@@ -5283,13 +4999,8 @@ Spanish	|B-MISC
 first	|O
 division	|O
 team	|O
-<<<<<<< HEAD
-Deportivo	|O
-Coruna	|B-LOC
-=======
-Deportivo	|B-PER
-Coruna	|I-PER
->>>>>>> feature_selection
+Deportivo	|B-ORG
+Coruna	|I-ORG
 will	|O
 be	|O
 without	|O
@@ -5302,13 +5013,8 @@ Saturday	|O
 's	|O
 game	|O
 with	|O
-<<<<<<< HEAD
 Real	|B-ORG
 Madrid	|I-ORG
-=======
-Real	|B-PER
-Madrid	|I-PER
->>>>>>> feature_selection
 after	|O
 FIFA	|B-ORG
 ,	|O
@@ -5377,11 +5083,8 @@ one-match	|O
 suspension	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 ATHLETICS	|O
 -	|O
 MITCHELL	|B-PER
@@ -5520,24 +5223,15 @@ second	|O
 with	|O
 10.09	|O
 with	|O
-<<<<<<< HEAD
 Bailey	|O
-=======
-Bailey	|B-PER
->>>>>>> feature_selection
 finishing	|O
 in	|O
 10.13	|O
 .	|O
 
 Last	|O
-<<<<<<< HEAD
 Friday	|B-PER
 Mitchell	|I-PER
-=======
-Friday	|O
-Mitchell	|B-PER
->>>>>>> feature_selection
 ,	|O
 who	|O
 finished	|O
@@ -5593,13 +5287,8 @@ the	|O
 sport	|O
 ,	|O
 the	|O
-<<<<<<< HEAD
 Golden	|B-MISC
 Four	|I-MISC
-=======
-Golden	|B-LOC
-Four	|I-LOC
->>>>>>> feature_selection
 .	|O
 
 Among	|O
@@ -5705,11 +5394,8 @@ in	|O
 10.94	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 ATHLETICS	|O
 -	|O
 BERLIN	|B-MISC
@@ -7038,11 +6724,7 @@ Balzer	|I-PER
 Germany	|B-LOC
 )	|O
 ,	|O
-<<<<<<< HEAD
 George	|B-ORG
-=======
-George	|B-PER
->>>>>>> feature_selection
 
 Panayiotopoulos	|B-ORG
 (	|O
@@ -7056,11 +6738,8 @@ Germany	|B-LOC
 )	|O
 39.93	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 THREE	|O
@@ -7167,21 +6846,12 @@ he	|O
 protested	|O
 about	|O
 a	|O
-<<<<<<< HEAD
 Karlsruhe	|B-MISC
 goal	|O
 ,	|O
 while	|O
 Didier	|B-PER
 Ernst	|I-PER
-=======
-Karlsruhe	|B-LOC
-goal	|O
-,	|O
-while	|O
-Didier	|O
-Ernst	|O
->>>>>>> feature_selection
 was	|O
 banned	|O
 for	|O
@@ -7199,11 +6869,7 @@ also	|O
 dismissed	|O
 .	|O
 
-<<<<<<< HEAD
 Karlsruhe	|B-LOC
-=======
-Karlsruhe	|B-ORG
->>>>>>> feature_selection
 won	|O
 the	|O
 August	|O
@@ -7232,11 +6898,8 @@ UEFA	|B-MISC
 Cup	|I-MISC
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 ATHLETICS	|O
 -	|O
 HARRISON	|B-PER
@@ -7326,13 +6989,8 @@ Kosevo	|B-PER
 stadium	|O
 .	|O
 
-<<<<<<< HEAD
 Atlanta	|B-MISC
 Games	|I-MISC
-=======
-Atlanta	|O
-Games	|B-MISC
->>>>>>> feature_selection
 silver	|O
 medal	|O
 winner	|O
@@ -7396,15 +7054,9 @@ going	|O
 to	|O
 the	|O
 IAAF	|B-MISC
-<<<<<<< HEAD
-Grand	|I-MISC
-Prix	|I-MISC
-Final	|I-MISC
-=======
 Grand	|B-MISC
 Prix	|B-MISC
-Final	|O
->>>>>>> feature_selection
+Final	|I-MISC
 in	|O
 Milan	|B-LOC
 where	|O
@@ -7431,17 +7083,11 @@ gesture	|O
 ?	|O
 "	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 SOCCER	|O
 -	|O
 BARATELLI	|B-PER
-=======
-SOCCER	|O
--	|O
-BARATELLI	|B-ORG
->>>>>>> feature_selection
 TO	|O
 COACH	|O
 NICE	|O
@@ -7478,19 +7124,11 @@ Baratelli	|B-PER
 ,	|O
 who	|O
 played	|O
-<<<<<<< HEAD
 for	|O
 Nice	|B-ORG
 and	|O
 Paris	|B-ORG
 St	|I-ORG
-=======
-for	|B-ORG
-Nice	|I-ORG
-and	|O
-Paris	|B-LOC
-St	|B-ORG
->>>>>>> feature_selection
 Germain	|I-ORG
 ,	|O
 takes	|O
@@ -7542,17 +7180,11 @@ the	|O
 table	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 SOCCER	|O
 -	|O
 MILAN	|B-LOC
-=======
-SOCCER	|O
--	|O
-MILAN	|B-PER
->>>>>>> feature_selection
 'S	|O
 LENTINI	|O
 MOVES	|O
@@ -7572,11 +7204,7 @@ Lentini	|I-PER
 ,	|O
 transferred	|O
 to	|O
-<<<<<<< HEAD
 Milan	|B-ORG
-=======
-Milan	|B-LOC
->>>>>>> feature_selection
 in	|O
 1992	|O
 for	|O
@@ -7609,25 +7237,15 @@ Friday	|O
 .	|O
 
 The	|O
-<<<<<<< HEAD
-Gazzetta	|B-ORG
-dello	|I-ORG
-Sport	|I-ORG
-=======
 Gazzetta	|B-LOC
-dello	|O
-Sport	|B-PER
->>>>>>> feature_selection
+dello	|B-ORG
+Sport	|I-ORG
 said	|O
 the	|O
 deal	|O
 would	|O
 cost	|O
-<<<<<<< HEAD
 Atalanta	|B-LOC
-=======
-Atalanta	|B-ORG
->>>>>>> feature_selection
 around	|O
 $	|O
 600,000	|O
@@ -7705,17 +7323,10 @@ Turin	|B-LOC
 The	|O
 move	|O
 to	|O
-<<<<<<< HEAD
-Bergamo-based	|B-ORG
-Atalanta	|I-ORG
-reunites	|O
-Lentini	|B-ORG
-=======
 Bergamo-based	|B-MISC
 Atalanta	|B-LOC
 reunites	|O
 Lentini	|B-PER
->>>>>>> feature_selection
 ,	|O
 who	|O
 fell	|O
@@ -7739,11 +7350,8 @@ Emiliano	|B-PER
 Mondonico	|I-PER
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 CRICKET	|O
 -	|O
 SRI	|B-LOC
@@ -7801,11 +7409,8 @@ in	|O
 overs	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 CRICKET	|O
 -	|O
 AUSTRALIA	|B-LOC
@@ -7822,11 +7427,7 @@ Scoreboard	|O
 of	|O
 the	|O
 third	|O
-<<<<<<< HEAD
 Singer	|B-PER
-=======
-Singer	|B-MISC
->>>>>>> feature_selection
 
 World	|B-MISC
 Series	|I-MISC
@@ -7843,10 +7444,7 @@ Friday	|O
 :	|O
 
 Australia	|B-LOC
-<<<<<<< HEAD
 
-=======
->>>>>>> feature_selection
 M.	|B-PER
 Waugh	|I-PER
 c	|O
@@ -7892,11 +7490,7 @@ out	|O
 D.	|B-PER
 Lehmann	|I-PER
 st	|O
-<<<<<<< HEAD
 Kaluwitharana	|B-LOC
-=======
-Kaluwitharana	|B-PER
->>>>>>> feature_selection
 b	|O
 Chandana	|B-PER
 2	|O
@@ -7912,11 +7506,7 @@ Muralitharan	|B-PER
 J.	|B-PER
 Gillespie	|I-PER
 st	|O
-<<<<<<< HEAD
 Kaluwitharana	|B-LOC
-=======
-Kaluwitharana	|B-PER
->>>>>>> feature_selection
 b	|O
 Chandana	|B-PER
 6	|O
@@ -7977,11 +7567,7 @@ de	|B-PER
 Silva	|I-PER
 4-0-25-0	|O
 ,	|O
-<<<<<<< HEAD
 Dharmasena	|B-LOC
-=======
-Dharmasena	|B-PER
->>>>>>> feature_selection
 
 9-0-49-1	|O
 ,	|O
@@ -8103,11 +7689,7 @@ Law	|B-PER
 2-0-23-0	|O
 ,	|O
 McGrath	|B-PER
-<<<<<<< HEAD
 9.5-0-44-1	|O
-=======
-9.5-0-44-1	|I-PER
->>>>>>> feature_selection
 ,	|O
 
 Fleming	|O
@@ -8149,11 +7731,8 @@ September	|O
 1	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 CRICKET	|O
 -	|O
 AUSTRALIA	|B-LOC
@@ -8199,11 +7778,8 @@ on	|O
 Friday	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 CRICKET	|O
 -	|O
 AUSTRALIA	|B-LOC
@@ -8264,11 +7840,7 @@ captain	|O
 Michael	|B-PER
 Bevan	|I-PER
 ,	|O
-<<<<<<< HEAD
 Damien	|B-PER
-=======
-Damien	|B-LOC
->>>>>>> feature_selection
 
 Flemming	|O
 ,	|O
@@ -8343,15 +7915,10 @@ Upul	|B-PER
 Chandana	|I-PER
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 ROMANIA	|B-LOC
 COMELF	|I-LOC
-=======
-ROMANIA	|B-LOC
-COMELF	|B-ORG
->>>>>>> feature_selection
 H1	|O
 PROFIT	|O
 RISE	|O
@@ -8511,13 +8078,8 @@ report	|O
 said	|O
 .	|O
 
-<<<<<<< HEAD
 From	|B-ORG
 January	|I-ORG
-=======
-From	|O
-January	|O
->>>>>>> feature_selection
 to	|O
 June	|O
 Comelf	|B-PER
@@ -8646,11 +8208,8 @@ Newsroom	|I-ORG
 40-1	|O
 3120264	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 POLISH	|B-MISC
 NBP	|O
 REFRAINS	|O
@@ -8663,13 +8222,8 @@ OPERATION	|O
 WARSAW	|B-LOC
 1996-08-30	|O
 
-<<<<<<< HEAD
 The	|O
 National	|B-ORG
-=======
-The	|B-ORG
-National	|I-ORG
->>>>>>> feature_selection
 Bank	|I-ORG
 of	|I-ORG
 Poland	|I-ORG
@@ -8698,11 +8252,8 @@ Newsroom	|I-ORG
 653	|O
 9700	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Canada	|B-LOC
 government	|O
 cash	|O
@@ -8796,11 +8347,7 @@ of	|O
 dollars	|O
 .	|O
 
-<<<<<<< HEAD
 Chartered	|B-MISC
-=======
-Chartered	|O
->>>>>>> feature_selection
 bank	|O
 assets	|O
 July	|O
@@ -8819,13 +8366,8 @@ dollar	|O
 639.55	|O
 639.38	|O
 
-<<<<<<< HEAD
-Total	|O
-Canadian	|B-MISC
-=======
 Total	|B-ORG
 Canadian	|I-ORG
->>>>>>> feature_selection
 liquid	|O
 assets	|O
 107.83	|O
@@ -8866,37 +8408,24 @@ dollars	|O
 .	|O
 
 --	|O
-<<<<<<< HEAD
 Reuters	|O
 Ottawa	|B-ORG
-=======
-Reuters	|B-ORG
-Ottawa	|I-ORG
->>>>>>> feature_selection
 Bureau	|I-ORG
 (	|O
 613	|O
 )	|O
 235-6745	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Jones	|B-ORG
 Medical	|I-ORG
 completes	|O
 acquisition	|O
 .	|O
 
-<<<<<<< HEAD
 ST.	|B-LOC
 LOUIS	|I-LOC
-=======
-ST.	|O
-LOUIS	|B-LOC
->>>>>>> feature_selection
 1996-08-30	|O
 
 Jones	|B-ORG
@@ -8909,36 +8438,22 @@ it	|O
 completed	|O
 the	|O
 acquisition	|O
-<<<<<<< HEAD
 of	|O
 Daniels	|B-ORG
-=======
-of	|B-ORG
-Daniels	|I-ORG
->>>>>>> feature_selection
 Pharmaceuticals	|I-ORG
 Inc	|I-ORG
 of	|O
 St.	|B-LOC
 Petersburg	|I-LOC
-<<<<<<< HEAD
 ,	|I-LOC
 Fla.	|I-LOC
-=======
-,	|O
-Fla.	|O
->>>>>>> feature_selection
 ,	|O
 for	|O
 about	|O
 2,960,000	|O
 shares	|O
 of	|O
-<<<<<<< HEAD
 Jones	|B-ORG
-=======
-Jones	|B-MISC
->>>>>>> feature_selection
 common	|O
 stock	|O
 .	|O
@@ -8983,11 +8498,8 @@ newsdesk	|O
 312	|O
 408-8787	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 NYMEX	|O
 heating	|O
 oil	|O
@@ -9025,13 +8537,8 @@ ahead	|O
 of	|O
 the	|O
 U.S.	|B-LOC
-<<<<<<< HEAD
 Labor	|I-LOC
 Day	|O
-=======
-Labor	|B-MISC
-Day	|I-MISC
->>>>>>> feature_selection
 weekend	|O
 ,	|O
 traders	|O
@@ -9246,11 +8753,8 @@ Desk	|I-ORG
 +1	|O
 212-859-1761	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 U.S.	|B-LOC
 debt	|O
 futures	|O
@@ -9259,13 +8763,8 @@ lower	|O
 ,	|O
 shaken	|O
 by	|O
-<<<<<<< HEAD
 Chicago	|B-ORG
 NAPM	|I-ORG
-=======
-Chicago	|B-LOC
-NAPM	|O
->>>>>>> feature_selection
 .	|O
 
 CHICAGO	|B-LOC
@@ -9317,13 +8816,8 @@ said	|O
 .	|O
 
 The	|O
-<<<<<<< HEAD
 August	|O
 Chicago	|B-ORG
-=======
-August	|B-ORG
-Chicago	|I-ORG
->>>>>>> feature_selection
 NAPM	|I-ORG
 rose	|O
 8.8	|O
@@ -9353,11 +8847,7 @@ Primary	|O
 dealers	|O
 immediately	|O
 sold	|O
-<<<<<<< HEAD
 Eurodollar	|B-MISC
-=======
-Eurodollar	|B-PER
->>>>>>> feature_selection
 and	|O
 bond	|O
 futures	|O
@@ -9403,11 +8893,7 @@ put	|O
 buying	|O
 helped	|O
 pressure	|O
-<<<<<<< HEAD
 Eurodollars	|B-MISC
-=======
-Eurodollars	|O
->>>>>>> feature_selection
 to	|O
 lower	|O
 levels	|O
@@ -9475,11 +8961,7 @@ trader	|O
 said	|O
 .	|O
 
-<<<<<<< HEAD
 Meanwhile	|O
-=======
-Meanwhile	|B-LOC
->>>>>>> feature_selection
 ,	|O
 funds	|O
 were	|O
@@ -9636,13 +9118,8 @@ September	|O
 24	|O
 .	|O
 
-<<<<<<< HEAD
-Federal	|O
-Reserve	|B-MISC
-=======
 Federal	|B-ORG
 Reserve	|I-ORG
->>>>>>> feature_selection
 governor	|O
 Lawrence	|B-PER
 Lindsey	|I-PER
@@ -9696,13 +9173,8 @@ said	|O
 at	|O
 the	|O
 annual	|O
-<<<<<<< HEAD
 Jackson	|B-PER
 Hole	|I-PER
-=======
-Jackson	|B-MISC
-Hole	|I-MISC
->>>>>>> feature_selection
 symposium	|O
 that	|O
 the	|O
@@ -9749,11 +9221,7 @@ news	|O
 
 "	|O
 The	|O
-<<<<<<< HEAD
 Fed	|B-PER
-=======
-Fed	|O
->>>>>>> feature_selection
 's	|O
 stance	|O
 has	|O
@@ -9820,11 +9288,7 @@ at	|O
 111-20/32	|O
 ,	|O
 December	|O
-<<<<<<< HEAD
 Eurodollars	|B-ORG
-=======
-Eurodollars	|O
->>>>>>> feature_selection
 were	|O
 down	|O
 11	|O
@@ -9832,13 +9296,8 @@ bps	|O
 at	|O
 93.94	|O
 ,	|O
-<<<<<<< HEAD
-March	|B-PER
-Eurodollars	|I-PER
-=======
 March	|O
-Eurodollars	|B-MISC
->>>>>>> feature_selection
+Eurodollars	|B-ORG
 were	|O
 off	|O
 13	|O
@@ -9846,8 +9305,8 @@ bps	|O
 at	|O
 93.72	|O
 and	|O
-March	|B-PER
-T-bills	|I-PER
+March	|O
+T-bills	|O
 were	|O
 down	|O
 12	|O
@@ -9856,11 +9315,8 @@ at	|O
 94.33	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Douglas	|B-ORG
 &	|I-ORG
 Lomason	|I-ORG
@@ -9870,11 +9326,10 @@ on	|O
 merger	|O
 .	|O
 
-<<<<<<< HEAD
-FARMINGTON	|B-LOC
-HILLS	|I-LOC
+FARMINGTON	|B-ORG
+HILLS	|I-ORG
 ,	|O
-Mich	|B-LOC
+Mich	|B-PER
 .	|O
 
 1996-08-30	|O
@@ -9882,18 +9337,6 @@ Mich	|B-LOC
 Shares	|O
 of	|O
 Douglas	|B-ORG
-=======
-FARMINGTON	|O
-HILLS	|O
-,	|O
-Mich	|B-PER
-.	|O
-
-1996-08-30	|O
-Shares	|B-ORG
-of	|I-ORG
-Douglas	|I-ORG
->>>>>>> feature_selection
 &	|I-ORG
 Lomason	|I-ORG
 Co	|I-ORG
@@ -9989,13 +9432,8 @@ Markham	|B-PER
 Ontario-based	|O
 Magna	|B-PER
 's	|O
-<<<<<<< HEAD
 North	|B-PER
 American	|I-PER
-=======
-North	|B-MISC
-American	|I-MISC
->>>>>>> feature_selection
 car	|O
 and	|O
 truck	|O
@@ -10310,11 +9748,8 @@ and	|O
 headliners	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 UK	|B-LOC
 meals	|O
 /	|O
@@ -10440,11 +9875,8 @@ Newsroom	|I-ORG
 542	|O
 8062	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Iraqi	|B-MISC
 captors	|O
 of	|O
@@ -10549,13 +9981,8 @@ Hussein	|B-LOC
 )	|O
 "	|O
 but	|O
-<<<<<<< HEAD
 interior	|B-ORG
 ministry	|I-ORG
-=======
-interior	|O
-ministry	|O
->>>>>>> feature_selection
 officials	|O
 had	|O
 consistently	|O
@@ -10682,11 +10109,8 @@ fake	|O
 explosives	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Late	|O
 bond	|O
 market	|O
@@ -10745,8 +10169,8 @@ higher	|O
 .	|O
 
 The	|O
-September	|O
-Bund	|B-MISC
+September	|B-ORG
+Bund	|I-ORG
 future	|O
 on	|O
 the	|O
@@ -10754,13 +10178,8 @@ London	|B-ORG
 International	|I-ORG
 Financial	|I-ORG
 Futures	|I-ORG
-<<<<<<< HEAD
 and	|I-ORG
 Options	|I-ORG
-=======
-and	|O
-Options	|B-ORG
->>>>>>> feature_selection
 Exchange	|I-ORG
 (	|O
 LIFFE	|B-ORG
@@ -10779,11 +10198,7 @@ settlement	|O
 price	|O
 .	|O
 
-<<<<<<< HEAD
 BRITAIN	|O
-=======
-BRITAIN	|B-ORG
->>>>>>> feature_selection
 -	|O
 Gilts	|B-PER
 struggled	|O
@@ -10805,26 +10220,16 @@ A	|O
 sharp	|O
 plunge	|O
 in	|O
-<<<<<<< HEAD
 U.S.	|B-LOC
 Treasuries	|O
-=======
-U.S.	|B-ORG
-Treasuries	|I-ORG
->>>>>>> feature_selection
 after	|O
 a	|O
 shock	|O
 rise	|O
 in	|O
 the	|O
-<<<<<<< HEAD
 Chicago	|B-ORG
 PMI	|I-ORG
-=======
-Chicago	|B-LOC
-PMI	|I-LOC
->>>>>>> feature_selection
 pulled	|O
 gilts	|O
 lower	|O
@@ -10876,11 +10281,7 @@ FRANCE	|O
 -	|O
 Bond	|B-PER
 and	|O
-<<<<<<< HEAD
 PIBOR	|O
-=======
-PIBOR	|B-ORG
->>>>>>> feature_selection
 futures	|O
 ended	|O
 the	|O
@@ -10934,11 +10335,7 @@ the	|O
 sharp	|O
 drop	|O
 in	|O
-<<<<<<< HEAD
 Treasuries	|O
-=======
-Treasuries	|B-LOC
->>>>>>> feature_selection
 ,	|O
 but	|O
 a	|O
@@ -10975,13 +10372,8 @@ STATES	|O
 -	|O
 Prices	|O
 of	|O
-<<<<<<< HEAD
 U.S.	|B-ORG
 Treasury	|I-ORG
-=======
-U.S.	|B-LOC
-Treasury	|I-LOC
->>>>>>> feature_selection
 securities	|O
 were	|O
 trading	|O
@@ -11011,13 +10403,8 @@ weekend	|O
 .	|O
 
 The	|O
-<<<<<<< HEAD
-September	|O
-Treasury	|B-ORG
-=======
 September	|B-ORG
 Treasury	|I-ORG
->>>>>>> feature_selection
 bond	|O
 future	|O
 on	|O
@@ -11051,11 +10438,7 @@ yield	|O
 percent	|O
 .	|O
 
-<<<<<<< HEAD
 JAPAN	|O
-=======
-JAPAN	|B-LOC
->>>>>>> feature_selection
 -	|O
 Yield	|O
 for	|O
@@ -11086,13 +10469,8 @@ soon	|O
 .	|O
 
 Japanese	|B-MISC
-<<<<<<< HEAD
-Goverment	|I-MISC
-Bonds	|I-MISC
-=======
 Goverment	|O
 Bonds	|B-MISC
->>>>>>> feature_selection
 futures	|O
 which	|O
 closed	|O
@@ -11108,11 +10486,7 @@ day	|O
 's	|O
 gains	|O
 as	|O
-<<<<<<< HEAD
 Tokyo	|B-MISC
-=======
-Tokyo	|B-ORG
->>>>>>> feature_selection
 stock	|O
 prices	|O
 recovered	|O
@@ -11165,13 +10539,8 @@ ahead	|O
 of	|O
 Monday	|O
 's	|O
-<<<<<<< HEAD
 U.S.	|B-MISC
 Labour	|I-MISC
-=======
-U.S.	|B-LOC
-Labour	|B-MISC
->>>>>>> feature_selection
 Day	|I-MISC
 holiday	|O
 and	|O
@@ -11199,11 +10568,7 @@ Japanese	|B-MISC
 investors	|O
 .	|O
 
-<<<<<<< HEAD
 DNIB	|B-ORG
-=======
-DNIB	|O
->>>>>>> feature_selection
 issued	|O
 a	|O
 275	|O
@@ -11250,13 +10615,9 @@ dollar	|O
 deals	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 Boxing-Bruno	|O
-=======
-Boxing-Bruno	|B-ORG
->>>>>>> feature_selection
 quits	|O
 on	|O
 doctor	|O
@@ -11282,13 +10643,8 @@ medical	|O
 advice	|O
 ,	|O
 Britain	|B-LOC
-<<<<<<< HEAD
 's	|B-ORG
 Sun	|I-ORG
-=======
-'s	|O
-Sun	|B-ORG
->>>>>>> feature_selection
 newspaper	|O
 reported	|O
 on	|O
@@ -11326,8 +10682,8 @@ Briton	|B-MISC
 who	|O
 lost	|O
 his	|O
-World	|B-ORG
-Boxing	|I-ORG
+World	|O
+Boxing	|B-ORG
 Council	|I-ORG
 (	|O
 WBC	|B-ORG
@@ -11388,11 +10744,7 @@ innings	|O
 .	|O
 "	|O
 
-<<<<<<< HEAD
 Bruno	|B-LOC
-=======
-Bruno	|B-PER
->>>>>>> feature_selection
 ,	|O
 for	|O
 years	|O
@@ -11581,11 +10933,8 @@ of	|O
 punches	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Soccer	|O
 -	|O
 McCarthy	|O
@@ -11666,15 +11015,9 @@ follows	|O
 
 Given	|B-PER
 ,	|O
-<<<<<<< HEAD
 Breen	|B-PER
 ,	|O
 Staunton	|B-PER
-=======
-Breen	|B-LOC
-,	|O
-Staunton	|B-LOC
->>>>>>> feature_selection
 ,	|O
 Irwin	|B-LOC
 ,	|O
@@ -11701,11 +11044,8 @@ Newsroom	|I-ORG
 676	|O
 9779	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Nigerian	|B-MISC
 thieves	|O
 hire	|O
@@ -11848,15 +11188,10 @@ $	|O
 naira	|O
 )	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 East	|O
 Dries	|O
-=======
-East	|B-ORG
-Dries	|I-ORG
->>>>>>> feature_selection
 miners	|O
 fail	|O
 to	|O
@@ -11869,13 +11204,8 @@ JOHANNESBURG	|B-LOC
 1996-08-30	|O
 
 Workers	|O
-<<<<<<< HEAD
 at	|O
 Driefontein	|B-ORG
-=======
-at	|B-ORG
-Driefontein	|I-ORG
->>>>>>> feature_selection
 Consolidated	|I-ORG
 Ltd	|I-ORG
 's	|O
@@ -11897,14 +11227,9 @@ managers	|O
 Gold	|B-PER
 Fields	|I-PER
 of	|O
-<<<<<<< HEAD
-South	|B-ORG
-Africa	|I-ORG
-=======
 South	|B-LOC
-Africa	|B-ORG
->>>>>>> feature_selection
-Ltd	|I-ORG
+Africa	|I-LOC
+Ltd	|I-LOC
 said	|O
 on	|O
 Friday	|O
@@ -11953,27 +11278,16 @@ ethnic	|O
 differences	|O
 --	|O
 at	|O
-Driefontein	|B-ORG
-Consolidated	|I-ORG
-<<<<<<< HEAD
+Driefontein	|B-LOC
+Consolidated	|I-LOC
 and	|O
 Gold	|B-PER
 Fields	|I-PER
-'	|B-ORG
-Kloof	|I-ORG
+'	|O
+Kloof	|B-ORG
 Gold	|I-ORG
 Mining	|I-ORG
 Co	|I-ORG
-=======
-and	|I-ORG
-Gold	|I-ORG
-Fields	|I-ORG
-'	|O
-Kloof	|B-PER
-Gold	|I-PER
-Mining	|I-PER
-Co	|O
->>>>>>> feature_selection
 this	|O
 month	|O
 .	|O
@@ -11986,11 +11300,8 @@ newsroom	|O
 482	|O
 1003	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Chad	|O
 government	|O
 closes	|O
@@ -12140,11 +11451,8 @@ officials	|O
 said	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Yeltsin	|B-PER
 endorses	|O
 Lebed	|B-PER
@@ -12464,11 +11772,8 @@ more	|O
 work	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Lebed	|B-PER
 ,	|O
 Chechens	|B-PER
@@ -12730,15 +12035,10 @@ the	|O
 talks	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 Ruling	|O
 Moslem	|B-MISC
-=======
-Ruling	|B-ORG
-Moslem	|I-ORG
->>>>>>> feature_selection
 party	|O
 ends	|O
 vote	|O
@@ -12842,11 +12142,7 @@ had	|O
 provided	|O
 .	|O
 
-<<<<<<< HEAD
 Absentee	|O
-=======
-Absentee	|B-ORG
->>>>>>> feature_selection
 voting	|O
 in	|O
 the	|O
@@ -12876,13 +12172,8 @@ September	|O
 14	|O
 .	|O
 
-<<<<<<< HEAD
 The	|O
 Party	|B-ORG
-=======
-The	|B-ORG
-Party	|I-ORG
->>>>>>> feature_selection
 of	|I-ORG
 Democratic	|I-ORG
 Action	|I-ORG
@@ -12988,11 +12279,8 @@ ethnic	|O
 cleansing	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Belgrade	|B-LOC
 airport	|O
 runway	|O
@@ -13008,13 +12296,8 @@ Belgrade	|B-LOC
 's	|O
 main	|O
 airport	|O
-<<<<<<< HEAD
-Aerodrom	|B-ORG
-Beograd	|I-ORG
-=======
 Aerodrom	|B-PER
 Beograd	|I-PER
->>>>>>> feature_selection
 will	|O
 be	|O
 closed	|O
@@ -13066,7 +12349,6 @@ in	|O
 schedules	|O
 ,	|O
 "	|O
-<<<<<<< HEAD
 Tanjug	|B-MISC
 quotes	|O
 Belgrade	|B-ORG
@@ -13075,16 +12357,6 @@ General	|B-ORG
 Director	|I-ORG
 Ljubomir	|I-ORG
 Acimovic	|I-ORG
-=======
-Tanjug	|O
-quotes	|O
-Belgrade	|B-LOC
-airport	|O
-General	|B-PER
-Director	|I-PER
-Ljubomir	|I-PER
-Acimovic	|I-PER
->>>>>>> feature_selection
 as	|O
 saying	|O
 .	|O
@@ -13110,11 +12382,7 @@ to	|O
 transport	|O
 passengers	|O
 to	|O
-<<<<<<< HEAD
 Batajnica	|B-ORG
-=======
-Batajnica	|B-LOC
->>>>>>> feature_selection
 ,	|O
 Acimovic	|B-PER
 said	|O
@@ -13170,15 +12438,9 @@ Air	|I-ORG
 Traffic	|I-ORG
 Control	|I-ORG
 Administration	|I-ORG
-<<<<<<< HEAD
 Director	|I-ORG
 Branko	|I-ORG
 Bilbija	|I-ORG
-=======
-Director	|O
-Branko	|B-PER
-Bilbija	|I-PER
->>>>>>> feature_selection
 said	|O
 .	|O
 
@@ -13192,11 +12454,8 @@ newsroom	|O
 11	|O
 2224305	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Top	|O
 Belarus	|B-MISC
 politician	|O
@@ -13377,11 +12636,7 @@ this	|O
 Sergei	|B-PER
 Posukhov	|I-PER
 ,	|O
-<<<<<<< HEAD
 Lukashenko	|B-PER
-=======
-Lukashenko	|B-LOC
->>>>>>> feature_selection
 's	|O
 political	|O
 adviser	|O
@@ -13559,11 +12814,7 @@ the	|O
 prospect	|O
 of	|O
 renewed	|O
-<<<<<<< HEAD
 Moscow	|B-MISC
-=======
-Moscow	|B-LOC
->>>>>>> feature_selection
 domination	|O
 and	|O
 Russia	|B-LOC
@@ -13578,11 +12829,7 @@ the	|O
 deal	|O
 .	|O
 
-<<<<<<< HEAD
 Lukashenko	|B-PER
-=======
-Lukashenko	|B-LOC
->>>>>>> feature_selection
 responded	|O
 by	|O
 cracking	|O
@@ -13619,18 +12866,15 @@ two	|O
 opposition	|O
 leaders	|O
 ,	|O
-Zenon	|B-PER
-Poznyak	|I-PER
+Zenon	|B-ORG
+Poznyak	|I-ORG
 and	|O
 Sergei	|B-PER
 Naumchik	|I-PER
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Tajik	|B-MISC
 troops	|O
 now	|O
@@ -13721,11 +12965,7 @@ said	|O
 his	|O
 troops	|O
 took	|O
-<<<<<<< HEAD
 Tavildara	|B-MISC
-=======
-Tavildara	|B-LOC
->>>>>>> feature_selection
 without	|O
 casualties	|O
 on	|O
@@ -13830,8 +13070,8 @@ both	|O
 sides	|O
 in	|O
 a	|O
-bloody	|O
-tug-of-war	|O
+bloody	|B-MISC
+tug-of-war	|I-MISC
 which	|O
 began	|O
 last	|O
@@ -13893,11 +13133,7 @@ which	|O
 breached	|O
 a	|O
 shaky	|O
-<<<<<<< HEAD
 United	|B-LOC
-=======
-United	|B-ORG
->>>>>>> feature_selection
 Nations-sponsored	|B-MISC
 ceasefire	|O
 .	|O
@@ -14008,11 +13244,7 @@ white	|O
 shirt	|O
 .	|O
 
-<<<<<<< HEAD
 Although	|B-ORG
-=======
-Although	|O
->>>>>>> feature_selection
 shy	|O
 in	|O
 front	|O
@@ -14122,11 +13354,8 @@ he	|O
 said	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Polish	|B-MISC
 Foreign	|O
 Minister	|O
@@ -14205,30 +13434,18 @@ visas	|O
 the	|O
 agency	|O
 quoted	|O
-<<<<<<< HEAD
 Foreign	|B-ORG
 Ministry	|I-ORG
-=======
-Foreign	|O
-Ministry	|O
->>>>>>> feature_selection
 officials	|O
 as	|O
 saying	|O
 .	|O
 
 The	|O
-<<<<<<< HEAD
-Federal	|B-ORG
-Republic	|I-ORG
-of	|I-ORG
-Yugoslavia	|I-ORG
-=======
 Federal	|B-LOC
 Republic	|I-LOC
-of	|O
-Yugoslavia	|B-LOC
->>>>>>> feature_selection
+of	|I-LOC
+Yugoslavia	|I-LOC
 is	|O
 the	|O
 only	|O
@@ -14238,11 +13455,7 @@ the	|O
 former	|O
 Yugoslavia	|B-LOC
 where	|O
-<<<<<<< HEAD
 Poles	|B-LOC
-=======
-Poles	|B-MISC
->>>>>>> feature_selection
 currently	|O
 require	|O
 visas	|O
@@ -14338,11 +13551,8 @@ fighting	|O
 crime	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Yeltsin	|B-PER
 visits	|O
 wife	|O
@@ -14564,11 +13774,8 @@ from	|O
 Moscow	|B-LOC
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Lebed	|B-PER
 ,	|O
 Chechens	|B-MISC
@@ -14650,13 +13857,8 @@ have	|O
 died	|O
 .	|O
 
-<<<<<<< HEAD
 Neither	|B-PER
 Lebed	|I-PER
-=======
-Neither	|O
-Lebed	|B-PER
->>>>>>> feature_selection
 nor	|O
 Maskhadov	|B-PER
 made	|O
@@ -14667,11 +13869,8 @@ the	|O
 talks	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Russian	|B-MISC
 judge	|O
 stabbed	|O
@@ -14723,13 +13922,8 @@ said	|O
 
 Interfax	|B-ORG
 said	|O
-<<<<<<< HEAD
 Judge	|B-PER
 Olga	|I-PER
-=======
-Judge	|O
-Olga	|B-PER
->>>>>>> feature_selection
 Lavrentyeva	|I-PER
 ,	|O
 28	|O
@@ -14809,11 +14003,8 @@ criminal	|O
 attacks	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Cofinec	|B-ORG
 plunges	|O
 on	|O
@@ -14833,13 +14024,8 @@ France-registered	|B-MISC
 printed	|O
 packaging	|O
 company	|O
-<<<<<<< HEAD
-Cofinec	|B-PER
-S.A.	|I-PER
-=======
 Cofinec	|B-ORG
 S.A.	|I-ORG
->>>>>>> feature_selection
 plunged	|O
 sharply	|O
 on	|O
@@ -14869,11 +14055,7 @@ Global	|B-ORG
 Depositary	|I-ORG
 Receipts	|I-ORG
 (	|O
-<<<<<<< HEAD
 GDRs	|B-MISC
-=======
-GDRs	|O
->>>>>>> feature_selection
 )	|O
 opened	|O
 at	|O
@@ -15246,11 +14428,7 @@ new	|O
 general	|O
 manager	|O
 of	|O
-<<<<<<< HEAD
 Petofi	|B-MISC
-=======
-Petofi	|B-PER
->>>>>>> feature_selection
 is	|O
 appointed	|O
 ...	|O
@@ -15265,11 +14443,7 @@ Kecskemet	|B-PER
 (	|O
 site	|O
 of	|O
-<<<<<<< HEAD
 Petofi	|B-MISC
-=======
-Petofi	|B-PER
->>>>>>> feature_selection
 printing	|O
 house	|O
 )	|O
@@ -15285,11 +14459,7 @@ chief	|O
 executive	|O
 officer	|O
 of	|O
-<<<<<<< HEAD
 Petofi	|B-PER
-=======
-Petofi	|B-LOC
->>>>>>> feature_selection
 ,	|O
 "	|O
 Frater	|B-PER
@@ -15306,11 +14476,8 @@ newsroom	|O
 327	|O
 4040	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Romania	|B-LOC
 cen	|O
 bank	|O
@@ -15325,13 +14492,8 @@ pct	|O
 BUCHAREST	|B-LOC
 1996-08-30	|O
 
-<<<<<<< HEAD
 The	|O
 National	|B-ORG
-=======
-The	|B-ORG
-National	|I-ORG
->>>>>>> feature_selection
 Bank	|I-ORG
 of	|I-ORG
 Romania	|I-ORG
@@ -15455,11 +14617,8 @@ Newsroom	|I-ORG
 40-1	|O
 3120264	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Potent	|O
 landmines	|O
 found	|O
@@ -15540,11 +14699,7 @@ the	|O
 ornate	|O
 Casa	|B-LOC
 de	|O
-<<<<<<< HEAD
 Narino	|B-LOC
-=======
-Narino	|B-MISC
->>>>>>> feature_selection
 presidential	|O
 palace	|O
 in	|O
@@ -15668,11 +14823,8 @@ the	|O
 landmines	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Assault	|O
 charges	|O
 dropped	|O
@@ -15846,11 +14998,8 @@ logging	|O
 interests	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Cambodian	|B-MISC
 opposition	|O
 newspaper	|O
@@ -15892,16 +15041,11 @@ former	|O
 editor	|O
 of	|O
 the	|O
-<<<<<<< HEAD
-Sereipheap	|B-ORG
-Thmei	|I-ORG
-=======
 Sereipheap	|B-MISC
 Thmei	|I-MISC
->>>>>>> feature_selection
 (	|O
-New	|B-ORG
-Liberty	|I-ORG
+New	|B-LOC
+Liberty	|I-LOC
 )	|O
 newspaper	|O
 ,	|O
@@ -15912,13 +15056,8 @@ gates	|O
 of	|O
 the	|O
 run-down	|O
-<<<<<<< HEAD
 French	|B-MISC
 colonial-era	|O
-=======
-French	|B-LOC
-colonial-era	|I-LOC
->>>>>>> feature_selection
 T3	|O
 prison	|O
 late	|O
@@ -16009,11 +15148,7 @@ top-level	|O
 corruption	|O
 .	|O
 
-<<<<<<< HEAD
 Sihanouk	|O
-=======
-Sihanouk	|B-ORG
->>>>>>> feature_selection
 promised	|O
 an	|O
 amnesty	|O
@@ -16048,13 +15183,8 @@ June	|O
 .	|O
 
 Co-Premiers	|O
-<<<<<<< HEAD
 Prince	|O
 Norodom	|B-PER
-=======
-Prince	|B-PER
-Norodom	|I-PER
->>>>>>> feature_selection
 Ranariddh	|I-PER
 and	|O
 Hun	|B-ORG
@@ -16073,17 +15203,11 @@ an	|O
 amnesty	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 Far	|B-LOC
 East	|I-LOC
 Gold	|I-LOC
-=======
-Far	|O
-East	|B-MISC
-Gold	|I-MISC
->>>>>>> feature_selection
 -	|O
 Moribund	|O
 market	|O
@@ -16098,13 +15222,8 @@ HONG	|B-LOC
 KONG	|I-LOC
 1996-08-30	|O
 
-<<<<<<< HEAD
-Far	|B-LOC
-East	|I-LOC
-=======
 Far	|O
 East	|O
->>>>>>> feature_selection
 gold	|O
 traders	|O
 thumped	|O
@@ -16133,13 +15252,8 @@ better	|O
 .	|O
 
 The	|O
-<<<<<<< HEAD
-Southeast	|B-MISC
-Asian	|I-MISC
-=======
 Southeast	|B-ORG
 Asian	|I-ORG
->>>>>>> feature_selection
 gold	|O
 market	|O
 was	|O
@@ -16202,10 +15316,10 @@ London	|B-LOC
 prices	|O
 ,	|O
 with	|O
-South	|B-MISC
-Korean	|I-MISC
+South	|B-LOC
+Korean	|I-LOC
 and	|O
-Indonesian-origin	|B-MISC
+Indonesian-origin	|O
 premiums	|O
 also	|O
 steady	|O
@@ -16216,11 +15330,7 @@ an	|O
 ounce	|O
 .	|O
 
-<<<<<<< HEAD
 Singapore	|B-LOC
-=======
-Singapore	|O
->>>>>>> feature_selection
 dealers	|O
 said	|O
 they	|O
@@ -16252,11 +15362,7 @@ recent	|O
 months	|O
 after	|O
 the	|O
-<<<<<<< HEAD
 Seoul	|B-MISC
-=======
-Seoul	|B-LOC
->>>>>>> feature_selection
 government	|O
 's	|O
 crackdown	|O
@@ -16355,8 +15461,8 @@ on	|O
 Friday	|O
 ,	|O
 versus	|O
-New	|B-ORG
-York	|I-ORG
+New	|B-LOC
+York	|I-LOC
 's	|O
 $	|O
 387.60	|O
@@ -16381,11 +15487,7 @@ that	|O
 the	|O
 International	|B-ORG
 Monetary	|I-ORG
-<<<<<<< HEAD
 Fund	|O
-=======
-Fund	|I-ORG
->>>>>>> feature_selection
 might	|O
 sell	|O
 some	|O
@@ -16550,11 +15652,8 @@ an	|O
 ounce	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Tripoli	|B-PER
 decks	|O
 out	|O
@@ -16685,8 +15784,8 @@ at	|O
 the	|O
 city	|O
 's	|O
-Green	|B-LOC
-Square	|I-LOC
+Green	|O
+Square	|O
 where	|O
 makeshift	|O
 stages	|O
@@ -16733,13 +15832,8 @@ a	|O
 Gaddafi	|B-PER
 ,	|O
 deposed	|O
-<<<<<<< HEAD
-King	|O
-Mohammed	|B-PER
-=======
 King	|B-PER
 Mohammed	|I-PER
->>>>>>> feature_selection
 Idris	|I-PER
 .	|O
 
@@ -16773,13 +15867,8 @@ us	|O
 capabilites	|O
 ,	|O
 "	|O
-<<<<<<< HEAD
-Samer	|O
-Ammar	|B-PER
-=======
 Samer	|B-PER
 Ammar	|I-PER
->>>>>>> feature_selection
 Soliman	|I-PER
 ,	|O
 42	|O
@@ -16797,11 +15886,7 @@ prayers	|O
 
 But	|O
 some	|O
-<<<<<<< HEAD
 Libyans	|B-MISC
-=======
-Libyans	|B-LOC
->>>>>>> feature_selection
 have	|O
 begun	|O
 to	|O
@@ -16917,11 +16002,8 @@ Egyptian	|B-MISC
 workers	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Twilight	|O
 zone	|O
 for	|O
@@ -17377,10 +16459,10 @@ at	|O
 the	|O
 consulting	|O
 firm	|O
-North	|B-ORG
-American	|I-ORG
-Equity	|I-ORG
-Services	|I-ORG
+North	|O
+American	|B-MISC
+Equity	|B-PER
+Services	|I-PER
 .	|O
 
 During	|O
@@ -17440,11 +16522,7 @@ in	|O
 1988	|O
 on	|O
 his	|O
-<<<<<<< HEAD
 no-new-tax	|O
-=======
-no-new-tax	|B-ORG
->>>>>>> feature_selection
 campaign	|O
 and	|O
 Clinton	|B-PER
@@ -17654,11 +16732,7 @@ the	|O
 polls	|O
 .	|O
 
-<<<<<<< HEAD
 Geraghty	|O
-=======
-Geraghty	|B-PER
->>>>>>> feature_selection
 said	|O
 that	|O
 the	|O
@@ -17676,21 +16750,13 @@ new	|O
 findings	|O
 in	|O
 the	|O
-<<<<<<< HEAD
 Whitewater	|O
-=======
-Whitewater	|B-LOC
->>>>>>> feature_selection
 scandal	|O
 that	|O
 would	|O
 damage	|O
 the	|O
-<<<<<<< HEAD
 Clintons	|B-MISC
-=======
-Clintons	|B-PER
->>>>>>> feature_selection
 .	|O
 
 "	|O
@@ -17735,11 +16801,7 @@ Geraghty	|B-PER
 said	|O
 .	|O
 
-<<<<<<< HEAD
 Right	|B-PER
-=======
-Right	|O
->>>>>>> feature_selection
 now	|O
 ,	|O
 Wall	|B-LOC
@@ -17863,13 +16925,8 @@ down	|O
 points	|O
 .	|O
 
-<<<<<<< HEAD
 The	|O
 Standard	|B-ORG
-=======
-The	|B-ORG
-Standard	|I-ORG
->>>>>>> feature_selection
 &	|I-ORG
 Poor	|I-ORG
 's	|O
@@ -17893,15 +16950,9 @@ week	|O
 .	|O
 
 The	|O
-<<<<<<< HEAD
 American	|B-MISC
 Stock	|I-MISC
 Exchange	|I-MISC
-=======
-American	|B-ORG
-Stock	|I-ORG
-Exchange	|I-ORG
->>>>>>> feature_selection
 index	|O
 was	|O
 down	|O
@@ -17919,11 +16970,8 @@ the	|O
 week	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Brisk	|B-LOC
 economic	|O
 reports	|O
@@ -17971,13 +17019,8 @@ straight	|O
 day	|O
 .	|O
 
-<<<<<<< HEAD
 The	|O
 Commerce	|B-ORG
-=======
-The	|B-ORG
-Commerce	|I-ORG
->>>>>>> feature_selection
 Department	|I-ORG
 said	|O
 orders	|O
@@ -18146,13 +17189,8 @@ was	|O
 more	|O
 temporary	|O
 than	|O
-<<<<<<< HEAD
 Federal	|B-PER
 Reserve	|I-PER
-=======
-Federal	|B-ORG
-Reserve	|I-ORG
->>>>>>> feature_selection
 policy-makers	|O
 had	|O
 wanted	|O
@@ -18413,8 +17451,8 @@ of	|O
 First	|B-ORG
 Union	|I-ORG
 bank	|O
-in	|O
-Philadelphia	|B-LOC
+in	|B-ORG
+Philadelphia	|I-ORG
 said	|O
 consumer	|O
 spending	|O
@@ -18455,11 +17493,7 @@ FOMC	|B-ORG
 (	|O
 Federal	|B-MISC
 Open	|I-MISC
-<<<<<<< HEAD
 Market	|B-ORG
-=======
-Market	|I-ORG
->>>>>>> feature_selection
 Committee	|I-ORG
 )	|O
 has	|O
@@ -18552,15 +17586,9 @@ Friday	|O
 ,	|O
 Federal	|B-ORG
 Reserve	|I-ORG
-<<<<<<< HEAD
 Governor	|I-ORG
 Lawrence	|I-ORG
 Lindsey	|I-ORG
-=======
-Governor	|O
-Lawrence	|B-PER
-Lindsey	|I-PER
->>>>>>> feature_selection
 said	|O
 there	|O
 still	|O
@@ -18820,11 +17848,8 @@ in	|O
 June	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Mexican	|B-MISC
 avocados	|O
 not	|O
@@ -18989,15 +18014,9 @@ be	|O
 opened	|O
 into	|O
 19	|O
-<<<<<<< HEAD
 Northern	|B-LOC
 and	|O
 Northeastern	|B-LOC
-=======
-Northern	|B-MISC
-and	|O
-Northeastern	|B-MISC
->>>>>>> feature_selection
 states	|O
 from	|O
 November	|O
@@ -19177,13 +18196,8 @@ agencies	|O
 .	|O
 
 The	|O
-<<<<<<< HEAD
 California	|B-LOC
 Avocado	|B-ORG
-=======
-California	|B-ORG
-Avocado	|I-ORG
->>>>>>> feature_selection
 Commission	|I-ORG
 --	|O
 which	|O
@@ -19368,13 +18382,8 @@ said	|O
 the	|O
 Agriculture	|B-ORG
 Department	|I-ORG
-<<<<<<< HEAD
 's	|O
 Drazek	|B-ORG
-=======
-'s	|I-ORG
-Drazek	|I-ORG
->>>>>>> feature_selection
 .	|O
 "	|O
 
@@ -19398,15 +18407,10 @@ science	|O
 .	|O
 "	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-U.S.	|B-LOC
-Cardinal	|B-ORG
-=======
 U.S.	|B-ORG
 Cardinal	|I-ORG
->>>>>>> feature_selection
 Bernardin	|I-ORG
 says	|O
 has	|O
@@ -19426,13 +18430,8 @@ head	|O
 of	|O
 the	|O
 second-largest	|O
-<<<<<<< HEAD
 U.S.	|B-LOC
 Roman	|B-MISC
-=======
-U.S.	|B-MISC
-Roman	|I-MISC
->>>>>>> feature_selection
 Catholic	|I-MISC
 archdiocese	|O
 ,	|O
@@ -19550,11 +18549,7 @@ In	|O
 14	|O
 years	|O
 as	|O
-<<<<<<< HEAD
 Chicago	|B-LOC
-=======
-Chicago	|B-ORG
->>>>>>> feature_selection
 's	|O
 archbishop	|O
 ,	|O
@@ -19904,11 +18899,7 @@ of	|O
 abuse	|O
 .	|O
 
-<<<<<<< HEAD
 Bernardin	|B-LOC
-=======
-Bernardin	|B-PER
->>>>>>> feature_selection
 prayed	|O
 with	|O
 him	|O
@@ -19916,11 +18907,7 @@ before	|O
 he	|O
 died	|O
 from	|O
-<<<<<<< HEAD
 AIDS	|B-ORG
-=======
-AIDS	|B-MISC
->>>>>>> feature_selection
 last	|O
 year	|O
 .	|O
@@ -20030,11 +19017,8 @@ garment	|O
 .	|O
 "	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Boatmen	|O
 's	|O
 deal	|O
@@ -20058,8 +19042,8 @@ proposed	|O
 acquisition	|O
 of	|O
 Boatmen	|B-ORG
-'s	|I-ORG
-Bancshares	|I-ORG
+'s	|O
+Bancshares	|B-ORG
 Inc.	|I-ORG
 by	|O
 NationsBank	|B-ORG
@@ -20072,11 +19056,7 @@ of	|O
 other	|O
 mergers	|O
 involving	|O
-<<<<<<< HEAD
 Missouri	|B-ORG
-=======
-Missouri	|B-MISC
->>>>>>> feature_selection
 banks	|O
 ,	|O
 which	|O
@@ -20142,7 +19122,6 @@ come	|O
 in	|O
 and	|O
 grab	|O
-<<<<<<< HEAD
 Mercantile	|B-ORG
 or	|O
 Commerce	|B-ORG
@@ -20150,15 +19129,6 @@ Commerce	|B-ORG
 "	|O
 
 St.	|O
-=======
-Mercantile	|O
-or	|O
-Commerce	|B-PER
-.	|O
-"	|O
-
-St.	|B-ORG
->>>>>>> feature_selection
 Louis-based	|O
 Mercantile	|B-ORG
 Bancorp	|I-ORG
@@ -20184,11 +19154,7 @@ as	|O
 the	|O
 most	|O
 attractive	|O
-<<<<<<< HEAD
 Missouri	|B-LOC
-=======
-Missouri	|B-ORG
->>>>>>> feature_selection
 franchise	|O
 in	|O
 size	|O
@@ -20237,15 +19203,9 @@ focuses	|O
 more	|O
 attention	|O
 on	|O
-<<<<<<< HEAD
-Mercantile	|B-MISC
-,	|I-MISC
-Commerce	|I-MISC
-=======
 Mercantile	|O
 ,	|O
 Commerce	|B-PER
->>>>>>> feature_selection
 and	|O
 Roosevelt	|B-PER
 ,	|O
@@ -20289,11 +19249,7 @@ bank	|O
 out	|O
 there	|O
 is	|O
-<<<<<<< HEAD
 Mercantile	|B-PER
-=======
-Mercantile	|O
->>>>>>> feature_selection
 ,	|O
 "	|O
 Weber	|B-PER
@@ -20335,13 +19291,8 @@ Corp.	|I-ORG
 ,	|O
 Ohio-based	|B-MISC
 KeyCorp	|B-ORG
-<<<<<<< HEAD
 and	|O
 Banc	|B-ORG
-=======
-and	|I-ORG
-Banc	|I-ORG
->>>>>>> feature_selection
 One	|I-ORG
 Corp.	|I-ORG
 ,	|O
@@ -20354,20 +19305,12 @@ in	|O
 Illinois	|B-LOC
 .	|O
 
-Representatives	|O
-<<<<<<< HEAD
-of	|O
-First	|B-LOC
-Bank	|I-LOC
-,	|O
-Norwest	|B-LOC
-=======
-of	|B-ORG
+Representatives	|B-ORG
+of	|I-ORG
 First	|I-ORG
 Bank	|I-ORG
 ,	|I-ORG
 Norwest	|I-ORG
->>>>>>> feature_selection
 ,	|O
 Banc	|B-ORG
 One	|I-ORG
@@ -20514,11 +19457,7 @@ done	|O
 "	|O
 I	|O
 think	|O
-<<<<<<< HEAD
 Boatmen	|B-LOC
-=======
-Boatmen	|B-ORG
->>>>>>> feature_selection
 's	|O
 was	|O
 shopping	|O
@@ -20583,11 +19522,7 @@ a	|O
 large	|O
 bid	|O
 for	|O
-<<<<<<< HEAD
 Boatmen	|B-LOC
-=======
-Boatmen	|B-ORG
->>>>>>> feature_selection
 's	|O
 .	|O
 
@@ -20641,7 +19576,6 @@ McDonald	|B-ORG
 Co	|I-ORG
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 U.S.	|B-LOC
@@ -20652,28 +19586,13 @@ Libya	|B-PER
 award	|O
 to	|O
 Farrakhan	|B-MISC
-=======
-U.S.	|B-LOC
-tight-lipped	|O
-on	|O
-Libya	|B-LOC
-'s	|O
-award	|O
-to	|O
-Farrakhan	|B-PER
->>>>>>> feature_selection
 .	|O
 
 WASHINGTON	|B-LOC
 1996-08-30	|O
 
-<<<<<<< HEAD
 The	|O
 State	|B-ORG
-=======
-The	|B-ORG
-State	|I-ORG
->>>>>>> feature_selection
 Department	|I-ORG
 refused	|O
 to	|O
@@ -20705,11 +19624,7 @@ human	|O
 rights	|O
 prize	|O
 by	|O
-<<<<<<< HEAD
 Libya	|B-PER
-=======
-Libya	|B-LOC
->>>>>>> feature_selection
 .	|O
 
 "	|O
@@ -20816,11 +19731,7 @@ Gaddafi	|I-PER
 had	|O
 pledged	|O
 to	|O
-<<<<<<< HEAD
 Farrakhan	|B-PER
-=======
-Farrakhan	|B-ORG
->>>>>>> feature_selection
 's	|O
 Nation	|O
 of	|O
@@ -20838,13 +19749,8 @@ organised	|O
 last	|O
 October	|O
 's	|O
-<<<<<<< HEAD
 Million	|B-ORG
 Man	|I-ORG
-=======
-Million	|B-MISC
-Man	|I-MISC
->>>>>>> feature_selection
 March	|O
 that	|O
 brought	|O
@@ -20893,21 +19799,12 @@ the	|O
 1988	|O
 bombing	|O
 of	|O
-<<<<<<< HEAD
 Pan	|B-LOC
 Am	|O
 flight	|O
 103	|O
 over	|O
 Lockerbie	|B-PER
-=======
-Pan	|B-MISC
-Am	|I-MISC
-flight	|O
-103	|O
-over	|O
-Lockerbie	|B-LOC
->>>>>>> feature_selection
 ,	|O
 Scotland	|B-LOC
 .	|O
@@ -20925,15 +19822,10 @@ on	|O
 Libya	|B-LOC
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-U.S.	|B-ORG
-Gulf	|I-ORG
-=======
 U.S.	|B-LOC
 Gulf	|I-LOC
->>>>>>> feature_selection
 rig	|O
 down	|O
 by	|O
@@ -20984,11 +19876,7 @@ rigs	|O
 working	|O
 in	|O
 the	|O
-<<<<<<< HEAD
 Gulf	|B-ORG
-=======
-Gulf	|B-LOC
->>>>>>> feature_selection
 ,	|O
 based	|O
 on	|O
@@ -21009,15 +19897,9 @@ of	|O
 working	|O
 rigs	|O
 in	|O
-<<<<<<< HEAD
 European	|B-MISC
 /	|O
 Mediterranean	|B-MISC
-=======
-European	|B-LOC
-/	|O
-Mediterranean	|B-LOC
->>>>>>> feature_selection
 remained	|O
 unchanged	|O
 this	|O
@@ -21076,11 +19958,8 @@ Energy	|I-ORG
 Desk	|I-ORG
 212-859-1620	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Dole	|B-PER
 team	|O
 seeking	|O
@@ -21238,8 +20117,8 @@ Oct.	|O
 .	|O
 
 Former	|O
-South	|B-MISC
-Carolina	|I-MISC
+South	|B-LOC
+Carolina	|I-LOC
 Gov	|O
 .	|O
 
@@ -21277,23 +20156,14 @@ by	|O
 mid-September	|O
 on	|O
 whether	|O
-<<<<<<< HEAD
 Texas	|B-PER
-=======
-Texas	|B-ORG
->>>>>>> feature_selection
 billionaire	|O
 Ross	|B-PER
 Perot	|I-PER
 ,	|O
 the	|O
-<<<<<<< HEAD
 Reform	|B-MISC
 Party	|I-MISC
-=======
-Reform	|B-ORG
-Party	|I-ORG
->>>>>>> feature_selection
 candidate	|O
 ,	|O
 will	|O
@@ -21312,8 +20182,8 @@ by	|O
 the	|O
 Commission	|B-ORG
 on	|O
-Presidential	|O
-Debates	|B-PER
+Presidential	|B-ORG
+Debates	|I-ORG
 ,	|O
 a	|O
 non-profit	|O
@@ -21328,9 +20198,8 @@ forums	|O
 in	|O
 1988	|O
 from	|O
-the	|O
-<<<<<<< HEAD
-League	|O
+the	|B-MISC
+League	|I-MISC
 of	|O
 Women	|B-MISC
 Voters	|I-MISC
@@ -21338,14 +20207,6 @@ Voters	|I-MISC
 
 -DOCSTART-	|O
 
-=======
-League	|B-ORG
-of	|O
-Women	|B-ORG
-Voters	|I-ORG
-.	|O
-
->>>>>>> feature_selection
 Titanic	|B-MISC
 recovery	|O
 mission	|O
@@ -21396,11 +20257,7 @@ A	|O
 piece	|O
 of	|O
 the	|O
-<<<<<<< HEAD
 Titanic	|B-LOC
-=======
-Titanic	|B-MISC
->>>>>>> feature_selection
 's	|O
 steel	|O
 hull	|O
@@ -21591,11 +20448,8 @@ Purcell	|B-PER
 said	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Bonn	|O
 appeals	|O
 for	|O
@@ -21641,15 +20495,9 @@ week	|O
 the	|O
 expansion	|O
 of	|O
-<<<<<<< HEAD
-Jewish	|B-MISC
-West	|I-MISC
-Bank	|I-MISC
-=======
 Jewish	|B-ORG
 West	|I-ORG
 Bank	|I-ORG
->>>>>>> feature_selection
 settlements	|O
 surrounding	|O
 Jerusalem	|B-LOC
@@ -21732,13 +20580,8 @@ peace	|O
 ,	|O
 "	|O
 German	|B-MISC
-<<<<<<< HEAD
-Foreign	|B-ORG
-Ministry	|I-ORG
-=======
 Foreign	|O
 Ministry	|O
->>>>>>> feature_selection
 spokesman	|O
 Martin	|B-PER
 Erdmann	|I-PER
@@ -21795,11 +20638,7 @@ Jerusalem	|B-LOC
 Erdmann	|B-PER
 told	|O
 reporters	|O
-<<<<<<< HEAD
 Bonn	|O
-=======
-Bonn	|B-PER
->>>>>>> feature_selection
 supported	|O
 European	|B-ORG
 Union	|I-ORG
@@ -21848,21 +20687,12 @@ ministry	|O
 said	|O
 Levy	|B-PER
 and	|O
-<<<<<<< HEAD
 Kinkel	|B-PER
 would	|O
 discuss	|O
 the	|O
 Middle	|B-LOC
 East	|I-LOC
-=======
-Kinkel	|B-LOC
-would	|O
-discuss	|O
-the	|O
-Middle	|B-MISC
-East	|I-MISC
->>>>>>> feature_selection
 process	|O
 and	|O
 German-Israeli	|B-MISC
@@ -21969,11 +20799,8 @@ for	|O
 talks	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 France	|B-LOC
 expels	|O
 African	|B-MISC
@@ -22006,13 +20833,8 @@ church	|O
 as	|O
 about	|O
 100	|O
-<<<<<<< HEAD
 Air	|B-ORG
 France	|I-ORG
-=======
-Air	|B-MISC
-France	|I-MISC
->>>>>>> feature_selection
 workers	|O
 denounced	|O
 "	|O
@@ -22062,17 +20884,10 @@ failed	|O
 a	|O
 spokesman	|O
 for	|O
-<<<<<<< HEAD
-Air	|B-LOC
-France	|I-LOC
-'s	|O
-pro-Socialist	|O
-=======
 Air	|B-ORG
 France	|I-ORG
 's	|O
-pro-Socialist	|B-MISC
->>>>>>> feature_selection
+pro-Socialist	|O
 CFDT	|B-ORG
 union	|O
 said	|O
@@ -22135,13 +20950,8 @@ CGT	|B-ORG
 unions	|O
 marched	|O
 outside	|O
-<<<<<<< HEAD
 Air	|O
 France	|B-MISC
-=======
-Air	|B-MISC
-France	|I-MISC
->>>>>>> feature_selection
 headquarters	|O
 at	|O
 Charles	|B-LOC
@@ -22178,13 +20988,8 @@ Air	|B-ORG
 France	|I-ORG
 chairman	|O
 )	|O
-<<<<<<< HEAD
 Christian	|B-MISC
 Blanc	|I-MISC
-=======
-Christian	|B-ORG
-Blanc	|I-ORG
->>>>>>> feature_selection
 that	|O
 no	|O
 plane	|O
@@ -22308,11 +21113,8 @@ told	|O
 reporters	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 German	|B-MISC
 police	|O
 probe	|O
@@ -22440,11 +21242,8 @@ told	|O
 Reuters	|B-ORG
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Missing	|O
 German	|B-MISC
 girl	|O
@@ -22695,11 +21494,8 @@ she	|O
 added	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Indian	|B-MISC
 copper	|O
 falls	|O
@@ -22741,11 +21537,7 @@ traders	|O
 said	|O
 .	|O
 
-<<<<<<< HEAD
 Nickel	|B-LOC
-=======
-Nickel	|B-ORG
->>>>>>> feature_selection
 extended	|O
 gains	|O
 while	|O
@@ -22781,13 +21573,8 @@ the	|O
 stockists	|O
 who	|O
 expect	|O
-<<<<<<< HEAD
-Hindustan	|B-PER
-Copper	|I-PER
-=======
 Hindustan	|B-MISC
 Copper	|I-MISC
->>>>>>> feature_selection
 to	|O
 cut	|O
 prices	|O
@@ -22846,27 +21633,17 @@ Commodities	|I-ORG
 +91-22-265	|O
 9000	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 MARTELA	|B-ORG
 H1	|O
 PROFIT	|O
 FIM	|O
 6.3	|O
-<<<<<<< HEAD
 MLN	|O
 VS	|O
 21.0	|O
 MLN	|O
-=======
-MLN	|B-ORG
-VS	|I-ORG
-21.0	|O
-MLN	|B-ORG
->>>>>>> feature_selection
 .	|O
 
 HELSINKI	|B-LOC
@@ -22914,11 +21691,8 @@ sales	|O
 vs	|O
 256.9	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Canadian	|B-MISC
 bonds	|O
 open	|O
@@ -23326,11 +22100,8 @@ e-mail	|O
 :	|O
 jeffrey.hodgson@reuters.com	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Aw	|O
 Computer	|B-ORG
 Systems	|I-ORG
@@ -23370,13 +22141,8 @@ shrs	|O
 4,841	|O
 3,990	|O
 
-<<<<<<< HEAD
 First	|B-LOC
 Half	|I-LOC
-=======
-First	|O
-Half	|B-PER
->>>>>>> feature_selection
 
 Shr	|O
 loss	|O
@@ -23406,17 +22172,10 @@ All	|B-ORG
 Data	|I-ORG
 Above	|I-ORG
 000s	|O
-<<<<<<< HEAD
-Except	|B-PER
-Per	|I-PER
-Share	|I-PER
-Numbers	|I-PER
-=======
-Except	|B-ORG
-Per	|I-ORG
+Except	|O
+Per	|B-ORG
 Share	|I-ORG
 Numbers	|I-ORG
->>>>>>> feature_selection
 )	|O
 
 --	|O
@@ -23426,11 +22185,8 @@ Newsdesk	|I-ORG
 212-859-1610	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 IPO	|B-ORG
 FILING	|O
 --	|O
@@ -23442,16 +22198,11 @@ Inc	|I-ORG
 WASHINGTON	|B-LOC
 1996-08-30	|O
 
-<<<<<<< HEAD
-Company	|O
-Name	|O
-=======
 Company	|B-LOC
 Name	|I-LOC
->>>>>>> feature_selection
-Homegate	|B-ORG
-Hospitality	|I-ORG
-Inc	|I-ORG
+Homegate	|I-LOC
+Hospitality	|I-LOC
+Inc	|I-LOC
 
 Nasdaq	|B-MISC
 Stock	|I-MISC
@@ -23478,13 +22229,8 @@ Shrs	|O
 offered	|O
 by	|O
 company	|O
-<<<<<<< HEAD
 N	|B-ORG
 /	|I-ORG
-=======
-N	|O
-/	|O
->>>>>>> feature_selection
 A	|O
 
 Shrs	|O
@@ -23505,23 +22251,13 @@ Inc	|I-ORG
 
 Underwriters	|O
 over-allotment	|O
-<<<<<<< HEAD
-N	|B-ORG
-/	|I-ORG
-A	|I-ORG
-
-Business	|O
-:	|O
-Company	|B-PER
-=======
 N	|O
 /	|O
 A	|O
 
 Business	|O
 :	|O
-Company	|B-LOC
->>>>>>> feature_selection
+Company	|B-PER
 's	|O
 goal	|O
 is	|O
@@ -23592,11 +22328,8 @@ N	|O
 /	|O
 A	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Syria	|B-LOC
 slams	|O
 Israel	|B-LOC
@@ -23884,11 +22617,7 @@ and	|O
 his	|O
 insistance	|O
 on	|O
-<<<<<<< HEAD
 Jerusalem	|B-MISC
-=======
-Jerusalem	|B-LOC
->>>>>>> feature_selection
 as	|O
 a	|O
 unifed	|O
@@ -23913,11 +22642,8 @@ a	|O
 breakthrough	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Egypt	|B-LOC
 police	|O
 detain	|O
@@ -24037,11 +22763,7 @@ the	|O
 armed	|O
 struggle	|O
 the	|O
-<<<<<<< HEAD
 Gama'a	|B-LOC
-=======
-Gama'a	|B-ORG
->>>>>>> feature_selection
 launched	|O
 in	|O
 1992	|O
@@ -24062,11 +22784,8 @@ in	|O
 its	|O
 place	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Israel	|B-LOC
 blocks	|O
 Palestinian	|B-MISC
@@ -24084,8 +22803,8 @@ West	|B-LOC
 Bank	|I-LOC
 1996-08-30	|O
 
-Kamil	|B-PER
-Jamil	|I-PER
+Kamil	|O
+Jamil	|O
 did	|O
 n't	|O
 have	|O
@@ -24102,13 +22821,8 @@ the	|O
 Palestinian	|B-MISC
 from	|O
 answering	|O
-<<<<<<< HEAD
 Yasser	|O
 Arafat	|B-PER
-=======
-Yasser	|B-PER
-Arafat	|I-PER
->>>>>>> feature_selection
 's	|O
 call	|O
 to	|O
@@ -24307,11 +23021,7 @@ call	|O
 to	|O
 pray	|O
 at	|O
-<<<<<<< HEAD
 al-Aqsa	|B-ORG
-=======
-al-Aqsa	|B-LOC
->>>>>>> feature_selection
 and	|O
 I	|O
 came	|O
@@ -24345,11 +23055,7 @@ Israeli	|B-MISC
 soldiers	|O
 at	|O
 the	|O
-<<<<<<< HEAD
 al-Ram	|O
-=======
-al-Ram	|B-MISC
->>>>>>> feature_selection
 checkpoint	|O
 that	|O
 he	|O
@@ -24410,13 +23116,8 @@ he	|O
 said	|O
 .	|O
 
-<<<<<<< HEAD
-Some	|B-ORG
-Palestinians	|I-ORG
-=======
 Some	|O
 Palestinians	|B-MISC
->>>>>>> feature_selection
 took	|O
 to	|O
 back	|O
@@ -24527,11 +23228,8 @@ refugee	|O
 camp	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 PRESALE	|O
 -	|O
 Bay	|B-ORG
@@ -24562,7 +23260,6 @@ Bay	|B-ORG
 Co	|I-ORG
 Building	|I-ORG
 Authority	|I-ORG
-<<<<<<< HEAD
 ST	|O
 :	|O
 MI	|O
@@ -24570,15 +23267,6 @@ MI	|O
 ISSUE	|O
 :	|O
 Bldg	|B-PER
-=======
-ST	|I-ORG
-:	|O
-MI	|B-LOC
-
-ISSUE	|O
-:	|O
-Bldg	|O
->>>>>>> feature_selection
 auth	|O
 (	|O
 law	|O
@@ -24661,7 +23349,6 @@ Michigan	|B-ORG
 National	|I-ORG
 Bank	|I-ORG
 ,	|O
-<<<<<<< HEAD
 Detroit	|B-PER
 
 L.O.	|O
@@ -24671,24 +23358,6 @@ Bodman	|B-LOC
 Longely	|B-LOC
 &	|B-ORG
 Dahling	|I-ORG
-,	|I-ORG
-Detroit	|I-ORG
-
-F.A.	|O
-:	|O
-First	|B-ORG
-of	|I-ORG
-Michigan	|I-ORG
-=======
-Detroit	|B-LOC
-
-L.O.	|O
-:	|O
-Bodman	|B-PER
-,	|O
-Longely	|B-ORG
-&	|I-ORG
-Dahling	|I-ORG
 ,	|O
 Detroit	|B-ORG
 
@@ -24697,7 +23366,6 @@ F.A.	|O
 First	|O
 of	|O
 Michigan	|B-ORG
->>>>>>> feature_selection
 Corp.	|I-ORG
 ,	|O
 Detroit	|B-PER
@@ -24705,11 +23373,7 @@ Detroit	|B-PER
 LAST	|O
 SALE	|O
 :	|O
-<<<<<<< HEAD
 None	|O
-=======
-None	|B-PER
->>>>>>> feature_selection
 
 Year	|O
 Amount	|O
@@ -24776,11 +23440,8 @@ KENNY	|I-ORG
 K-SHEETS	|O
 :	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Consumer	|O
 spending	|O
 ,	|O
@@ -25093,13 +23754,8 @@ percent	|O
 rise	|O
 forecast	|O
 by	|O
-<<<<<<< HEAD
-Wall	|B-ORG
-Street	|I-ORG
-=======
 Wall	|B-LOC
 Street	|I-LOC
->>>>>>> feature_selection
 economists	|O
 .	|O
 
@@ -25115,11 +23771,7 @@ June	|O
 orders	|O
 .	|O
 
-<<<<<<< HEAD
 Commerce	|B-PER
-=======
-Commerce	|B-ORG
->>>>>>> feature_selection
 said	|O
 previously	|O
 that	|O
@@ -25325,19 +23977,12 @@ $	|O
 billion	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-World	|O
-Markets	|O
-Overnight	|O
-Summary	|O
-=======
-World	|O
-Markets	|B-MISC
+World	|B-MISC
+Markets	|I-MISC
 Overnight	|I-MISC
-Summary	|I-MISC
->>>>>>> feature_selection
+Summary	|O
 -	|O
 Aug	|O
 30	|O
@@ -25348,8 +23993,8 @@ YORK	|I-LOC
 1996-08-29	|O
 
 WORLD	|O
-MARKETS	|O
-ROUND-UP	|O
+MARKETS	|B-MISC
+ROUND-UP	|I-MISC
 
 STOCKS	|O
 GOLD	|O
@@ -25376,13 +24021,8 @@ tonne	|O
 
 Nikkei	|B-MISC
 latest	|O
-<<<<<<< HEAD
 CRUDE	|B-ORG
 OIL	|I-ORG
-=======
-CRUDE	|O
-OIL	|O
->>>>>>> feature_selection
 $	|O
 1987.0	|O
 
@@ -25420,17 +24060,10 @@ BOND	|O
 RATES	|O
 JUMP	|O
 ON	|O
-<<<<<<< HEAD
 STRONG	|B-LOC
 DATA	|I-LOC
 
 Blue-chip	|O
-=======
-STRONG	|B-MISC
-DATA	|I-MISC
-
-Blue-chip	|B-MISC
->>>>>>> feature_selection
 stocks	|O
 sank	|O
 to	|O
@@ -25540,11 +24173,7 @@ market	|O
 ,	|O
 the	|O
 30-year	|O
-<<<<<<< HEAD
 Treasury	|B-LOC
-=======
-Treasury	|O
->>>>>>> feature_selection
 bond	|O
 fell	|O
 23/32	|O
@@ -25695,13 +24324,8 @@ said	|O
 David	|B-PER
 Shulman	|I-PER
 ,	|O
-<<<<<<< HEAD
 Salomon	|B-PER
 Bros	|I-PER
-=======
-Salomon	|B-ORG
-Bros	|I-ORG
->>>>>>> feature_selection
 .	|O
 '	|O
 
@@ -25723,11 +24347,7 @@ land	|O
 Fears	|O
 of	|O
 a	|O
-<<<<<<< HEAD
 Fed	|B-MISC
-=======
-Fed	|O
->>>>>>> feature_selection
 tightening	|O
 next	|O
 month	|O
@@ -25745,13 +24365,8 @@ July	|O
 .	|O
 "	|O
 
-<<<<<<< HEAD
 The	|O
 Commerce	|B-ORG
-=======
-The	|B-ORG
-Commerce	|I-ORG
->>>>>>> feature_selection
 Department	|I-ORG
 reported	|O
 that	|O
@@ -25932,13 +24547,8 @@ documents	|O
 
 Analysts	|O
 said	|O
-<<<<<<< HEAD
 Wall	|B-PER
 Street	|I-PER
-=======
-Wall	|B-LOC
-Street	|I-LOC
->>>>>>> feature_selection
 had	|O
 grown	|O
 accustomed	|O
@@ -26025,15 +24635,9 @@ heating	|O
 oil	|O
 on	|O
 the	|O
-<<<<<<< HEAD
 New	|B-ORG
 York	|I-ORG
 Mercantile	|I-ORG
-=======
-New	|B-LOC
-York	|I-LOC
-Mercantile	|B-ORG
->>>>>>> feature_selection
 Exchange	|I-ORG
 closed	|O
 1.63	|O
@@ -26174,11 +24778,8 @@ at	|O
 20,553.16	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Pirelli	|B-PER
 cables	|O
 look	|O
@@ -26228,13 +24829,8 @@ Pirelli	|B-PER
 is	|O
 linking	|O
 with	|O
-<<<<<<< HEAD
-Hong	|B-PER
-Kong-based	|B-MISC
-=======
 Hong	|B-MISC
 Kong-based	|I-MISC
->>>>>>> feature_selection
 group	|O
 CITIC	|B-ORG
 Pacific	|I-ORG
@@ -26245,15 +24841,9 @@ to	|O
 be	|O
 called	|O
 the	|O
-<<<<<<< HEAD
 Wuxi	|B-ORG
 Tong	|I-ORG
 Ling	|I-ORG
-=======
-Wuxi	|B-LOC
-Tong	|I-LOC
-Ling	|B-ORG
->>>>>>> feature_selection
 Company	|I-ORG
 Ltd	|I-ORG
 ,	|O
@@ -26581,13 +25171,8 @@ Asia	|B-LOC
 ,	|O
 "	|O
 said	|O
-<<<<<<< HEAD
 Pirelli	|B-MISC
 SpA	|I-MISC
-=======
-Pirelli	|B-PER
-SpA	|O
->>>>>>> feature_selection
 chairman	|O
 and	|O
 chief	|O
@@ -26598,13 +25183,8 @@ Tonchetti	|I-PER
 Provera	|I-PER
 .	|O
 
-<<<<<<< HEAD
 Pirelli	|B-ORG
 Cables	|I-ORG
-=======
-Pirelli	|B-PER
-Cables	|I-PER
->>>>>>> feature_selection
 has	|O
 global	|O
 sales	|O
@@ -26645,13 +25225,8 @@ Pacific	|I-ORG
 is	|O
 a	|O
 major	|O
-<<<<<<< HEAD
 Hong	|B-PER
 Kong-listed	|I-PER
-=======
-Hong	|B-MISC
-Kong-listed	|I-MISC
->>>>>>> feature_selection
 company	|O
 focusing	|O
 on	|O
@@ -26687,11 +25262,8 @@ in	|O
 China	|B-LOC
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Dutch	|B-MISC
 bond	|O
 futures	|O
@@ -26711,11 +25283,7 @@ to	|O
 spur	|O
 activity	|O
 in	|O
-<<<<<<< HEAD
 Dutch	|B-MISC
-=======
-Dutch	|B-LOC
->>>>>>> feature_selection
 bond	|O
 futures	|O
 has	|O
@@ -26815,15 +25383,9 @@ start	|O
 "	|O
 EOE	|B-ORG
 spokesman	|O
-<<<<<<< HEAD
 Lex	|B-ORG
 van	|O
 Drooge	|B-ORG
-=======
-Lex	|B-PER
-van	|I-PER
-Drooge	|I-PER
->>>>>>> feature_selection
 told	|O
 Reuters	|B-ORG
 .	|O
@@ -26914,11 +25476,8 @@ Fax	|O
 504	|O
 5040	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 OSCE	|B-ORG
 defends	|O
 record	|O
@@ -26949,11 +25508,7 @@ face	|O
 of	|O
 criticism	|O
 by	|O
-<<<<<<< HEAD
 pro-Moscow	|O
-=======
-pro-Moscow	|B-MISC
->>>>>>> feature_selection
 leaders	|O
 in	|O
 breakway	|O
@@ -27283,11 +25838,8 @@ said	|O
 Cotti	|B-PER
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Dutch	|B-MISC
 say	|O
 no	|O
@@ -27329,9 +25881,9 @@ the	|O
 crash	|O
 of	|O
 an	|O
-El	|B-ORG
-Al	|I-ORG
-freighter	|O
+El	|B-MISC
+Al	|I-MISC
+freighter	|I-MISC
 which	|O
 left	|O
 43	|O
@@ -27370,8 +25922,8 @@ been	|O
 complied	|O
 with	|O
 by	|O
-El	|B-PER
-Al	|I-PER
+El	|B-ORG
+Al	|I-ORG
 's	|O
 head	|O
 office	|O
@@ -27437,13 +25989,8 @@ the	|O
 latest	|O
 evidence	|O
 from	|O
-<<<<<<< HEAD
-El	|B-ORG
-Al	|I-ORG
-=======
 El	|B-LOC
 Al	|I-LOC
->>>>>>> feature_selection
 in	|O
 no	|O
 way	|O
@@ -27480,11 +26027,8 @@ Fax	|O
 542	|O
 5017	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Armenians	|B-MISC
 ,	|O
 Azeris	|B-PER
@@ -27498,11 +26042,7 @@ Germany	|B-LOC
 BONN	|B-LOC
 1996-08-30	|O
 
-<<<<<<< HEAD
 Representatives	|O
-=======
-Representatives	|B-ORG
->>>>>>> feature_selection
 from	|O
 Armenia	|B-LOC
 and	|O
@@ -27548,11 +26088,7 @@ of	|O
 anonymity	|O
 ,	|O
 said	|O
-<<<<<<< HEAD
 Azerbaijani	|B-MISC
-=======
-Azerbaijani	|B-PER
->>>>>>> feature_selection
 presidential	|O
 adviser	|O
 Vafa	|B-PER
@@ -27592,11 +26128,7 @@ around	|O
 20	|O
 percent	|O
 of	|O
-<<<<<<< HEAD
 Azeri	|B-LOC
-=======
-Azeri	|B-MISC
->>>>>>> feature_selection
 territory	|O
 ,	|O
 since	|O
@@ -27606,11 +26138,7 @@ after	|O
 ethnic	|O
 Armenians	|B-MISC
 drove	|O
-<<<<<<< HEAD
 Azeris	|B-PER
-=======
-Azeris	|B-MISC
->>>>>>> feature_selection
 out	|O
 of	|O
 the	|O
@@ -27782,13 +26310,9 @@ and	|O
 Finland	|B-LOC
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 Sombre	|B-ORG
-=======
-Sombre	|O
->>>>>>> feature_selection
 mood	|O
 on	|O
 Arctic	|B-MISC
@@ -27801,11 +26325,7 @@ crash	|O
 Rolf	|B-PER
 Soderlind	|I-PER
 
-<<<<<<< HEAD
 LONGYEAR	|B-LOC
-=======
-LONGYEAR	|B-ORG
->>>>>>> feature_selection
 ,	|O
 Norway	|B-LOC
 1996-08-30	|O
@@ -27838,11 +26358,7 @@ clouded	|O
 sky	|O
 .	|O
 
-<<<<<<< HEAD
 Longyear	|B-PER
-=======
-Longyear	|B-LOC
->>>>>>> feature_selection
 is	|O
 a	|O
 town	|O
@@ -28258,11 +26774,7 @@ stay	|O
 away	|O
 .	|O
 
-<<<<<<< HEAD
 Around	|O
-=======
-Around	|B-ORG
->>>>>>> feature_selection
 100	|O
 Russian	|B-MISC
 and	|O
@@ -28378,11 +26890,7 @@ new	|O
 Russia	|B-LOC
 .	|O
 
-<<<<<<< HEAD
 Spitzbergen	|B-LOC
-=======
-Spitzbergen	|O
->>>>>>> feature_selection
 lies	|O
 some	|O
 500	|O
@@ -28455,11 +26963,7 @@ dirt	|O
 tracks	|O
 .	|O
 
-<<<<<<< HEAD
 Norway	|O
-=======
-Norway	|B-LOC
->>>>>>> feature_selection
 rules	|O
 the	|O
 island	|O
@@ -28493,13 +26997,8 @@ mined	|O
 there	|O
 .	|O
 
-<<<<<<< HEAD
 Only	|O
 Russia	|B-LOC
-=======
-Only	|B-PER
-Russia	|I-PER
->>>>>>> feature_selection
 has	|O
 chosen	|O
 to	|O
@@ -28507,11 +27006,8 @@ do	|O
 so	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Ericsson	|B-PER
 says	|O
 wins	|O
@@ -28586,17 +27082,10 @@ equipment	|O
 ISDN	|B-ORG
 equipment	|O
 ,	|O
-<<<<<<< HEAD
 Intelligent	|B-PER
 Network	|I-PER
 (	|O
 IN	|B-LOC
-=======
-Intelligent	|B-ORG
-Network	|I-ORG
-(	|O
-IN	|O
->>>>>>> feature_selection
 )	|O
 products	|O
 ,	|O
@@ -28610,11 +27099,7 @@ services	|O
 and	|O
 training	|O
 ,	|O
-<<<<<<< HEAD
 Ericsson	|B-LOC
-=======
-Ericsson	|B-ORG
->>>>>>> feature_selection
 spokesman	|O
 Per	|B-PER
 Zetterquist	|I-PER
@@ -28642,11 +27127,8 @@ newsroom	|O
 +46-8-700	|O
 1017	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 HK	|B-LOC
 has	|O
 infrastructure	|O
@@ -28748,13 +27230,8 @@ New	|B-LOC
 Zealand	|I-LOC
 .	|O
 
-<<<<<<< HEAD
 Hong	|B-ORG
 Kong	|I-ORG
-=======
-Hong	|B-LOC
-Kong	|I-LOC
->>>>>>> feature_selection
 also	|O
 had	|O
 the	|O
@@ -28829,13 +27306,8 @@ He	|O
 acknowledged	|O
 that	|O
 many	|O
-<<<<<<< HEAD
 Hong	|B-LOC
 Kong	|I-LOC
-=======
-Hong	|B-MISC
-Kong	|I-MISC
->>>>>>> feature_selection
 people	|O
 had	|O
 decided	|O
@@ -28889,11 +27361,8 @@ newsroom	|O
 4	|O
 473-4746	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 PRESS	|O
 DIGEST	|O
 -	|O
@@ -28962,12 +27431,8 @@ Fax	|O
 -	|O
 
 KOMPAS	|B-ORG
-<<<<<<< HEAD
 
 Indonesian	|B-MISC
-=======
-Indonesian	|I-ORG
->>>>>>> feature_selection
 President	|O
 Suharto	|B-PER
 has	|O
@@ -28996,13 +27461,8 @@ exports	|O
 -	|O
 -	|O
 
-<<<<<<< HEAD
 JAKARTA	|B-ORG
 POST	|I-ORG
-=======
-JAKARTA	|O
-POST	|O
->>>>>>> feature_selection
 
 Speaker	|O
 of	|O
@@ -29057,11 +27517,7 @@ after	|O
 delegates	|O
 from	|O
 the	|O
-<<<<<<< HEAD
 Philippine	|B-MISC
-=======
-Philippine	|B-ORG
->>>>>>> feature_selection
 government	|O
 and	|O
 the	|O
@@ -29097,8 +27553,8 @@ region	|O
 -	|O
 -	|O
 
-MEDIA	|B-LOC
-INDONESIA	|I-LOC
+MEDIA	|B-ORG
+INDONESIA	|I-ORG
 
 Around	|O
 2,000	|O
@@ -29106,22 +27562,13 @@ of	|O
 Indonesia	|B-LOC
 's	|O
 controversial	|O
-<<<<<<< HEAD
 Timor	|B-LOC
-=======
-Timor	|B-MISC
->>>>>>> feature_selection
 national	|O
 car	|O
 made	|O
 by	|O
-<<<<<<< HEAD
 Kia	|B-LOC
 Motor	|B-ORG
-=======
-Kia	|B-ORG
-Motor	|I-ORG
->>>>>>> feature_selection
 Corp	|I-ORG
 of	|O
 South	|B-LOC
@@ -29130,13 +27577,8 @@ arrived	|O
 at	|O
 Jakarta	|B-LOC
 's	|O
-<<<<<<< HEAD
-Tanjung	|B-PER
-Priok	|I-PER
-=======
-Tanjung	|B-LOC
-Priok	|I-LOC
->>>>>>> feature_selection
+Tanjung	|B-ORG
+Priok	|I-ORG
 port	|O
 on	|O
 Thursday	|O
@@ -29149,11 +27591,7 @@ be	|O
 jointly	|O
 marketed	|O
 by	|O
-<<<<<<< HEAD
 Kia	|B-LOC
-=======
-Kia	|B-PER
->>>>>>> feature_selection
 and	|O
 PT	|B-ORG
 Timor	|I-ORG
@@ -29166,11 +27604,7 @@ a	|O
 son	|O
 of	|O
 President	|O
-<<<<<<< HEAD
 Suharto	|B-LOC
-=======
-Suharto	|B-PER
->>>>>>> feature_selection
 ,	|O
 which	|O
 plans	|O
@@ -29190,12 +27624,8 @@ Indonesia	|B-LOC
 -	|O
 -	|O
 
-<<<<<<< HEAD
 REPUBLIKA	|B-ORG
 
-=======
-REPUBLIKA	|O
->>>>>>> feature_selection
 The	|O
 Central	|B-ORG
 Jakarta	|I-ORG
@@ -29253,11 +27683,8 @@ last	|O
 June	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Jeans	|B-ORG
 Mate	|I-ORG
 Corp	|I-ORG
@@ -29321,15 +27748,9 @@ million	|O
 
 NOTE	|O
 -	|O
-<<<<<<< HEAD
 Jeans	|O
 Mate	|B-PER
 Corp	|I-PER
-=======
-Jeans	|B-ORG
-Mate	|I-ORG
-Corp	|I-ORG
->>>>>>> feature_selection
 is	|O
 the	|O
 full	|O
@@ -29337,15 +27758,10 @@ company	|O
 name	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-Apic	|B-ORG
-Yamada	|I-ORG
-=======
-Apic	|B-LOC
-Yamada	|I-LOC
->>>>>>> feature_selection
+Apic	|O
+Yamada	|B-ORG
 -	|O
 6mth	|O
 parent	|O
@@ -29415,11 +27831,8 @@ semiconductor	|O
 leadframes	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Bootleg	|O
 brew	|O
 kills	|O
@@ -29556,11 +27969,7 @@ it	|O
 said	|O
 .	|O
 
-<<<<<<< HEAD
 Post-mortem	|B-MISC
-=======
-Post-mortem	|O
->>>>>>> feature_selection
 examinations	|O
 showed	|O
 they	|O
@@ -29582,11 +27991,7 @@ the	|O
 poisonous	|O
 liquor	|O
 ,	|O
-<<<<<<< HEAD
 Xinhua	|B-PER
-=======
-Xinhua	|B-ORG
->>>>>>> feature_selection
 said	|O
 .	|O
 
@@ -29597,13 +28002,9 @@ further	|O
 details	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 Singapore	|B-LOC
-=======
-Singapore	|O
->>>>>>> feature_selection
 hangs	|O
 Thai	|B-MISC
 drug	|O
@@ -29613,11 +28014,7 @@ trafficker	|O
 SINGAPORE	|B-LOC
 1996-08-30	|O
 
-<<<<<<< HEAD
 Singapore	|B-PER
-=======
-Singapore	|B-LOC
->>>>>>> feature_selection
 hanged	|O
 a	|O
 Thai	|B-MISC
@@ -29746,11 +28143,8 @@ drug-related	|O
 charges	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Arafat	|B-PER
 goes	|O
 to	|O
@@ -29779,11 +28173,7 @@ Bank	|I-LOC
 self-rule	|O
 enclave	|O
 of	|O
-<<<<<<< HEAD
 Nablus	|B-MISC
-=======
-Nablus	|B-LOC
->>>>>>> feature_selection
 from	|O
 Ramallah	|B-LOC
 on	|O
@@ -29804,9 +28194,9 @@ weekly	|O
 meeting	|O
 of	|O
 the	|O
-Palestinian	|B-MISC
-self-rule	|O
-Authority	|B-ORG
+Palestinian	|B-ORG
+self-rule	|I-ORG
+Authority	|I-ORG
 's	|O
 cabinet	|O
 in	|O
@@ -29845,9 +28235,9 @@ holy	|O
 to	|O
 Moslems	|B-MISC
 ,	|O
-Arabs	|B-MISC
-and	|O
-Jews	|B-MISC
+Arabs	|B-PER
+and	|I-PER
+Jews	|I-PER
 to	|O
 pray	|O
 in	|O
@@ -29936,11 +28326,8 @@ has	|O
 ended	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 U.N.	|B-ORG
 Council	|I-ORG
 concerned	|O
@@ -29989,7 +28376,6 @@ letter	|O
 from	|O
 the	|O
 the	|O
-<<<<<<< HEAD
 Palestinian	|B-ORG
 U.N.	|I-ORG
 observer	|O
@@ -29997,15 +28383,6 @@ mission	|O
 ,	|O
 Security	|O
 Council	|O
-=======
-Palestinian	|B-MISC
-U.N.	|B-ORG
-observer	|O
-mission	|O
-,	|O
-Security	|B-ORG
-Council	|I-ORG
->>>>>>> feature_selection
 President	|O
 Tono	|B-PER
 Eitel	|I-PER
@@ -30124,8 +28501,8 @@ and	|O
 status	|O
 of	|O
 the	|O
-Holy	|B-ORG
-City	|I-ORG
+Holy	|B-LOC
+City	|I-LOC
 of	|O
 Jerusalem	|B-LOC
 "	|O
@@ -30263,11 +28640,8 @@ al-Laqlaq	|I-ORG
 Society	|I-ORG
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 REAL	|B-ORG
@@ -30280,13 +28654,8 @@ OPENING	|O
 MATCH	|O
 .	|O
 
-<<<<<<< HEAD
 LA	|B-LOC
 CORUNA	|I-LOC
-=======
-LA	|B-ORG
-CORUNA	|I-ORG
->>>>>>> feature_selection
 ,	|O
 Spain	|B-LOC
 1996-08-31	|O
@@ -30334,11 +28703,7 @@ was	|O
 enough	|O
 to	|O
 earn	|O
-<<<<<<< HEAD
 Real	|B-PER
-=======
-Real	|O
->>>>>>> feature_selection
 a	|O
 point	|O
 from	|O
@@ -30350,8 +28715,8 @@ at	|O
 fellow	|O
 title	|O
 contenders	|O
-Deportivo	|B-PER
-Coruna	|I-PER
+Deportivo	|B-ORG
+Coruna	|I-ORG
 .	|O
 
 Deportivo	|O
@@ -30381,21 +28746,13 @@ a	|O
 flick-on	|O
 by	|O
 Brazilian-born	|B-MISC
-<<<<<<< HEAD
 Spanish	|B-MISC
-=======
-Spanish	|I-MISC
->>>>>>> feature_selection
 international	|O
 midfielder	|O
 Donato	|B-PER
 .	|O
 
-<<<<<<< HEAD
 Real	|O
-=======
-Real	|B-PER
->>>>>>> feature_selection
 looked	|O
 to	|O
 be	|O
@@ -30466,11 +28823,7 @@ defence	|O
 and	|O
 equalised	|O
 for	|O
-<<<<<<< HEAD
 Real	|B-PER
-=======
-Real	|O
->>>>>>> feature_selection
 with	|O
 a	|O
 shot	|O
@@ -30517,11 +28870,7 @@ about	|O
 the	|O
 incursion	|O
 of	|O
-<<<<<<< HEAD
 Real	|O
-=======
-Real	|B-MISC
->>>>>>> feature_selection
 players	|O
 at	|O
 a	|O
@@ -30577,11 +28926,7 @@ decided	|O
 not	|O
 to	|O
 use	|O
-<<<<<<< HEAD
 Silva	|B-PER
-=======
-Silva	|B-ORG
->>>>>>> feature_selection
 ,	|O
 who	|O
 had	|O
@@ -30601,11 +28946,8 @@ his	|O
 passport	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 RUGBY	|B-MISC
 LEAGUE	|I-MISC
 -	|O
@@ -30613,13 +28955,8 @@ WIGAN	|B-LOC
 BEAT	|O
 BRADFORD	|B-LOC
 42-36	|O
-<<<<<<< HEAD
 IN	|O
 SEMIFINAL	|O
-=======
-IN	|B-LOC
-SEMIFINAL	|I-LOC
->>>>>>> feature_selection
 .	|O
 
 WIGAN	|B-LOC
@@ -30641,19 +28978,12 @@ Saturday	|O
 
 Wigan	|B-ORG
 42	|O
-<<<<<<< HEAD
-Bradford	|B-ORG
-Bulls	|I-ORG
-36	|O
-
--DOCSTART-	|O
-
-=======
 Bradford	|B-PER
 Bulls	|I-PER
 36	|O
 
->>>>>>> feature_selection
+-DOCSTART-	|O
+
 SOCCER	|O
 -	|O
 ISRAEL	|B-LOC
@@ -30711,11 +29041,8 @@ Attendance	|O
 2,000	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 IRISH	|B-MISC
@@ -30751,11 +29078,7 @@ Liechtenstein	|B-LOC
 by	|O
 beating	|O
 the	|O
-<<<<<<< HEAD
 Alpine	|B-ORG
-=======
-Alpine	|B-MISC
->>>>>>> feature_selection
 part-timers	|O
 5-0	|O
 in	|O
@@ -30796,13 +29119,8 @@ O'Neill	|I-PER
 ,	|O
 Sunderland	|B-LOC
 forward	|O
-<<<<<<< HEAD
 Niall	|B-PER
 Quinn	|I-PER
-=======
-Niall	|B-MISC
-Quinn	|I-MISC
->>>>>>> feature_selection
 and	|O
 teenager	|O
 Ian	|B-PER
@@ -30877,11 +29195,8 @@ championship	|O
 finals	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 IRELAND	|B-LOC
@@ -30898,19 +29213,11 @@ ESCHEN	|B-LOC
 1996-08-31	|O
 
 The	|O
-<<<<<<< HEAD
 Republic	|B-ORG
 of	|I-ORG
 Ireland	|I-ORG
 beat	|O
 Liechtenstein	|B-ORG
-=======
-Republic	|B-LOC
-of	|I-LOC
-Ireland	|I-LOC
-beat	|O
-Liechtenstein	|B-LOC
->>>>>>> feature_selection
 5-0	|O
 (	|O
 halftime	|O
@@ -30920,13 +29227,8 @@ in	|O
 a	|O
 World	|B-MISC
 Cup	|I-MISC
-<<<<<<< HEAD
-soccer	|I-MISC
-European	|I-MISC
-=======
 soccer	|O
 European	|B-MISC
->>>>>>> feature_selection
 group	|O
 8	|O
 qualifier	|O
@@ -30967,7 +29269,6 @@ Attendance	|O
 :	|O
 3,900	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 GOLF	|O
@@ -30975,13 +29276,6 @@ GOLF	|O
 BRITISH	|B-PER
 MASTERS	|O
 FINAL	|O
-=======
-GOLF	|O
--	|O
-BRITISH	|B-MISC
-MASTERS	|I-MISC
-FINAL	|I-MISC
->>>>>>> feature_selection
 SCORES	|O
 .	|O
 
@@ -31231,11 +29525,8 @@ McAllister	|I-PER
 74	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 SLOVAKIA	|B-LOC
@@ -31247,11 +29538,7 @@ CUP	|I-MISC
 QUALIFIER	|O
 .	|O
 
-<<<<<<< HEAD
 TOFTIR	|O
-=======
-TOFTIR	|B-LOC
->>>>>>> feature_selection
 ,	|O
 Faroe	|B-LOC
 Islands	|I-LOC
@@ -31260,13 +29547,8 @@ Islands	|I-LOC
 Slovakia	|B-LOC
 beat	|O
 the	|O
-<<<<<<< HEAD
 Faroe	|B-LOC
 Islands	|I-LOC
-=======
-Faroe	|B-ORG
-Islands	|I-ORG
->>>>>>> feature_selection
 2-1	|O
 (	|O
 halftime	|O
@@ -31292,13 +29574,8 @@ Scorers	|O
 Faroe	|B-LOC
 Islands	|I-LOC
 -	|O
-<<<<<<< HEAD
 Jan	|B-PER
 Allan	|I-PER
-=======
-Jan	|O
-Allan	|B-PER
->>>>>>> feature_selection
 Mueller	|I-PER
 (	|O
 60th	|O
@@ -31324,11 +29601,8 @@ Attendance	|O
 1,445	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 CRICKET	|O
 -	|O
 ENGLAND	|B-LOC
@@ -31393,19 +29667,12 @@ Hollioake	|I-PER
 4-23	|O
 )	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 CYCLING	|O
 -	|O
 TOUR	|O
 OF	|B-MISC
-=======
-CYCLING	|O
--	|O
-TOUR	|B-MISC
-OF	|I-MISC
->>>>>>> feature_selection
 NETHERLANDS	|I-MISC
 FINAL	|O
 RESULTS	|O
@@ -31430,17 +29697,10 @@ final	|O
 stage	|O
 of	|O
 the	|O
-<<<<<<< HEAD
-Tour	|B-MISC
-of	|I-MISC
-the	|I-MISC
-Netherlands	|I-MISC
-=======
 Tour	|O
 of	|O
 the	|O
 Netherlands	|B-LOC
->>>>>>> feature_selection
 
 between	|O
 Roermond	|B-LOC
@@ -31627,17 +29887,11 @@ Andersson	|B-PER
 1:34	|O
 
 10.	|O
-<<<<<<< HEAD
 Skibby	|B-PER
 1:45	|O
 
 -DOCSTART-	|O
 
-=======
-Skibby	|B-ORG
-1:45	|O
-
->>>>>>> feature_selection
 CRICKET	|O
 -	|O
 ENGLAND	|B-LOC
@@ -31668,10 +29922,7 @@ Saturday	|O
 :	|O
 
 England	|B-LOC
-<<<<<<< HEAD
 
-=======
->>>>>>> feature_selection
 N.	|B-PER
 Knight	|I-PER
 st	|O
@@ -31809,10 +30060,7 @@ Sohail	|I-PER
 .	|O
 
 pakistan	|O
-<<<<<<< HEAD
 
-=======
->>>>>>> feature_selection
 Saeed	|B-PER
 Anwar	|I-PER
 c	|O
@@ -31939,19 +30187,12 @@ Irani	|B-PER
 Croft	|B-PER
 8-0-37-2	|O
 ,	|O
-<<<<<<< HEAD
 Hollioake	|B-PER
 6.5-1-23-4	|O
 .	|O
 
 -DOCSTART-	|O
 
-=======
-Hollioake	|B-ORG
-6.5-1-23-4	|O
-.	|O
-
->>>>>>> feature_selection
 CYCLING	|O
 -	|O
 WORLD	|O
@@ -32115,13 +30356,8 @@ Kouznetsov	|I-PER
 
 France	|O
 (	|O
-<<<<<<< HEAD
-Cyril	|B-ORG
-Bos	|I-ORG
-=======
 Cyril	|B-PER
 Bos	|I-PER
->>>>>>> feature_selection
 ,	|O
 Philippe	|B-PER
 Ermenault	|I-PER
@@ -32301,17 +30537,10 @@ Trentino	|I-PER
 )	|O
 4:02.752	|O
 beat	|O
-<<<<<<< HEAD
 France	|B-LOC
-(	|O
-Cyril	|B-ORG
-Bos	|I-ORG
-=======
-France	|B-PER
 (	|O
 Cyril	|B-PER
 Bos	|I-PER
->>>>>>> feature_selection
 ,	|O
 Philippe	|B-PER
 Ermenault	|I-PER
@@ -32319,13 +30548,8 @@ Ermenault	|I-PER
 Jean-Michel	|B-PER
 Monin	|I-PER
 ,	|O
-<<<<<<< HEAD
 Francis	|B-LOC
 Moreau	|I-LOC
-=======
-Francis	|B-PER
-Moreau	|I-PER
->>>>>>> feature_selection
 )	|O
 4:04.539	|O
 
@@ -32420,11 +30644,7 @@ Record	|I-LOC
 beat	|O
 Jane	|B-PER
 
-<<<<<<< HEAD
 Quigley	|O
-=======
-Quigley	|B-PER
->>>>>>> feature_selection
 (	|O
 USA	|B-ORG
 )	|O
@@ -32452,11 +30672,7 @@ Australia	|B-LOC
 )	|O
 3:35.087	|O
 beat	|O
-<<<<<<< HEAD
 Svetlana	|B-LOC
-=======
-Svetlana	|B-PER
->>>>>>> feature_selection
 
 Samokhvalova	|B-PER
 (	|O
@@ -32480,11 +30696,8 @@ Mazeikyte	|B-PER
 Lithuania	|B-LOC
 )	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 CRICKET	|O
 -	|O
 PAKISTAN	|B-LOC
@@ -32492,11 +30705,7 @@ WIN	|O
 TOSS	|O
 ,	|O
 PUT	|O
-<<<<<<< HEAD
 ENGLAND	|O
-=======
-ENGLAND	|B-ORG
->>>>>>> feature_selection
 IN	|O
 TO	|O
 BAT	|O
@@ -32548,8 +30757,8 @@ Lloyd	|I-PER
 ,	|O
 with	|O
 seamer	|O
-Peter	|B-PER
-Martin	|I-PER
+Peter	|O
+Martin	|B-PER
 again	|O
 being	|O
 omitted	|O
@@ -32663,24 +30872,17 @@ Younis	|I-PER
 Ata-ur-Rehman	|B-PER
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 BASEBALL	|O
 -	|O
 GONZALEZ	|B-PER
 HOMERS	|O
 TWICE	|O
 AS	|O
-RANGERS	|O
+RANGERS	|B-LOC
 BEAT	|O
-<<<<<<< HEAD
-INDIANS	|O
-=======
 INDIANS	|B-LOC
->>>>>>> feature_selection
 .	|O
 
 ARLINGTON	|B-LOC
@@ -32771,8 +30973,8 @@ this	|O
 season	|O
 ,	|O
 joined	|O
-Mickey	|B-PER
-Rivers	|I-PER
+Mickey	|B-LOC
+Rivers	|I-LOC
 as	|O
 the	|O
 only	|O
@@ -32869,11 +31071,7 @@ the	|O
 10	|O
 meetings	|O
 from	|O
-<<<<<<< HEAD
 Cleveland	|B-ORG
-=======
-Cleveland	|B-PER
->>>>>>> feature_selection
 this	|O
 season	|O
 .	|O
@@ -32947,8 +31145,8 @@ third	|O
 save	|O
 .	|O
 
-Brian	|B-PER
-Giles	|I-PER
+Brian	|B-MISC
+Giles	|I-MISC
 and	|O
 Jim	|B-PER
 Thome	|I-PER
@@ -32957,11 +31155,7 @@ for	|O
 Cleveland	|B-LOC
 .	|O
 
-<<<<<<< HEAD
 Cleveland	|B-PER
-=======
-Cleveland	|B-ORG
->>>>>>> feature_selection
 's	|O
 lead	|O
 over	|O
@@ -32971,35 +31165,22 @@ Sox	|I-ORG
 in	|O
 the	|O
 American	|B-MISC
-<<<<<<< HEAD
 League	|I-MISC
 Central	|I-MISC
-=======
-League	|B-PER
-Central	|I-PER
->>>>>>> feature_selection
 dropped	|O
 to	|O
 nine	|O
 games	|O
 .	|O
 
-<<<<<<< HEAD
 Texas	|B-PER
-=======
-Texas	|B-ORG
->>>>>>> feature_selection
 's	|O
 lead	|O
 over	|O
 Seattle	|B-LOC
 in	|O
 the	|O
-<<<<<<< HEAD
 West	|B-LOC
-=======
-West	|B-MISC
->>>>>>> feature_selection
 increased	|O
 to	|O
 six	|O
@@ -33038,13 +31219,8 @@ Angels	|B-ORG
 6-2	|O
 .	|O
 
-<<<<<<< HEAD
 New	|B-LOC
 York	|I-LOC
-=======
-New	|O
-York	|B-PER
->>>>>>> feature_selection
 snapped	|O
 a	|O
 season-high	|O
@@ -33128,13 +31304,8 @@ level	|O
 In	|O
 Seattle	|B-LOC
 ,	|O
-<<<<<<< HEAD
-Pete	|B-LOC
-Incaviglia	|I-LOC
-=======
 Pete	|B-ORG
 Incaviglia	|I-ORG
->>>>>>> feature_selection
 's	|O
 grand	|O
 slam	|O
@@ -33205,19 +31376,11 @@ Martinez	|I-PER
 his	|O
 23rd	|O
 for	|O
-<<<<<<< HEAD
 Seattle	|B-PER
 .	|O
 
 The	|O
 Orioles	|B-ORG
-=======
-Seattle	|B-LOC
-.	|O
-
-The	|B-ORG
-Orioles	|I-ORG
->>>>>>> feature_selection
 remained	|O
 tied	|O
 with	|O
@@ -33239,11 +31402,7 @@ back	|O
 .	|O
 
 In	|O
-<<<<<<< HEAD
 Toronto	|B-LOC
-=======
-Toronto	|B-ORG
->>>>>>> feature_selection
 ,	|O
 Kevin	|B-PER
 Tapani	|I-PER
@@ -33301,11 +31460,7 @@ three	|O
 hits	|O
 .	|O
 
-<<<<<<< HEAD
 Baines	|O
-=======
-Baines	|B-PER
->>>>>>> feature_selection
 homered	|O
 and	|O
 scored	|O
@@ -33359,11 +31514,7 @@ three	|O
 runs	|O
 as	|O
 the	|O
-<<<<<<< HEAD
 Athetlics	|B-ORG
-=======
-Athetlics	|B-PER
->>>>>>> feature_selection
 blanked	|O
 the	|O
 Boston	|B-ORG
@@ -33384,13 +31535,8 @@ losing	|O
 streak	|O
 .	|O
 
-<<<<<<< HEAD
-Buddy	|B-ORG
-Groom	|I-ORG
-=======
 Buddy	|B-PER
 Groom	|I-PER
->>>>>>> feature_selection
 pitched	|O
 a	|O
 perfect	|O
@@ -33398,11 +31544,7 @@ ninth	|O
 inning	|O
 .	|O
 
-<<<<<<< HEAD
 McGwire	|B-ORG
-=======
-McGwire	|B-PER
->>>>>>> feature_selection
 singled	|O
 home	|O
 a	|O
@@ -33441,13 +31583,8 @@ games	|O
 In	|O
 Detroit	|B-LOC
 ,	|O
-<<<<<<< HEAD
 Todd	|B-MISC
 Van	|B-PER
-=======
-Todd	|B-PER
-Van	|I-PER
->>>>>>> feature_selection
 Poppel	|I-PER
 pitched	|O
 a	|O
@@ -33469,11 +31606,7 @@ first	|O
 inning	|O
 as	|O
 the	|O
-<<<<<<< HEAD
 Tigers	|B-PER
-=======
-Tigers	|B-ORG
->>>>>>> feature_selection
 blanked	|O
 the	|O
 Kansas	|B-ORG
@@ -33513,11 +31646,7 @@ as	|O
 he	|O
 lowered	|O
 his	|O
-<<<<<<< HEAD
 ERA	|B-ORG
-=======
-ERA	|B-MISC
->>>>>>> feature_selection
 from	|O
 8.08	|O
 to	|O
@@ -33557,11 +31686,7 @@ the	|O
 12th	|O
 as	|O
 the	|O
-<<<<<<< HEAD
 Brewers	|B-ORG
-=======
-Brewers	|B-MISC
->>>>>>> feature_selection
 rallied	|O
 for	|O
 a	|O
@@ -33648,17 +31773,11 @@ two-run	|O
 double	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 CRICKET	|O
 -	|O
 ESSEX	|O
-=======
-CRICKET	|O
--	|O
-ESSEX	|B-MISC
->>>>>>> feature_selection
 AND	|O
 KENT	|O
 MADE	|O
@@ -33741,11 +31860,7 @@ to	|O
 lose	|O
 .	|O
 
-<<<<<<< HEAD
 Kent	|O
-=======
-Kent	|B-ORG
->>>>>>> feature_selection
 will	|O
 also	|O
 need	|O
@@ -33778,11 +31893,7 @@ Tunbridge	|B-LOC
 Wells	|I-LOC
 .	|O
 
-<<<<<<< HEAD
 Derbyshire	|O
-=======
-Derbyshire	|B-ORG
->>>>>>> feature_selection
 ,	|O
 nine-wicket	|O
 winners	|O
@@ -33790,11 +31901,7 @@ over	|O
 Worcestershire	|B-ORG
 ,	|O
 and	|O
-<<<<<<< HEAD
 Surrey	|B-PER
-=======
-Surrey	|B-ORG
->>>>>>> feature_selection
 ,	|O
 who	|O
 thrashed	|O
@@ -33831,11 +31938,7 @@ Tim	|B-PER
 Munton	|I-PER
 is	|O
 tipping	|O
-<<<<<<< HEAD
 Surrey	|B-ORG
-=======
-Surrey	|B-PER
->>>>>>> feature_selection
 to	|O
 emerge	|O
 on	|O
@@ -33910,11 +32013,8 @@ he	|O
 said	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 GOLF	|O
 -	|O
 LEADING	|O
@@ -34093,7 +32193,6 @@ Paul	|B-PER
 Broadhurst	|I-PER
 176,780	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 RUGBY	|B-ORG
@@ -34104,16 +32203,6 @@ ENGLISH	|B-PER
 SCOTTISH	|B-PER
 AND	|O
 WELSH	|B-PER
-=======
-RUGBY	|B-ORG
-UNION	|I-ORG
--	|O
-ENGLISH	|B-MISC
-,	|O
-SCOTTISH	|B-MISC
-AND	|O
-WELSH	|O
->>>>>>> feature_selection
 RESULTS	|O
 .	|O
 
@@ -34145,17 +32234,10 @@ Harlequins	|B-ORG
 Gloucester	|B-ORG
 19	|O
 
-<<<<<<< HEAD
 London	|B-LOC
 Irish	|B-MISC
 27	|O
 Bristol	|O
-=======
-London	|B-PER
-Irish	|I-PER
-27	|O
-Bristol	|B-ORG
->>>>>>> feature_selection
 28	|O
 
 Northampton	|B-ORG
@@ -34179,11 +32261,7 @@ Saracens	|B-ORG
 Leicester	|B-ORG
 23	|O
 
-<<<<<<< HEAD
 Welsh	|B-MISC
-=======
-Welsh	|B-PER
->>>>>>> feature_selection
 division	|O
 one	|O
 
@@ -34199,13 +32277,8 @@ Vale	|I-PER
 10	|O
 
 Treorchy	|B-ORG
-<<<<<<< HEAD
 17	|I-ORG
 Newbridge	|I-ORG
-=======
-17	|O
-Newbridge	|B-ORG
->>>>>>> feature_selection
 23	|O
 
 Newport	|B-ORG
@@ -34247,11 +32320,8 @@ Stirling	|B-ORG
 County	|I-ORG
 10	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 WALES	|B-LOC
@@ -34325,11 +32395,8 @@ Attendance	|O
 :	|O
 15,150	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 UKRAINE	|B-LOC
@@ -34358,8 +32425,8 @@ in	|O
 a	|O
 World	|B-MISC
 Cup	|I-MISC
-soccer	|O
-European	|B-MISC
+soccer	|I-MISC
+European	|I-MISC
 group	|O
 nine	|O
 qualifier	|O
@@ -34380,11 +32447,8 @@ Attendance	|O
 :	|O
 9,358	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 RUGBY	|B-ORG
 UNION	|I-ORG
 -	|O
@@ -34433,11 +32497,7 @@ with	|O
 Leicester	|B-PER
 .	|O
 
-<<<<<<< HEAD
 Lynagh	|B-ORG
-=======
-Lynagh	|B-PER
->>>>>>> feature_selection
 kicked	|O
 five	|O
 penalties	|O
@@ -34483,13 +32543,8 @@ club	|O
 
 French	|B-MISC
 centre	|O
-<<<<<<< HEAD
 Philippe	|B-PER
 Sella	|I-PER
-=======
-Philippe	|O
-Sella	|B-PER
->>>>>>> feature_selection
 also	|O
 enjoyed	|O
 a	|O
@@ -34518,24 +32573,15 @@ new	|O
 French	|B-MISC
 connection	|O
 at	|O
-<<<<<<< HEAD
 Harlequins	|B-ORG
-=======
-Harlequins	|B-MISC
->>>>>>> feature_selection
 also	|O
 made	|O
 a	|O
 good	|O
 start	|O
 ,	|O
-<<<<<<< HEAD
 Laurent	|B-PER
 Cabannes	|I-PER
-=======
-Laurent	|B-ORG
-Cabannes	|I-ORG
->>>>>>> feature_selection
 and	|O
 Laurent	|B-PER
 Benezech	|I-PER
@@ -34602,11 +32648,7 @@ emphatic	|O
 victories	|O
 for	|O
 champions	|O
-<<<<<<< HEAD
 Bath	|O
-=======
-Bath	|B-ORG
->>>>>>> feature_selection
 ,	|O
 56-13	|O
 winners	|O
@@ -34614,11 +32656,7 @@ over	|O
 Orrell	|B-ORG
 ,	|O
 and	|O
-<<<<<<< HEAD
 Northampton	|B-LOC
-=======
-Northampton	|B-ORG
->>>>>>> feature_selection
 and	|O
 narrow	|O
 successes	|O
@@ -34628,11 +32666,8 @@ and	|O
 Bristol	|B-LOC
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 SCOTTISH	|B-MISC
@@ -34963,11 +32998,8 @@ County	|I-ORG
 7	|O
 0	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 ENGLISH	|B-MISC
@@ -35678,11 +33710,8 @@ Mansfield	|B-ORG
 6	|O
 2	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 SCOTTISH	|B-MISC
@@ -35800,11 +33829,8 @@ Park	|I-ORG
 Forfar	|B-ORG
 4	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 ENGLISH	|B-MISC
@@ -36011,11 +34037,8 @@ Wigan	|B-ORG
 Chester	|B-ORG
 2	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 CRICKET	|O
 -	|O
 ENGLISH	|B-MISC
@@ -36057,11 +34080,7 @@ Middlesex	|B-ORG
 and	|O
 426	|O
 ,	|O
-<<<<<<< HEAD
 Hampshire	|B-PER
-=======
-Hampshire	|B-ORG
->>>>>>> feature_selection
 232	|O
 and	|O
 205	|O
@@ -36100,11 +34119,7 @@ Glamorgan	|B-ORG
 and	|O
 207	|O
 ,	|O
-<<<<<<< HEAD
 Durham	|B-PER
-=======
-Durham	|B-ORG
->>>>>>> feature_selection
 114	|O
 and	|O
 211	|O
@@ -36323,22 +34338,15 @@ and	|O
 218-9	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 MOTOR	|O
 RACING	|O
 -	|O
 LEADING	|O
 QUALIFIERS	|O
 FOR	|O
-<<<<<<< HEAD
 VANCOUVER	|O
-=======
-VANCOUVER	|B-PER
->>>>>>> feature_selection
 INDYCAR	|O
 RACE	|O
 .	|O
@@ -36497,8 +34505,8 @@ Brazil	|B-LOC
 )	|O
 ,	|O
 Reynard	|B-PER
-Ford	|I-PER
-Cosworth	|I-PER
+Ford	|B-ORG
+Cosworth	|I-ORG
 ,	|O
 54.762	|O
 
@@ -36515,17 +34523,11 @@ Honda	|I-PER
 ,	|O
 54.774	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 SOCCER	|O
 -	|O
 CANADA	|B-ORG
-=======
-SOCCER	|O
--	|O
-CANADA	|B-LOC
->>>>>>> feature_selection
 BEAT	|O
 PANAMA	|B-LOC
 3-1	|O
@@ -36548,11 +34550,7 @@ halftime	|O
 )	|O
 in	|O
 their	|O
-<<<<<<< HEAD
 CONCACAF	|B-ORG
-=======
-CONCACAF	|B-MISC
->>>>>>> feature_selection
 semifinal	|O
 phase	|O
 qualifying	|O
@@ -36593,17 +34591,10 @@ Corrazin	|I-PER
 
 Panama	|B-LOC
 -	|O
-<<<<<<< HEAD
 Jorge	|B-PER
 Luis	|I-PER
 Dely	|I-PER
 Valdes	|I-PER
-=======
-Jorge	|B-ORG
-Luis	|I-ORG
-Dely	|I-ORG
-Valdes	|I-ORG
->>>>>>> feature_selection
 (	|O
 50th	|O
 )	|O
@@ -36612,7 +34603,6 @@ Attendance	|O
 :	|O
 9,402	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 RUGBY	|B-ORG
@@ -36623,16 +34613,6 @@ FINALLY	|O
 BREAK	|O
 ALL	|O
 BLACK	|B-MISC
-=======
-RUGBY	|B-ORG
-UNION	|I-ORG
--	|O
-SPRINGBOKS	|B-LOC
-FINALLY	|O
-BREAK	|B-LOC
-ALL	|O
-BLACK	|B-LOC
->>>>>>> feature_selection
 SPELL	|O
 .	|O
 
@@ -36738,8 +34718,8 @@ and	|O
 an	|O
 historic	|O
 first	|O
-All	|B-MISC
-Black	|I-MISC
+All	|B-ORG
+Black	|I-ORG
 series	|O
 triumph	|O
 on	|O
@@ -36884,11 +34864,7 @@ Henry	|B-PER
 Honiball	|I-PER
 kicked	|O
 the	|O
-<<<<<<< HEAD
 Springboks	|B-LOC
-=======
-Springboks	|B-MISC
->>>>>>> feature_selection
 into	|O
 a	|O
 6-0	|O
@@ -36984,15 +34960,9 @@ referee	|O
 Derek	|B-PER
 Bevan	|I-PER
 allowed	|O
-<<<<<<< HEAD
-Van	|B-PER
-der	|I-PER
-Westhuizen	|I-PER
-=======
 Van	|B-LOC
 der	|O
 Westhuizen	|B-LOC
->>>>>>> feature_selection
 to	|O
 pick	|O
 up	|O
@@ -37011,13 +34981,8 @@ kicked	|O
 a	|O
 penalty	|O
 before	|O
-<<<<<<< HEAD
 All	|B-MISC
 Black	|I-MISC
-=======
-All	|O
-Black	|B-LOC
->>>>>>> feature_selection
 hooker	|O
 Sean	|B-PER
 Fitzpatrick	|I-PER
@@ -37045,13 +35010,8 @@ a	|O
 comeback	|O
 .	|O
 
-<<<<<<< HEAD
 Instead	|B-PER
 Joubert	|I-PER
-=======
-Instead	|O
-Joubert	|B-PER
->>>>>>> feature_selection
 kicked	|O
 another	|O
 long	|O
@@ -37078,15 +35038,9 @@ A	|O
 quick	|O
 penalty	|O
 from	|O
-<<<<<<< HEAD
-Van	|B-PER
-der	|I-PER
-Westhuizen	|I-PER
-=======
-Van	|B-LOC
+Van	|B-ORG
 der	|O
-Westhuizen	|B-MISC
->>>>>>> feature_selection
+Westhuizen	|B-ORG
 five	|O
 metres	|O
 from	|O
@@ -37379,11 +35333,8 @@ Craig	|B-PER
 Dowd	|I-PER
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 RUGBY	|B-ORG
 UNION	|I-ORG
 -	|O
@@ -37500,7 +35451,6 @@ series	|O
 2-1	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 SOCCER	|O
@@ -37508,13 +35458,6 @@ SOCCER	|O
 MAURITANIA	|B-PER
 DISSOLVES	|O
 NATIONAL	|O
-=======
-SOCCER	|O
--	|O
-MAURITANIA	|B-ORG
-DISSOLVES	|I-ORG
-NATIONAL	|I-ORG
->>>>>>> feature_selection
 TEAM	|O
 AFTER	|B-MISC
 CUP	|I-MISC
@@ -37560,13 +35503,8 @@ Cup	|I-MISC
 .	|O
 
 "	|O
-<<<<<<< HEAD
-Since	|O
-Mauritania	|B-LOC
-=======
-Since	|B-PER
-Mauritania	|I-PER
->>>>>>> feature_selection
+Since	|B-MISC
+Mauritania	|I-MISC
 has	|O
 been	|O
 eliminated	|O
@@ -37602,13 +35540,8 @@ said	|O
 .	|O
 
 The	|O
-<<<<<<< HEAD
 North	|B-LOC
 Africans	|I-LOC
-=======
-North	|B-MISC
-Africans	|I-MISC
->>>>>>> feature_selection
 were	|O
 held	|O
 to	|O
@@ -37616,11 +35549,7 @@ a	|O
 goalless	|O
 draw	|O
 by	|O
-<<<<<<< HEAD
 Benin	|B-PER
-=======
-Benin	|B-LOC
->>>>>>> feature_selection
 on	|O
 Friday	|O
 after	|O
@@ -37635,17 +35564,11 @@ tie	|O
 4-1	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 SOCCER	|O
 -	|O
 MAURITANIA	|B-PER
-=======
-SOCCER	|O
--	|O
-MAURITANIA	|B-LOC
->>>>>>> feature_selection
 DRAW	|O
 WITH	|O
 BENIN	|B-MISC
@@ -37686,11 +35609,8 @@ on	|O
 aggregate	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 YUGOSLAV	|B-MISC
@@ -37718,11 +35638,7 @@ Saturday	|O
 Division	|O
 A	|O
 
-<<<<<<< HEAD
 Hajduk	|B-PER
-=======
-Hajduk	|B-ORG
->>>>>>> feature_selection
 2	|O
 Proleter	|O
 (	|O
@@ -37732,11 +35648,7 @@ Z	|O
 
 Zemun	|B-ORG
 1	|O
-<<<<<<< HEAD
 Rad	|B-PER
-=======
-Rad	|O
->>>>>>> feature_selection
 (	|O
 B	|O
 )	|O
@@ -37885,13 +35797,8 @@ Buducnost	|B-ORG
 3	|O
 
 Proleter	|O
-<<<<<<< HEAD
 (	|B-PER
 Z	|I-PER
-=======
-(	|O
-Z	|O
->>>>>>> feature_selection
 )	|O
 4	|O
 0	|O
@@ -37921,17 +35828,10 @@ BJ	|I-ORG
 )	|I-ORG
 0	|O
 
-<<<<<<< HEAD
 Buducnost	|B-ORG
 (	|I-ORG
 V	|I-ORG
 )	|I-ORG
-=======
-Buducnost	|O
-(	|O
-V	|O
-)	|O
->>>>>>> feature_selection
 0	|O
 OFK	|B-ORG
 Beograd	|I-ORG
@@ -38020,15 +35920,9 @@ Beograd	|I-ORG
 4	|O
 6	|O
 
-<<<<<<< HEAD
 Buducnost	|O
 (	|O
 V	|B-ORG
-=======
-Buducnost	|B-ORG
-(	|I-ORG
-V	|I-ORG
->>>>>>> feature_selection
 )	|I-ORG
 4	|O
 2	|O
@@ -38089,15 +35983,9 @@ Rudar	|B-ORG
 7	|O
 3	|O
 
-<<<<<<< HEAD
 Mladost	|O
 (	|O
 BJ	|B-ORG
-=======
-Mladost	|B-ORG
-(	|I-ORG
-BJ	|I-ORG
->>>>>>> feature_selection
 )	|I-ORG
 4	|O
 0	|O
@@ -38107,11 +35995,8 @@ BJ	|I-ORG
 10	|O
 1	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 INCE	|O
@@ -38258,11 +36143,8 @@ on	|O
 Sunday	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 BASKETBALL	|O
 -	|O
 TROFEJ	|O
@@ -38326,11 +36208,8 @@ Yugoslavia	|B-LOC
 42-41	|O
 )	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 BASKETBALLSOCCER	|O
 -	|O
 TROFEJ	|O
@@ -38394,11 +36273,8 @@ Yugoslavia	|B-LOC
 42-41	|O
 )	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 ROMANIA	|B-LOC
@@ -38425,13 +36301,8 @@ in	|O
 a	|O
 World	|B-MISC
 Cup	|I-MISC
-<<<<<<< HEAD
 soccer	|I-MISC
 European	|I-MISC
-=======
-soccer	|O
-European	|B-MISC
->>>>>>> feature_selection
 group	|O
 8	|O
 qualifier	|O
@@ -38467,7 +36338,6 @@ Attendence	|O
 :	|O
 9,000	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 SOCCER	|O
@@ -38475,13 +36345,6 @@ SOCCER	|O
 ARMENIA	|B-LOC
 AND	|O
 PORTUGAL	|B-LOC
-=======
-SOCCER	|O
--	|O
-ARMENIA	|B-MISC
-AND	|B-ORG
-PORTUGAL	|I-ORG
->>>>>>> feature_selection
 DRAW	|O
 0-0	|O
 IN	|O
@@ -38502,8 +36365,8 @@ in	|O
 a	|O
 World	|B-MISC
 Cup	|I-MISC
-soccer	|O
-European	|B-MISC
+soccer	|I-MISC
+European	|I-MISC
 group	|O
 9	|O
 qualifier	|O
@@ -38515,7 +36378,6 @@ Attendance	|O
 :	|O
 5,000	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 SOCCER	|O
@@ -38523,13 +36385,6 @@ SOCCER	|O
 AZERBAIJAN	|B-MISC
 BEAT	|O
 SWITZERLAND	|O
-=======
-SOCCER	|O
--	|O
-AZERBAIJAN	|B-LOC
-BEAT	|O
-SWITZERLAND	|B-LOC
->>>>>>> feature_selection
 IN	|O
 WORLD	|B-MISC
 CUP	|I-MISC
@@ -38551,8 +36406,8 @@ in	|O
 their	|O
 World	|B-MISC
 Cup	|I-MISC
-soccer	|O
-European	|B-MISC
+soccer	|I-MISC
+European	|I-MISC
 group	|O
 three	|O
 qualifying	|O
@@ -38574,11 +36429,8 @@ Attendance	|O
 :	|O
 20,000	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 BASKETBALL	|O
 -	|O
 BENETTON	|B-ORG
@@ -38619,11 +36471,8 @@ on	|O
 Saturday	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 SWEDEN	|B-ORG
@@ -38674,11 +36523,8 @@ Attendance	|O
 :	|O
 300	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 BELARUS	|B-LOC
@@ -38726,20 +36572,13 @@ Attendance	|O
 :	|O
 6,000	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 ENGLAND	|B-LOC
 BEAT	|O
-<<<<<<< HEAD
 MOLDOVA	|B-LOC
-=======
-MOLDOVA	|O
->>>>>>> feature_selection
 IN	|O
 UNDER-21	|O
 QUALIFIER	|O
@@ -38788,17 +36627,11 @@ Attendance	|O
 :	|O
 850	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 SQUASH	|O
 -	|O
 HILL	|B-PER
-=======
-SQUASH	|O
--	|O
-HILL	|O
->>>>>>> feature_selection
 BRANDS	|O
 WORLD	|O
 CHAMPION	|O
@@ -38831,15 +36664,9 @@ number	|O
 one	|O
 in	|O
 the	|O
-<<<<<<< HEAD
 Hong	|B-LOC
 Kong	|I-LOC
 Open	|B-MISC
-=======
-Hong	|B-MISC
-Kong	|I-MISC
-Open	|I-MISC
->>>>>>> feature_selection
 semifinals	|O
 on	|O
 Saturday	|O
@@ -38890,11 +36717,7 @@ Hill	|B-PER
 shrieked	|O
 at	|O
 the	|O
-<<<<<<< HEAD
 Pakistani	|B-LOC
-=======
-Pakistani	|B-MISC
->>>>>>> feature_selection
 :	|O
 "	|O
 You	|O
@@ -39071,11 +36894,7 @@ it	|O
 --	|O
 that	|O
 's	|O
-<<<<<<< HEAD
 Jansher	|B-PER
-=======
-Jansher	|O
->>>>>>> feature_selection
 .	|O
 "	|O
 
@@ -39170,11 +36989,7 @@ action	|O
 .	|O
 "	|O
 
-<<<<<<< HEAD
 Jansher	|B-PER
-=======
-Jansher	|O
->>>>>>> feature_selection
 ,	|O
 bidding	|O
 for	|O
@@ -39251,11 +37066,7 @@ I	|O
 have	|O
 nothing	|O
 against	|O
-<<<<<<< HEAD
 Jansher	|B-ORG
-=======
-Jansher	|O
->>>>>>> feature_selection
 but	|O
 it	|O
 will	|O
@@ -39277,11 +37088,7 @@ My	|O
 biggest	|O
 problem	|O
 against	|O
-<<<<<<< HEAD
 Jansher	|B-PER
-=======
-Jansher	|O
->>>>>>> feature_selection
 is	|O
 concentration	|O
 .	|O
@@ -39303,11 +37110,8 @@ together	|O
 .	|O
 "	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SQUASH	|O
 -	|O
 HONG	|B-MISC
@@ -39374,28 +37178,17 @@ Scotland	|B-LOC
 15-10	|O
 15-4	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 GOLF	|B-LOC
 -	|O
 PARNEVIK	|B-LOC
-=======
-GOLF	|O
--	|O
-PARNEVIK	|B-PER
->>>>>>> feature_selection
 TAKES	|O
 ONE-SHOT	|O
 LEAD	|O
 AT	|O
-<<<<<<< HEAD
-GREATER	|B-LOC
-MILWAUKEE	|B-MISC
-=======
 GREATER	|B-MISC
 MILWAUKEE	|I-MISC
->>>>>>> feature_selection
 OPEN	|I-MISC
 .	|O
 
@@ -39412,11 +37205,7 @@ fired	|O
 a	|O
 course	|O
 record-tying	|O
-<<<<<<< HEAD
 eight-under-par	|B-ORG
-=======
-eight-under-par	|O
->>>>>>> feature_selection
 63	|O
 Saturday	|O
 to	|O
@@ -39433,21 +37222,12 @@ the	|O
 $	|O
 1.2	|O
 million	|O
-<<<<<<< HEAD
-Greater	|B-PER
-Milwaukee	|I-PER
+Greater	|O
+Milwaukee	|B-PER
 Open	|I-PER
 .	|O
 
 Parnevik	|B-PER
-=======
-Greater	|B-MISC
-Milwaukee	|I-MISC
-Open	|I-MISC
-.	|O
-
-Parnevik	|B-ORG
->>>>>>> feature_selection
 ,	|O
 who	|O
 is	|O
@@ -39480,15 +37260,9 @@ in	|O
 1994	|O
 at	|O
 the	|O
-<<<<<<< HEAD
-Brown	|B-MISC
-Deer	|I-MISC
-Park	|I-MISC
-=======
-Brown	|B-ORG
-Deer	|I-ORG
-Park	|I-ORG
->>>>>>> feature_selection
+Brown	|B-LOC
+Deer	|I-LOC
+Park	|I-LOC
 Golf	|I-LOC
 Course	|I-LOC
 and	|O
@@ -39542,13 +37316,8 @@ first	|O
 since	|O
 the	|O
 1993	|O
-<<<<<<< HEAD
 BellSouth	|B-MISC
 Classic	|I-MISC
-=======
-BellSouth	|O
-Classic	|B-PER
->>>>>>> feature_selection
 .	|O
 
 Tiger	|B-PER
@@ -39593,8 +37362,8 @@ an	|O
 unprecedented	|O
 third	|O
 successive	|O
-U.S.	|B-MISC
-Amateur	|I-MISC
+U.S.	|B-LOC
+Amateur	|B-MISC
 Championship	|I-MISC
 ,	|O
 struggled	|O
@@ -39659,11 +37428,7 @@ the	|O
 second	|O
 ,	|O
 the	|O
-<<<<<<< HEAD
 Swede	|B-MISC
-=======
-Swede	|B-LOC
->>>>>>> feature_selection
 birdied	|O
 six	|O
 of	|O
@@ -39979,35 +37744,21 @@ the	|O
 tournament	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 TENNIS	|O
 -	|O
 SPAIN	|B-PER
 ,	|O
 U.S.	|B-LOC
-<<<<<<< HEAD
-TEAMS	|O
-OPEN	|O
-ON	|O
-ROAD	|O
+TEAMS	|B-MISC
+OPEN	|I-MISC
+ON	|I-MISC
+ROAD	|I-MISC
 FOR	|O
 1997	|O
 FED	|B-MISC
 CUP	|I-MISC
-=======
-TEAMS	|B-MISC
-OPEN	|I-MISC
-ON	|O
-ROAD	|B-MISC
-FOR	|O
-1997	|O
-FED	|O
-CUP	|O
->>>>>>> feature_selection
 .	|O
 
 Richard	|B-PER
@@ -40058,11 +37809,7 @@ U.S.	|B-MISC
 Open	|I-MISC
 .	|O
 
-<<<<<<< HEAD
 Spain	|O
-=======
-Spain	|B-LOC
->>>>>>> feature_selection
 travels	|O
 to	|O
 Belgium	|B-LOC
@@ -40185,13 +37932,8 @@ Cup	|B-MISC
 "	|O
 U.S.	|B-LOC
 captain	|O
-<<<<<<< HEAD
 Billie	|O
 Jean	|B-PER
-=======
-Billie	|B-PER
-Jean	|I-PER
->>>>>>> feature_selection
 King	|I-PER
 said	|O
 at	|O
@@ -40226,11 +37968,7 @@ April	|O
 and	|O
 then	|O
 blanked	|O
-<<<<<<< HEAD
 Japan	|B-MISC
-=======
-Japan	|B-LOC
->>>>>>> feature_selection
 5-0	|O
 in	|O
 Nagoya	|B-LOC
@@ -40290,11 +38028,7 @@ again	|O
 "	|O
 I	|O
 told	|O
-<<<<<<< HEAD
 Monica	|B-ORG
-=======
-Monica	|B-LOC
->>>>>>> feature_selection
 we	|O
 need	|O
 her	|O
@@ -40305,11 +38039,7 @@ to	|O
 win	|O
 ,	|O
 "	|O
-<<<<<<< HEAD
 King	|B-PER
-=======
-King	|O
->>>>>>> feature_selection
 said	|O
 .	|O
 
@@ -40378,11 +38108,7 @@ injuries	|O
 ,	|O
 "	|O
 said	|O
-<<<<<<< HEAD
 King	|B-PER
-=======
-King	|O
->>>>>>> feature_selection
 .	|O
 "	|O
 
@@ -40414,11 +38140,7 @@ that	|O
 threesome	|O
 together	|O
 ,	|O
-<<<<<<< HEAD
 King	|B-PER
-=======
-King	|O
->>>>>>> feature_selection
 will	|O
 feel	|O
 good	|O
@@ -40465,11 +38187,8 @@ said	|O
 King	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 TENNIS	|O
 -	|O
 SATURDAY	|O
@@ -40583,18 +38302,15 @@ Ecuador	|B-LOC
 6-4	|O
 6-2	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 TENNIS	|O
 -	|O
 DRAW	|O
 FOR	|O
 1997	|O
-FED	|B-MISC
-CUP	|I-MISC
+FED	|O
+CUP	|O
 WOMEN	|O
 'S	|O
 TEAM	|O
@@ -40627,13 +38343,8 @@ on	|O
 Saturday	|O
 :	|O
 
-<<<<<<< HEAD
 World	|B-PER
 Group	|I-PER
-=======
-World	|B-ORG
-Group	|I-ORG
->>>>>>> feature_selection
 I	|O
 ,	|O
 first	|O
@@ -40702,11 +38413,8 @@ at	|O
 South	|B-LOC
 Africa	|I-LOC
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 U.S.	|B-LOC
@@ -40724,8 +38432,8 @@ The	|O
 United	|B-LOC
 States	|I-LOC
 beat	|O
-El	|B-PER
-Salvador	|I-PER
+El	|B-ORG
+Salvador	|I-ORG
 3-1	|O
 (	|O
 halftime	|O
@@ -40763,13 +38471,8 @@ Wynalda	|I-PER
 61st	|O
 )	|O
 
-<<<<<<< HEAD
-El	|B-PER
-Salvador	|I-PER
-=======
 El	|O
 Salvador	|B-LOC
->>>>>>> feature_selection
 -	|O
 Luis	|B-PER
 Lazo	|I-PER
@@ -40781,11 +38484,8 @@ Attendance	|O
 -	|O
 18,661	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 BASEBALL	|O
 -	|O
 MAJOR	|B-MISC
@@ -40838,8 +38538,8 @@ L	|O
 PCT	|O
 GB	|O
 
-NEW	|B-ORG
-YORK	|I-ORG
+NEW	|B-LOC
+YORK	|I-LOC
 75	|O
 59	|O
 .560	|O
@@ -41123,11 +38823,8 @@ AT	|O
 ST	|B-LOC
 LOUIS	|I-LOC
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 BASEBALL	|O
 -	|O
 MAJOR	|B-MISC
@@ -41249,13 +38946,8 @@ Houston	|B-ORG
 PITTSBURGH	|B-ORG
 0	|O
 
-<<<<<<< HEAD
 San	|B-ORG
 Francisco	|I-ORG
-=======
-San	|B-LOC
-Francisco	|I-LOC
->>>>>>> feature_selection
 6	|O
 NEW	|B-ORG
 YORK	|I-ORG
@@ -41267,7 +38959,6 @@ LOUIS	|I-ORG
 Colorado	|B-ORG
 4	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 BASEBALL	|O
@@ -41276,18 +38967,8 @@ KEVIN	|B-ORG
 BROWN	|I-ORG
 LOWERS	|I-ORG
 ERA	|I-ORG
-AS	|I-ORG
-MARLINS	|I-ORG
-=======
-BASEBALL	|O
--	|O
-KEVIN	|B-PER
-BROWN	|I-PER
-LOWERS	|O
-ERA	|O
 AS	|O
-MARLINS	|O
->>>>>>> feature_selection
+MARLINS	|B-ORG
 BEAT	|O
 REDS	|B-ORG
 .	|O
@@ -41297,11 +38978,7 @@ CINCINNATI	|B-LOC
 
 Major	|O
 league	|O
-<<<<<<< HEAD
 ERA	|B-ORG
-=======
-ERA	|B-MISC
->>>>>>> feature_selection
 leader	|O
 Kevin	|B-PER
 Brown	|I-PER
@@ -41335,11 +39012,7 @@ win	|O
 Friday	|O
 .	|O
 
-<<<<<<< HEAD
 Brown	|B-PER
-=======
-Brown	|O
->>>>>>> feature_selection
 (	|O
 14-10	|O
 )	|O
@@ -41348,11 +39021,7 @@ Todd	|B-PER
 Stottlemyre	|I-PER
 of	|O
 the	|O
-<<<<<<< HEAD
 Cardinals	|O
-=======
-Cardinals	|B-ORG
->>>>>>> feature_selection
 for	|O
 the	|O
 National	|B-MISC
@@ -41413,11 +39082,7 @@ season	|O
 "	|O
 Bolesy	|O
 (	|O
-<<<<<<< HEAD
 Florida	|B-ORG
-=======
-Florida	|B-LOC
->>>>>>> feature_selection
 manager	|O
 John	|B-PER
 Boles	|I-PER
@@ -41572,7 +39237,6 @@ and	|O
 he	|O
 saw	|O
 (	|O
-<<<<<<< HEAD
 Tom	|B-MISC
 )	|O
 Seaver	|B-ORG
@@ -41581,16 +39245,6 @@ and	|O
 Jerry	|B-PER
 )	|I-PER
 Koosman	|I-PER
-=======
-Tom	|O
-)	|O
-Seaver	|O
-and	|O
-(	|O
-Jerry	|O
-)	|O
-Koosman	|O
->>>>>>> feature_selection
 when	|O
 they	|O
 were	|O
@@ -41718,13 +39372,8 @@ Chicago	|B-LOC
 ,	|O
 the	|O
 Braves	|B-ORG
-<<<<<<< HEAD
-and	|O
-Cubs	|B-ORG
-=======
 and	|I-ORG
 Cubs	|I-ORG
->>>>>>> feature_selection
 split	|O
 a	|O
 doubleheader	|O
@@ -41752,11 +39401,7 @@ Foster	|I-PER
 6-2	|O
 )	|O
 outdueled	|O
-<<<<<<< HEAD
 Atlanta	|B-ORG
-=======
-Atlanta	|B-LOC
->>>>>>> feature_selection
 's	|O
 Tom	|B-PER
 Glavine	|I-PER
@@ -41908,11 +39553,7 @@ Diego	|I-ORG
 Padres	|I-ORG
 blanked	|O
 the	|O
-<<<<<<< HEAD
 Expos	|B-MISC
-=======
-Expos	|B-ORG
->>>>>>> feature_selection
 6-0	|O
 for	|O
 their	|O
@@ -41921,11 +39562,7 @@ straight	|O
 win	|O
 .	|O
 
-<<<<<<< HEAD
 Sanders	|B-PER
-=======
-Sanders	|O
->>>>>>> feature_selection
 (	|O
 8-4	|O
 )	|O
@@ -41986,22 +39623,14 @@ Mike	|B-PER
 Oquist	|I-PER
 allowed	|O
 one	|O
-<<<<<<< HEAD
 Montreal	|B-MISC
-=======
-Montreal	|B-LOC
->>>>>>> feature_selection
 hit	|O
 in	|O
 the	|O
 ninth	|O
 .	|O
 
-<<<<<<< HEAD
 Montreal	|O
-=======
-Montreal	|B-ORG
->>>>>>> feature_selection
 lost	|O
 for	|O
 the	|O
@@ -42025,13 +39654,8 @@ snapped	|O
 a	|O
 tie	|O
 and	|O
-<<<<<<< HEAD
-Shawn	|B-PER
-Estes	|I-PER
-=======
 Shawn	|B-LOC
 Estes	|I-LOC
->>>>>>> feature_selection
 came	|O
 one	|O
 out	|O
@@ -42052,11 +39676,7 @@ Mets	|B-ORG
 6-4	|O
 .	|O
 
-<<<<<<< HEAD
 Benard	|B-PER
-=======
-Benard	|B-ORG
->>>>>>> feature_selection
 ,	|O
 hitting	|O
 .467	|O
@@ -42135,13 +39755,8 @@ RBI	|B-MISC
 but	|O
 struck	|O
 out	|O
-<<<<<<< HEAD
 Brent	|B-PER
 Mayne	|I-PER
-=======
-Brent	|O
-Mayne	|B-PER
->>>>>>> feature_selection
 for	|O
 his	|O
 31st	|O
@@ -42199,11 +39814,7 @@ six-plus	|O
 innings	|O
 as	|O
 the	|O
-<<<<<<< HEAD
 Cardinals	|B-LOC
-=======
-Cardinals	|B-ORG
->>>>>>> feature_selection
 beat	|O
 the	|O
 Colorado	|B-ORG
@@ -42233,11 +39844,7 @@ win	|O
 St	|B-ORG
 Louis	|I-ORG
 defeated	|O
-<<<<<<< HEAD
 Colorado	|B-ORG
-=======
-Colorado	|B-LOC
->>>>>>> feature_selection
 for	|O
 just	|O
 the	|O
@@ -42288,11 +39895,7 @@ solo	|O
 homers	|O
 for	|O
 the	|O
-<<<<<<< HEAD
 Rockies	|B-ORG
-=======
-Rockies	|B-MISC
->>>>>>> feature_selection
 .	|O
 
 In	|O
@@ -42306,11 +39909,7 @@ career	|O
 high	|O
 with	|O
 six	|O
-<<<<<<< HEAD
 RBI	|B-ORG
-=======
-RBI	|B-MISC
->>>>>>> feature_selection
 and	|O
 Donne	|B-PER
 Wall	|I-PER
@@ -42371,11 +39970,8 @@ straight	|O
 win	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 TENNIS	|O
 -	|O
 EDBERG	|B-PER
@@ -42905,11 +40501,8 @@ tonight	|O
 .	|O
 "	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 BOXING	|O
 -	|O
 PRINCE	|O
@@ -42929,11 +40522,7 @@ Naseem	|B-PER
 Hamed	|I-PER
 retained	|O
 his	|O
-<<<<<<< HEAD
 WBO	|O
-=======
-WBO	|B-ORG
->>>>>>> feature_selection
 featherweight	|O
 title	|O
 on	|O
@@ -42957,11 +40546,8 @@ the	|O
 round	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 AUSTRIA	|B-LOC
@@ -43020,11 +40606,7 @@ Scotland	|B-LOC
 ,	|O
 who	|O
 thrashed	|O
-<<<<<<< HEAD
 Belarus	|B-MISC
-=======
-Belarus	|B-LOC
->>>>>>> feature_selection
 5-1	|O
 in	|O
 their	|O
@@ -43251,11 +40833,7 @@ points	|O
 .	|O
 
 The	|O
-<<<<<<< HEAD
 Scots	|B-MISC
-=======
-Scots	|O
->>>>>>> feature_selection
 are	|O
 not	|O
 really	|O
@@ -43382,11 +40960,8 @@ John	|B-PER
 Collins	|I-PER
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 BOXING	|O
 -	|O
 JOHNSON	|B-PER
@@ -43405,11 +40980,7 @@ Johnson	|I-PER
 successfully	|O
 defended	|O
 his	|O
-<<<<<<< HEAD
 IBF	|B-ORG
-=======
-IBF	|O
->>>>>>> feature_selection
 featherweight	|O
 title	|O
 when	|O
@@ -43420,11 +40991,7 @@ unanimous	|O
 points	|O
 decision	|O
 over	|O
-<<<<<<< HEAD
 Venezuela	|B-LOC
-=======
-Venezuela	|B-ORG
->>>>>>> feature_selection
 's	|O
 Ramon	|B-PER
 Guzman	|I-PER
@@ -43432,19 +40999,12 @@ on	|O
 Saturday	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 SOCCER	|O
 -	|O
 FRANCE	|B-ORG
 LAUNCH	|O
-=======
-SOCCER	|O
--	|O
-FRANCE	|B-LOC
-LAUNCH	|I-LOC
->>>>>>> feature_selection
 1998	|O
 WORLD	|B-MISC
 CUP	|I-MISC
@@ -43475,11 +41035,7 @@ Cup	|I-MISC
 hosts	|O
 France	|B-LOC
 beat	|O
-<<<<<<< HEAD
 Mexico	|B-ORG
-=======
-Mexico	|B-LOC
->>>>>>> feature_selection
 2-0	|O
 in	|O
 a	|O
@@ -43501,8 +41057,8 @@ unbeaten	|O
 run	|O
 under	|O
 coach	|O
-Aime	|B-PER
-Jacquet	|I-PER
+Aime	|O
+Jacquet	|B-PER
 ,	|O
 their	|O
 Euro	|B-MISC
@@ -43625,11 +41181,7 @@ the	|O
 right	|O
 fell	|O
 for	|O
-<<<<<<< HEAD
 Ouedec	|B-ORG
-=======
-Ouedec	|B-PER
->>>>>>> feature_selection
 ,	|O
 who	|O
 has	|O
@@ -43663,11 +41215,7 @@ Olmo	|I-PER
 Within	|O
 four	|O
 minutes	|O
-<<<<<<< HEAD
 Ouedec	|B-PER
-=======
-Ouedec	|B-MISC
->>>>>>> feature_selection
 was	|O
 returning	|O
 the	|O
@@ -43701,11 +41249,7 @@ Osvaldo	|B-PER
 Sanchez	|I-PER
 .	|O
 
-<<<<<<< HEAD
 Jacquet	|O
-=======
-Jacquet	|B-PER
->>>>>>> feature_selection
 ,	|O
 beginning	|O
 the	|O
@@ -43767,13 +41311,8 @@ Lamouchi	|I-PER
 ,	|O
 5	|O
 -	|O
-<<<<<<< HEAD
-Laurent	|B-ORG
-Blanc	|I-ORG
-=======
 Laurent	|B-PER
 Blanc	|I-PER
->>>>>>> feature_selection
 ,	|O
 8	|O
 -	|O
@@ -43949,11 +41488,8 @@ Pelaez	|I-PER
 )	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 FRANCE	|B-LOC
@@ -44003,11 +41539,8 @@ Attendance	|O
 :	|O
 18,000	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 BELGIUM	|B-MISC
@@ -44040,11 +41573,7 @@ hard-fought	|O
 victory	|O
 over	|O
 10-man	|O
-<<<<<<< HEAD
 Turkey	|O
-=======
-Turkey	|B-PER
->>>>>>> feature_selection
 in	|O
 a	|O
 tense	|O
@@ -44207,11 +41736,7 @@ penalty	|O
 area	|O
 .	|O
 
-<<<<<<< HEAD
 Brazilian-born	|O
-=======
-Brazilian-born	|B-MISC
->>>>>>> feature_selection
 Luis	|B-PER
 Oliveira	|I-PER
 then	|O
@@ -44352,17 +41877,12 @@ Wilde	|I-PER
 fumbled	|O
 a	|O
 hard	|O
-Arif	|B-PER
-Erdem	|I-PER
+Arif	|O
+Erdem	|B-PER
 shot	|O
 and	|O
-<<<<<<< HEAD
 Orhan	|B-ORG
 Cikirikci	|I-ORG
-=======
-Orhan	|B-PER
-Cikirikci	|I-PER
->>>>>>> feature_selection
 almost	|O
 pounced	|O
 on	|O
@@ -44403,9 +41923,9 @@ Belgium	|B-LOC
 -	|O
 1	|O
 -	|O
-Filip	|B-PER
-De	|I-PER
-Wilde	|I-PER
+Filip	|B-ORG
+De	|I-ORG
+Wilde	|I-ORG
 ,	|O
 2	|O
 -	|O
@@ -44573,11 +42093,7 @@ he	|O
 had	|O
 not	|O
 expected	|O
-<<<<<<< HEAD
 Turkey	|B-LOC
-=======
-Turkey	|B-PER
->>>>>>> feature_selection
 to	|O
 be	|O
 so	|O
@@ -44619,11 +42135,7 @@ April	|O
 
 It	|O
 was	|O
-<<<<<<< HEAD
 Belgium	|B-PER
-=======
-Belgium	|B-LOC
->>>>>>> feature_selection
 's	|O
 first	|O
 victory	|O
@@ -44641,11 +42153,8 @@ and	|O
 Italy	|B-LOC
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 SUMMARY	|O
@@ -44699,11 +42208,8 @@ Attendancce	|O
 35,000	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 RESULT	|O
@@ -44737,11 +42243,8 @@ Real	|B-ORG
 Madrid	|I-ORG
 1	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 BELGIUM	|B-LOC
@@ -44808,11 +42311,8 @@ Attendance	|O
 :	|O
 30,000	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 AUSTRIA	|B-LOC
@@ -44838,8 +42338,8 @@ in	|O
 a	|O
 World	|B-MISC
 Cup	|I-MISC
-soccer	|O
-European	|B-MISC
+soccer	|I-MISC
+European	|I-MISC
 group	|O
 four	|O
 qualifier	|O
@@ -44851,7 +42351,6 @@ Attendance	|O
 :	|O
 29,500	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 BOXING	|O
@@ -44859,13 +42358,6 @@ BOXING	|O
 KNOCK-OUT	|O
 SPECIALIST	|O
 MILLER	|O
-=======
-BOXING	|O
--	|O
-KNOCK-OUT	|B-PER
-SPECIALIST	|O
-MILLER	|B-PER
->>>>>>> feature_selection
 DEFENDS	|O
 TITLE	|O
 .	|O
@@ -44899,11 +42391,7 @@ James	|B-PER
 Heath	|I-PER
 in	|O
 their	|O
-<<<<<<< HEAD
 WBA	|B-MISC
-=======
-WBA	|O
->>>>>>> feature_selection
 cruiserweight	|O
 title	|O
 bout	|O
@@ -44956,11 +42444,7 @@ the	|O
 head	|O
 .	|O
 
-<<<<<<< HEAD
 Heath	|O
-=======
-Heath	|B-PER
->>>>>>> feature_selection
 did	|O
 score	|O
 with	|O
@@ -44968,11 +42452,7 @@ two	|O
 brusing	|O
 lefts	|O
 to	|O
-<<<<<<< HEAD
 Miller	|B-ORG
-=======
-Miller	|B-PER
->>>>>>> feature_selection
 's	|O
 head	|O
 in	|O
@@ -45030,17 +42510,11 @@ the	|O
 distance	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 SOCCER	|O
 -	|O
 DUTCH	|B-MISC
-=======
-SOCCER	|O
--	|O
-DUTCH	|B-LOC
->>>>>>> feature_selection
 DRAW	|O
 2-2	|O
 WITH	|O
@@ -45053,13 +42527,8 @@ INTERNATIONAL	|O
 AMSTERDAM	|B-LOC
 1996-08-31	|O
 
-<<<<<<< HEAD
 The	|O
 Netherlands	|B-LOC
-=======
-The	|B-LOC
-Netherlands	|I-LOC
->>>>>>> feature_selection
 drew	|O
 2-2	|O
 with	|O
@@ -45112,11 +42581,8 @@ Goncalves	|I-PER
 55th	|O
 )	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 BOXING	|O
 -	|O
 MILLER	|B-PER
@@ -45156,11 +42622,8 @@ on	|O
 Saturday	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 HORSE	|O
 RACING	|O
 -	|O
@@ -45179,11 +42642,7 @@ the	|O
 Tattersalls	|B-ORG
 Breeders	|I-ORG
 
-<<<<<<< HEAD
 Stakes	|B-PER
-=======
-Stakes	|O
->>>>>>> feature_selection
 ,	|O
 a	|O
 race	|O
@@ -45199,20 +42658,15 @@ furlongs	|O
 metres	|O
 )	|O
 at	|O
-<<<<<<< HEAD
 The	|O
 Curragh	|B-MISC
-=======
-The	|B-LOC
-Curragh	|I-LOC
->>>>>>> feature_selection
 on	|O
 Saturday	|O
 :	|O
 
 1.	|O
-Miss	|B-ORG
-Stamper	|I-ORG
+Miss	|B-PER
+Stamper	|I-PER
 3-1	|O
 joint-favourite	|O
 (	|O
@@ -45227,26 +42681,16 @@ Paddy	|B-PER
 Lad	|I-PER
 16-1	|O
 (	|O
-<<<<<<< HEAD
 Peter	|B-ORG
 Bloomfield	|I-ORG
-=======
-Peter	|B-PER
-Bloomfield	|I-PER
->>>>>>> feature_selection
 )	|O
 
 3.	|O
 Pelham	|B-PER
 10-1	|O
 (	|O
-<<<<<<< HEAD
 Warren	|B-LOC
 O'Connor	|I-LOC
-=======
-Warren	|B-PER
-O'Connor	|I-PER
->>>>>>> feature_selection
 )	|O
 
 Distances	|O
@@ -45284,11 +42728,8 @@ owner	|O
 $	|O
 233,600	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 KLINSMANN	|B-PER
@@ -45438,14 +42879,9 @@ for	|O
 .	|O
 "	|O
 
-<<<<<<< HEAD
 Coach	|O
-Berti	|B-ORG
-=======
-Coach	|B-ORG
-Berti	|I-ORG
->>>>>>> feature_selection
-Vogts	|I-ORG
+Berti	|B-PER
+Vogts	|I-PER
 has	|O
 called	|O
 up	|O
@@ -45470,11 +42906,8 @@ Euro	|B-MISC
 96	|I-MISC
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 GERMAN	|B-MISC
@@ -45522,11 +42955,8 @@ extra	|O
 time	|O
 )	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 SOCCER	|O
 -	|O
 ROMANIA	|B-LOC
@@ -45547,11 +42977,7 @@ beat	|O
 halftime	|O
 1-1	|O
 )	|O
-<<<<<<< HEAD
 Lithuania	|B-LOC
-=======
-Lithuania	|B-ORG
->>>>>>> feature_selection
 in	|O
 their	|O
 European	|B-MISC
@@ -45591,11 +43017,8 @@ Attendence	|O
 :	|O
 200	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Paper	|B-PER
 says	|O
 Thatcher	|B-PER
@@ -45612,8 +43035,8 @@ A	|O
 British	|B-MISC
 newspaper	|O
 said	|O
-Margaret	|O
-Thatcher	|O
+Margaret	|B-PER
+Thatcher	|I-PER
 was	|O
 so	|O
 shaken	|O
@@ -45645,13 +43068,8 @@ threats	|O
 .	|O
 
 The	|O
-<<<<<<< HEAD
 Sunday	|B-ORG
 Telegraph	|I-ORG
-=======
-Sunday	|O
-Telegraph	|O
->>>>>>> feature_selection
 quoted	|O
 Majorie	|B-PER
 Orr	|I-PER
@@ -45666,11 +43084,7 @@ for	|O
 Thatcher	|O
 ,	|O
 a	|O
-<<<<<<< HEAD
 Libran	|B-MISC
-=======
-Libran	|B-LOC
->>>>>>> feature_selection
 ,	|O
 after	|O
 she	|O
@@ -45860,13 +43274,8 @@ admitted	|O
 in	|O
 her	|O
 biography	|O
-<<<<<<< HEAD
 My	|O
 Turn	|B-MISC
-=======
-My	|B-PER
-Turn	|I-PER
->>>>>>> feature_selection
 that	|O
 she	|O
 regularly	|O
@@ -45883,11 +43292,8 @@ husband	|O
 schedule	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Reuters	|B-ORG
 historical	|O
 calendar	|O
@@ -45918,13 +43324,8 @@ history	|O
 
 1533	|O
 -	|O
-<<<<<<< HEAD
 Queen	|B-PER
 Elizabeth	|I-PER
-=======
-Queen	|B-ORG
-Elizabeth	|I-ORG
->>>>>>> feature_selection
 I	|O
 born	|O
 .	|O
@@ -45975,15 +43376,9 @@ arts	|O
 French	|B-MISC
 troops	|O
 under	|O
-<<<<<<< HEAD
 Duke	|O
 of	|O
 Orleans	|B-MISC
-=======
-Duke	|B-ORG
-of	|O
-Orleans	|B-ORG
->>>>>>> feature_selection
 besieging	|O
 Turin	|B-MISC
 were	|O
@@ -45992,13 +43387,8 @@ by	|O
 the	|O
 Austrians	|B-MISC
 under	|O
-<<<<<<< HEAD
 Prince	|B-PER
 Eugene	|I-PER
-=======
-Prince	|O
-Eugene	|B-PER
->>>>>>> feature_selection
 ,	|O
 the	|O
 French	|B-MISC
@@ -46017,8 +43407,8 @@ Italy	|B-LOC
 
 1714	|O
 -	|O
-The	|B-ORG
-Treaty	|I-ORG
+The	|O
+Treaty	|B-ORG
 of	|I-ORG
 Baden	|I-ORG
 was	|O
@@ -46027,52 +43417,32 @@ between	|O
 the	|O
 Holy	|B-ORG
 Roman	|I-ORG
-<<<<<<< HEAD
 Emperor	|O
 Charles	|B-PER
 VI	|I-PER
-=======
-Emperor	|I-ORG
-Charles	|I-ORG
-VI	|I-ORG
->>>>>>> feature_selection
 and	|O
 France	|B-LOC
 ,	|O
 ending	|O
 War	|O
 of	|O
-<<<<<<< HEAD
 Spanish	|B-MISC
 Succession	|I-MISC
 .	|O
 
 Charles	|B-PER
-=======
-Spanish	|B-ORG
-Succession	|I-ORG
-.	|O
-
-Charles	|B-LOC
->>>>>>> feature_selection
 ceded	|O
-Alsace	|B-LOC
-and	|O
-Strasbourg	|B-LOC
+Alsace	|B-PER
+and	|I-PER
+Strasbourg	|I-PER
 to	|O
 France	|B-LOC
 and	|O
 got	|O
 back	|O
-<<<<<<< HEAD
 Breisach	|B-LOC
 ,	|O
 Kehl	|B-LOC
-=======
-Breisach	|B-ORG
-,	|O
-Kehl	|B-ORG
->>>>>>> feature_selection
 and	|O
 Freiburg	|B-LOC
 .	|O
@@ -46094,13 +43464,8 @@ Napoleon	|B-PER
 at	|O
 the	|O
 battle	|O
-<<<<<<< HEAD
 of	|B-ORG
 Borodino	|I-ORG
-=======
-of	|O
-Borodino	|B-ORG
->>>>>>> feature_selection
 70	|O
 miles	|O
 west	|O
@@ -46124,22 +43489,13 @@ independence	|O
 from	|O
 Portugal	|B-LOC
 and	|O
-<<<<<<< HEAD
 Pedro	|B-ORG
 I	|O
 became	|O
 first	|O
 Emperor	|O
-of	|B-ORG
-=======
-Pedro	|O
-I	|O
-became	|O
-first	|O
-Emperor	|B-ORG
-of	|I-ORG
->>>>>>> feature_selection
-Brazil	|I-ORG
+of	|O
+Brazil	|B-LOC
 in	|O
 December	|O
 1822	|O
@@ -46151,20 +43507,12 @@ Scottish	|B-MISC
 politician	|O
 Sir	|B-PER
 Henry	|I-PER
-<<<<<<< HEAD
 Campbell-Bannerman	|I-PER
-=======
-Campbell-Bannerman	|O
->>>>>>> feature_selection
 born	|O
 .	|O
 
 As	|O
-<<<<<<< HEAD
 Liberal	|B-LOC
-=======
-Liberal	|O
->>>>>>> feature_selection
 prime	|O
 minister	|O
 1905-1908	|O
@@ -46186,15 +43534,9 @@ Lords	|I-ORG
 to	|O
 pass	|O
 his	|O
-<<<<<<< HEAD
-Trades	|O
-Disputes	|B-ORG
-Act	|I-ORG
-=======
 Trades	|B-MISC
 Disputes	|I-MISC
 Act	|I-MISC
->>>>>>> feature_selection
 which	|O
 gave	|O
 labour	|O
@@ -46216,11 +43558,7 @@ Red	|B-PER
 Shirts	|I-PER
 "	|O
 seized	|O
-<<<<<<< HEAD
 Naples	|B-PER
-=======
-Naples	|O
->>>>>>> feature_selection
 in	|O
 the	|O
 Italian	|B-MISC
@@ -46254,13 +43592,8 @@ the	|O
 signing	|O
 of	|O
 the	|O
-<<<<<<< HEAD
 Peking	|B-ORG
 Protocol	|I-ORG
-=======
-Peking	|B-LOC
-Protocol	|I-LOC
->>>>>>> feature_selection
 .	|O
 
 This	|O
@@ -46285,13 +43618,8 @@ Elia	|B-PER
 Kazan	|I-PER
 born	|O
 as	|O
-<<<<<<< HEAD
 Elia	|B-LOC
 Kazanjoglus	|I-LOC
-=======
-Elia	|B-PER
-Kazanjoglus	|I-PER
->>>>>>> feature_selection
 .	|O
 
 A	|O
@@ -46307,8 +43635,8 @@ best	|O
 known	|O
 for	|O
 "	|O
-Viva	|B-PER
-Zapata	|I-PER
+Viva	|B-MISC
+Zapata	|I-MISC
 "	|O
 and	|O
 "	|O
@@ -46344,31 +43672,22 @@ for	|O
 appearances	|O
 in	|O
 "	|O
-Ice	|B-ORG
-Cold	|I-ORG
+Ice	|B-MISC
+Cold	|I-MISC
 in	|O
 Alex	|B-LOC
 "	|O
 ,	|O
 "	|O
-<<<<<<< HEAD
 Lawrence	|B-PER
-=======
-Lawrence	|O
->>>>>>> feature_selection
 of	|O
 Arabia	|B-LOC
 "	|O
 and	|O
 ,	|O
 as	|O
-<<<<<<< HEAD
 Cardinal	|B-PER
 Wolsey	|I-PER
-=======
-Cardinal	|B-MISC
-Wolsey	|I-MISC
->>>>>>> feature_selection
 ,	|O
 in	|O
 "	|O
@@ -46412,13 +43731,8 @@ name	|O
 1930	|O
 -	|O
 Belgian	|B-MISC
-<<<<<<< HEAD
 King	|O
 Baudouin	|B-PER
-=======
-King	|B-PER
-Baudouin	|I-PER
->>>>>>> feature_selection
 I	|O
 born	|O
 .	|O
@@ -46450,21 +43764,12 @@ the	|O
 German	|B-MISC
 airforce	|O
 under	|O
-<<<<<<< HEAD
 Hermann	|B-ORG
 Goering	|I-ORG
 began	|O
 its	|O
 "	|O
 Blitz	|B-MISC
-=======
-Hermann	|B-PER
-Goering	|I-PER
-began	|O
-its	|O
-"	|O
-Blitz	|B-PER
->>>>>>> feature_selection
 "	|O
 bombing	|O
 campaign	|O
@@ -46494,13 +43799,8 @@ Stewart	|I-PER
 won	|O
 the	|O
 Italian	|B-MISC
-<<<<<<< HEAD
-Grand	|B-MISC
-Prix	|B-MISC
-=======
 Grand	|I-MISC
 Prix	|I-MISC
->>>>>>> feature_selection
 to	|O
 secure	|O
 his	|O
@@ -46601,11 +43901,7 @@ Alan	|B-PER
 John	|I-PER
 Percivale	|I-PER
 (	|O
-<<<<<<< HEAD
 A.J.P.	|O
-=======
-A.J.P.	|B-ORG
->>>>>>> feature_selection
 )	|O
 Taylor	|B-ORG
 died	|O
@@ -46682,13 +43978,8 @@ currency	|O
 -	|O
 The	|B-ORG
 Stars	|I-ORG
-<<<<<<< HEAD
 and	|O
 Stripes	|B-ORG
-=======
-and	|I-ORG
-Stripes	|I-ORG
->>>>>>> feature_selection
 flag	|O
 was	|O
 lowered	|O
@@ -46719,11 +44010,8 @@ a	|O
 century	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Escaped	|O
 British	|B-MISC
 paedophile	|O
@@ -46785,11 +44073,7 @@ after	|O
 being	|O
 spotted	|O
 in	|O
-<<<<<<< HEAD
 Worthing	|O
-=======
-Worthing	|B-LOC
->>>>>>> feature_selection
 ,	|O
 a	|O
 town	|O
@@ -46916,15 +44200,10 @@ the	|O
 problem	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-Scottish	|B-MISC
-Labour	|B-ORG
-=======
 Scottish	|B-ORG
 Labour	|I-ORG
->>>>>>> feature_selection
 Party	|I-ORG
 narrowly	|O
 backs	|O
@@ -46936,13 +44215,8 @@ STIRLING	|B-LOC
 Scotland	|B-LOC
 1996-08-31	|O
 
-<<<<<<< HEAD
-British	|B-ORG
-Labour	|I-ORG
-=======
 British	|B-MISC
 Labour	|B-ORG
->>>>>>> feature_selection
 Party	|I-ORG
 leader	|O
 Tony	|B-PER
@@ -47119,11 +44393,7 @@ polls	|O
 in	|O
 Scotland	|B-LOC
 behind	|O
-<<<<<<< HEAD
 Labour	|B-PER
-=======
-Labour	|B-ORG
->>>>>>> feature_selection
 and	|O
 the	|O
 independence-seeking	|O
@@ -47132,11 +44402,8 @@ National	|I-ORG
 Party	|I-ORG
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Britain	|B-LOC
 condemns	|O
 Iraq	|B-LOC
@@ -47312,15 +44579,10 @@ further	|O
 information	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-Seven	|O
-Iraqis	|B-MISC
-=======
 Seven	|B-PER
 Iraqis	|I-PER
->>>>>>> feature_selection
 charged	|O
 with	|O
 hijack	|O
@@ -47406,12 +44668,8 @@ accused	|O
 of	|O
 taking	|O
 over	|O
-<<<<<<< HEAD
-Flight	|O
-=======
-Flight	|B-ORG
->>>>>>> feature_selection
-150	|O
+Flight	|B-MISC
+150	|I-MISC
 which	|O
 was	|O
 flying	|O
@@ -47530,11 +44788,8 @@ fake	|O
 explosives	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Opposition	|O
 group	|O
 says	|O
@@ -47625,11 +44880,7 @@ Iraq	|B-LOC
 
 "	|O
 At	|O
-<<<<<<< HEAD
 4.50	|O
-=======
-4.50	|B-LOC
->>>>>>> feature_selection
 a.m.	|O
 Iraq	|B-LOC
 time	|O
@@ -47647,11 +44898,7 @@ on	|O
 the	|O
 outskirts	|O
 of	|O
-<<<<<<< HEAD
 Arbil	|B-LOC
-=======
-Arbil	|B-MISC
->>>>>>> feature_selection
 ,	|O
 "	|O
 the	|O
@@ -47792,11 +45039,8 @@ weeks	|O
 ago	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Two	|O
 die	|O
 in	|O
@@ -47900,11 +45144,8 @@ to	|O
 win	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Baseball-Results	|O
 of	|O
 S.	|B-MISC
@@ -47988,11 +45229,7 @@ Hanwha	|B-ORG
 .542	|O
 6	|O
 
-<<<<<<< HEAD
 Hyundai	|B-LOC
-=======
-Hyundai	|B-ORG
->>>>>>> feature_selection
 57	|O
 5	|O
 50	|O
@@ -48007,11 +45244,7 @@ Samsung	|B-ORG
 14	|O
 1/2	|O
 
-<<<<<<< HEAD
 Lotte	|B-ORG
-=======
-Lotte	|B-PER
->>>>>>> feature_selection
 46	|O
 6	|O
 54	|O
@@ -48033,11 +45266,8 @@ OB	|B-ORG
 .414	|O
 20	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 S.	|B-MISC
 African	|I-MISC
 Afrikaners	|I-MISC
@@ -48054,11 +45284,7 @@ TOWN	|I-LOC
 South	|B-MISC
 African	|I-MISC
 right-wing	|O
-<<<<<<< HEAD
 Afrikaners	|B-ORG
-=======
-Afrikaners	|B-MISC
->>>>>>> feature_selection
 on	|O
 Saturday	|O
 revived	|O
@@ -48075,8 +45301,8 @@ a	|O
 sparsely-populated	|O
 area	|O
 in	|O
-Northern	|B-LOC
-Cape	|I-LOC
+Northern	|B-MISC
+Cape	|I-MISC
 province	|O
 as	|O
 the	|O
@@ -48209,13 +45435,8 @@ Mandela	|I-PER
 's	|O
 majority	|O
 African	|B-MISC
-<<<<<<< HEAD
-National	|I-MISC
-Congress	|I-MISC
-=======
 National	|B-ORG
 Congress	|I-ORG
->>>>>>> feature_selection
 .	|O
 
 Some	|O
@@ -48319,11 +45540,8 @@ speak	|O
 Afrikaans	|B-MISC
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Rwandan	|B-MISC
 refugee	|O
 group	|O
@@ -48539,13 +45757,8 @@ Zairean	|B-MISC
 Prime	|O
 Minister	|O
 Kengo	|B-PER
-<<<<<<< HEAD
 wa	|O
 Dondo	|B-PER
-=======
-wa	|I-PER
-Dondo	|I-PER
->>>>>>> feature_selection
 said	|O
 at	|O
 the	|O
@@ -48559,11 +45772,7 @@ last	|O
 week	|O
 that	|O
 the	|O
-<<<<<<< HEAD
 Zairean	|B-LOC
-=======
-Zairean	|B-MISC
->>>>>>> feature_selection
 and	|O
 Rwandan	|B-MISC
 governments	|O
@@ -48623,11 +45832,7 @@ in	|O
 days	|O
 .	|O
 
-<<<<<<< HEAD
 Zairean	|B-LOC
-=======
-Zairean	|B-MISC
->>>>>>> feature_selection
 troops	|O
 expelled	|O
 15,000	|O
@@ -48644,11 +45849,7 @@ the	|O
 1.1	|O
 million	|O
 Rwandan	|B-MISC
-<<<<<<< HEAD
 Hutu	|I-MISC
-=======
-Hutu	|B-MISC
->>>>>>> feature_selection
 refugees	|O
 in	|O
 Zaire	|B-LOC
@@ -48679,17 +45880,11 @@ a	|O
 million	|O
 people	|O
 by	|O
-<<<<<<< HEAD
 Hutus	|B-PER
 .	|O
 
 -DOCSTART-	|O
 
-=======
-Hutus	|B-ORG
-.	|O
-
->>>>>>> feature_selection
 NATO	|B-ORG
 monitors	|O
 Moslem	|B-MISC
@@ -48812,18 +46007,14 @@ the	|O
 village	|O
 .	|O
 
-<<<<<<< HEAD
 Mahala	|B-LOC
-=======
-Mahala	|B-PER
->>>>>>> feature_selection
 is	|O
 a	|O
 Moslem	|B-MISC
 village	|O
 on	|O
-Bosnian	|B-MISC
-Serb	|I-MISC
+Bosnian	|B-LOC
+Serb	|I-LOC
 republic	|O
 territory	|O
 .	|O
@@ -48915,11 +46106,8 @@ flew	|O
 overhead	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Chechens	|B-MISC
 exuberant	|O
 but	|O
@@ -49064,10 +46252,7 @@ out	|O
 "	|O
 
 .	|O
-<<<<<<< HEAD
 
-=======
->>>>>>> feature_selection
 Russian	|B-MISC
 military	|O
 officials	|O
@@ -49141,13 +46326,8 @@ status	|O
 of	|O
 the	|O
 mainly-Moslem	|B-MISC
-<<<<<<< HEAD
-North	|B-ORG
-Caucasus	|I-ORG
-=======
-North	|I-MISC
-Caucasus	|I-MISC
->>>>>>> feature_selection
+North	|B-LOC
+Caucasus	|I-LOC
 region	|O
 .	|O
 
@@ -49263,11 +46443,7 @@ that	|O
 she	|O
 was	|O
 from	|O
-<<<<<<< HEAD
 Urus-Martan	|B-MISC
-=======
-Urus-Martan	|B-LOC
->>>>>>> feature_selection
 .	|O
 
 Urus-Martan	|B-LOC
@@ -49443,11 +46619,7 @@ war	|O
 cry	|O
 "	|O
 Allahu	|B-PER
-<<<<<<< HEAD
 Akhbar	|I-PER
-=======
-Akhbar	|O
->>>>>>> feature_selection
 "	|O
 (	|O
 God	|B-PER
@@ -49456,21 +46628,14 @@ Greatest	|O
 )	|O
 and	|O
 "	|O
-<<<<<<< HEAD
 Freedom	|B-LOC
-=======
-Freedom	|O
->>>>>>> feature_selection
 for	|O
 Chechnya	|B-LOC
 !	|O
 "	|O
 
 .	|O
-<<<<<<< HEAD
 
-=======
->>>>>>> feature_selection
 The	|O
 fighter	|O
 ,	|O
@@ -49541,11 +46706,8 @@ war	|O
 .	|O
 "	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Polish	|B-MISC
 group	|O
 to	|O
@@ -49587,13 +46749,8 @@ state-owned	|O
 press	|O
 distribution	|O
 chain	|O
-<<<<<<< HEAD
 Ruch	|B-PER
 SA	|I-PER
-=======
-Ruch	|B-ORG
-SA	|I-ORG
->>>>>>> feature_selection
 ,	|O
 Zycie	|B-PER
 Warszawy	|I-PER
@@ -49603,13 +46760,8 @@ on	|O
 Saturday	|O
 .	|O
 
-<<<<<<< HEAD
 Zycie	|B-ORG
 Warszawy	|I-ORG
-=======
-Zycie	|B-PER
-Warszawy	|I-PER
->>>>>>> feature_selection
 said	|O
 its	|O
 own	|O
@@ -49665,11 +46817,7 @@ get	|O
 20	|O
 percent	|O
 of	|O
-<<<<<<< HEAD
 Ruch	|B-ORG
-=======
-Ruch	|B-PER
->>>>>>> feature_selection
 and	|O
 40	|O
 percent	|O
@@ -49745,11 +46893,7 @@ than	|O
 50	|O
 percent	|O
 of	|O
-<<<<<<< HEAD
 Ruch	|B-MISC
-=======
-Ruch	|B-ORG
->>>>>>> feature_selection
 and	|O
 French	|B-MISC
 President	|O
@@ -49866,11 +47010,7 @@ $	|O
 200	|O
 million	|O
 in	|O
-<<<<<<< HEAD
 Ruch	|O
-=======
-Ruch	|B-MISC
->>>>>>> feature_selection
 over	|O
 five	|O
 years	|O
@@ -49879,11 +47019,7 @@ more	|O
 than	|O
 the	|O
 sum	|O
-<<<<<<< HEAD
 Ruch	|B-LOC
-=======
-Ruch	|B-ORG
->>>>>>> feature_selection
 says	|O
 it	|O
 needs	|O
@@ -49904,13 +47040,8 @@ of	|O
 Ruch	|B-ORG
 but	|O
 in	|O
-<<<<<<< HEAD
 March	|B-PER
 Kaczmarek	|I-PER
-=======
-March	|B-LOC
-Kaczmarek	|I-LOC
->>>>>>> feature_selection
 cancelled	|O
 the	|O
 tender	|O
@@ -49938,11 +47069,7 @@ consortium	|O
 of	|O
 a	|O
 Polish	|B-MISC
-<<<<<<< HEAD
 SPC	|I-MISC
-=======
-SPC	|B-ORG
->>>>>>> feature_selection
 group	|O
 and	|O
 Swiss	|B-MISC
@@ -50026,11 +47153,8 @@ Barker	|I-PER
 653	|O
 9700	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Three	|O
 Russian	|B-MISC
 soldiers	|O
@@ -50079,13 +47203,8 @@ attack	|O
 took	|O
 place	|O
 in	|O
-<<<<<<< HEAD
 Sergiyev	|B-MISC
 Posad	|I-MISC
-=======
-Sergiyev	|B-ORG
-Posad	|I-ORG
->>>>>>> feature_selection
 70	|O
 km	|O
 (	|O
@@ -50142,11 +47261,8 @@ is	|O
 growing	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Cuban	|B-MISC
 novelist	|O
 Jose	|B-PER
@@ -50194,11 +47310,7 @@ first	|O
 novel	|O
 ,	|O
 "	|O
-<<<<<<< HEAD
 Bertillon	|B-PER
-=======
-Bertillon	|B-ORG
->>>>>>> feature_selection
 166	|O
 ,	|O
 "	|O
@@ -50244,11 +47356,7 @@ Santiago	|B-LOC
 de	|I-LOC
 Cuba	|I-LOC
 ,	|O
-<<<<<<< HEAD
 Puig	|B-ORG
-=======
-Puig	|B-PER
->>>>>>> feature_selection
 's	|O
 native	|O
 city	|O
@@ -50273,15 +47381,9 @@ as	|O
 "	|O
 In	|O
 the	|O
-<<<<<<< HEAD
 Year	|B-MISC
 of	|I-MISC
 January	|I-MISC
-=======
-Year	|O
-of	|O
-January	|O
->>>>>>> feature_selection
 "	|O
 (	|O
 1963	|O
@@ -50296,13 +47398,8 @@ Collapse	|B-MISC
 )	|O
 ,	|O
 "	|O
-<<<<<<< HEAD
 Sleeping	|B-ORG
 Bread	|I-ORG
-=======
-Sleeping	|O
-Bread	|O
->>>>>>> feature_selection
 "	|O
 (	|O
 1975	|O
@@ -50318,13 +47415,8 @@ Mansion	|I-ORG
 )	|O
 and	|O
 "	|O
-<<<<<<< HEAD
 A	|B-MISC
 World	|I-MISC
-=======
-A	|O
-World	|O
->>>>>>> feature_selection
 of	|O
 Things	|O
 "	|O
@@ -50340,13 +47432,8 @@ Knot	|B-PER
 ,	|O
 "	|O
 "	|O
-<<<<<<< HEAD
 Soul	|B-PER
 Alone	|I-PER
-=======
-Soul	|B-MISC
-Alone	|I-MISC
->>>>>>> feature_selection
 "	|O
 and	|O
 ,	|O
@@ -50438,13 +47525,8 @@ interview	|O
 ,	|O
 published	|O
 by	|O
-<<<<<<< HEAD
-Prensa	|B-ORG
-Latina	|I-ORG
-=======
-Prensa	|B-PER
-Latina	|I-PER
->>>>>>> feature_selection
+Prensa	|B-MISC
+Latina	|I-MISC
 on	|O
 Saturday	|O
 ,	|O
@@ -50478,11 +47560,8 @@ he	|O
 said	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 U.N.	|B-ORG
 Ambassador	|O
 Albright	|B-PER
@@ -50647,11 +47726,8 @@ and	|O
 Guatemala	|B-LOC
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Mexican	|B-MISC
 army	|O
 attacked	|O
@@ -50752,11 +47828,7 @@ group	|O
 was	|O
 armed	|O
 with	|O
-<<<<<<< HEAD
 AK-47s	|B-MISC
-=======
-AK-47s	|O
->>>>>>> feature_selection
 and	|O
 other	|O
 high-powered	|O
@@ -50840,13 +47912,9 @@ about	|O
 20	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 China	|B-PER
-=======
-China	|B-LOC
->>>>>>> feature_selection
 said	|O
 to	|O
 fear	|O
@@ -50906,13 +47974,8 @@ the	|O
 New	|B-MISC
 York-based	|I-MISC
 group	|O
-<<<<<<< HEAD
 Human	|B-PER
 Rights	|I-PER
-=======
-Human	|B-ORG
-Rights	|I-ORG
->>>>>>> feature_selection
 in	|O
 China	|B-LOC
 ,	|O
@@ -50930,13 +47993,8 @@ of	|O
 the	|O
 national	|O
 "	|O
-<<<<<<< HEAD
-Strike	|B-PER
-Hard	|I-PER
-=======
 Strike	|B-LOC
 Hard	|I-LOC
->>>>>>> feature_selection
 "	|O
 campaign	|O
 that	|O
@@ -51029,13 +48087,8 @@ Manila	|B-LOC
 to	|O
 attend	|O
 an	|O
-<<<<<<< HEAD
-Amnesty	|B-MISC
-International	|I-MISC
-=======
 Amnesty	|B-ORG
 International	|I-ORG
->>>>>>> feature_selection
 conference	|O
 on	|O
 human	|O
@@ -51243,11 +48296,8 @@ Xiao	|B-PER
 said	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Manila	|B-LOC
 hails	|O
 Indonesia	|B-LOC
@@ -51262,11 +48312,7 @@ support	|O
 MANILA	|B-LOC
 1996-08-31	|O
 
-<<<<<<< HEAD
 Philippine	|O
-=======
-Philippine	|B-PER
->>>>>>> feature_selection
 president	|O
 Fidel	|B-PER
 Ramos	|I-PER
@@ -51342,11 +48388,7 @@ on	|O
 Saturday	|O
 .	|O
 
-<<<<<<< HEAD
 Jakarta	|B-LOC
-=======
-Jakarta	|B-ORG
->>>>>>> feature_selection
 served	|O
 as	|O
 the	|O
@@ -51428,19 +48470,12 @@ a	|O
 century	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 Burma	|B-LOC
 's	|O
 Suu	|B-PER
 Kyi	|I-PER
-=======
-Burma	|B-LOC
-'s	|O
-Suu	|B-LOC
-Kyi	|I-LOC
->>>>>>> feature_selection
 says	|O
 military	|O
 rulers	|O
@@ -51458,10 +48493,10 @@ Burma	|B-LOC
 's	|O
 democracy	|O
 leader	|O
-Aung	|B-PER
-San	|I-PER
-Suu	|I-PER
-Kyi	|I-PER
+Aung	|O
+San	|B-LOC
+Suu	|I-LOC
+Kyi	|I-LOC
 hit	|O
 out	|O
 at	|O
@@ -51535,11 +48570,7 @@ told	|O
 reporters	|O
 at	|O
 her	|O
-<<<<<<< HEAD
 Rangoon	|B-PER
-=======
-Rangoon	|B-ORG
->>>>>>> feature_selection
 home	|O
 .	|O
 
@@ -51591,21 +48622,12 @@ over	|O
 260	|O
 members	|O
 of	|O
-<<<<<<< HEAD
-Suu	|B-PER
-Kyi	|I-PER
+Suu	|B-LOC
+Kyi	|I-LOC
 's	|O
 National	|B-MISC
 League	|I-MISC
 for	|B-ORG
-=======
-Suu	|B-ORG
-Kyi	|I-ORG
-'s	|O
-National	|B-ORG
-League	|I-ORG
-for	|I-ORG
->>>>>>> feature_selection
 Democracy	|I-ORG
 (	|O
 NLD	|B-ORG
@@ -51816,13 +48838,8 @@ but	|O
 the	|O
 State	|B-ORG
 Law	|I-ORG
-<<<<<<< HEAD
-and	|I-ORG
-Order	|I-ORG
-=======
 and	|O
 Order	|B-ORG
->>>>>>> feature_selection
 Restoration	|I-ORG
 Council	|I-ORG
 (	|O
@@ -51970,11 +48987,7 @@ prisoners	|O
 are	|O
 held	|O
 in	|O
-<<<<<<< HEAD
 Rangoon	|B-PER
-=======
-Rangoon	|B-LOC
->>>>>>> feature_selection
 's	|O
 Insein	|B-PER
 Prison	|I-PER
@@ -52072,11 +49085,7 @@ after	|O
 James	|B-PER
 Leander	|I-PER
 (	|O
-<<<<<<< HEAD
 Leo	|B-ORG
-=======
-Leo	|B-LOC
->>>>>>> feature_selection
 )	|O
 Nichols	|B-ORG
 ,	|O
@@ -52084,13 +49093,8 @@ a	|O
 close	|O
 friend	|O
 of	|O
-<<<<<<< HEAD
-Suu	|B-ORG
-Kyi	|I-ORG
-=======
-Suu	|B-LOC
-Kyi	|I-LOC
->>>>>>> feature_selection
+Suu	|B-PER
+Kyi	|I-PER
 and	|O
 Danish	|B-LOC
 honorary	|O
@@ -52147,11 +49151,7 @@ to	|O
 bring	|O
 democracy	|O
 to	|O
-<<<<<<< HEAD
 Burma	|B-ORG
-=======
-Burma	|B-LOC
->>>>>>> feature_selection
 even	|O
 if	|O
 it	|O
@@ -52183,11 +49183,8 @@ Burma	|B-LOC
 .	|O
 "	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Dow	|B-MISC
 Chemical	|I-MISC
 in	|O
@@ -52199,19 +49196,11 @@ venture	|O
 BEIJING	|B-LOC
 1996-08-31	|O
 
-<<<<<<< HEAD
 The	|B-ORG
 Dow	|I-ORG
 Chemical	|I-ORG
 Co	|I-ORG
 of	|O
-=======
-The	|O
-Dow	|B-MISC
-Chemical	|B-ORG
-Co	|I-ORG
-of	|I-ORG
->>>>>>> feature_selection
 the	|O
 United	|B-LOC
 States	|I-LOC
@@ -52265,11 +49254,7 @@ the	|O
 venture	|O
 .	|O
 
-<<<<<<< HEAD
 Tianjin	|B-LOC
-=======
-Tianjin	|B-PER
->>>>>>> feature_selection
 boasts	|O
 a	|O
 range	|O
@@ -52313,15 +49298,9 @@ said	|O
 Multinational	|O
 firms	|O
 including	|O
-<<<<<<< HEAD
 Mobil	|B-PER
 ,	|O
 Shell	|B-PER
-=======
-Mobil	|B-LOC
-,	|O
-Shell	|B-ORG
->>>>>>> feature_selection
 and	|O
 Caltex	|B-ORG
 ,	|O
@@ -52354,15 +49333,10 @@ further	|O
 details	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 N.	|B-LOC
 Korea	|I-LOC
-=======
-N.	|B-PER
-Korea	|I-PER
->>>>>>> feature_selection
 urges	|O
 S.	|B-LOC
 Korea	|I-LOC
@@ -52413,13 +49387,8 @@ the	|O
 immediate	|O
 repatriation	|O
 of	|O
-<<<<<<< HEAD
 Kim	|B-PER
 In-so	|I-PER
-=======
-Kim	|B-ORG
-In-so	|I-ORG
->>>>>>> feature_selection
 to	|O
 North	|B-LOC
 Korea	|I-LOC
@@ -52431,8 +49400,8 @@ waiting	|O
 ,	|O
 "	|O
 North	|B-MISC
-Korean	|I-MISC
-Red	|B-ORG
+Korean	|B-ORG
+Red	|I-ORG
 Cross	|I-ORG
 president	|O
 Li	|B-PER
@@ -52574,8 +49543,8 @@ in	|O
 1993	|O
 unconditionally	|O
 repatriated	|O
-Li	|B-PER
-In-mo	|I-PER
+Li	|B-MISC
+In-mo	|I-MISC
 ,	|O
 a	|O
 nothern	|O
@@ -52583,11 +49552,7 @@ partisan	|O
 seized	|O
 by	|O
 the	|O
-<<<<<<< HEAD
 South	|O
-=======
-South	|B-ORG
->>>>>>> feature_selection
 during	|O
 the	|O
 war	|O
@@ -52600,11 +49565,8 @@ three	|O
 decades	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Chinese	|B-MISC
 police	|O
 hold	|O
@@ -52625,21 +49587,12 @@ Wang	|B-PER
 Donghai	|I-PER
 ,	|O
 the	|O
-<<<<<<< HEAD
-New	|B-LOC
-York-based	|I-LOC
-pressure	|O
-group	|O
-Human	|B-PER
-Rights	|I-PER
-=======
 New	|B-ORG
 York-based	|B-MISC
 pressure	|O
 group	|O
-Human	|B-ORG
-Rights	|I-ORG
->>>>>>> feature_selection
+Human	|B-PER
+Rights	|I-PER
 in	|O
 China	|B-LOC
 said	|O
@@ -52691,11 +49644,7 @@ no	|O
 reason	|O
 for	|O
 detaining	|O
-<<<<<<< HEAD
 Wang	|B-LOC
-=======
-Wang	|B-PER
->>>>>>> feature_selection
 on	|O
 Friday	|O
 and	|O
@@ -52760,11 +49709,7 @@ Wang	|B-PER
 's	|O
 family	|O
 and	|O
-<<<<<<< HEAD
 Hangzhou	|B-MISC
-=======
-Hangzhou	|B-LOC
->>>>>>> feature_selection
 police	|O
 could	|O
 not	|O
@@ -52794,13 +49739,8 @@ was	|O
 returning	|O
 to	|O
 its	|O
-<<<<<<< HEAD
-Cultural	|B-LOC
-Revolution	|I-LOC
-=======
-Cultural	|B-MISC
-Revolution	|I-MISC
->>>>>>> feature_selection
+Cultural	|B-ORG
+Revolution	|I-ORG
 days	|O
 .	|O
 
@@ -52943,11 +49883,8 @@ have	|O
 said	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 China	|B-LOC
 police	|O
 detains	|O
@@ -52972,13 +49909,8 @@ New	|B-LOC
 York-based	|I-LOC
 pressure	|O
 group	|O
-<<<<<<< HEAD
-Human	|B-PER
-Rights	|I-PER
-=======
 Human	|B-ORG
 Rights	|I-ORG
->>>>>>> feature_selection
 in	|O
 China	|B-LOC
 said	|O
@@ -53150,15 +50082,10 @@ of	|O
 life	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 Hong	|B-LOC
 Kong	|I-LOC
-=======
-Hong	|B-ORG
-Kong	|I-ORG
->>>>>>> feature_selection
 jails	|O
 88-year-old	|O
 drug	|O
@@ -53230,11 +50157,7 @@ Friday	|O
 the	|O
 Hong	|B-LOC
 Kong	|I-LOC
-<<<<<<< HEAD
 Standard	|I-LOC
-=======
-Standard	|B-PER
->>>>>>> feature_selection
 said	|O
 .	|O
 "	|O
@@ -53269,13 +50192,8 @@ army	|O
 secretary	|O
 of	|O
 the	|O
-<<<<<<< HEAD
 Chinese	|B-MISC
 Nationalist	|I-MISC
-=======
-Chinese	|B-ORG
-Nationalist	|I-ORG
->>>>>>> feature_selection
 regime	|O
 which	|O
 fled	|O
@@ -53325,11 +50243,8 @@ his	|O
 mattress	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 China	|B-LOC
 cities	|O
 to	|O
@@ -53434,11 +50349,7 @@ it	|O
 said	|O
 .	|O
 
-<<<<<<< HEAD
 Wuhan	|O
-=======
-Wuhan	|B-MISC
->>>>>>> feature_selection
 consumes	|O
 more	|O
 than	|O
@@ -53504,11 +50415,8 @@ further	|O
 details	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Iraqi	|B-MISC
 Kurds	|I-MISC
 say	|O
@@ -53717,11 +50625,7 @@ U.S.	|B-LOC
 firepower	|O
 in	|O
 the	|O
-<<<<<<< HEAD
 Gulf	|B-MISC
-=======
-Gulf	|B-LOC
->>>>>>> feature_selection
 region	|O
 in	|O
 response	|O
@@ -53746,11 +50650,7 @@ which	|O
 took	|O
 control	|O
 of	|O
-<<<<<<< HEAD
 Arbil	|B-PER
-=======
-Arbil	|B-LOC
->>>>>>> feature_selection
 in	|O
 fighting	|O
 in	|O
@@ -53774,13 +50674,8 @@ with	|O
 Baghdad	|B-LOC
 .	|O
 
-<<<<<<< HEAD
 Northern	|O
 Iraq	|B-LOC
-=======
-Northern	|B-ORG
-Iraq	|I-ORG
->>>>>>> feature_selection
 has	|O
 been	|O
 under	|O
@@ -53811,13 +50706,9 @@ from	|O
 Baghdad	|B-LOC
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 Ceasefire	|B-ORG
-=======
-Ceasefire	|O
->>>>>>> feature_selection
 monitors	|O
 to	|O
 meet	|O
@@ -54047,9 +50938,9 @@ bordder	|O
 
 Hizbollah	|B-PER
 (	|O
-Party	|B-ORG
-of	|I-ORG
-God	|I-ORG
+Party	|O
+of	|O
+God	|B-MISC
 )	|O
 gunmen	|O
 have	|O
@@ -54065,20 +50956,13 @@ the	|O
 area	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 KPD	|O
 confirms	|O
 Iraqi	|B-MISC
 military	|O
-<<<<<<< HEAD
 aid-U.N.	|B-ORG
-=======
-aid-U.N.	|O
->>>>>>> feature_selection
 official	|O
 .	|O
 
@@ -54092,13 +50976,8 @@ Party	|I-ORG
 KDP	|B-ORG
 )	|O
 of	|O
-<<<<<<< HEAD
 Massoud	|B-ORG
 Barzani	|I-ORG
-=======
-Massoud	|B-PER
-Barzani	|I-PER
->>>>>>> feature_selection
 said	|O
 that	|O
 it	|O
@@ -54179,13 +51058,9 @@ told	|O
 Reuters	|B-ORG
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 Fire	|B-ORG
-=======
-Fire	|O
->>>>>>> feature_selection
 destroys	|O
 restaurant	|O
 in	|O
@@ -54229,11 +51104,7 @@ hours	|O
 on	|O
 Saturday	|O
 in	|O
-<<<<<<< HEAD
 al-Daih	|B-MISC
-=======
-al-Daih	|O
->>>>>>> feature_selection
 village	|O
 ,	|O
 five	|O
@@ -54274,11 +51145,8 @@ immediate	|O
 comment	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Iraq	|B-LOC
 's	|O
 Aziz	|B-LOC
@@ -54334,13 +51202,8 @@ and	|O
 military	|O
 aid	|O
 to	|O
-<<<<<<< HEAD
 Mr	|O
 Massoud	|B-PER
-=======
-Mr	|B-PER
-Massoud	|I-PER
->>>>>>> feature_selection
 Barzani	|I-PER
 and	|O
 his	|O
@@ -54415,11 +51278,7 @@ to	|O
 a	|O
 plea	|O
 from	|O
-<<<<<<< HEAD
 Barzani	|B-MISC
-=======
-Barzani	|B-PER
->>>>>>> feature_selection
 to	|O
 President	|O
 Saddam	|B-PER
@@ -54437,11 +51296,7 @@ attacks	|O
 by	|O
 Iran	|B-LOC
 and	|O
-<<<<<<< HEAD
 Talabani	|B-MISC
-=======
-Talabani	|B-PER
->>>>>>> feature_selection
 .	|O
 
 He	|O
@@ -54493,11 +51348,7 @@ put	|O
 an	|O
 end	|O
 to	|O
-<<<<<<< HEAD
 Talabani	|B-ORG
-=======
-Talabani	|B-PER
->>>>>>> feature_selection
 's	|O
 treason	|O
 and	|O
@@ -54536,11 +51387,8 @@ KDP	|B-ORG
 flags	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 U.N.	|B-ORG
 denies	|O
 reports	|O
@@ -54549,11 +51397,7 @@ Iraqi	|B-MISC
 tank	|O
 assault	|O
 on	|O
-<<<<<<< HEAD
 Arbil	|O
-=======
-Arbil	|B-PER
->>>>>>> feature_selection
 .	|O
 
 BAGHDAD	|B-LOC
@@ -54647,11 +51491,8 @@ told	|O
 Reuters	|B-ORG
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 PRESS	|O
 DIGEST	|O
 -	|O
@@ -54779,11 +51620,8 @@ $	|O
 dinar	|O
 )	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Automakers	|O
 ,	|O
 U.S.	|B-LOC
@@ -54943,11 +51781,7 @@ and	|O
 90	|O
 in	|O
 the	|O
-<<<<<<< HEAD
 Midwest	|B-ORG
-=======
-Midwest	|B-LOC
->>>>>>> feature_selection
 and	|O
 Interstate	|B-ORG
 5	|O
@@ -54960,15 +51794,9 @@ boards	|O
 read	|O
 :	|O
 "	|O
-<<<<<<< HEAD
-Air	|O
-Bag	|B-MISC
-Safety	|I-MISC
-=======
 Air	|B-ORG
 Bag	|I-ORG
 Safety	|I-ORG
->>>>>>> feature_selection
 :	|O
 Everyone	|B-PER
 Buckled	|I-PER
@@ -54989,15 +51817,9 @@ the	|O
 industry-funded	|O
 National	|B-ORG
 Automobile	|I-ORG
-<<<<<<< HEAD
 Occupant	|O
 Protection	|B-PER
 Campaign	|I-PER
-=======
-Occupant	|I-ORG
-Protection	|O
-Campaign	|B-PER
->>>>>>> feature_selection
 ,	|O
 said	|O
 most	|O
@@ -55183,7 +52005,6 @@ message	|O
 .	|O
 "	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
 Two	|O
@@ -55191,13 +52012,6 @@ die	|O
 as	|O
 New	|B-LOC
 Hampshire	|I-LOC
-=======
-Two	|O
-die	|O
-as	|O
-New	|B-ORG
-Hampshire	|I-ORG
->>>>>>> feature_selection
 motel	|O
 explodes	|O
 and	|O
@@ -55222,15 +52036,9 @@ leveled	|O
 Rochester	|B-ORG
 's	|O
 one-story	|O
-<<<<<<< HEAD
-Lilac	|B-ORG
-Falls	|I-ORG
-Motel	|I-ORG
-=======
 Lilac	|O
 Falls	|B-PER
 Motel	|I-PER
->>>>>>> feature_selection
 ,	|O
 killing	|O
 two	|O
@@ -55362,11 +52170,8 @@ other	|O
 injuries	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Car	|O
 kills	|O
 two	|O
@@ -55519,11 +52324,8 @@ Dallas	|B-LOC
 youths	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 U.S.	|B-LOC
 warplanes	|O
 ,	|O
@@ -55602,11 +52404,7 @@ Gulf	|B-LOC
 the	|O
 aircraft	|O
 carrier	|O
-<<<<<<< HEAD
 Enterprise	|B-ORG
-=======
-Enterprise	|B-PER
->>>>>>> feature_selection
 was	|O
 in	|O
 the	|O
@@ -55886,11 +52684,7 @@ F	|O
 /	|O
 A-18	|O
 ,	|O
-<<<<<<< HEAD
 F-14	|B-ORG
-=======
-F-14	|B-PER
->>>>>>> feature_selection
 and	|O
 other	|O
 fighter	|O
@@ -55944,14 +52738,9 @@ force	|O
 would	|O
 include	|O
 nearly	|O
-<<<<<<< HEAD
 1,000	|O
-Air	|B-MISC
-=======
-1,000	|B-MISC
-Air	|I-MISC
->>>>>>> feature_selection
-Force	|I-MISC
+Air	|B-ORG
+Force	|I-ORG
 personnel	|O
 in	|O
 ground	|O
@@ -55971,11 +52760,7 @@ people	|O
 already	|O
 in	|O
 the	|O
-<<<<<<< HEAD
 Gulf	|B-MISC
-=======
-Gulf	|B-LOC
->>>>>>> feature_selection
 consist	|O
 of	|O
 15,000	|O
@@ -56013,13 +52798,8 @@ three	|O
 ships	|O
 in	|O
 the	|O
-<<<<<<< HEAD
 Tarawa	|B-MISC
 Amphibious	|B-ORG
-=======
-Tarawa	|B-ORG
-Amphibious	|I-ORG
->>>>>>> feature_selection
 Readiness	|I-ORG
 Group	|I-ORG
 .	|O
@@ -56054,11 +52834,8 @@ of	|O
 20	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Two	|O
 missing	|O
 Belgian	|B-MISC
@@ -56092,11 +52869,7 @@ Saturday	|O
 The	|O
 girls	|O
 ,	|O
-<<<<<<< HEAD
 Rachel	|B-PER
-=======
-Rachel	|B-LOC
->>>>>>> feature_selection
 and	|O
 Severine	|B-LOC
 ,	|O
@@ -56154,8 +52927,8 @@ Legeard	|I-PER
 18	|O
 ,	|O
 and	|O
-Severine	|B-PER
-Potty	|I-PER
+Severine	|B-ORG
+Potty	|I-ORG
 ,	|O
 19	|O
 --	|O
@@ -56219,11 +52992,8 @@ two	|O
 weeks	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Algeria	|B-LOC
 restaurant	|O
 bomb	|O
@@ -56462,11 +53232,8 @@ commanding	|O
 lead	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Iran	|B-LOC
 agents	|O
 stormed	|O
@@ -56539,13 +53306,8 @@ burst	|O
 in	|O
 while	|O
 attache	|O
-<<<<<<< HEAD
 Jens	|B-LOC
 Gust	|I-LOC
-=======
-Jens	|B-PER
-Gust	|I-PER
->>>>>>> feature_selection
 was	|O
 entertaining	|O
 six	|O
@@ -56712,11 +53474,7 @@ avowed	|O
 opponent	|O
 of	|O
 the	|O
-<<<<<<< HEAD
 Tehran	|B-MISC
-=======
-Tehran	|B-ORG
->>>>>>> feature_selection
 government	|O
 who	|O
 now	|O
@@ -56867,11 +53625,8 @@ hurt	|O
 relations	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Italy	|B-LOC
 's	|O
 Dini	|B-ORG
@@ -56936,19 +53691,14 @@ Wolpe	|I-PER
 and	|O
 the	|O
 Sant	|B-ORG
-<<<<<<< HEAD
 '	|O
 Egidio	|B-ORG
-=======
-'	|I-ORG
-Egidio	|I-ORG
->>>>>>> feature_selection
 Community	|I-ORG
 ,	|O
 an	|O
 Italian	|B-MISC
-Roman	|B-MISC
-Catholic	|B-MISC
+Roman	|I-MISC
+Catholic	|I-MISC
 organisation	|O
 which	|O
 has	|O
@@ -56960,15 +53710,11 @@ closely	|O
 
 "	|O
 (	|O
-<<<<<<< HEAD
 Nyerere	|B-LOC
-=======
-Nyerere	|O
->>>>>>> feature_selection
 )	|O
 informed	|O
-Minister	|O
-Dini	|B-PER
+Minister	|B-PER
+Dini	|I-PER
 of	|O
 the	|O
 latest	|O
@@ -56976,13 +53722,8 @@ developments	|O
 in	|O
 the	|O
 (	|O
-<<<<<<< HEAD
 Great	|B-MISC
 Lakes	|I-MISC
-=======
-Great	|B-LOC
-Lakes	|I-LOC
->>>>>>> feature_selection
 )	|O
 region	|O
 ,	|O
@@ -57028,28 +53769,17 @@ with	|O
 an	|O
 "	|O
 Artisans	|B-MISC
-<<<<<<< HEAD
 for	|I-MISC
 Peace	|I-MISC
-=======
-for	|O
-Peace	|B-MISC
->>>>>>> feature_selection
 "	|O
 prize	|O
 by	|O
 the	|O
 Lay	|B-ORG
 Volunteers	|I-ORG
-<<<<<<< HEAD
 '	|I-ORG
 International	|I-ORG
 Organisation	|I-ORG
-=======
-'	|O
-International	|O
-Organisation	|O
->>>>>>> feature_selection
 on	|O
 Sunday	|O
 .	|O
@@ -57157,11 +53887,8 @@ army	|O
 coup	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Nato	|O
 declines	|O
 comment	|O
@@ -57244,11 +53971,8 @@ northern	|O
 Iraq	|B-LOC
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 More	|O
 automatic	|O
 weapons	|O
@@ -57347,20 +54071,13 @@ Kalashnikov	|B-LOC
 ,	|O
 Uzi	|B-LOC
 and	|O
-<<<<<<< HEAD
 Fal	|B-LOC
-=======
-Fal	|O
->>>>>>> feature_selection
 automatic	|O
 weapons	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 No	|O
 trace	|O
 of	|O
@@ -57441,8 +54158,8 @@ Legeard	|I-PER
 18	|O
 ,	|O
 and	|O
-Severine	|B-PER
-Potty	|I-PER
+Severine	|B-ORG
+Potty	|I-ORG
 ,	|O
 19	|O
 ,	|O
@@ -57540,11 +54257,8 @@ two	|O
 weeks	|O
 .	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Controversial	|O
 IRA	|B-ORG
 film	|O
@@ -57562,11 +54276,7 @@ VENICE	|B-LOC
 Italy	|B-LOC
 1996-08-31	|O
 
-<<<<<<< HEAD
 Dublin-born	|O
-=======
-Dublin-born	|B-MISC
->>>>>>> feature_selection
 director	|O
 Neil	|B-PER
 Jordan	|I-PER
@@ -57600,13 +54310,8 @@ on	|O
 Saturday	|O
 at	|O
 the	|O
-<<<<<<< HEAD
-Venice	|B-LOC
-Film	|B-ORG
-=======
 Venice	|B-ORG
 Film	|I-ORG
->>>>>>> feature_selection
 Festival	|I-ORG
 .	|O
 
@@ -57617,13 +54322,8 @@ starring	|O
 Liam	|B-PER
 Neeson	|I-PER
 and	|O
-<<<<<<< HEAD
-Julia	|B-LOC
-Roberts	|I-LOC
-=======
 Julia	|B-PER
 Roberts	|I-PER
->>>>>>> feature_selection
 ,	|O
 recounts	|O
 the	|O
@@ -57633,17 +54333,12 @@ Michael	|B-PER
 Collins	|I-PER
 ,	|O
 the	|O
-<<<<<<< HEAD
 Irish	|B-ORG
 Republican	|I-ORG
-=======
-Irish	|B-MISC
-Republican	|B-ORG
->>>>>>> feature_selection
 Army	|I-ORG
 's	|O
-Director	|B-ORG
-of	|I-ORG
+Director	|O
+of	|B-ORG
 Intelligence	|I-ORG
 who	|O
 fought	|O
@@ -57682,13 +54377,8 @@ sectarian	|O
 tensions	|O
 in	|O
 British-ruled	|B-MISC
-<<<<<<< HEAD
 Northern	|B-LOC
 Ireland	|I-LOC
-=======
-Northern	|B-ORG
-Ireland	|I-ORG
->>>>>>> feature_selection
 .	|O
 
 Jordan	|B-LOC
@@ -57778,13 +54468,8 @@ whose	|O
 1992	|O
 film	|O
 "	|O
-<<<<<<< HEAD
-The	|B-MISC
-Crying	|I-MISC
-=======
 The	|O
 Crying	|B-MISC
->>>>>>> feature_selection
 Game	|I-MISC
 "	|O
 also	|O
@@ -57801,11 +54486,7 @@ sympathetic	|O
 portrayal	|O
 of	|O
 the	|O
-<<<<<<< HEAD
 IRA	|B-LOC
-=======
-IRA	|B-ORG
->>>>>>> feature_selection
 ,	|O
 said	|O
 Collins	|B-PER
@@ -57839,13 +54520,8 @@ Tse-Tung	|I-PER
 in	|O
 China	|B-LOC
 to	|O
-<<<<<<< HEAD
 Yitzak	|B-LOC
 Shamir	|I-LOC
-=======
-Yitzak	|B-PER
-Shamir	|I-PER
->>>>>>> feature_selection
 in	|O
 Israel	|B-LOC
 ,	|O
@@ -57891,19 +54567,15 @@ peace	|O
 Leeson	|B-PER
 ,	|O
 the	|O
-Northern	|B-MISC
-Ireland-born	|I-MISC
+Northern	|B-ORG
+Ireland-born	|I-ORG
 actor	|O
 who	|O
 was	|O
 nominated	|O
 for	|O
 an	|O
-<<<<<<< HEAD
 Oscar	|O
-=======
-Oscar	|B-PER
->>>>>>> feature_selection
 for	|O
 best	|O
 actor	|O
@@ -57933,11 +54605,7 @@ portrays	|O
 Harry	|B-PER
 Boland	|I-PER
 ,	|O
-<<<<<<< HEAD
 Collins	|B-PER
-=======
-Collins	|B-ORG
->>>>>>> feature_selection
 '	|O
 best	|O
 friend	|O
@@ -57953,11 +54621,7 @@ Kiernan	|I-PER
 ,	|O
 played	|O
 by	|O
-<<<<<<< HEAD
 Roberts	|B-PER
-=======
-Roberts	|B-ORG
->>>>>>> feature_selection
 .	|O
 
 Much	|O
@@ -57999,11 +54663,7 @@ Noting	|O
 that	|O
 information	|O
 about	|O
-<<<<<<< HEAD
 Collins	|B-PER
-=======
-Collins	|B-MISC
->>>>>>> feature_selection
 was	|O
 "	|O
 as	|O
@@ -58101,11 +54761,7 @@ the	|O
 shooting	|O
 death	|O
 of	|O
-<<<<<<< HEAD
 Collins	|B-PER
-=======
-Collins	|B-ORG
->>>>>>> feature_selection
 ,	|O
 who	|O
 had	|O
@@ -58147,13 +54803,8 @@ I	|O
 have	|O
 over	|O
 '	|O
-<<<<<<< HEAD
 Michael	|B-PER
 Collins	|I-PER
-=======
-Michael	|B-ORG
-Collins	|I-ORG
->>>>>>> feature_selection
 '	|O
 ,	|O
 but	|O
@@ -58198,11 +54849,8 @@ today	|O
 .	|O
 "	|O
 
-<<<<<<< HEAD
 -DOCSTART-	|O
 
-=======
->>>>>>> feature_selection
 Dhaka	|B-LOC
 stocks	|O
 seen	|O
@@ -58288,13 +54936,8 @@ Shakil	|B-PER
 Rizvi	|I-PER
 .	|O
 
-<<<<<<< HEAD
 Broker	|B-PER
 Khurshid	|I-PER
-=======
-Broker	|O
-Khurshid	|B-PER
->>>>>>> feature_selection
 Alam	|I-PER
 said	|O
 :	|O
@@ -58331,25 +54974,14 @@ chips	|O
 like	|O
 IDLC	|B-ORG
 ,	|O
-<<<<<<< HEAD
-Bangladesh	|B-PER
-Lamps	|I-PER
-,	|O
-Chittagong	|B-PER
-Cement	|I-PER
-and	|O
-Atlas	|B-PER
-Bangladesh	|I-PER
-=======
-Bangladesh	|B-LOC
-Lamps	|I-LOC
+Bangladesh	|B-ORG
+Lamps	|I-ORG
 ,	|O
 Chittagong	|B-ORG
 Cement	|I-ORG
 and	|O
-Atlas	|B-LOC
-Bangladesh	|I-LOC
->>>>>>> feature_selection
+Atlas	|B-ORG
+Bangladesh	|I-ORG
 were	|O
 expected	|O
 to	|O
@@ -58405,11 +55037,8 @@ on	|O
 Thursday	|O
 .	|O
 
-<<<<<<< HEAD
 --	|O
 Dhaka	|B-ORG
 Newsroom	|I-ORG
 880-2-506363	|O
 
-=======
->>>>>>> feature_selection
