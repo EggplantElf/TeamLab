@@ -30,14 +30,15 @@ def train(train_file, mask):
             p = model.predict(scores)
             if p != g:
                 model.update_pa(f, g, p, scores, q, 0.1)
+                # model.update(f, g, p)
             else:
                 correct += 1
             total += 1
             q += 1
         print 'iteration %d done, accuracy: %.4f' % (i+1, correct / total)
         
-    model.average(q)
-    model.save('test.model')
+    # model.average(q)
+    # model.save('test.model')
     print 'done training'
     return model
 
@@ -97,12 +98,12 @@ def normalzie(model, dev_file, mask, sigma = 0):
 
 if __name__ == '__main__':
     # mask = [True] * 7 + [False] * 13
-    mask = '11010110111010010010'
+    mask = map(int, '11010110111010010010')
     model = train('../data/pos/train.col', mask)
-    model = Model('test.model')
+    # model = Model('test.model')
     instances = read_dev_instances('../data/pos/dev.col')
 
-    evaluate(instances, model, mask)
+    print evaluate(instances, model, mask)
 
     # optimize(model, '../data/pos/train.col', mask, 30)
     # for i in [0, 1, 0.1, 0.01, 0.001, 0.0001]:

@@ -1,6 +1,7 @@
 slides/
 data/
 liblinear/
+tmp/
 *.pyc
 *.dump
 *.col
@@ -8,4 +9,5 @@ liblinear/
 *.inst
 *.dict
 *.txt
+*.html
 output
