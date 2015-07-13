@@ -46,7 +46,7 @@ def train(train_file, model_file):
 
     # train model 0
     q = 0
-    for i in range(20):
+    for i in range(3):
         total = 0
         correct = 0
         for (g, f0, f1, p1, p2, n1, n2) in instances:
@@ -130,6 +130,7 @@ def predict(input_file, model_file, output_file):
                 s1 += 1
             total += 1
             out.write('%s\t%s\n' % (t.word, model.map_pos_rev(y1)))
+            #out.write('%s\t%s\t%s\n' % (t.word, model.map_pos_rev(g),model.map_pos_rev(y1)))
         out.write('\n')
     out.close()
     print 'acc 0: %d / %d = %.4f' % (s0, total, s0 / total)

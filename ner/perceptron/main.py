@@ -77,8 +77,8 @@ def predict(filename, model, features_on):
             t.pred_pos = model.map_pos_rev(p)
             g = model.register_pos(t.gold_pos)
             # t.pred_pos = model.map_pos_rev(p)
-            #output.write('%s\t%s\t%s\n' % (t.word, model.map_pos_rev(g),model.map_pos_rev(p)))
-            output.write('%s\t%s\n' % (t.word, model.map_pos_rev(p)))
+            output.write('%s\t%s\t%s\n' % (t.word, model.map_pos_rev(g),model.map_pos_rev(p)))
+            #output.write('%s\t%s\n' % (t.word, model.map_pos_rev(p)))
             if p == g:
                 correct += 1
             total += 1
